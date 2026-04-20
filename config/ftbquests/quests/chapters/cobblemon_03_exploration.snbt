@@ -1,0 +1,304 @@
+{
+	autofocus_id: "1000000000000046"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_03_exploration"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:net_ball"
+	id: "10000000000000F1"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Forests are one of the most Cobblemon-dense biomes in the game. Bug, Grass, and Normal types fill the canopy and undergrowth, and the modded forest variants added by Terralith bring even more unique spawns."
+				""
+				"Each sub-type of forest — dark forest, birch forest, old growth taiga — has different Cobblemon populations. Don't just visit one and move on."
+				""
+				"Net Balls are particularly effective against Bug and Water types, making them ideal for forest hunting."
+				""
+				"&7Tip: Explore all forest variants — each sub-biome has different spawns.&r"
+			]
+			icon: "cobblemon:net_ball"
+			id: "1000000000000046"
+			min_width: 320
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000044"
+					item: "cobblemon:net_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000045"
+					item: "cobblemon:leaf_stone"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Into the Woods"
+			tasks: [{
+				id: "1000000000000043"
+				title: "Catch a forest-exclusive Cobblemon"
+				type: "checkmark"
+			}]
+			title: "&bForest Finder"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Desert and badlands biomes are home to Fire and Ground types that thrive in the heat. These Cobblemon tend to be tougher than forest species — good hunting for a trainer who's been levelling up."
+				""
+				"Badlands count as desert-adjacent for spawn purposes, so both biomes are worth visiting. You'll find different species in each despite the similar climate."
+				""
+				"Fire stones drop more commonly in these biomes too — worth picking up if you need them for any evolutions."
+				""
+				"&7Tip: Badlands count as desert-adjacent — check both biome types for different species.&r"
+			]
+			icon: "cobblemon:fire_stone"
+			id: "100000000000004A"
+			min_width: 320
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000048"
+					item: "cobblemon:net_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000049"
+					item: "cobblemon:fire_stone"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Heat and Sand"
+			tasks: [{
+				id: "1000000000000047"
+				title: "Catch a Cobblemon in a desert or badlands biome"
+				type: "checkmark"
+			}]
+			title: "&bDesert Wanderer"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The ocean is one of the largest biomes in the game and home to a wide variety of Water-type Cobblemon. Warm and cold oceans have different populations, as do ocean floors versus the surface."
+				""
+				"&eDive Balls&r are most effective against Water-type Cobblemon and even more so when used in water biomes. Craft a stack before you head out."
+				""
+				"Some rare Water-types only appear at specific ocean depths or in specific ocean variants — exploring thoroughly rewards you with species you can't find anywhere else."
+				""
+				"&7Tip: Dive Balls are most effective in water biomes — craft them before hunting.&r"
+			]
+			icon: "cobblemon:dive_ball"
+			id: "100000000000004E"
+			min_width: 330
+			rewards: [
+				{
+					count: 5
+					id: "100000000000004C"
+					item: "cobblemon:dive_ball"
+					type: "item"
+				}
+				{
+					id: "100000000000004D"
+					item: "cobblemon:water_stone"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Beneath the Waves"
+			tasks: [{
+				id: "100000000000004B"
+				title: "Catch a Water-type Cobblemon in an ocean biome"
+				type: "checkmark"
+			}]
+			title: "&bOcean Diver"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100000000000004E"]
+			description: [
+				"Underground spawns are a different world entirely. Rock, Ground, and Dark types lurk in caves and the deep slate layer, away from the light."
+				""
+				"&eDusk Balls&r are most effective in dark areas — underground during the day, or anywhere at night. They're your best tool for cave hunting and worth keeping stocked."
+				""
+				"The deeper you go, the rarer and stronger the Cobblemon. Don't go caving underprepared — bring healing items and a strong team."
+				""
+				"&7Tip: Dusk Balls are most effective underground or at night — time your trips.&r"
+			]
+			id: "1000000000000052"
+			min_width: 320
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000050"
+					item: "cobblemon:dusk_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000051"
+					item: "cobblemon:dusk_stone"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Into the Deep"
+			tasks: [{
+				id: "100000000000004F"
+				title: "Catch a Cobblemon underground or in a cave"
+				type: "checkmark"
+			}]
+			title: "&bCavern Crawler"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"High altitude is its own biome category, and Flying and Dragon types prefer the heights. Climb above Y=128 in a mountain biome and you'll find species that simply don't appear at lower elevations."
+				""
+				"Terralith adds towering peaks that push well above vanilla height limits — the higher you go, the rarer the spawns. Bring stamina food and a solid fall-damage plan."
+				""
+				"Mountain Cobblemon tend to be strong and fast. Come prepared for a challenge."
+				""
+				"&7Tip: Terralith adds towering peaks — the higher you go, the rarer the spawn.&r"
+			]
+			icon: "cobblemon:ultra_ball"
+			id: "1000000000000056"
+			min_width: 320
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000054"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000055"
+					item: "cobblemon:thunder_stone"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Head in the Clouds"
+			tasks: [{
+				id: "1000000000000053"
+				title: "Catch a Cobblemon above Y=128 in a mountain biome"
+				type: "checkmark"
+			}]
+			title: "&bHigh Altitude"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &eFight or Flight Reborn&r mod adds reactive wild behaviour — some Cobblemon will flee from you if they sense danger, and others will charge in aggressively."
+				""
+				"Fleeing Cobblemon are a test of preparation. &eQuick Balls&r are most effective on the very first throw, so the moment a chase starts, don't hesitate — throw immediately."
+				""
+				"Successfully catching a fleeing Cobblemon takes quick thinking and the right ball in hand before the encounter even starts."
+				""
+				"&7Tip: Quick Balls are most effective on the very first turn — throw immediately when a chase starts.&r"
+			]
+			icon: "cobblemon:quick_ball"
+			id: "1000000000000059"
+			min_width: 340
+			rewards: [{
+				count: 3
+				id: "1000000000000058"
+				item: "cobblemon:quick_ball"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "The Hunt is On"
+			tasks: [{
+				id: "1000000000000057"
+				title: "Catch a fleeing Cobblemon (Fight or Flight Reborn)"
+				type: "checkmark"
+			}]
+			title: "&bSteady Approach"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1000000000000059"]
+			description: [
+				"Some Cobblemon won't flee — they'll charge directly at you. An aggressive wild Cobblemon initiates the battle itself, and it may have bonus stats or heightened aggression to match."
+				""
+				"Don't let the sudden attack catch you off guard. Keep your strongest Cobblemon at the front of your party when exploring areas with territorial species."
+				""
+				"Winning against an aggressive encounter earns extra XP and proves you can handle what the wild throws at you unprompted."
+				""
+				"&7Tip: Aggressive Cobblemon may have bonus stats — come prepared with your best team member.&r"
+			]
+			id: "100000000000005D"
+			min_width: 330
+			rewards: [
+				{
+					count: 2
+					id: "100000000000005B"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					id: "100000000000005C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "square"
+			subtitle: "They Came for You"
+			tasks: [{
+				id: "100000000000005A"
+				title: "Win against an aggressive wild Cobblemon (Fight or Flight Reborn)"
+				type: "checkmark"
+			}]
+			title: "&bStand Your Ground"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["100000000000005D"]
+			description: [
+				"Fight or Flight Reborn creates a living ecosystem — predator Cobblemon will actively hunt prey species in the wild, and you can watch it happen without being involved at all."
+				""
+				"Find a mixed-type biome where predator and prey types coexist, then observe from a distance. Watch one Cobblemon pursue another for at least 30 seconds."
+				""
+				"It's a reminder that this world doesn't revolve around you. It existed before you arrived and keeps going whether you're watching or not."
+				""
+				"&7Tip: Watch near mixed-type biomes where predator and prey types coexist naturally.&r"
+			]
+			id: "1000000000000060"
+			min_width: 340
+			rewards: [{
+				count: 3
+				id: "100000000000005F"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Nature's Balance"
+			tasks: [{
+				id: "100000000000005E"
+				title: "Observe one wild Cobblemon chasing another for 30 seconds"
+				type: "checkmark"
+			}]
+			title: "&bPredator and Prey"
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	title: "&bChapter 3 — Exploration"
+}

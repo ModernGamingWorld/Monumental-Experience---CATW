@@ -1,0 +1,423 @@
+{
+	autofocus_id: "000D000000000002"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_backpacks"
+	group: "7E54189F6BA49858"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "000D000000000001"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A backpack is portable storage you carry with you — no more"
+				"running back to base because your inventory is full!"
+				""
+				"Craft your first §eLeather Backpack§r using Leather, a Chest, and "
+				"String. This gives you §e27 extra inventory slots§r — the equivalent of "
+				"a full chest that goes wherever you go."
+				""
+				"To use it:"
+				"• §eRight-click§r while holding it to open its inventory"
+				"• §eWear it§r in your Curios back slot (open Curios with the 'G' key)"
+				"• §ePress B§r (default) to open your worn backpack without taking it off"
+				"• §eShift + right-click§r on the ground to place it like a block"
+				""
+				"§eTips:§r"
+				"• Items shift-clicked from your inventory go into the backpack first "
+				"  if it's worn."
+				"• Hold Shift over a backpack in your inventory to preview its "
+				"  contents."
+				"• Place it in the world and hoppers or pipes can access it just like "
+				"  a chest."
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "000D000000000002"
+			min_width: 350
+			rewards: [{
+				id: "3874F3CE1FA0CF73"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "000D000000000003"
+				item: "sophisticatedbackpacks:backpack"
+				title: "Craft a Leather Backpack"
+				type: "item"
+			}]
+			title: "Your First Backpack"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000D000000000002"]
+			description: [
+				"Backpacks come in §e6 tiers§r, each with more storage slots and more"
+				"upgrade slots than the last. To upgrade, surround your current "
+				"backpack with the next tier's material in a crafting table."
+				""
+				"Tier overview:"
+				"• §fLeather§r — 27 slots, 1 upgrade slot"
+				"• §7Copper§r — 45 slots, 1 upgrade slot"
+				"• §7Iron§r — 54 slots, 2 upgrade slots"
+				"• §6Gold§r — 63 slots, 3 upgrade slots"
+				"• §bDiamond§r — 81 slots, 5 upgrade slots"
+				"• §5Netherite§r — 99 slots, 7 upgrade slots (Smithing Table required)"
+				""
+				"§eTips:§r"
+				"• Your items stay inside the backpack when you upgrade it — "
+				"  nothing is lost."
+				"• Iron is the first tier with enough upgrade slots to feel truly "
+				"  powerful."
+				"• Installed upgrades also carry over when upgrading to the next "
+				"  tier."
+				"• Dyeing a backpack is purely cosmetic — combine it with any dye in "
+				"  a crafting table."
+			]
+			icon: "sophisticatedbackpacks:iron_backpack"
+			id: "000D000000000004"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689B49116A9517C8"
+				table_id: 1235506154212082407L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000D000000000005"
+				item: "sophisticatedbackpacks:iron_backpack"
+				title: "Upgrade to an Iron Backpack"
+				type: "item"
+			}]
+			title: "Climbing the Tiers"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000D000000000004"]
+			description: [
+				"The §ePickup Upgrade§r allows you to pull items from a placed storage, "
+				"and the &eDeposit Upgrade&r does the opposite."
+				""
+				"This means you can more easily empty old, useless containers — "
+				"the backpack absorbs all the clutter automatically."
+				""
+				"You can configure §ewhich items§r it picks up using the filter slots"
+				"inside the upgrade's settings — allow specific items, block specific"
+				"items, or set it to only pick up items already in the backpack."
+				""
+				"§eTips:§r"
+				"• The §eAdvanced Pickup and Deposit Upgrades§r have 16 filter slots"
+				"  and more options."
+				"• Set it to 'match backpack contents' so it only pulls items you"
+				"  already have."
+				"• Multiple backpacks with pickup upgrades will fill in order from first"
+				"  to last worn."
+				"• Works automatically — no configuration needed to get started."
+			]
+			icon: "sophisticatedbackpacks:pickup_upgrade"
+			id: "000D000000000006"
+			min_width: 350
+			rewards: [{
+				id: "7887DC6E8161184D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "000D000000000007"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				title: "Craft a Pickup Upgrade"
+				type: "item"
+			}]
+			title: "The Pickup Upgrade"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000D000000000004"]
+			description: [
+				"The §eMagnet Upgrade§r takes item collection a step further — instead"
+				"of waiting for items to come to you, it actively pulls nearby items"
+				"from the ground and teleports them straight into the backpack."
+				""
+				"When worn, any items on the ground within the magnet's range are"
+				"automatically collected, even if you didn't walk over them."
+				"When placed in the world, it collects items from around the backpack."
+				""
+				"You can filter what the magnet collects using the upgrade's filter slots."
+				""
+				"§eTips:§r"
+				"• The magnet range can be configured — reduce it if it picks up"
+				"  things you don't want."
+				"• Combine with a §eVoid Upgrade§r to automatically delete unwanted items."
+				"• The §eAdvanced Magnet Upgrade§r offers more filter slots and"
+				"  options."
+				"• Works great alongside an auto-smelting setup — smelt ores on the"
+				"  go."
+			]
+			icon: "sophisticatedbackpacks:magnet_upgrade"
+			id: "000D000000000008"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21DEDAAEB4A1E74A"
+				table_id: 1235506154212082407L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000D000000000009"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				title: "Craft a Magnet Upgrade"
+				type: "item"
+			}]
+			title: "The Magnet Upgrade"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000D000000000004"]
+			description: [
+				"The §eVoid Upgrade§r automatically deletes items that enter your "
+				"backpack based on a configurable filter. Think of it as a trash can "
+				"built into your storage."
+				""
+				"This is incredibly useful for mining trips — pair it with a Magnet and "
+				"configure it to automatically delete cobblestone, gravel, dirt, or any "
+				"other junk you don't want filling up your slots."
+				""
+				"Two modes:"
+				"• §eVoid All§r — deletes any matching item immediately"
+				"• §eVoid Overflow§r — only deletes when a full stack already exists in"
+				"  the backpack"
+				""
+				"§eTips:§r"
+				"• Use §eVoid Overflow§r rather than Void All unless you're sure — good "
+				"  to have backup blocks."
+				"• The §eAdvanced Void Upgrade§r has more filter slots for complex"
+				"  setups."
+				"• Great for automining — set it to void cobblestone/dirt and keep"
+				"  only ores."
+				"• &4Warning:&r Voided items are gone permanently. Double-check your "
+				"  filter!"
+			]
+			icon: "sophisticatedbackpacks:void_upgrade"
+			id: "000D00000000000A"
+			min_width: 350
+			rewards: [{
+				id: "0B68FB545E8DF096"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "000D00000000000B"
+				item: "sophisticatedbackpacks:void_upgrade"
+				title: "Craft a Void Upgrade"
+				type: "item"
+			}]
+			title: "The Void Upgrade"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"000D000000000006"
+				"000D000000000008"
+			]
+			description: [
+				"The §eSmelting Upgrade§r turns your backpack into a portable furnace."
+				"When upgraded, items that enter the backpack are automatically "
+				"smelted if they have a valid smelting recipe — raw ores become "
+				"ingots, raw food becomes cooked food, and so on."
+				""
+				"The upgrade requires fuel (coal, wood, etc.) placed in a designated"
+				"fuel slot inside the upgrade's interface. There is also an"
+				"§eAuto-Smelting Upgrade§r that works automatically without needing"
+				"to open the interface."
+				""
+				"Related smelting upgrades:"
+				"• §eSmelting Upgrade§r — standard furnace speed, all smeltable items"
+				"• §eSmoking Upgrade§r — double speed, food only"
+				"• §eBlasting Upgrade§r — double speed, ores and metals only"
+				""
+				"§eTips:§r"
+				"• Combine with a Magnet Upgrade — mine raw ores, get ingots."
+				"• Auto variants process items without any player interaction "
+				"  needed."
+				"• Coal blocks last a long time as fuel — keep one in the fuel slot."
+				"• Only one smelting-type upgrade can be installed at a time."
+			]
+			icon: "sophisticatedbackpacks:smelting_upgrade"
+			id: "000D00000000000C"
+			min_width: 350
+			rewards: [{
+				id: "51346A046DDB3AC8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "000D00000000000D"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				title: "Craft a Smelting Upgrade"
+				type: "item"
+			}]
+			title: "Smelting On the Go"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"000D000000000008"
+				"000D00000000000A"
+			]
+			description: [
+				"Two upgrades that keep your backpack organised as it fills up:"
+				""
+				"§eCompacting Upgrade§r — automatically compacts items into their block"
+				"forms as they fill up. Nuggets become ingots, ingots become blocks."
+				"Configurable per-item so you control what gets compacted."
+				""
+				"§eFilter Upgrade§r — controls exactly which items are allowed into or"
+				"out of the backpack via automation (pipes, hoppers, etc.)."
+				"Essential when you have multiple backpacks and want each one to"
+				"only accept specific categories of items."
+				""
+				"§eTips:§r"
+				"• The §eAdvanced Compacting Upgrade§r supports 2x2 and 3x3 recipes."
+				"• Use the Filter Upgrade on a placed backpack connected to your "
+				"  storage network to route only specific items into it."
+				"• Compacting Upgrade pairs perfectly with the Magnet — collect and"
+				"  compact in one step."
+			]
+			icon: "sophisticatedbackpacks:compacting_upgrade"
+			id: "000D00000000000E"
+			min_width: 350
+			rewards: [{
+				id: "301C33FCF04E76EE"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "000D00000000000F"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				title: "Craft a Compacting Upgrade"
+				type: "item"
+			}]
+			title: "Compacting \\& Filtering"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"000D000000000008"
+				"000D00000000000A"
+			]
+			description: [
+				"§eStack Upgrades§r increase the maximum stack size of items stored"
+				"in your backpack — turning it into an incredibly space-efficient"
+				"storage solution."
+				""
+				"&eStack Downgrades&r decrease the maximum stack size of items"
+				"stored in your backpack"
+				""
+				"Upgrade Tiers:"
+				"• §eTier 1§r — doubles stack size (up to 128 per slot)"
+				"• §eTier 2§r — quadruples stack size (up to 256 per slot)"
+				"• §eTier 3§r — 512 items per slot"
+				"• §eTier 4§r — 1024 items per slot"
+				"• §eOmega§r — maximum possible stack size"
+				""
+				"Downgrade Tiers:"
+				"• &eTier 1&r — divides by 4 (up to 8 per slot)"
+				"• &eTier 2&r — divides by 8 (up to 4 per slot)"
+				"• &eTier 3&r — divides by 16 (up to 2 per slot)"
+				""
+				"A Diamond or Netherite backpack with high-tier Stack Upgrades"
+				"can hold millions of items — it becomes your entire storage system."
+				""
+				"§eTips:§r"
+				"• Up to 3 Stack Upgrades can be installed per backpack — they "
+				"  stack additively."
+				"• Combine with Slot Memory to ensure specific items always have"
+				"  reserved space."
+				"• Higher tiers require rarer materials but are worth the investment"
+				"  late-game."
+			]
+			icon: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			id: "000D000000000010"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "746876F0E8E9E799"
+				table_id: 1235506154212082407L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000D000000000011"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				title: "Craft a Stack Upgrade Tier 1"
+				type: "item"
+			}]
+			title: "Stack Upgrades \\& Downgrade"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"000D00000000000C"
+				"000D00000000000E"
+				"000D000000000010"
+			]
+			description: [
+				"You've learned all the core upgrades. Now put it all together into"
+				"the ultimate mining backpack setup."
+				""
+				"Recommended build for a §eDiamond Backpack§r (5 upgrade slots):"
+				"• §eAuto-Blasting Upgrade§r — auto-smelts all ores to ingots as"
+				"  you mine"
+				"• §eMagnet Upgrade§r — pulls all nearby drops automatically"
+				"• §eVoid Upgrade§r — deletes cobblestone, dirt, and gravel on overflow"
+				"• §eStack Upgrade Tier 2§r — fits far more ingots per slot"
+				"• §eCompacting Upgrade§r — compacts ingots to blocks automatically"
+				""
+				"With this setup: mine raw ores → auto-smelt to ingots → "
+				"auto-compact to blocks → magnet collects everything → overflow "
+				"junk auto-voided. You can mine for hours without managing your inventory at all."
+				""
+				"§eTips:§r"
+				"• Set Slot Memory on a few slots to reserve space for specific"
+				"  ores."
+				"• Add a §eFeeding Upgrade§r if you also want the backpack to feed you"
+				"  automatically."
+				"• Upgrade to §eNetherite§r for 7 upgrade slots — room for even more"
+				"  functionality."
+			]
+			icon: "sophisticatedbackpacks:diamond_backpack"
+			id: "000D000000000012"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B6CF324415EF858"
+				table_id: 1235506154212082407L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "000D000000000013"
+					item: "sophisticatedbackpacks:diamond_backpack"
+					title: "Craft a Diamond Backpack"
+					type: "item"
+				}
+				{
+					id: "000D000000000014"
+					title: "Set up a fully upgraded mining backpack"
+					type: "checkmark"
+				}
+			]
+			title: "The Ultimate Mining Pack"
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	title: "&3&oSophisticated Backpacks"
+}

@@ -1,0 +1,414 @@
+{
+	autofocus_id: "0010000000000002"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chipped"
+	group: "507DDDB2170C4831"
+	icon: "chipped:carpenters_table"
+	id: "0010000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§eChipped§r adds over §e11,000 new decorative blocks§r to the game —"
+				"all hand-textured in the vanilla style. Stone bricks with cracks,"
+				"chiselled patterns, and worn faces. Wood planks with knots, splits,"
+				"and grain variations. Glass in a dozen framed styles."
+				""
+				"None of these blocks have traditional crafting recipes."
+				"Instead, the mod adds §e7 specialised workbenches§r, each handling"
+				"a different category of material."
+				""
+				"§eHow the workbenches work:§r"
+				"• Craft the workbench and place it down"
+				"• Right-click to open its GUI"
+				"• Place a vanilla block in the §einput slot§r on the left"
+				"• A grid of variants appears — click any to craft it §e1-for-1§r"
+				""
+				"§eTips:§r"
+				"• Use §eJEI§r — hover over any Chipped block and press §eR§r to see"
+				"  which workbench crafts it. Press §eU§r on a workbench to browse"
+				"  everything it can produce."
+				"• All 7 workbenches function identically — the only difference is"
+				"  which input blocks each one accepts."
+				"• Variants are purely cosmetic. A Chipped stone brick is still a"
+				"  stone brick for crafting and building purposes."
+				"• Connected textures (powered by Athena) make many Chipped blocks"
+				"  look even better when placed adjacent to each other."
+			]
+			icon: "chipped:carpenters_table"
+			id: "0010000000000002"
+			min_width: 375
+			tasks: [{
+				id: "0010000000000003"
+				title: "Open JEI and browse what Chipped adds"
+				type: "checkmark"
+			}]
+			title: "Every Block Deserves a Friend"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0010000000000002"]
+			description: [
+				"The §eCarpenter's Workbench§r handles all §ewood and log variants§r."
+				""
+				"Drop any log, plank, wood, stripped wood, or wood-based block into"
+				"the input slot and browse dozens of textured alternatives — from"
+				"rough-hewn timber to polished panels, carved frames to woven lattice."
+				""
+				"§eBlocks it accepts:§r"
+				"• All log and wood variants (oak, spruce, birch, jungle, etc.)"
+				"• All plank types"
+				"• Wooden slabs, stairs, and fences have their own variants too"
+				""
+				"§eRecipe:§r Crafting Table + Wood Axe + Iron Ingot + Planks + 3 Logs"
+				""
+				"§eTips:§r"
+				"• Great for cabins, ships, taverns — anywhere you want wood to look"
+				"  less repetitive."
+				"• Mix different wood species with different Chipped variants for a"
+				"  natural, weathered look."
+				"• Stripped log variants are excellent for interior ceiling beams."
+			]
+			hide_details_until_startable: true
+			icon: "chipped:carpenters_table"
+			id: "0010000000000004"
+			min_width: 375
+			rewards: [{
+				id: "666A83E76070726E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0010000000000005"
+				item: "chipped:carpenters_table"
+				title: "Craft a Carpenter's Workbench"
+				type: "item"
+			}]
+			title: "Carpenter's Workbench"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0010000000000002"]
+			description: [
+				"The §eMason's Table§r handles all §estone and masonry variants§r."
+				""
+				"This is the most-used workbench for most builds — nearly every"
+				"stone block in the game has a huge range of variants here."
+				"Big bricks, small bricks, cracked tiles, etched patterns,"
+				"rough cobble, smooth ashlar, mossy facades."
+				""
+				"§eBlocks it accepts:§r"
+				"• Stone, cobblestone, stone bricks, smooth stone"
+				"• Andesite, diorite, granite and their variants"
+				"• Sandstone, red sandstone"
+				"• Deepslate, blackstone, basalt, calcite, tuff"
+				"• Prismarine, nether bricks, end stone bricks"
+				""
+				"§eRecipe:§r Crafting Table + 2 Iron Ingots + Brick + Clay Ball + 2 Logs"
+				""
+				"§eTips:§r"
+				"• The best workbench to start with — stone variants are cheap to source"
+				"  and the variety is enormous."
+				"• Mix stone brick variants with regular stone bricks for aged castle walls."
+				"• Deepslate variants are stunning for underground bases and dungeons."
+			]
+			icon: "chipped:mason_table"
+			id: "0010000000000006"
+			min_width: 400
+			rewards: [{
+				id: "2A793C32B9F67B51"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0010000000000007"
+				item: "chipped:mason_table"
+				title: "Craft a Mason's Table"
+				type: "item"
+			}]
+			title: "Mason's Table"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0010000000000002"]
+			description: [
+				"The §eGlass Blower§r handles all §eglass and glass pane variants§r."
+				""
+				"Vanilla glass is flat and boring — the Glass Blower unlocks"
+				"framed glass, stained glass panels with lead framing, rippled"
+				"glass, frosted panes, and many more architectural glass styles"
+				"that look incredible in windows and facades."
+				""
+				"§eBlocks it accepts:§r"
+				"• Clear glass and all 16 stained glass colours"
+				"• Glass panes and all 16 stained glass pane colours"
+				""
+				"§eRecipe:§r Crafting Table + Blast Furnace + 4 Logs + Bricks + Iron Ingot + Glass"
+				""
+				"§eTips:§r"
+				"• Stained glass variants in warm colours (amber, rose) make"
+				"  beautiful cathedral-style windows."
+				"• Frosted and ribbed glass variants are perfect for bathrooms"
+				"  or privacy screens in builds."
+				"• Many glass variants have connected textures — place them adjacent"
+				"  to each other for seamless framing effects."
+			]
+			icon: "chipped:glassblower"
+			id: "0010000000000008"
+			min_width: 375
+			rewards: [{
+				id: "43565A9CDDFFD689"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0010000000000009"
+				item: "chipped:glassblower"
+				title: "Craft a Glass Blower"
+				type: "item"
+			}]
+			title: "Glass Blower"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0010000000000002"]
+			description: [
+				"The §eLoom§r (Chipped's version) handles all §ewool and carpet variants§r."
+				""
+				"Wool is one of the most versatile decorative materials in vanilla —"
+				"and Chipped's Loom multiplies that versatility enormously."
+				"Knitted textures, woven patterns, cushion faces, tufted upholstery,"
+				"and tightly wrapped bales are all available here."
+				""
+				"§eBlocks it accepts:§r"
+				"• All 16 wool colours"
+				"• All 16 carpet colours"
+				""
+				"§eRecipe:§r Crafting Table + 3 Sticks + 4 Logs + Wool"
+				""
+				"§eTips:§r"
+				"• This is a different block to the vanilla Loom — the Chipped Loom"
+				"  does not do banner crafting. Use the vanilla Loom for that."
+				"• Wool variants make excellent furniture blocks — sofa arms, cushion "
+				"  seats, and padded walls all look great with these textures."
+				"• Mix carpet variants on floors for patterned rug effects."
+			]
+			icon: "chipped:loom_table"
+			id: "001000000000000A"
+			min_width: 375
+			rewards: [{
+				id: "246460BC3E0E52DD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "001000000000000B"
+				item: "chipped:loom_table"
+				title: "Craft a Chipped Loom"
+				type: "item"
+			}]
+			title: "Loom"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0010000000000004"
+				"0010000000000006"
+			]
+			description: [
+				"The §eBotanist's Workbench§r handles §eplant-based and organic blocks§r."
+				""
+				"This is the most niche of the seven workbenches, but the results"
+				"are some of the most charming — bundled hay bales, carved pumpkins"
+				"with decorative faces, dried floral arrangements, and"
+				"atmospheric mushroom block variants for Nether and forest builds."
+				""
+				"§eBlocks it accepts:§r"
+				"• Hay bales"
+				"• Pumpkins (carved and uncarved)"
+				"• Melon blocks"
+				"• Shroomlight"
+				"• Vines and hanging moss"
+				"• Various mushroom blocks"
+				""
+				"§eRecipe:§r Crafting Table + 3 Flower Pots + 2 Slabs + 2 Sticks"
+				""
+				"§eTips:§r"
+				"• Hay bale variants make wonderful rustic floor and wall textures"
+				"  for barns, farmhouses, and cottages."
+				"• Shroomlight variants are great for atmospheric Nether decoration —"
+				"  they still emit light."
+				"• Pumpkin variants give you a lot of decorative options for"
+				"  autumn-themed or spooky builds."
+			]
+			icon: "chipped:botanist_workbench"
+			id: "001000000000000C"
+			min_width: 375
+			rewards: [{
+				id: "0BF6FC5391D67FAB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "001000000000000D"
+				item: "chipped:botanist_workbench"
+				title: "Craft a Botanist's Workbench"
+				type: "item"
+			}]
+			title: "Botanist's Workbench"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0010000000000008"
+				"001000000000000A"
+			]
+			description: [
+				"The §eAlchemy Bench§r handles §emystical and end-game decorative blocks§r."
+				""
+				"This is the most expensive workbench to craft — it needs an"
+				"Enchanting Table and a Brewing Stand — but it unlocks some of the"
+				"most striking decorative blocks in the mod."
+				""
+				"§eBlocks it accepts:§r"
+				"• Obsidian and crying obsidian"
+				"• Glowstone"
+				"• Sea lantern"
+				"• Soul sand and soul soil"
+				""
+				"§eRecipe:§r Crafting Table + Enchanting Table + Brewing Stand + 4 Slabs"
+				""
+				"§eTips:§r"
+				"• Obsidian variants range from smooth polished panels to rough"
+				"  volcanic textures — fantastic for dark, imposing builds."
+				"• Crying obsidian variants are visually striking as accent blocks."
+				"• Glowstone variants still emit full light — good for decorative"
+				"  lighting that doesn't look like plain glowstone."
+				"• Sea lantern variants are excellent for underwater or aquatic builds."
+			]
+			icon: "chipped:alchemy_bench"
+			id: "001000000000000E"
+			min_width: 350
+			rewards: [{
+				id: "458B2229E6C7D620"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "001000000000000F"
+				item: "chipped:alchemy_bench"
+				title: "Craft an Alchemy Bench"
+				type: "item"
+			}]
+			title: "Alchemy Bench"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"001000000000000A"
+				"0010000000000006"
+			]
+			description: [
+				"The §eMechanist's Workbench§r handles §eredstone and lighting blocks§r."
+				""
+				"A smaller category but a uniquely useful one — these variants"
+				"let you integrate redstone components and light sources into"
+				"builds without them looking like bare functional blocks."
+				""
+				"§eBlocks it accepts:§r"
+				"• Redstone lamps (including lit variants)"
+				"• Lanterns and soul lanterns"
+				"• Redstone torches"
+				""
+				"§eRecipe:§r Redstone Torch + Piston + 2 Slabs + 2 Logs + TNT"
+				""
+				"§eTips:§r"
+				"• Redstone lamp variants range from ornate iron chandeliers to"
+				"  flush ceiling panels — perfect for builds where a plain"
+				"  glowing square would look out of place."
+				"• Lantern variants have connected textures and look beautiful"
+				"  hanging from ceilings or lining pathways."
+				"• The Mechanist's Workbench itself is quite a decorative block —"
+				"  it looks great placed in a workshop or factory build."
+			]
+			icon: "chipped:tinkering_table"
+			id: "0010000000000010"
+			min_width: 350
+			rewards: [{
+				id: "3B61F897071C7B40"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0010000000000011"
+				item: "chipped:tinkering_table"
+				title: "Craft a Mechanist's Workbench"
+				type: "item"
+			}]
+			title: "Mechanist's Workbench"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"001000000000000C"
+				"001000000000000E"
+				"0010000000000010"
+			]
+			description: [
+				"You've crafted all seven workbenches. Now put them to use."
+				""
+				"Chipped is at its best when you stop thinking of it as a crafting"
+				"mod and start thinking of it as a §epaint palette§r. The goal isn't"
+				"to craft every block — it's to have the right texture available"
+				"when your build needs it."
+				""
+				"§eSome ideas to get you started:§r"
+				"• Replace plain stone brick walls with §eMason's Table§r variants"
+				"  for an aged, weathered castle or ruin"
+				"• Use §eCarpenter's Workbench§r variants on roof beams and"
+				"  flooring for a cosy cottage or tavern"
+				"• Line windows with §eGlass Blower§r framed glass for an"
+				"  architectural, cathedral-inspired look"
+				"• Add §eAlchemy Bench§r obsidian and glowstone variants for a"
+				"  magic tower or Nether stronghold"
+				"• Swap out plain lanterns for §eMechanist's Workbench§r"
+				"  variants to give your pathways personality"
+				""
+				"§eTips:§r"
+				"• You don't need to redesign your whole base — pick one room or"
+				"  one wall and experiment there first."
+				"• Chipped blocks work with connected textures — the more you"
+				"  place adjacent to each other, the better they look."
+				"• Your workbenches themselves are decorative — arrange all seven"
+				"  in a dedicated crafting room for a beautiful workshop aesthetic."
+			]
+			icon: "chipped:alchemy_bench"
+			id: "0010000000000012"
+			min_width: 375
+			rewards: [{
+				id: "3BF9D5B100E12CEF"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "0010000000000013"
+				title: "Use Chipped blocks to decorate part of your base or a build"
+				type: "checkmark"
+			}]
+			title: "The Full Workshop"
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	title: "&3&oChipped"
+}

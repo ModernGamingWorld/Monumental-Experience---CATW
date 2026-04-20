@@ -1,0 +1,189 @@
+{
+	autofocus_id: "1000000000000067"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_04_cobblemonrider"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:rare_candy"
+	id: "10000000000000F2"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eCobblemonRider&r lets you mount and ride compatible Cobblemon as living mounts — no saddle on a horse required."
+				""
+				"Not every Cobblemon is rideable. Larger species with suitable body shapes are compatible — check the CobblemonRider compatibility list to see which of your caught Cobblemon qualify."
+				""
+				"To mount, simply interact with a compatible Cobblemon in your party. Your first ride is the beginning of a much faster way to explore the world."
+				""
+				"&7Tip: Not all Cobblemon are rideable — check the compatibility list for your species.&r"
+			]
+			icon: "cobblemon:rare_candy"
+			id: "1000000000000067"
+			min_width: 330
+			rewards: [{
+				count: 2
+				id: "1000000000000066"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Giddy Up!"
+			tasks: [{
+				id: "1000000000000065"
+				title: "Mount and ride any rideable Cobblemon"
+				type: "checkmark"
+			}]
+			title: "&bFirst Ride"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000067"]
+			description: [
+				"Five hundred blocks on the back of a land mount. That's real distance — enough to cross a biome, explore a valley, and appreciate how much faster travel becomes."
+				""
+				"Ground and Normal types tend to make the fastest land mounts, with higher movement speed and better terrain handling. If your current mount feels slow, check your collection for a better candidate."
+				""
+				"Land mounts are your bread-and-butter travel option for most of the overworld. Get comfortable with riding."
+				""
+				"&7Tip: Larger Ground and Normal types tend to be the fastest land mounts.&r"
+			]
+			id: "100000000000006B"
+			min_width: 320
+			rewards: [
+				{
+					id: "1000000000000069"
+					item: "cobblemon:exp_candy_l"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "100000000000006A"
+					item: "cobblemon:sitrus_berry"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "500 Blocks and Counting"
+			tasks: [{
+				id: "1000000000000068"
+				title: "Travel 500 blocks on a land Cobblemon mount"
+				type: "checkmark"
+			}]
+			title: "&bLand Rider"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000067"]
+			description: [
+				"Flying mounts change everything. Where a land mount is fast, a flying mount is transformative — crossing mountains, oceans, and forests in a fraction of the time."
+				""
+				"Flying-type Cobblemon that are large enough to ride can carry you through the air. Launch from elevated ground for the best takeoff angle, and enjoy the view."
+				""
+				"Flying mounts are some of the most sought-after Cobblemon in the pack — if you don't have one yet, check your Cobblepedia for Flying types that spawn in accessible biomes."
+				""
+				"&7Tip: Launch from elevated ground for the best takeoff and most control.&r"
+			]
+			id: "100000000000006E"
+			min_width: 330
+			rewards: [{
+				count: 3
+				id: "100000000000006D"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Soaring High"
+			tasks: [{
+				id: "100000000000006C"
+				title: "Fly on a rideable Flying-type Cobblemon"
+				type: "checkmark"
+			}]
+			title: "&bFirst Flight"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["100000000000006E"]
+			description: [
+				"Cross an entire ocean biome on the back of a Water-type Cobblemon. No boat required."
+				""
+				"Water mounts can swim on the surface and dive underwater, letting you explore ocean floors, coral reefs, and underwater ruins without drowning. They breathe for you — just hang on."
+				""
+				"The ocean crossing itself is the challenge. Pick a direction, find a Water-type mount, and ride until you hit land on the other side."
+				""
+				"&7Tip: Water mounts can breathe underwater — use them to explore ocean floors for rare loot.&r"
+			]
+			id: "1000000000000072"
+			min_width: 330
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000070"
+					item: "cobblemon:dive_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000071"
+					item: "cobblemon:mystic_water"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Surf's Up"
+			tasks: [{
+				id: "100000000000006F"
+				title: "Cross a full ocean biome on a Water-type Cobblemon mount"
+				type: "checkmark"
+			}]
+			title: "&bOcean Crossing"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"100000000000006B"
+				"1000000000000072"
+			]
+			description: [
+				"Three different species ridden. You're a proper mount trainer now."
+				""
+				"Each Cobblemon species has different movement stats as a mount — speed, jump height, swimming ability, and flight ceiling all vary. Experimenting with different species helps you find the right mount for the right terrain."
+				""
+				"The best trainers have a mount for every situation: a fast land runner, a reliable flyer, and a capable swimmer."
+				""
+				"&7Tip: Each mount species has different speed, jump, and terrain stats — experiment to find your favourites.&r"
+			]
+			id: "1000000000000075"
+			min_width: 330
+			rewards: [{
+				count: 5
+				id: "1000000000000074"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Three of a Kind"
+			tasks: [{
+				id: "1000000000000073"
+				title: "Ride 3 different Cobblemon species as mounts"
+				type: "checkmark"
+			}]
+			title: "&bMount Mastery"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&bChapter 4 — Cobblemon Rider"
+}

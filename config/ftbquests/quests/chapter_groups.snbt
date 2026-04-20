@@ -1,0 +1,20 @@
+{
+	chapter_groups: [
+		{ id: "6CD934EDA78DBCD0", title: "&6&l&oCommunity" }
+		{ id: "75575A3E2EC59FEB", title: "Cobblemon" }
+		{ id: "2969F58CC6EA9A10", title: "&b&l&oChallenges" }
+		{ id: "2A53C3F768FB4163", title: "&9&l&oCooking" }
+		{ id: "09A82B0D5D5E7906", title: "&9&l&oDimensions" }
+		{ id: "507DDDB2170C4831", title: "&9&l&oDecor" }
+		{ id: "62AD16E73710A992", title: "&9&l&oEnergy" }
+		{ id: "5271FC3947DEACC8", title: "&9&l&oFarming" }
+		{ id: "33C9D311E461F30C", title: "&9&l&oFood" }
+		{ id: "3BE0D6FED0FFD32E", title: "&9&l&oFishing" }
+		{ id: "6F0E78F18F0B5785", title: "&9&l&oMobs" }
+		{ id: "4814F40AB34427B6", title: "&9&l&oMagic" }
+		{ id: "7E54189F6BA49858", title: "&9&l&oStorage" }
+		{ id: "3A1C74A49BDDD6E1", title: "&9&l&oTravel" }
+		{ id: "4E2A2310634498BA", title: "&9&l&oTools" }
+		{ id: "69B9F7247002FE35", title: "&9&l&oTechnology" }
+	]
+}

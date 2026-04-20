@@ -1,0 +1,218 @@
+{
+	autofocus_id: "10000000000000C8"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_09_breeding"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:oval_stone"
+	id: "10000000000000F7"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Breeding is Cobblemon's deepest system — a way to create Cobblemon that are better than anything you'd find in the wild."
+				""
+				"To breed, leave two compatible Cobblemon together. Compatible means they share an egg group — check the Cobblepedia for each species' egg group. Given time, they'll produce an egg."
+				""
+				"The egg group system is broad. Many seemingly unrelated species share egg groups, opening up unexpected breeding combinations."
+				""
+				"&7Tip: Cobblemon in the same egg group will produce an egg together over time — check Cobblepedia.&r"
+			]
+			icon: "cobblemon:oval_stone"
+			id: "10000000000000C8"
+			min_width: 320
+			rewards: [
+				{
+					id: "10000000000000C6"
+					item: "cobblemon:oval_stone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "10000000000000C7"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "The Beginning of a Lineage"
+			tasks: [{
+				id: "10000000000000C5"
+				title: "Obtain a Cobblemon egg through breeding"
+				type: "checkmark"
+			}]
+			title: "&bFirst Egg"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000C8"]
+			description: [
+				"Eggs hatch by accumulating steps — walk, ride, or travel enough distance and the egg will hatch."
+				""
+				"The fastest way to hatch is to have a Cobblemon with the &eFlame Body&r ability in your party. It halves the required steps, turning a long walk into a short one."
+				""
+				"The hatchling starts from level 1 with whatever IVs, nature, and moves it inherited. Your first hatchling won't be perfect — that's what the rest of this chapter is for."
+				""
+				"&7Tip: A Cobblemon with Flame Body in your party halves egg hatch steps.&r"
+			]
+			id: "10000000000000CC"
+			min_width: 320
+			rewards: [
+				{
+					count: 3
+					id: "10000000000000CA"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+				{
+					id: "10000000000000CB"
+					item: "cobblemon:destiny_knot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "New Life"
+			tasks: [{
+				id: "10000000000000C9"
+				title: "Hatch a Cobblemon egg"
+				type: "checkmark"
+			}]
+			title: "&bHatchling"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000CC"]
+			description: [
+				"A Cobblemon's &eNature&r affects its stat growth — each Nature boosts one stat and reduces another. For competitive breeding, you want a specific Nature that benefits your intended role."
+				""
+				"Give the parent with your desired Nature an &eEverstone&r to hold. The offspring will inherit that Nature guaranteed."
+				""
+				"This is the first piece of intentional breeding. Rather than hatching random Cobblemon and hoping for good results, you're now controlling the outcome."
+				""
+				"&7Tip: The offspring will always inherit the nature of the Everstone-holding parent.&r"
+			]
+			id: "10000000000000CF"
+			min_width: 330
+			rewards: [{
+				id: "10000000000000CE"
+				item: "cobblemon:everstone"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Controlled Inheritance"
+			tasks: [{
+				id: "10000000000000CD"
+				title: "Breed for a specific nature using an Everstone"
+				type: "checkmark"
+			}]
+			title: "&bNature Seeker"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000CF"]
+			description: [
+				"&eIVs (Individual Values)&r are hidden stats that determine a Cobblemon's maximum potential. Each stat has an IV from 0 to 31 — a perfect IV of 31 means maximum growth in that stat."
+				""
+				"The &eDestiny Knot&r passes 5 of the parents' IVs to the offspring. Pair it with &ePower Items&r to target specific stats."
+				""
+				"Breeding for 4+ perfect IVs takes multiple generations of careful pairing. Start with the stats that matter most for your Cobblemon's role."
+				""
+				"&7Tip: Destiny Knot passes 5 IVs from parents — stack with Power Items for targeted stat breeding.&r"
+			]
+			id: "10000000000000D2"
+			min_width: 340
+			rewards: [{
+				count: 2
+				id: "2B4393446A5A31E0"
+				item: "cobblemon:cheri_berry"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Statistical Perfection"
+			tasks: [{
+				id: "10000000000000D0"
+				title: "Breed a Cobblemon with at least 4 perfect (31) IVs"
+				type: "checkmark"
+			}]
+			title: "&bIV Breeder"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10000000000000CF"]
+			description: [
+				"&eEgg moves&r are moves a Cobblemon can only learn through breeding — not by levelling up, not from TMs, not from any other source."
+				""
+				"The father passes egg moves to the offspring, so you need a compatible male that knows the desired move. This sometimes requires a breeding chain — breeding with an intermediate species first to pass the move across egg groups."
+				""
+				"Egg moves can dramatically change a Cobblemon's capabilities, opening strategies unavailable through normal training."
+				""
+				"&7Tip: Egg moves are inherited from the father — plan your breeding chain carefully.&r"
+			]
+			id: "10000000000000D5"
+			min_width: 340
+			rewards: [{
+				count: 2
+				id: "10000000000000D4"
+				item: "cobblemon:pp_max"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Inherited Technique"
+			tasks: [{
+				id: "10000000000000D3"
+				title: "Breed a Cobblemon with an egg move it cannot learn by level-up"
+				type: "checkmark"
+			}]
+			title: "&bEgg Move Specialist"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"10000000000000D2"
+				"10000000000000D5"
+			]
+			description: [
+				"The perfect partner: the right Nature, six perfect IVs, and a key egg move. This is the pinnacle of the breeding system."
+				""
+				"It takes patience. Multiple breeding generations, careful IV tracking, and a clear picture of what you want before you start. Use &eJust Enough Breeding (JEBr)&r to look up compatible breeding pairs and egg move chains — it removes the guesswork."
+				""
+				"When you hatch it, you'll know it was worth every step."
+				""
+				"&7Tip: Use JEBr to look up compatible breeding pairs and egg move chains efficiently.&r"
+			]
+			id: "10000000000000D8"
+			min_width: 360
+			rewards: [{
+				id: "4C2D866460303F6E"
+				item: "cobblemon:ability_capsule"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The Dream Team Member"
+			tasks: [{
+				id: "10000000000000D6"
+				title: "Breed a Cobblemon with target nature, 6 perfect IVs, and an egg move"
+				type: "checkmark"
+			}]
+			title: "&bPerfect Partner"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&bChapter 9 — Breeding"
+}

@@ -1,0 +1,24 @@
+{
+	icon: "minecraft:chest"
+	id: "420CD4CC57E4D536"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "ae2:creative_fluid_cell" }
+		{
+			item: {
+				Count: 1
+				id: "extradisks:infinite_fluid_storage_disk"
+				tag: {
+					Id: [I;
+						398933027
+						-2063121295
+						-2058375956
+						1624962544
+					]
+				}
+			}
+		}
+	]
+	title: "AppliedOrRS"
+}

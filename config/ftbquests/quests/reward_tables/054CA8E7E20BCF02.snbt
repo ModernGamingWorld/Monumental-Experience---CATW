@@ -1,0 +1,44 @@
+{
+	icon: "minecraft:chest"
+	id: "054CA8E7E20BCF02"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "minecraft:blaze_powder" }
+		{ item: "minecraft:gold_ingot" }
+		{ item: "minecraft:soul_sand" }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:red_tulip" }
+		{ item: "inventorypets:nugget_emerald" }
+		{ item: "minecraft:iron_nugget" }
+		{ item: "minecraft:gold_nugget" }
+		{ item: "minecraft:cooked_chicken" }
+		{ item: "minecraft:wheat_seeds" }
+		{ item: "minecraft:wheat" }
+		{ item: "minecraft:pumpkin" }
+		{ item: "minecraft:red_mushroom" }
+		{ item: "inventorypets:nugget_lapis" }
+		{ item: "minecraft:bone" }
+		{ item: "inventorypets:nugget_diamond" }
+		{ item: "minecraft:note_block" }
+		{ item: "minecraft:dirt" }
+		{ item: "minecraft:cobblestone" }
+		{ item: "minecraft:string" }
+		{ item: "inventorypets:nugget_coal" }
+		{ item: "minecraft:tripwire_hook" }
+		{ item: "inventorypets:nugget_obsidian" }
+		{ item: "minecraft:gunpowder" }
+		{ item: "minecraft:glowstone_dust" }
+		{ item: "minecraft:quartz" }
+		{ item: "minecraft:lily_pad" }
+		{ item: "minecraft:cooked_cod" }
+		{ item: "minecraft:cod" }
+		{ item: "minecraft:white_wool" }
+		{ item: "minecraft:nether_wart" }
+		{ item: "inventorypets:nugget_ender" }
+		{ item: "minecraft:cookie" }
+		{ item: "minecraft:carrot" }
+		{ item: "minecraft:feather" }
+	]
+	title: "Pets Food"
+}

@@ -1,0 +1,188 @@
+{
+	autofocus_id: "0000000000000000"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "support_us"
+	group: "6CD934EDA78DBCD0"
+	icon: "minecraft:gold_ingot"
+	id: "12E826935D2769AD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6ModernGamingWorld&r creates and maintains Monumental Experience and all its companion packs — for free."
+				""
+				"If you're enjoying the pack and want to support continued development, every little bit genuinely helps. Here's how:"
+				""
+				"&eThank you for playing. It means a lot.&r"
+			]
+			icon: "minecraft:nether_star"
+			id: "31B20B3DC9DDE836"
+			min_width: 320
+			rewards: [{
+				id: "188ADEC571371EBB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "53BAD6D649FA5577"
+				title: "Thank you for your support!"
+				type: "checkmark"
+			}]
+			title: "&6&lSupport ModernGamingWorld"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Need a server to play Monumental Experience with friends?"
+				""
+				"&aBisectHosting&r offers reliable, high-performance Minecraft servers with one-click modpack installs — including this pack."
+				""
+				"&eUse code &6&lModernGamingWorld&e at checkout for &6&l25% off&e your first month!&r"
+				""
+				"&7Click the quest icon or visit:&r"
+				"&bhttps://bisecthosting.com/moderngamingworld&r"
+			]
+			icon: "minecraft:ender_chest"
+			id: "1E2594937A86BE59"
+			min_width: 340
+			rewards: [{
+				id: "3A2708A07278BAE0"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&oUse code ModernGamingWorld for 25% off"
+			tasks: [{
+				id: "390D7ED1C1258581"
+				title: "Visit BisectHosting"
+				type: "checkmark"
+			}]
+			title: "&a&lGet a Server — BisectHosting"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Support ModernGamingWorld directly on &5Patreon&r and get access to:"
+				""
+				"• &eGeneral Support&r "
+				"• &eAn exclusive Discord rank &r based on what paid membership tier"
+				"• &eMerch discount&r"
+				""
+				"Every tier helps keep the lights on and the updates coming."
+				""
+				"&7patreon.com/ModernGamingWorld&r"
+			]
+			icon: "minecraft:written_book"
+			id: "167EAC52EF51C642"
+			min_width: 320
+			rewards: [{
+				id: "262B7199ACEB3E4C"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&oExclusive perks for supporters"
+			tasks: [{
+				id: "2EEFAD833E38C514"
+				title: "Support on Patreon"
+				type: "checkmark"
+			}]
+			title: "&5&lPatreon"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Watch ModernGamingWorld live on &9Twitch&r!"
+				""
+				"Streams include:"
+				"• &eMature Audiance&r"
+				"• &eEnglish only&r"
+				"• &eFortnite Gameplay&r"
+				"• &eClone Hero Gameplay&r"
+				"• &eVariety Gameplay and More&r"
+				""
+				"Follow to get notified when we go live. Come hang out!"
+				""
+				"&7twitch.tv/moderngamingworld&r"
+			]
+			icon: "minecraft:map"
+			id: "62BA956090E588A2"
+			min_width: 300
+			rewards: [{
+				id: "0707212DE80CFEF1"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&oFollow along live"
+			tasks: [{
+				id: "00BEC5628D2703D7"
+				title: "Follow on Twitch"
+				type: "checkmark"
+			}]
+			title: "&9&lTwitch"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Want to support without a subscription? &6Ko-fi&r lets you make a one-time donation — no commitment, no recurring charges."
+				""
+				"Even a small contribution goes directly toward:"
+				"• Time spent building and maintaining the pack"
+				""
+				"&7ko-fi.com/moderngamingworld&r"
+			]
+			icon: "minecraft:sugar"
+			id: "1C8B4C8CC1061D9A"
+			min_width: 310
+			rewards: [{
+				id: "60096D763E9F54DD"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&oOne-time support, no strings attached"
+			tasks: [{
+				id: "1CF81E733AE16C06"
+				title: "Support on Ko-fi"
+				type: "checkmark"
+			}]
+			title: "&6&lKo-fi"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Join the &bEverlasting Creativity&r — the home of the community!"
+				""
+				"On the Discord you can:"
+				"• &eReport bugs&r and get help with issues"
+				"• &eChat with other players&r and share your builds"
+				"• &eGet announcements&r for updates before anyone else"
+				"• &eConnect with the dev team&r directly"
+				""
+				"Come say hi — we don't bite. Usually."
+			]
+			icon: "minecraft:filled_map"
+			id: "708168B91F0DB045"
+			min_width: 320
+			rewards: [{
+				id: "25FEB0A3EBF31341"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&oThe home of the community"
+			tasks: [{
+				id: "04EEB551AD4EE7A5"
+				title: "Join the Discord"
+				type: "checkmark"
+			}]
+			title: "&b&lDiscord"
+			x: 7.5d
+			y: 2.0d
+		}
+	]
+	title: "&6&lSupport Me"
+}

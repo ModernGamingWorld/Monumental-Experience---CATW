@@ -1,0 +1,39 @@
+{
+	icon: "minecraft:chest"
+	id: "5780741175E14A9B"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "ars_nouveau:source_gem" }
+		{ item: "botania:manasteel_ingot" }
+		{ count: 6, item: "naturesaura:infused_iron" }
+		{ count: 64, item: "forbidden_arcanus:edelwood_branch" }
+		{ item: "eidolon:pewter_ingot" }
+		{ item: "naturesaura:token_joy" }
+		{
+			item: {
+				Count: 1
+				id: "occultism:chalk_purple"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{ item: "occultism:otherstone" }
+		{ count: 11, item: "bloodmagic:blankslate" }
+		{ count: 3, item: "botania:livingrock" }
+		{ count: 7, item: "botania:livingwood_log" }
+		{ count: 4, item: "naturesaura:tainted_gold" }
+		{ count: 3, item: "alltheores:lead_ingot" }
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 8, item: "mysticalagriculture:prosperity_shard" }
+		{ count: 3, item: "minecraft:quartz" }
+		{ item: "mobees:crated_bee_comb_silver" }
+		{ item: "mobees:copper_bit" }
+	]
+	title: "Magic"
+}

@@ -1,0 +1,232 @@
+{
+	autofocus_id: "100000000000007A"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_05_farmers_nature"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:oran_berry"
+	id: "10000000000000F3"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Cobblemon berries are more than held items — they're a farming system. Plant berry seeds in the ground, tend them over time, and harvest a steady supply of battle-ready consumables."
+				""
+				"Different berries prefer different conditions. Some grow faster in specific biomes, others need more light or wetter soil. Experiment with where you plant them."
+				""
+				"Start with five different types. &eOran&r and &eSitrus&r berries are essential early on — they restore HP mid-battle and are worth having stocked at all times."
+				""
+				"&7Tip: Experiment with planting in different biomes for best growth rates.&r"
+			]
+			icon: "cobblemon:oran_berry"
+			id: "100000000000007A"
+			min_width: 320
+			rewards: [
+				{
+					count: 10
+					id: "1000000000000077"
+					item: "cobblemon:oran_berry"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1000000000000078"
+					item: "cobblemon:sitrus_berry"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1000000000000079"
+					item: "cobblemon:lum_berry"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Plant and Harvest"
+			tasks: [{
+				id: "1000000000000076"
+				title: "Plant and harvest 5 different Cobblemon berry types"
+				type: "checkmark"
+			}]
+			title: "&bBerry Basics"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100000000000007A"]
+			description: [
+				"Giving your Cobblemon a berry to hold lets it activate that berry automatically during battle — no input required. When the trigger condition hits, the berry fires."
+				""
+				"Most berries trigger at low HP (below 50% or 25%), restoring health or curing a status condition right when you need it most. Pinch berries activate below 25% and provide stat boosts — high risk, high reward."
+				""
+				"Getting a berry to trigger in battle means you've built your first real held-item strategy. It won't be your last."
+				""
+				"&7Tip: Pinch berries activate below 25% HP — pair with a tanky Cobblemon for max effect.&r"
+			]
+			id: "100000000000007E"
+			min_width: 340
+			rewards: [
+				{
+					count: 5
+					id: "100000000000007C"
+					item: "cobblemon:salac_berry"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "100000000000007D"
+					item: "cobblemon:petaya_berry"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Clutch Activation"
+			tasks: [{
+				id: "100000000000007B"
+				title: "Trigger a held berry's effect during battle"
+				type: "checkmark"
+			}]
+			title: "&bBerry Buff"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100000000000007E"]
+			description: [
+				"&eCobblemon Farmers&r adds structured berry farming with special layouts and mechanics that improve your yields. A full row of 8 berry plants, harvested in a single session, is a proper harvest."
+				""
+				"Check the Cobblemon Farmers documentation for optimal farm designs — some layouts significantly increase berry output over basic planting."
+				""
+				"A well-maintained berry farm means you'll never run dry on healing items or battle consumables, no matter how deep into the harder chapters you go."
+				""
+				"&7Tip: Check Cobblemon Farmers for special farm layouts that boost berry yields.&r"
+			]
+			id: "1000000000000082"
+			min_width: 330
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000080"
+					item: "cobblemon:lum_berry"
+					type: "item"
+				}
+				{
+					id: "1000000000000081"
+					item: "cobblemon:miracle_seed"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "The Abundant Farm"
+			tasks: [{
+				id: "100000000000007F"
+				title: "Harvest a full row of 8 berry plants in one session"
+				type: "checkmark"
+			}]
+			title: "&bFull Berry Harvest"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Certain Cobblemon have field abilities that interact with crops and plants around them. Grass and Water types are the most common — place them near your farm and watch what happens."
+				""
+				"This is the Cobblemon Farmers integration at work: your Cobblemon aren't just fighters, they're workers. A Cobblemon with the right field ability can accelerate crop growth, water soil, or even protect your farm from pests."
+				""
+				"Experiment with different types near different crops. Not every ability works on every plant."
+				""
+				"&7Tip: Grass and Water types often have field abilities — try them near crops.&r"
+			]
+			id: "1000000000000085"
+			min_width: 340
+			rewards: [{
+				count: 3
+				id: "1000000000000084"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Pokémon Power"
+			tasks: [{
+				id: "1000000000000083"
+				title: "Use a Cobblemon field ability to assist crop growth (Cobblemon Farmers)"
+				type: "checkmark"
+			}]
+			title: "&bFarm Helper"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000085"]
+			description: [
+				"Hostile mobs trample crops and undo your farming work in seconds. A Cobblemon stationed near your farm in defend mode will intercept and fight off anything that gets too close."
+				""
+				"Set an aggressive Cobblemon to 'defend area' mode and position it near your berry rows. Let it handle the hostile mobs while you focus on harvesting and planting."
+				""
+				"This is Cobblemon filling a role that horses and iron golems used to. Your partner is more capable — let it prove that."
+				""
+				"&7Tip: Set a Cobblemon to 'defend area' mode to ward off hostile mobs automatically.&r"
+			]
+			id: "1000000000000088"
+			min_width: 330
+			rewards: [{
+				count: 2
+				id: "1000000000000087"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Defender of the Harvest"
+			tasks: [{
+				id: "1000000000000086"
+				title: "Use a Cobblemon to prevent mob crop destruction"
+				type: "checkmark"
+			}]
+			title: "&bFarm Protector"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1000000000000082"
+				"1000000000000088"
+			]
+			description: [
+				"Farmer's Delight and Cobblemon meet in the kitchen. Cook a Farmer's Delight meal using a berry you grew on your Cobblemon berry farm."
+				""
+				"Tomtaru's Tweaks adds recipe interactions between the two mods — certain Cobblemon berries function as Farmer's Delight ingredients, and the meals you cook with them grant buffs that help in both farming and battling."
+				""
+				"Two mods, one feast. This is what playing a well-designed modpack feels like."
+				""
+				"&7Tip: Tomtaru's Tweaks adds Cobblemon-themed recipe interactions with Farmer's Delight.&r"
+			]
+			id: "100000000000008B"
+			min_width: 350
+			rewards: [{
+				id: "100000000000008A"
+				item: "cobblemon:full_restore"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Best of Both Worlds"
+			tasks: [{
+				id: "1000000000000089"
+				title: "Cook a Farmer's Delight meal using a Cobblemon farm berry"
+				type: "checkmark"
+			}]
+			title: "&bFarmer's Delight Fusion"
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	title: "&bChapter 5 — Farmers and Nature"
+}

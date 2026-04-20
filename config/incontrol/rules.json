@@ -1,0 +1,49 @@
+[
+  {
+    "comment": "Prevent all vanilla hostile mobs from targeting Cobblemon Pokemon entities",
+    "mob": "hostile",
+    "when": "onjoin",
+    "result": "default",
+    "nohostile": ["cobblemon:pokemon"]
+  },
+  {
+    "comment": "Prevent Cataclysm hostile mobs from targeting Pokemon",
+    "mod": "cataclysm",
+    "when": "onjoin",
+    "result": "default",
+    "nohostile": ["cobblemon:pokemon"]
+  },
+  {
+    "comment": "Prevent Quark hostile mobs from targeting Pokemon",
+    "mod": "quark",
+    "hostile": true,
+    "when": "onjoin",
+    "result": "default",
+    "nohostile": ["cobblemon:pokemon"]
+  },
+  {
+    "comment": "Explicit entries for the most dangerous vanilla mobs as fallback",
+    "mob": "minecraft:creeper",
+    "when": "onjoin",
+    "result": "default",
+    "nohostile": ["cobblemon:pokemon"]
+  },
+  {
+    "mob": "minecraft:warden",
+    "when": "onjoin",
+    "result": "default",
+    "nohostile": ["cobblemon:pokemon"]
+  },
+  {
+    "mob": "minecraft:ravager",
+    "when": "onjoin",
+    "result": "default",
+    "nohostile": ["cobblemon:pokemon"]
+  },
+  {
+    "mob": "minecraft:evoker",
+    "when": "onjoin",
+    "result": "default",
+    "nohostile": ["cobblemon:pokemon"]
+  }
+]

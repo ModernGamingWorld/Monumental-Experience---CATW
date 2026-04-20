@@ -1,0 +1,16 @@
+
+["Async Config"]
+	#Enables parallel processing of entity.
+	disabled = false
+	#Maximum worker threads. -1 = auto.
+	#Range: > -1
+	paraMax = -1
+	#List of entity IDs or namespaces (*):
+	#  - 'minecraft:zombie' = specific entity
+	#  - 'minecraft:*'      = all entities in namespace
+	synchronizedEntities = ["minecraft:tnt", "minecraft:experience_orb", "minecraft:creeper", "minecraft:end_crystal", "minecraft:wither", "create:*", "minecraft:ghast", "minecraft:item"]
+	#Enables async entity spawning. WARNING: incompatible with Carpet's lagFreeSpawning.
+	enableAsyncSpawn = true
+	#Experimental! Enables async random ticks.
+	enableAsyncRandomTicks = false
+

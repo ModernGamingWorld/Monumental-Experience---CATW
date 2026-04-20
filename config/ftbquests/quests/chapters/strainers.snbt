@@ -1,0 +1,304 @@
+{
+	autofocus_id: "0011000000000002"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "strainers"
+	group: "4E2A2310634498BA"
+	icon: "strainers:wooden_strainer"
+	id: "0011000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§eBBL Strainers§r adds one deceptively simple block — the §eStrainer§r."
+				""
+				"Place it in the world, put a fluid or block above it, drop an"
+				"input item into its input slot, and it passively produces outputs"
+				"over time. No power required. No player interaction needed."
+				"Set it up, pipe things in and out, and let it run."
+				""
+				"§eEvery recipe has three parts:§r"
+				"• §eAbove Block/Fluid§r — the block or fluid placed directly on top"
+				"  of the Strainer (water, lava, a special block, etc.)"
+				"• §eInput Item§r — the item consumed each processing cycle"
+				"• §eOutputs§r — up to 9 items produced per cycle, each with its"
+				"  own quantity and chance value"
+				""
+				"§eTips:§r"
+				"• Use §eJEI§r to see all recipes — hover over the Strainer and"
+				"  press §eU§r to browse every input/output combination."
+				"• All recipes in this pack are configured specifically for it,"
+				"  so always check JEI to know what's actually available."
+				"• The Strainer ejects outputs automatically — pipe them into"
+				"  a chest with a Hopper placed on the side or bottom."
+			]
+			icon: "strainers:wooden_strainer"
+			id: "0011000000000002"
+			min_width: 350
+			rewards: [{
+				id: "2435749DB2AA2E7C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0011000000000003"
+				item: "strainers:wooden_strainer"
+				title: "Craft a Strainer"
+				type: "item"
+			}]
+			title: "What is a Strainer?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0011000000000002"]
+			description: [
+				"Let's get your first Strainer producing something."
+				""
+				"§eSetup steps:§r"
+				"1. Place the Strainer block anywhere — indoors or outdoors"
+				"2. Place a §ewater source block§r directly above it using a bucket"
+				"   (it must be a source block, not flowing water)"
+				"3. Open §eJEI§r, find a recipe that uses water above, and note"
+				"   which input item that recipe needs"
+				"4. Place that input item in the Strainer's §einput slot§r"
+				"5. Wait — the progress bar fills and outputs appear automatically"
+				""
+				"The Strainer restarts the recipe automatically after each cycle"
+				"as long as there are still input items available."
+				""
+				"§eTips:§r"
+				"• The input item is consumed each cycle — put a stack in to"
+				"  keep it running while you do other things."
+				"• Place a Hopper on the bottom of the Strainer to"
+				"  pull outputs into a chest automatically."
+				"• Place a Hopper on the side to keep inputs topped up"
+				"  from a chest above."
+				"• Higher-tier meshes (see the next quest) make outputs more likely"
+				"  per cycle — some recipes require higher tier meshes."
+			]
+			icon: "minecraft:water_bucket"
+			id: "0011000000000004"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66C4BF6320FFD383"
+				table_id: 5236874501558129216L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0011000000000005"
+				title: "Set up a Strainer with water above and collect your first output"
+				type: "checkmark"
+			}]
+			title: "Your First Extraction"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0011000000000004"]
+			description: [
+				"The §eMesh§r is an upgrade item that slots into the Strainer's"
+				"dedicated mesh slot. It controls how likely each recipe cycle"
+				"is to produce its outputs."
+				""
+				"§eMesh tiers (low to high):§r"
+				"• &7Tier 1&r — cheapest to make, lowest output chance"
+				"  String, Flint, Bamboo, and Leafy meshes are Tier 1"
+				"• &6Tier 2&r — Copper is the only tier 2 mesh, 2nd lowest output"
+				"• &8Tier 3&r§r — reliable mid-game mesh, good balance of cost and output"
+				"  chance"
+				"  Iron and Amythest are Tier 3"
+				"• &eTier 4&r — medium output chance"
+				"  Gold and Quartz are Tier 4"
+				"• &bTier 5&r — almost the best, typically easier to obtain than the best"
+				"  Diamond and Echo are Tier 5"
+				"• &2Tier 6&r — best output and highest durability"
+				"  Emerald and Netherite are Tier 6"
+				""
+				"Meshes have §edurability§r — they wear down over use and eventually"
+				"break. Higher-tier meshes tend to last longer before breaking."
+				""
+				"§eTips:§r"
+				"• Check the crafting recipe in &eJEI&r for each mesh requirement."
+				"• Keep 2-3 spare meshes in a chest nearby so you can replace"
+				"  one the moment it breaks."
+				"• The mesh slot can be piped into like any other item slot — a"
+				"  Hopper feeding in spare meshes keeps things running without any"
+				"  manual intervention."
+			]
+			icon: "minecraft:string"
+			id: "0011000000000006"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D76F461B65CAE6A"
+				table_id: 5236874501558129216L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39DC9B9B1004BD89"
+				item: {
+					Count: 1
+					id: "strainers:string_mesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mesh Tiers"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0011000000000006"]
+			description: [
+				"Once you've got a basic mesh running, upgrade it."
+				""
+				"An §eIron Mesh§r is the sweet spot for mid-game strainer farming —"
+				"it gives a noticeably higher output chance per cycle than String"
+				"or Flint and has solid durability to match."
+				""
+				"If you're running multiple Strainers, prioritise getting Iron Meshes"
+				"into all of them before pushing further up the tier list."
+				""
+				"§eTips:§r"
+				"• The output chance improvement from Iron → Gold → Diamond"
+				"  is significant — worth chasing for your main strainer farm."
+				"• Gold Mesh has high output chance but breaks faster."
+				"  Diamond Mesh is the best overall if you can afford it."
+				"• If you're automating mesh replacement via Hopper, Gold Mesh"
+				"  becomes more viable since breakage doesn't require manual attention."
+			]
+			icon: "minecraft:iron_ingot"
+			id: "0011000000000008"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07CE82E919FFADD0"
+				table_id: 5236874501558129216L
+				type: "random"
+			}]
+			tasks: [{
+				id: "167A8AA543DDB14C"
+				item: {
+					Count: 1
+					id: "strainers:iron_mesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Better Mesh"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0011000000000004"]
+			description: [
+				"Plain water isn't the only thing that can go above a Strainer."
+				"BBL Strainers adds two special fluids that unlock entirely"
+				"different recipe sets — and lava works too."
+				""
+				"§ePurified Water§r — a cleaner, processed form of water."
+				"Used for recipes involving refined or valuable outputs that"
+				"plain water can't extract."
+				""
+				"§eEroding Water§r — a caustic fluid that breaks down tough materials."
+				"Used for harder stone, ore-adjacent recipes, and materials that"
+				"regular water wouldn't affect."
+				""
+				"§eLava§r — the original alternative fluid. Some recipes specifically"
+				"call for lava above the strainer — great for Nether-adjacent"
+				"resource chains."
+				""
+				"All three are placed above the Strainer the same way as water:"
+				"use a bucket to place a source block directly on top."
+				""
+				"§eTips:§r"
+				"• Check §eJEI§r — browse the Strainer's inputs and you'll see which"
+				"  recipes use each fluid. Lava recipes tend to give rarer outputs."
+				"• The §eStrainer Tank§r (next quest) makes supplying special fluids"
+				"  much easier — essential for longer automation runs."
+				"• Special fluid recipes often require higher-tier meshes to"
+				"  achieve worthwhile output chances."
+			]
+			icon: "minecraft:lava_bucket"
+			id: "000011000000000A"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "654B579B4605DBC0"
+				table_id: 5236874501558129216L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "000011000000000B"
+				title: "Run a Strainer with a non-water fluid above it (lava, purified water, or eroding water)"
+				type: "checkmark"
+			}]
+			title: "Special Fluids"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0011000000000008"
+				"000011000000000A"
+			]
+			description: [
+				"The §eStrainer Tank§r sits directly on top of a Strainer and"
+				"holds up to one bucket of fluid, allowing you to place multiple "
+				"Strainers next to each other regardless of fluid."
+				""
+				"§eSetup:§r"
+				"• Craft the Strainer Tank and place it §edirectly above§r the Strainer"
+				"• Fill it by right-clicking with a bucket of fluid"
+				""
+				"With Hoppers handling input items and Meshes and Hoppers pulling outputs, your strainer runs §ecompletely hands-free§r indefinitely."
+				""
+				"§eThe fully automated setup:§r"
+				"• §eAbove:§r Strainer Tank "
+				"• §eStrainer input slot:§r fed by a Hopper from a chest above"
+				"• §eStrainer output slots:§r drained by a Hopper into a chest below"
+				"• §eMesh slot:§r fed by a Hopper with spare meshes"
+				""
+				"§eTips:§r"
+				"• Breaking a filled tank places the fluid back in the world — empty it "
+				"  with a bucket first if you need to move it."
+				"• Run the tank with lava for high-value recipes"
+				"• Build a strainer farm (multiple Strainers side-by-side) for serious"
+				"  passive resource production."
+			]
+			icon: "strainers:strainer_tank"
+			id: "000011000000000C"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2808E8A45269B10D"
+				table_id: 5236874501558129216L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "000011000000000D"
+					item: "strainers:strainer_tank"
+					title: "Craft a Strainer Tank"
+					type: "item"
+				}
+				{
+					id: "000011000000000E"
+					title: "Set up a fully automated Strainer with a tank, input hopper, and output hopper"
+					type: "checkmark"
+				}
+			]
+			title: "Strainer Tank"
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	title: "&3&oBBL Strainers"
+}

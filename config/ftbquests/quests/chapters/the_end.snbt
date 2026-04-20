@@ -1,0 +1,1394 @@
+{
+	autofocus_id: "1A33EEC89D130D51"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "09A82B0D5D5E7906"
+	icon: "minecraft:end_portal_frame"
+	id: "0252A38B84277ADE"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/item/end_drag.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 3.607142857142854d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "kubejs:item/the_end"
+			rotation: 0.0d
+			width: 6.5d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1021505376344085d
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1021505376344085d
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1021505376344085d
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.75d
+			y: -3.5892857142857153d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6End Remastered&r overhauls the way players get to the &dEnd&r and makes the experience way more interesting by forcing them to &o&bfully explore&r the beautiful world of Minecraft."
+				""
+				"Adding &o&b16&r totally new &aEnder Eyes&r hidden all around your world, this mod will make your playthrough &o&ba lot more enjoyable&r."
+				""
+				"&eExploration&r is the main focus of &6End Remastered&r, and to reach the &dEnd&r and beat the &5Ender Dragon&r, you will have to find &o&b16&r custom eyes by &o&bexploring vanilla structures&r and &o&bfighting vanilla bosses&r."
+				""
+				"Once you have at least &o&b12&r eyes, you can follow them until you reach the &3Stronghold&r, or use your Structure Compass. You have to put the &o&b12&r custom eyes in the portal in order to open it. If there's a &o&bvanilla eye of ender&r in one of the frames, you can &nremove&r it by &eRight-clicking&r on it with a &ncustom eye&r. "
+			]
+			id: "1A33EEC89D130D51"
+			min_width: 300
+			rewards: [
+				{
+					id: "6A44DB9BB8ECB636"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C847B5B5FEFA09A"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7AA522034DCC517D"
+				title: "Visit Dimension: &2The End"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: -2.482142857142854d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "72BAC92E25A843DB"
+			rewards: [
+				{
+					id: "08895493C80A1C1A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FBE3AEF96B31A5C"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "38D493A938A211E2"
+				item: "quark:myalite_bricks"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "minecraft:enderman"
+				}
+			}
+			icon_scale: 2.0d
+			id: "192AF43D0151121D"
+			rewards: [
+				{
+					id: "7BB860FBAEDA214F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "49855F9D104D0CF8"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E5161BF07B165FB"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "77B7904B490FC543"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72BAC92E25A843DB"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/enderiophage.png"
+				}
+			}
+			id: "0BDC4238B58B6AA3"
+			rewards: [
+				{
+					id: "2169FD2F4375DBC2"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "111FC0E9EC96D5A1"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D492792059F3EDA"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				icon: "alexsmobs:spawn_egg_enderiophage"
+				id: "4D2102203B171533"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "43E4AB9EEE8802A5"
+			rewards: [
+				{
+					id: "59A995F843B7FF18"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "7C90A8C55BA6EB2E"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6EA9C9AE04A930C4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "58E5632EFADF3740"
+				title: "Find The End City"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -0.9821428571428541d
+		}
+		{
+			dependencies: ["43E4AB9EEE8802A5"]
+			id: "678CA57E073C80BA"
+			rewards: [
+				{
+					id: "1FDA1578EB9F4195"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0975E3F36BBEC2EF"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:shulker"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60B3378DB3FF67AC"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "46633E4B108C2AC6"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["678CA57E073C80BA"]
+			id: "4CA4A097432608A6"
+			rewards: [
+				{
+					id: "29BC463529F2F8B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7841D687047C65A0"
+					item: {
+						Count: 1
+						id: "alexsmobs:tarantula_hawk_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76C2007C1CC4C3D1"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43E4AB9EEE8802A5"]
+			description: [
+				"Mimicubes are relatives of the slimes of the Overworld and the Magma Cubes of the Nether. These monsters can often be found guarding end cities. Unlike their slimy cousins, these gelatinous creatures possess a more powerful magic than almost any other known beast."
+				""
+				"When attacked, Mimicubes will attempt to mimic the weapons and armor of their attacker. This can mean that anyone wearing a helmet and brandishing a sword can find themselves being attacked by a Mimicube with the exact same equipment."
+				""
+				"Mimicubes can drop some of their magical gel, called Mimicream. One can harness the natural shape-shifting magic of the mimicream by using eight mimicream and any damageable item in the crafting grid. With a few limitations, this can effectively create a mimiced, copied tool or equipment, with almost all the enchantments of the original."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/mimicube.png"
+				}
+			}
+			id: "7F8E159B907F0ADD"
+			min_width: 300
+			rewards: [
+				{
+					id: "6F236421DC02AC47"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7A2D1428FA952582"
+					item: "alexsmobs:mimicream"
+					type: "item"
+				}
+				{
+					id: "2EE833D4FAA3F04E"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				icon: "alexsmobs:spawn_egg_mimicube"
+				id: "21C41E49E874A97A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "7B41E22954C3A94D"
+			rewards: [
+				{
+					id: "32AD7BF49CD97C0D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7BF95F4628901421"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "47070320DC6355AE"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "6328BB51C46208F9"
+				type: "advancement"
+			}]
+			title: "&2The End... Again..."
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7008FF1C49CD51AD"]
+			id: "0E37113432F0E8BD"
+			rewards: [
+				{
+					id: "0B84E4384A97730F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "41505BE8BBEE534D"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "61007DDFB7809E00"
+				item: "alexsmobs:enderiophage_rocket"
+				type: "item"
+			}]
+			title: "Enteriophage Rocket"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "16343E20329BD2F2"
+			rewards: [
+				{
+					id: "2785EC384050A4D6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "150C4958D00E8696"
+					item: "mysticalagradditions:dragon_egg_crux"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BB2B0CC543DFB6A"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "479783FC7A337D9D"
+				item: "mysticalagradditions:dragon_scale"
+				type: "item"
+			}]
+			title: "Dragon Scale"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "763A800FB961D730"
+			rewards: [
+				{
+					id: "77A21343965E0FE0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "5BE838BBE0CF5AF2"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6FEEAC6640BCD560"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Dragon Egg"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["192AF43D0151121D"]
+			id: "3636A75AB53F8C36"
+			rewards: [
+				{
+					id: "1B82E471A74CEBA9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02FCDBC59D97296D"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:enderman"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A90E6074AEA1489"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "1526BBF478C0770D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43E4AB9EEE8802A5"]
+			id: "1E9C22F2A7A08C39"
+			rewards: [
+				{
+					id: "3BC9006FE850CD9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "574B2A76703F8366"
+					item: "reliquary:mob_charm_belt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6535E019F0CE5D05"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.017857142857146d
+		}
+		{
+			dependencies: ["0BDC4238B58B6AA3"]
+			id: "7008FF1C49CD51AD"
+			rewards: [
+				{
+					id: "734D9E7606BBCC29"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1469EF6C21AEB51A"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "355B07C0866D8168"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "70C521AEDD50EAE4"
+				item: "alexsmobs:capsid"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7008FF1C49CD51AD"]
+			description: ["The Mysterious Worm can be obtained by placing a Crimson Mosquito Larva inside an Enderiophage's Capsid."]
+			id: "09B620FA362A1232"
+			rewards: [
+				{
+					id: "6615BBFB07989025"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D05FFBA9BB9ED1"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "68299D99B2D05943"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&0BLACK EYE&r"
+				""
+				""
+				"&o&b\"Gave sight to the legendary Black Pearl ship.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oBuried Treasure&r &o&c(RNG!)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oDrowned -&r &o&b1%&r"
+				"   ├─ &oGuardian -&r &o&b3%&r"
+				"   ├─ &oSea Serpent -&r &o&b10%&r"
+				"   └─ &oThe Leviathan -&r &o&b25%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Skip treasure hunting, fight &eLeviathan&r!"
+			]
+			id: "0046CC7562671645"
+			min_width: 300
+			rewards: [
+				{
+					id: "539E832CADE3E142"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48541018527A9038"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "5BA6053269564405"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&bCOLD EYE&r"
+				""
+				""
+				"&o&b\"Last artifact of the vanished Iceologers.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oIgloo basement&r &o&c(VERY RARE!)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oStray -&r &o&b1%&r"
+				"   ├─ &oYeti -&r &o&b10%&r"
+				"   ├─ &oAlpha Yeti -&r &o&b30%&r &e⭐&r &oBEST!&r"
+				"   └─ &oIce Dragon -&r &o&b15%&r"
+				""
+				"&aTIP&r: Hunt &eAlpha Yeti&r in Twilight Forest!"
+			]
+			id: "0F2D42F27DA958C7"
+			min_width: 300
+			rewards: [
+				{
+					id: "2536164903B42640"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F9A3414E03D4BE6"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "1D9D7C284C6524E2"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                          &n&l&3CORRUPTED EYE&r"
+				""
+				""
+				"&o&b\"Eye of a greedy king, promises infinite fortune.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oPillager Outpost (chest)&r &o&a(Common!)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oVindicator -&r &o&b2%&r"
+				"   ├─ &oRavager -&r &o&b5%&r &e⭐&r &oBEST!&r"
+				"   └─ &oEvoker -&r &o&b8%&r"
+				""
+				"&aTIP&r: Hunt &eRavagers&r during raids!"
+			]
+			id: "7957183466033DAE"
+			min_width: 300
+			rewards: [
+				{
+					id: "6C69AADFC8BE38F5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "034C1A2F20F696E9"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "5D7A4788BAADE51B"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&4LOST EYE&r"
+				""
+				""
+				"&o&b\"Forged by the first blacksmiths of time.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oMineshaft (chest)&r &o&a(Easy to find!)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oCave Spider -&r &o&b0.5%&r"
+				"   ├─ &oSilverfish -&r &o&b1%&r"
+				"   └─ &oDecrepit Skeleton -&r &o&b8%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Mineshafts are common, but &eDecrepit Skeletons&r work too!"
+			]
+			id: "5626C33BEF7FBBF9"
+			min_width: 300
+			rewards: [
+				{
+					id: "76FFE7F85DB4F55E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72E2802419DA35F6"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "34D1257974040152"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&cNETHER EYE&r"
+				""
+				""
+				"&o&b\"Lost in the battle between Aether and Nether.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oNether Fortress (chest)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oBlaze -&r &o&b0.5%&r"
+				"   ├─ &oWither Skeleton -&r &o&b1%&r"
+				"   └─ &oIgnis -&r &o&b15%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Craft it easily, or fight &eIgnis&r for bonus!"
+			]
+			id: "2F18A6982EF88388"
+			min_width: 300
+			rewards: [
+				{
+					id: "325199ABA5D7E165"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B8E5F68A963AFB1"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "29FA4E61ACD2E4E5"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&eOLD EYE&r"
+				""
+				""
+				"&o&b\"Legends say this eye belonged to the great Sandworms.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oDesert Pyramid (chest)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oHusk -&r &o&b1%&r"
+				"   ├─ &oMummy -&r &o&b5%&r"
+				"   └─ &oDeathworm -&r &o&b20%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Hunt &eDeathworms&r in desert biomes!"
+			]
+			id: "107217E754B65E74"
+			min_width: 300
+			rewards: [
+				{
+					id: "16F57ECEB6B9FDAA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A242301B90F2BC9"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "69DEBDD7FB01D872"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&2ROGUE EYE&r"
+				""
+				""
+				"&o&b\"Gave ancestors the knowledge of Redstone.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oJungle Pyramid (chest)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oCave Spider -&r &o&b2%&r"
+				"   ├─ &oSwarm Spider -&r &o&b3%&r"
+				"   ├─ &oHedge Spider -&r &o&b3%&r"
+				"   └─ &oBaby Skeleton -&r &o&b5%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: &eBaby Skeletons&r are easiest to farm!"
+			]
+			id: "1800C8CD615AACAE"
+			min_width: 300
+			rewards: [
+				{
+					id: "6C5D94A321045EC6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E4D759C57591F4B"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "336BE0C5DBE21E61"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                            &n&l&1CURSED EYE&r"
+				""
+				""
+				"&o&b\"Protected by Piglins at all costs.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oBastion Remnant (treasure chest)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oPiglin Brute -&r &o&b3%&r"
+				"   ├─ &oZombified Piglin -&r &o&b0.5%&r"
+				"   ├─ &oIgnis -&r &o&b20%&r &e⭐&r &oBEST!&r"
+				"   └─ &oNetherite Monstrosity -&r &o&b15%&r"
+				""
+				"&aTIP&r: Fight &eIgnis&r or &eNetherite Monstrosity&r!"
+			]
+			id: "46B95C760AD04A21"
+			min_width: 300
+			rewards: [
+				{
+					id: "60B28085250A49B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73236C33A9AAE47C"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "2B5D16DAC02E7B12"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                              &n&l&dEVIL EYE&r"
+				""
+				""
+				"&o&b\"Holy talisman protecting from bad luck.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oMaster Cleric trade&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oEvoker -&r &o&b5%&r"
+				"   ├─ &oSir Pumpkinhead -&r &o&b25%&r &e⭐&r &oBEST!&r"
+				"   └─ &oThe Harbinger -&r &o&b20%&r"
+				""
+				"&aTIP&r: Hunt &eSir Pumpkinhead&r for best chance!"
+			]
+			id: "5DDD76F816757CBB"
+			min_width: 300
+			rewards: [
+				{
+					id: "1665AAC532A19D9A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "634C40ADC019728E"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "165063FFD7D696BB"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                           &n&l&aGUARDIAN EYE&r"
+				""
+				""
+				"&o&b\"Has seen warriors drown in the depths.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oElder Guardian drop&r &o&a(100% vanilla)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oGuardian -&r &o&b1%&r"
+				"   └─ &oThe Leviathan -&r &o&b30%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Kill &eElder Guardians&r in ocean monuments!"
+			]
+			id: "0DDD799F306DC58B"
+			min_width: 300
+			rewards: [
+				{
+					id: "61E7CDE092D2C37B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C5F069FB96A6F0C"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "4ECF2B87104DD967"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&dMAGICAL EYE&r"
+				""
+				""
+				"&o&b\"The source of the Evoker's power.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oEvoker drop&r &o&a(100% vanilla)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oVindicator -&r &o&b0.5%&r"
+				"   ├─ &oPillager -&r &o&b0.3%&r"
+				"   └─ &oThe Harbinger -&r &o&b20%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Just kill &eEvokers&r, they always drop it!"
+			]
+			id: "2C3D8E1A392B3A4F"
+			min_width: 300
+			rewards: [
+				{
+					id: "589D8A053A59629A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20A4FF90B4909AE2"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "27C7F74AF6A38491"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&8WITHER EYE&r"
+				""
+				""
+				"&o&b\"Has witnessed destruction itself.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oWither drop&r &o&a(100% vanilla)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oWither Skeleton -&r &o&b0.5%&r"
+				"   └─ &oNetherite Monstrosity -&r &o&b20%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Just kill the &eWither&r boss!"
+			]
+			id: "7CCDECA20F03CF4D"
+			min_width: 300
+			rewards: [
+				{
+					id: "42BADEA645C36D88"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06B2301531AF279A"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "0066D58F36EF0380"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&5WITCH EYE&r"
+				""
+				""
+				"&o&b\"Has seen the ancient brewing recipes.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oCRAFTABLE (Witch Pupil + Eye of Ender)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oWitch -&r &o&b5%&r"
+				"   └─ &oMissioner -&r &o&b8%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Hunt &eMissioners&r from Born in Chaos!"
+			]
+			id: "725847F3327AD295"
+			min_width: 300
+			rewards: [
+				{
+					id: "38D300376D63CDF3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D7FE6D74B5D1BC3"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "1E3ED598CF55FD93"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&2UNDEAD EYE&r"
+				""
+				""
+				"&o&b\"Remembrance of those who live in death.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oCRAFTABLE (Undead Soul + .?.)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oZombie -&r &o&b0.1%&r"
+				"   ├─ &oSkeleton -&r &o&b0.1%&r"
+				"   ├─ &oWither Skeleton -&r &o&b1%&r"
+				"   ├─ &oDread Lich -&r &o&b30%&r"
+				"   └─ &oNight Lich -&r &o&b35%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: Fight &eNight Lich&r boss for best odds!"
+			]
+			id: "1FCFEDC1EFCA4D02"
+			min_width: 300
+			rewards: [
+				{
+					id: "3593C4FBA03ED395"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DAFF50D470CC4C4"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "543CD3A4B55C0C2B"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                             &n&l&eEXOTIC EYE&r"
+				""
+				""
+				"&o&b\"Led followers to Atlantis... or to their doom.\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   ├─ &oMaster Cleric trade&r"
+				"   └─ &oCRAFTABLE&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oSea Serpent -&r &o&b8%&r"
+				"   └─ &oThe Leviathan -&r &o&b20%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: &eLeviathan&r drops multiple eyes!"
+			]
+			id: "3E20B41FC6348BEB"
+			min_width: 300
+			rewards: [
+				{
+					id: "565C1C1594D6B5B9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05404FFE1C3818C7"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "329A7EF4B7CA6CF7"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["143B374E2F78F1A2"]
+			description: [
+				"                            &n&l&6CRYPTIC EYE&r"
+				""
+				""
+				"&o&b\"No information about this eye...\"&r"
+				""
+				"&n&9ORIGINAL SOURCE&r:"
+				"   └─ &oEnchanting Table&r &o&c(VERY RARE!)&r"
+				""
+				"&n&4MOB DROPS&r:"
+				"   ├─ &oEnderman -&r &o&b0.1%&r"
+				"   ├─ &oShulker -&r &o&b1%&r"
+				"   ├─ &oEnder Guardian -&r &o&b20%&r"
+				"   └─ &oVoid Blossom -&r &o&b40%&r &e⭐&r &oBEST!&r"
+				""
+				"&aTIP&r: &eVoid Blossom&r is the ultimate boss!"
+			]
+			id: "677DBE0A433B7D19"
+			min_width: 300
+			rewards: [
+				{
+					id: "451A7549C72D251F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05ABEECF00F5E403"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			subtitle: "Loot rewards might be mildly inacurate"
+			tasks: [{
+				id: "22F958FBD7D54E47"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: [
+				"Exploration is the main focus of &2End Remastered&r, and to reach the &dEnd&r and beat the &5Ender Dragon&r, you will have to find &b16&r custom eyes by exploring &o&bvanilla structures&r and fighting &o&bvanilla bosses&r."
+				""
+				"Once you have at least &o&b12&r eyes, you can follow them until you reach the &3Stronghold&r. You have to put the &o&b12&r custom eyes in the portal in order to open it."
+				""
+				"If there's a vanilla &7Eye of Ender&r in one of the frames, you can remove it by &eRight-clicking&r on it with a custom eye."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:ender_eye"
+			id: "143B374E2F78F1A2"
+			min_width: 300
+			rewards: [{
+				id: "60CFF0B42588B312"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "286AB6398CF85B0C"
+				type: "checkmark"
+			}]
+			title: "End Remastered"
+			x: -6.5d
+			y: -3.0d
+		}
+	]
+	title: "&3&oThe End"
+}

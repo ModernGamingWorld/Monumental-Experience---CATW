@@ -1,0 +1,4451 @@
+{
+	autofocus_id: "3931273289B3A68C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics"
+	group: "7E54189F6BA49858"
+	icon: "ae2:engineering_processor"
+	id: "49EA4A06D4508740"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -7.8d
+			y: -9.6d
+		}
+		{
+			height: 1.5d
+			image: "kubejs:textures/item/ae2_logo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.0d
+			y: -9.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["00000000000000AF"]
+			description: [
+				"&9Applied Energistics 2&r (&bAE2&r) is a comprehensive mod for Minecraft that introduces a unique approach to in-game inventory management."
+				""
+				"Its theme is centered around the concept of converting matter into energy and vice versa, to store and transport your items and fluids instantaneously!"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ae2.png"
+				}
+			}
+			id: "35365535ED46DAD0"
+			min_width: 300
+			rewards: [
+				{
+					id: "452E3AD5D20E2A28"
+					type: "xp"
+					xp: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C31D02993FEDA67"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&o&nWelcome to PneumaticCraft&r quest*"
+			tasks: [{
+				id: "44F1A9CCA01F132B"
+				type: "checkmark"
+			}]
+			title: "Welcome to &eApplied Energistics 2"
+			x: -7.125892857142858d
+			y: -8.94642857142857d
+		}
+		{
+			dependencies: [
+				"6A4CF3A1CF4D4928"
+				"60EC70ED9DC908A0"
+			]
+			description: ["&bCharged Certus Quartz&r is crafted by insterting an &bCertus Quartz Crystal&r into the &aCharger&r, and powering it."]
+			id: "470B1F84D01E4F7A"
+			rewards: [
+				{
+					id: "7F56E3A2FAD277A7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0708DE0F0D5F9253"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "276C0A1166A66CCC"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "196C5B245699D8FB"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6847F5D14FCB5BF8"]
+			id: "60EC70ED9DC908A0"
+			rewards: [
+				{
+					id: "4DBB638331999B86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "686FF99C12259B02"
+					item: "ae2:certus_quartz_crystal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E6C8E2D7AF08C12"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "5304AB671E89DFBB"
+				item: "ae2:certus_quartz_crystal"
+				title: "Certus Quartz Crystal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["470B1F84D01E4F7A"]
+			description: ["&1Fluix Crystal&r is crafted in world by tossing &bCharged Certus Quartz Crystal&r, &7Nether Quartz&r and &cRedstone Dust&r in &9Water&r."]
+			id: "5A5A30CD4D0C98CB"
+			rewards: [
+				{
+					id: "14FF63715EC54029"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3D33674A8A712A1D"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "676AFD13C33DAF1E"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4C325D1EEC15E39A"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2FAFEDC6F1DDC58B"]
+			id: "6B8E544E188FBA4D"
+			rewards: [
+				{
+					id: "51E06ED08D3C89E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CDB771F152C3BBA"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64EC331C0F08FBE4"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["556D9C78EFAB5091"]
+			description: [
+				"The &dME Crafting Terminal&r is the upgraded version of the &2ME Terminal&r which has an integrated crafting grid with access to a &eME Network's Networked Storage&r."
+				""
+				"Like the &2ME Terminal&r it also requires a &eChannel&r to function."
+			]
+			id: "338E4A4F41889959"
+			rewards: [
+				{
+					id: "786A95D0D38D0DF7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3755BA87FF7DF6CC"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D721410DAF93D49"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EEA8C33BC327CCA"]
+			description: [
+				"A specialized version of the &6ME Crafting Terminal&r designed to encode &7Blank Pattern&r into &3Crafting Pattern&r or &bProcessing Pattern&r."
+				""
+				"See &eAuto Arafting&r for more details on automated crafting in general."
+				""
+				"Lets you browse the contents of your network like other terminals, but also contains an area for designing patterns."
+				""
+				"There are &ntwo modes&r for pattern encoding. &aCrafting Patterns,&r and &cProcessing Patterns&r."
+				""
+				"&cProcessing Patterns&r are designed for use with machines that do not use standard crafting recipes; such as furnaces, or other machines."
+				""
+				"To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create &7Crafting Patterns&r, and when it shows a furnace, it will create &cProcessing Patterns&r."
+				""
+				"For &aCrafting Patterns&r (\"Crafts...\"), you specify the input crafting materials on a standard &n3x3 crafting grid&r, and the output materials are determined &nautomatically&r."
+				""
+				"For &cProcessing Patterns&r (\"Creates...\"), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface."
+				""
+				"If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a &cProcessing Pattern&r."
+			]
+			id: "180206DDBD6B2D59"
+			min_width: 450
+			rewards: [
+				{
+					id: "2BAE6C65FA6BD3B9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11B68E41275E99B9"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5B9DC4C1423C4F5A"
+				item: {
+					Count: 1
+					id: "ae2:pattern_encoding_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B8E544E188FBA4D"]
+			description: [
+				"The &2ME Terminal&r is a &bHID&r which gives you access to items stored in your &dME Network&r. This will also include items accessible through &eME Storage Bus&r."
+				""
+				"It has the ability to sort and search, as well as filter by using &6View Cell&r. It requires a &eChanne&rl to function."
+				""
+				"Can be upgraded into a &dME Crafting Terminal&r."
+			]
+			hide_dependency_lines: true
+			id: "556D9C78EFAB5091"
+			rewards: [
+				{
+					id: "6D6EEAB263B2B89A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CE229924B35EAFE"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "45B2A0BAABF2D3D9"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["338E4A4F41889959"]
+			description: [
+				"Gives remote access to all &bpattern&r slots for the &bpattern providers&r on your network separated by which type of machine they are on."
+				""
+				"It will show the &ntype&r of machine in the terminal, however you can name the &eME Pattern Provider&r in the &2Inscriber&r or an &0Anvil&r to alter the name displayed in the &cME Pattern Access Terminal&r."
+				""
+				"Combined with the fact that you can toggle if the &bpattern provider&r shows up at all this gets you control over your pattern terminal's display."
+				""
+				"You can also &nchoose&r to &bpattern providers&r whose pattern inventory is already &nfull&r."
+			]
+			id: "0EEA8C33BC327CCA"
+			min_width: 300
+			rewards: [
+				{
+					id: "65E71067956EE6B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0705A7CCEA571617"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0B8AC2A78635FFD3"
+				item: {
+					Count: 1
+					id: "ae2:pattern_access_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B8E544E188FBA4D"]
+			description: [
+				"&dME Drive&r holds 10 storage &eCells&r so you can tightly pack your storage into a very small space."
+				""
+				"&dME Drive&r stores &aStorage Cells&r. This block holds &o10&r &aStorage Cells&r so you can tightly pack your storage into a very small space."
+				""
+				"&dME Drive&r show their contents and the storage cell status on the &nfront&r of the drive face."
+				""
+				"● &cRed&r - Indicates the &eStorage Cell&r is &nfull&r."
+				"● &6Orange&r - Indicates the &eStorage Cell&r cannot hold any more &ntypes&r, but it can store more &nitems&r."
+				"● &2Green&r - Indicates the &eCell&r can hold more &ntypes&r, or more &nitems&r."
+				"● &0Black&r - Indicates there is no &eChannel&r, or power is &noffline&r."
+				""
+				"It's &nimportant&r to note that without a &dME Network&r this block does nothing. "
+				""
+				"Its only useful when combined with a way to input, and output items, and requires &o2&r &bAE&r/t power to function, and additional power for each &eStorage Cell&r stored inside it."
+				""
+				"The &dME Drive&r requires a &aChannel&r to function."
+			]
+			hide_dependency_lines: true
+			id: "38E84EA139A2316C"
+			min_width: 400
+			rewards: [
+				{
+					id: "0A0D9A639F6D069F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "026A772EB5AC7483"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "285E03275D02C36F"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5404DE6F2FB85086"]
+			description: [
+				"Each &41k ME Storage Cell&r can contain &b1,024&r bytes of storage."
+				" "
+				"&6The Storage Cell&r can hold:"
+				""
+				"&o- 63&r type of &aItems&r"
+				"&o- 5&r type of &9Fluids&r"
+				"&o- 5&r type of &2Chemicals&r"
+				"&o- 1,000&r units of &dMana&r"
+				"&o- 100&r units of &eSorce&r"
+				" "
+			]
+			id: "5173E6F308C81B0C"
+			rewards: [
+				{
+					id: "5EDB242EA9228E2B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29D77410A1B5C2EE"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0EAA5B4D5C007AB4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_1k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "1k ME Storage Cells"
+				type: "item"
+			}]
+			title: "&41k ME Storage Cells"
+			x: 10.635714285714286d
+			y: -2.1107142857142858d
+		}
+		{
+			dependencies: ["0B539729EFF5DE39"]
+			description: [
+				"Each &e4k ME Storage Cell&r can contain &b4,096&r bytes of storage."
+				" "
+				"&6The Storage Cell&r can hold:"
+				""
+				"&o- 63&r type of &aItems&r"
+				"&o- 5&r type of &9Fluids&r"
+				"&o- 5&r type of &2Chemicals&r"
+				"&o- 4,000&r units of &dMana&r"
+				"&o- 400&r units of &eSorce&r"
+				" "
+			]
+			id: "40B02C79A10565EF"
+			rewards: [
+				{
+					id: "2C0A0473806EA1E6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E5D57D938F12C20"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "39C74507E6A78265"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_4k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "4k ME Storage Cells"
+				type: "item"
+			}]
+			title: "&e4k ME Storage Cells"
+			x: 10.635714285714286d
+			y: -2.810714285714285d
+		}
+		{
+			dependencies: ["168CADF254190311"]
+			description: [
+				"Each &216k ME Storage Cell&r can contain &b16,384&r bytes of storage."
+				" "
+				"&6The Storage Cell&r can hold:"
+				""
+				"&o- 63&r type of &aItems&r"
+				"&o- 5&r type of &9Fluids&r"
+				"&o- 5&r type of &2Chemicals&r"
+				"&o- 16,000&r units of &dMana&r"
+				"&o- 1,600&r units of &eSorce&r"
+				" "
+			]
+			id: "4F7168A8AEB1F991"
+			rewards: [
+				{
+					id: "33782A301784B4BF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1388D9D7C00F1BFB"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "00204D0DDF6D639B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_16k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "16k ME Storage Cells"
+				type: "item"
+			}]
+			title: "&216k ME Storage Cells"
+			x: 10.635714285714286d
+			y: -3.5107142857142843d
+		}
+		{
+			dependencies: ["5689851598C2E6A7"]
+			description: [
+				"Each &b16k ME Storage Cell&r can contain &b65,536&r bytes of storage."
+				" "
+				"&6The Storage Cell&r can hold:"
+				""
+				"&o- 63&r type of &aItems&r"
+				"&o- 5&r type of &9Fluids&r"
+				"&o- 5&r type of &2Chemicals&r"
+				"&o- 64,000&r units of &dMana&r"
+				"&o- 6,400&r units of &eSorce&r"
+				" "
+			]
+			id: "44F858FA4E965814"
+			rewards: [
+				{
+					id: "6816FDC2CD5A119B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05142F993809111A"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5D07486390FB3BA5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_64k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "64k ME Storage Cells"
+				type: "item"
+			}]
+			title: "&b64k ME Storage Cells"
+			x: 10.635714285714286d
+			y: -4.210714285714285d
+		}
+		{
+			dependencies: ["71A772DE60643C45"]
+			description: [
+				"The &dInscriber&r creates different types of &eProcessors&r."
+				" "
+				"The &dInscriber&r can also \"create\" &0presses&r by duplicating an existing press with an &3Iron Block&r."
+			]
+			id: "6B7DE9EA8E828DEE"
+			rewards: [
+				{
+					id: "0B68D170BB02A483"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 5
+					id: "581F57F4895EB4D7"
+					item: "ae2:silicon"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A3DF4A5D9514B09"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7579C63E89B6E16A"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6847F5D14FCB5BF8"]
+			id: "71A772DE60643C45"
+			rewards: [
+				{
+					id: "10BC75B2E7D65C60"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D2DAE499C2034A8"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7480A93E3BAC47A1"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "25F3181D9B2BECA2"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "123A46B5DC38F32E"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "2A0636DCCCF8941B"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "&eThe Inscriber Presses"
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6B7DE9EA8E828DEE"]
+			id: "4444FF3927B22B75"
+			rewards: [
+				{
+					id: "304AC4568FB778B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E80B875570CC84A"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6EDC5F14AAF26078"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4444FF3927B22B75"]
+			id: "4D36EF25F492E276"
+			rewards: [
+				{
+					id: "163CB92F7F6582D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "032E93D8E90E9CDD"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "427A6071BC027039"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4D36EF25F492E276"]
+			id: "7AB346FA0412469C"
+			rewards: [
+				{
+					id: "74521FA0207E9C5C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10868CAEA8472BD5"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "383CD85B903F7911"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7AB346FA0412469C"]
+			id: "2FAFEDC6F1DDC58B"
+			rewards: [
+				{
+					id: "3BC826581F90450E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F3900139EBD743B"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36D3832642709AB5"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A4CF3A1CF4D4928"]
+			description: [
+				"Use the &eMeteorite Compass&r to find &0Skystone Meteorites&r, which have a chance to contain &dQuartz&r blocks and &bBudding Quartz&r."
+				""
+				"It has a max range of roughly &o2,700&r &nblocks&r."
+			]
+			id: "6847F5D14FCB5BF8"
+			min_width: 300
+			rewards: [
+				{
+					id: "27A3A6F9E57E3BFA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24151E5510E931EA"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3ED80BDC06AC8D47"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6B8E544E188FBA4D"]
+			description: [
+				"The &6Molecular Assembler&r is a powered machine which crafts items, it can be upgraded by inserting &bAcceleration Card&r into it; once upgraded it is &nvery fast&r."
+				""
+				"Functions in one of two modes, &eSingle Pattern Mode&r or &9Automatic Crafting Mode&r."
+				""
+				"&eSingle Pattern Mode&r uses a single &bCrafting Pattern&r inserted into the &6Assembler&r to craft an item without a crafting network."
+				""
+				"&9Automatic Crafting Mode&r uses the &bCrafting Pattern&r from attached &dME Pattern Provider&r to craft items when they are requested by the &cCrafting CPU&r."
+			]
+			id: "713EA1BC9BAAA0AB"
+			min_width: 300
+			rewards: [
+				{
+					id: "4348E1D2DE0AC13C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D52B07EE7F8BDE5"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79E3B0EF9DE52DC5"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4003514C7D0D6C16"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55749230931993F2"]
+			description: [
+				"The &2Energy Acceptor&r converts energy from external systems (e.g., Redstone Flux &bRF&r) into &bAE&r and stores it in the network."
+				""
+				"Conversion Rate:   &o2&r &cFE/RF&r = &o1&r &bAE&r"
+				""
+				"To see the current energy statistics for your network, &bright-click&r any part of it with a &aNetwork Tool&r."
+			]
+			id: "7F783DD7214B96B2"
+			rewards: [
+				{
+					id: "380F80D435E04950"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "039AB63BA6626AB5"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01AD730C9D2761C4"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F783DD7214B96B2"]
+			description: [
+				"The &9Crystal Growth Accelerators&r accelerate crystal growth, which allows you to create &bCertus Quartz Crystal&r and &9Fluix Crystal&r from &ncrystal dust&r."
+				""
+				"Must be powered by an &dME Network&r via the &ntop&r or &nbottom&r, and consumes a steady &b8 AE&r/t while plugged in."
+				""
+				"&aCrystal Seeds&r must be in an adjacent water block to be effected, the seeds will shimmer more rapidly when in the presence of a &npowered&r &9Crystal Growth Accelerator&r."
+				""
+				"Can only connect to cables, or other networked machines on the &ntop&r and &nbottom&r of the machine."
+			]
+			id: "6C4C90DB6768B48D"
+			min_width: 300
+			rewards: [
+				{
+					id: "6DF5BFDB28E892D7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "044725C2F1ECACEE"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "11FE80B5AE07CE68"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["713EA1BC9BAAA0AB"]
+			description: [
+				"The &dME Interface&r is the only component which can be used as a part, or as a Block."
+				""
+				"Crafting an &dME interface&r in either form by itself produces the other form."
+				""
+				"The &nthin&r form is useful if you want to provide &nseveral&r different interfaces in a single block of &nphysical space&r, but each will need its own &eChannel&r."
+				""
+				"The &nblock&r form lets multiple other blocks connect to a single &dME interface&r, using only &none&r &eChannel&r for the interface."
+				""
+				"The &dME Interface&r acts as an in between when working with pipes, tubes, networks, or machines from &nother mods&r."
+				""
+				"The &dME Interface&r normally functions like a &2Chest&r, however with one exception, if you place a &7Storage Bus&r on an interface, you essentially &ninclude&r the entire network instead, this allows networks to &nshare&r huge sets of contents and to be chained together in a &nvery&r effective manner."
+				""
+				"The &dME Interface&r require a &eChannel&r to function."
+			]
+			id: "7700E08416618198"
+			min_width: 400
+			rewards: [
+				{
+					id: "530B609CB94DD456"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4501C0B8C7CC57F0"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12B4C30E259851EC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+				title: "ME Interface"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["713EA1BC9BAAA0AB"]
+			description: [
+				"&9Crafting CPU&r manages a single auto crafting task from start to finish, built of various crafting units."
+				""
+				"To be a valid &9Crafting CPU&r, two rules must be met:"
+				""
+				"&o1)&r The &bCPU&r must be a cuboid, completely composed of the parts listed above; air or other blocks are not valid."
+				""
+				"&o2)&r The &bCPU&r must contain at least 1 &nstorage component&r."
+				""
+				"The &9Crafting CPU&r as a multi-block only requires a single &eChannel&r for the entire structure. &7Crafting co-processors&r increase the number of tasks the &9Crafting CPU&r can perform at once; with no co-processors, the &9Crafting CPU&r can perform a single task at a time. "
+				""
+				"You can name your &9Crafting CPUs&r by naming any of the crafting units it is made up of with an &aInscriber&r or an &0Anvil&r."
+				""
+				"To provide patterns to the autocrafting cpus you can use &dME Interface&r or &eME Level Emitter&r."
+				""
+				"&2Crafting Unit&r provides the &bCPU&r with no additional features, but can be used as a \"&nfiller&r\" block. It is the base for crafting the other functional components of a crafting &bCPU&r."
+			]
+			id: "0AEDFC064B84C877"
+			min_width: 400
+			rewards: [
+				{
+					id: "550EA8378D5FC026"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6416D2A5FAB01C11"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "52AF21B8C0AA3D9B"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "65F7E2BD1051116E"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+			]
+			title: "&6Auto-Crafting"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54EB9042CC9F4B35"]
+			description: [
+				"&dWireless Access Point&r allows wireless access via a &9Wireless Terminal&r."
+				""
+				"Range and power usage is determined based on the number of &aWireless Booster&r installed into the &dME Wireless Access Point&r."
+				""
+				"A network can have any number of &dME Wireless Access Point&r with any number of &aWireless Booster&r in each one, allowing you to optimize power usage and range by altering your setup."
+				""
+				"Requires a &eChannel&r to be operational."
+			]
+			id: "3424B27C62D3D2CF"
+			min_width: 300
+			rewards: [
+				{
+					id: "1E46D3D5F2C5F428"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AEF9D5F5C6E60FA"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6C51759705021F2F"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3F925BFD3CF1DC0B"]
+			description: [
+				"After you linked up the &dWireless Terminal&r in the &2ME Security Terminal&r, it grants portable access to the &dME Network&r."
+				""
+				"Put it into a &eCharger&r to recharge it."
+				""
+				"Holds &o1.6M&r &bAE&r in its battery and drains &o1&r &bAE&r/t for each block you are away from the nearest &9ME Wireless Access Point&r."
+			]
+			id: "4D999E42010FFB85"
+			rewards: [
+				{
+					id: "2796B71D82ECDAC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06DA424D5E1DC56A"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "42BA3DBB3F744FD8"
+				item: {
+					Count: 1
+					id: "ae2:wireless_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0E9258C07CDD7385"]
+			description: [
+				"The &9Network Tool&r can be used to remove parts from &eCables&r (like any other BC compatible &aWrench&r), and has a &o9&r slot &3inventory&r that can store &bAE Upgrade Cards&r."
+				""
+				"When in your &2inventory&r the &ninventory&r of the &9Network Tool&r appears in machine &bGUIs&r which &naccept&r upgrades."
+				""
+				"When &bright clicked&r on any network component it will give you &nbreak down&r of all the attached parts, and power storage / usage &ndetails&r for the network."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "71FA64FACF9CDA37"
+			min_width: 300
+			rewards: [
+				{
+					id: "4207245A8495A000"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "635CA2AB19DF2F10"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0EEBD19FC7D933C9"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "414C70682A1FAD0E"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "335C2112B824D32C"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3424B27C62D3D2CF"]
+			description: [
+				"Installed in the &bME Wireless Access Point&r, it provides a steadily increasing range of blocks at a cost of &nhigher&r power consumption."
+				""
+				"Up to &o64&r &9Boosters&r may be inserted for a total range of &o528&r block radius and an energy cost of &b4.1kAE&r/t."
+			]
+			id: "3F925BFD3CF1DC0B"
+			rewards: [
+				{
+					id: "78BEF922722F2290"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "416AD674C9FC80E1"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "4448E45C70AD482F"
+				item: "ae2:wireless_booster"
+				title: "Wireless Booster"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5A5A30CD4D0C98CB"]
+			description: [
+				"The &dME P2P&r Tunnel or"
+				"\"Point to Point Tunnel\" is a versatile configurable system to move &aItems&r/&cRedstone&r/&5Power&r/and &9Fluids&r"
+				"from one location to another though an existing &5ME Network&r &nwithout&r storage."
+				""
+				"Tunnels are &o1&r &binput&r to &oN&r &boutputs&r. This means you can output to as many points as you want, but only input at a &nsingle point&r per tunnel."
+				""
+				"Networks can support any number of tunnels, of any different types, and they all function independently."
+				""
+				"&dME Tunnels&r can be used to carry &eChannels&r from one location to another, and can carry up to &o32&r &eChannels&r, same as a &7Fluix ME Dense Covered Cable&r, while only requiring a single &eChannel&r per point, making tunnels a very powerful tool to expand me networks, especially over a distance."
+				""
+				"The &eChannel&r required by a &dP2P-Tunnel&r cannot be carried through another &dP2P-Tunnel&r."
+				""
+				"To configure a &dME P2P Tunnel&r you must first &nattune&r the tunnel to carry what you want it to, then you need to configure the &noutputs&r to their &ninput&r."
+				""
+				"You configure the connections by using the &9Memory Card&r."
+				""
+				"First &bShift+Right Click&r the &ninput&r to save it on your &9Memory Card&r, then simply &bright-click&r the different &noutputs&r to store the input onto the outputs. this also sets the type of the output to match the type of the input."
+			]
+			id: "4276B941670CE0E2"
+			min_width: 500
+			rewards: [
+				{
+					id: "57275E1C35E237CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3BAF55C5AC72BB2B"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E36EF6DABB89B77"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "291B3675F7C36F3F"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "527382F75C0D77E7"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["60EC70ED9DC908A0"]
+			description: ["A &9Cutting Knife&r made out of &bCertus Quartz Crystal&r or &7Nether Quartz&r can be used to make &2Inscriber Name Press&r, &0Cable Anchor&r, and &aCable Facade&r."]
+			id: "178D450E0B755F3D"
+			rewards: [
+				{
+					id: "08748C34B149BD56"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FEC0AFB2B805E36"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4BF6CC41D2BE536D"
+				item: {
+					Count: 1
+					id: "ae2:certus_quartz_cutting_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AB346FA0412469C"]
+			hide_dependency_lines: true
+			id: "44469860120E156D"
+			rewards: [
+				{
+					id: "73116421D7E2AF5B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "66420D7C50192C23"
+					item: "ae2:printed_calculation_processor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BD9D92136489D32"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				count: 2L
+				id: "6631236A42533B67"
+				item: "ae2:basic_card"
+				title: "&6Basic Card"
+				type: "item"
+			}]
+			x: 4.9d
+			y: -6.300000000000001d
+		}
+		{
+			dependencies: ["7AB346FA0412469C"]
+			hide_dependency_lines: true
+			id: "6D3E94EB0E3F1D7E"
+			rewards: [
+				{
+					id: "691923C471743AEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BC221B40B082D8A"
+					item: "ae2:printed_calculation_processor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E530AC6C8CD08F3"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				count: 2L
+				id: "0C4E4CE43F4431B5"
+				item: "ae2:advanced_card"
+				title: "&bAdvanced Card"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -8.4d
+		}
+		{
+			dependencies: ["6D3E94EB0E3F1D7E"]
+			description: [
+				"The &6Acceleration Card&f, depending on the device being upgraded with it, will either increase the speed at which the device operates or allow the device to carry out more operations in one go."
+				""
+				"In the case of the &eMolecular Assembler&f, a full set of 5 cards reduces the time taken for the MA to fulfil a craft from one second (with no cards) to one &otick&r."
+			]
+			id: "5F816192B8921FFA"
+			rewards: [
+				{
+					id: "58E56A7539900B57"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7960BBBF3C29483E"
+					item: "ae2:charged_certus_quartz_crystal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C5DE930353E465C"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "1785AFF63FC49A86"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 5.6d
+			y: -8.4d
+		}
+		{
+			dependencies: ["6D3E94EB0E3F1D7E"]
+			description: ["&bInverter Card&f toggles the filter on such buses from being a &bwhitelist&r to being a &0blacklist&r."]
+			id: "042FD92892014BA2"
+			rewards: [
+				{
+					id: "6D65F2A8BEF03608"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "547F16E05805772D"
+					item: "minecraft:redstone"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1814821D55593494"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "27D61C281479A259"
+				item: "ae2:inverter_card"
+				type: "item"
+			}]
+			x: 4.55d
+			y: -7.699999999999999d
+		}
+		{
+			dependencies: ["6D3E94EB0E3F1D7E"]
+			description: ["The &bFuzzy Card&f allows a filtered item to be matched regardless of any (&bNBT&r) metadata such as &cdamage&r or &denchantments&r."]
+			id: "7D51B8A746AF0207"
+			rewards: [
+				{
+					id: "00C8D8639FDC3574"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3CB38E4AD1EB40F9"
+					item: "minecraft:string"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C8BC51DB861763E"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "0850D8B9F2598566"
+				item: "ae2:fuzzy_card"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -8.4d
+		}
+		{
+			dependencies: ["44469860120E156D"]
+			description: [
+				"When applied as an upgrade to any supported device such as an &dInterface&r or &aExport Bus&r, the &bCrafting Card&f allows the device in question to automatically send out its own crafting requests for a required (filtered) item."
+				""
+				"&eCrafting CPUs&r can be set to respond only to these requests to prevent taking up &bCPUs&r meant for player-requested crafts."
+				""
+				"When the &eLevel Emitter&f is upgraded with the &aCrafting Card&r, it can be configured to emit &credstone&r in order to directly facilitate in crafting, by emitting a signal either &nwhile&r a crafting job for its given item is detected or specifically &nto craft&r the item."
+				""
+				"The latter would apply for cases where the only thing needed to make a given item is a &credstone&r signal, without even requiring a &7Crafting Pattern&r."
+			]
+			id: "42942EB88CE0B3A3"
+			min_width: 300
+			rewards: [
+				{
+					id: "78FD17CABDF81777"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "0D316F70A4BBD4FE"
+					item: "minecraft:oak_log"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7385CC1EE8A4FA19"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "7883505D7E4496B0"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: 4.9d
+			y: -5.6d
+		}
+		{
+			dependencies: ["44469860120E156D"]
+			description: [
+				"The &aCapacity Card&f allows a bus upgraded with it to carry a larger filter."
+				""
+				"&9Import&r and &cExport&r buses upgraded with capacity cards can go from supporting only one filtered item each to their maximum &nnine-slot&r filter, while &eStorage&r buses will go from &o18&r slots to a maximum of &o63&r."
+			]
+			id: "65A685F926F4FF3C"
+			rewards: [
+				{
+					id: "78468CDAA55CD7B9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "731276DBBB59409B"
+					item: "ae2:certus_quartz_dust"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "770EFC06FF02DEFF"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "5479C34ADA23D433"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: 5.6000000000000005d
+			y: -6.300000000000001d
+		}
+		{
+			dependencies: ["44469860120E156D"]
+			description: [
+				"Individual ME devices can also be configured to respond to &credstone&r signals. When upgraded with a &aRedstone Card&f, a device can be configured to do work only when powered with &credstone&r or otherwise as needed."
+				""
+				"This behavour can also apply to &nentire&r sections of an &5ME Network&r by using an &0ME Toggle Bus&f."
+				""
+				"This allows a section of the network on the other side of the bus to come online only when the bus is powered by &credstone&r, or to go offline if using an &eInverted Toggle Bus&r."
+			]
+			id: "32DB68F1F05197C4"
+			rewards: [
+				{
+					id: "054B3AE4ECE0A996"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "14B972CA62046023"
+					item: "minecraft:redstone"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46372F27FCD72A08"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "76728D902258F975"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -6.300000000000001d
+		}
+		{
+			dependencies: [
+				"1610C8F55F59E82F"
+				"7A39B7C7B0EEBF4F"
+			]
+			hide_dependency_lines: true
+			id: "54EB9042CC9F4B35"
+			rewards: [
+				{
+					id: "7B0CF96A95060877"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "783BD68574401596"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A4407E3312F2CCC"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["713EA1BC9BAAA0AB"]
+			description: [
+				"A &bBlank Pattern&r, once encoded as an &eCrafting Patter&rn or &dProcessing Pattern&r, is used to control crafting by inserting them into &6Molecular Assembler&r and &2ME Pattern Provider&r."
+				""
+				"Encoded version of &bBlank Pattern&r created by using the &2ME Pattern Encoding Terminal&r in \"Crafting Mode\"."
+				""
+				"Crafting Recipes are very specific, and &nautomatically&r have an output associated with them, these are required to work with a &6Molecular Assembler&r."
+				""
+				"The description of a crafting pattern starts with \"&nCrafts&r\"."
+			]
+			id: "2D7317308A67AAB4"
+			min_width: 300
+			rewards: [
+				{
+					id: "4F4567C16C65F0E3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D52C8F59B16E96A"
+					item: "ae2:blank_pattern"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "1C35588869674D6F"
+				item: "ae2:blank_pattern"
+				title: "Blank Pattern"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1248C149346288D8"]
+			description: [
+				"The &7Quartz Fiber&r."
+				""
+				"A part designed to share energy between two &5ME Networks&r without sharing anything else, also used to craft &9Fluix ME Glass Cable&r."
+			]
+			id: "1610C8F55F59E82F"
+			rewards: [
+				{
+					id: "31561C5E4CA6FC19"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "20C32E22A4CA44E2"
+					item: "ae2:quartz_fiber"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A4FEEBF33FB7D33"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "4761239B2EE2BD5C"
+				item: "ae2:quartz_fiber"
+				title: "Quartz Fiber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1610C8F55F59E82F"]
+			description: [
+				"&9Fluix ME Glass Cable&r is the simplest cable to make, transfers power and up to &o8&r &bChannels&r."
+				""
+				"It comes in &o17&r diffrent &ncolors&r, the default being &9Fluix&r, and can be dyed any color using any of the &o16&r &ndyes&r."
+				""
+				"You can craft &nany&r colored cable with a water bucket to &nremove&r the dye."
+				""
+				"You can cover the cable with wool to create &dFluix ME Covered Cable&r, and craft &7Fluix ME Smart Cable&r to get a better idea of what is going on with your &bChannels&r."
+			]
+			id: "3931273289B3A68C"
+			min_width: 300
+			rewards: [
+				{
+					id: "46B923E9A40BFEA0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "1079AB81A5FD99E4"
+					item: "ae2:fluix_glass_cable"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F1F366D9E3888E7"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "5CD6B756FB073906"
+				item: "ae2:fluix_glass_cable"
+				title: "Fluix ME Glass Cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3931273289B3A68C"]
+			description: [
+				"While bearing some similarity to &7Fluix ME Covered Cable&r in appearance."
+				""
+				"They provide diagnostic function by visualizing the &bChannel&r usage on the &eCables&r, the &bChannels&r appear as lit &ncolored&r lines that run along the black stripe on the &eCables&r giving you an understanding of how your &bChannels&r are being used on your network."
+				""
+				"The first four &bChannels&r show as lines matching the &ncolor&r of the &eCable&r, the next four show as white lines."
+				""
+				"These can also be &ncolored&r in the same manner as &9Fluix ME Glass Cable&r."
+			]
+			id: "4F89670D49DD2DE1"
+			min_width: 300
+			rewards: [
+				{
+					id: "5023A5967D2CDEF1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "642623BB91CEB06B"
+					item: "ae2:fluix_covered_cable"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49D09953C41EDCE5"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2649078C9F4A1766"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4F89670D49DD2DE1"]
+			description: [
+				"Higher Capacity cable, can carry &o32&r &bChannels&r unlike standard cable which can only carry &o8&r."
+				""
+				"However it doesn't support &nbuses&r so you must first step down from &ndense&r to a &nsmaller&r cable (such as &9Fluix ME Glass Cable&r or &3Fluix ME Smart Cable&r) before using buses or panels."
+				""
+				"Shows load similarly to&3 Fluix ME Smart Cable&r, with each line lit representing four &bChannels&r in use."
+			]
+			id: "621F052BCE747E68"
+			min_width: 300
+			rewards: [
+				{
+					id: "7693B63946FA7DF4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "74D7FE109D2A3288"
+					item: "ae2:fluix_covered_dense_cable"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2807004C2C3619BA"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02220963FC41EC89"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4D36EF25F492E276"]
+			id: "6CAEA6ED2CC3F3C5"
+			rewards: [
+				{
+					id: "090AF851503855CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05ED7A23AB7873AC"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "595065CA06634041"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4D36EF25F492E276"]
+			id: "6FE6FEE86DA5F9B6"
+			rewards: [
+				{
+					id: "1D8638EAEE12A360"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0410B8FC83D05E26"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62AFA653ED06447F"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D999E42010FFB85"]
+			id: "78D19E8B03DBCE0A"
+			rewards: [
+				{
+					id: "65F75ED9F1023229"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54A2D23DF295CF0D"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6619B465579366E5"
+				item: {
+					Count: 1
+					id: "ae2:wireless_crafting_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["11D3686D9F3BCE6D"]
+			description: [
+				"Each &516k ME Storage Cell&r can contain &b262,144&r bytes of storage."
+				" "
+				"&6The Storage Cell&r can hold:"
+				""
+				"&o- 63&r type of &aItems&r"
+				"&o- 5&r type of &9Fluids&r"
+				"&o- 5&r type of &2Chemicals&r"
+				"&o- 256,000&r units of &dMana&r"
+				"&o- 25,600&r units of &eSorce&r"
+			]
+			id: "24C9D17A5FD83194"
+			rewards: [
+				{
+					id: "30718D82BC6C1F85"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40EEE10B00D92FBB"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "62C0904F5C402948"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_256k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "256k ME Storge Cells"
+				type: "item"
+			}]
+			title: "&5256k ME Storge Cells"
+			x: 10.635714285714286d
+			y: -4.910714285714285d
+		}
+		{
+			dependencies: ["3F925BFD3CF1DC0B"]
+			description: [
+				"Installed in the &bME Wireless Access Point&r."
+				""
+				"Provides an &ninfinite&r range in blocks, if installed together with the &6Dimension Card&r it can go cross &ndimensions&r."
+			]
+			id: "03EE5E241764ACBE"
+			min_width: 300
+			rewards: [
+				{
+					id: "19CF5FDD3B25A437"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4C5555529AAF8017"
+					item: "extendedcrafting:flux_star"
+					type: "item"
+				}
+				{
+					id: "7217867034E3638B"
+					item: "alltheores:platinum_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DEE5486EEE67CFC"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7AFC3D73E45B5C31"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["03EE5E241764ACBE"]
+			description: ["The &6Dimension Card&r allows the use of the &dTerminals&r across &ndimensions&r."]
+			id: "710131B2DB97B60C"
+			min_width: 300
+			rewards: [
+				{
+					id: "65CEC3D5928E78BC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 10
+					id: "2C336F0EC3A3B963"
+					item: "ae2:fluix_glass_cable"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7670BB58A98B7FEC"
+					item: {
+						Count: 1
+						id: "ae2:cell_component_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41BB29C8E0647072"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6CBBB8AE2639BF5F"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["35365535ED46DAD0"]
+			description: [
+				"Craft a &aCharger&r, and power it with a &dVibration Chamber&r or &cGenerators&r from others mods. You can also power it by hand using a &2Wooden Crank&r."
+				""
+				"Power can be provided via the &ntop&r or &nbottom&r, via either &9Fluix ME Glass Cable&r or other &eCables&r, or other mod power cables. Items can be inserted or removed from &nany side&r."
+			]
+			id: "6A4CF3A1CF4D4928"
+			min_width: 300
+			rewards: [
+				{
+					id: "1869486BFC210B6F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57527308B2D135AF"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "43339F3D99169661"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6A4CF3A1CF4D4928"]
+			description: [
+				"A modified furnace capable of generating &bAE&r Power instead of smelting ores. When placed on an &dME Network&r it will charge &eEnergy Cell&r or power other &nNetwork Devices&r."
+				""
+				"The &6Vibration Chamber&r will burn almost any solid burnable fuel for power. It will &nslow&r, or &naccelerate&r the burn depending on how much power it is able to store vs what is wasted."
+				""
+				"Generates between &o1&r and &o10&r &bAE&r/t depending on its burn speed."
+				""
+				"Your network will have some inherent energy storage, which can be increased by connecting &eEnergy Cells&r."
+				""
+				"To see the current energy statistics for your network, &bright-click&r any part of it with a &6Network Tool&r."
+			]
+			id: "492A6615D0B8FA9B"
+			min_width: 300
+			rewards: [
+				{
+					id: "3E29E2F033E64C3E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "379A81F466EB5E77"
+					item: "minecraft:coal_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B7160324AEFB255"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6405D6FEA0479BFE"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6A4CF3A1CF4D4928"]
+			id: "51ECF3945927EB0C"
+			rewards: [
+				{
+					id: "3C5D53F131CC4F87"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7534DE5BA1502C26"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54061ACCDE063A74"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["44437B82901F13AF"]
+			description: [
+				"Stores up to &b200,000 AE&r."
+				""
+				"They do &c&nnot&r accept power directly, but are used to add additional power storage to an already existing &dME Network&r."
+			]
+			id: "1D0939A8B41C72BF"
+			rewards: [
+				{
+					id: "2D8C9A82FAD0BF16"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3810A9817DCD2DEE"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D272EECAB4D954B"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1D0939A8B41C72BF"]
+			description: [
+				"Stores up to &b1,000,000 AE&r."
+				""
+				"They do &c&nnot&r accept power directly but are used to add additional power storage to an already existing &dME Network&r."
+			]
+			id: "7FAA4D4796F470A4"
+			rewards: [
+				{
+					id: "1668547636D4B0E1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17454FF49535910C"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "123406D9436B0676"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B7DE9EA8E828DEE"]
+			id: "1248C149346288D8"
+			rewards: [
+				{
+					id: "720AD724720D7F1B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FE1927134BFCC8F"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "11F8EBE7ADA4D8DA"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1248C149346288D8"]
+			description: [
+				"Mostly clear glass made with &bCertus Quartz Dust&r."
+				""
+				"Can be used to make &eVibrant Quartz Glass&r and other items."
+			]
+			id: "55749230931993F2"
+			rewards: [
+				{
+					id: "55A24FCAA57A5F86"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1435B917664F9957"
+					item: "ae2:quartz_glass"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CDC7DD3B07E6D39"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "746822ADE19EEBBA"
+				item: "ae2:quartz_glass"
+				title: "Quartz Glass"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5A5A30CD4D0C98CB"]
+			id: "44437B82901F13AF"
+			rewards: [
+				{
+					id: "4591AC1F2A8989D4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D200AF011F002A8"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B948D7A73EE0163"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5A5A30CD4D0C98CB"]
+			description: [
+				"The &5ME Chest&r is the simplest way to use a &eStorage Cell&r, it will give you direct access to the contents of the cell placed inside."
+				""
+				"&5ME Chest&r show their contents and the &eStorage Cell&r status on the &nfront&r face."
+				""
+				"● &cRed&r - Indicates the &eStorage Cell&r is &nfull&r."
+				"● &6Orange&r - Indicates the &eStorage Cell&r cannot hold any more &ntypes&r, but it can store more &nitems&r."
+				"● &2Green&r - Indicates the &eCell&r can hold more &ntypes&r, or more &nitems&r."
+				"● &0Black&r - Indicates there is no &eChannel&r, or power is &noffline&r."
+				""
+				"&5ME Chest&r can be powered stand alone with external power, or as part of a &dME Network&r. When on a network, the storage of the chest will be available to any other devices in the same network using an assigned &eChannel&r."
+				""
+				"When used without a network, the &echest&r &nwill not&r transfer full stacks at once, capping transfers at &o38&r items instead."
+				""
+				"The &5ME Chest&r consumes &o1&r &bAE&r/t, and consumes a small amount based on which storage cell is installed."
+				""
+				"The &5ME Chest&r has two &bUI's&r, one is used to place the storage cell inside the device from the &nsides&r or &nbottom&r, the other is accessed by using the top surface to access the contents."
+				""
+				"Items can be injected into the &5ME Chest&r like any other inventory, however items cannot be extracted with automation except via networked functions like the &aME Export Bus&r."
+			]
+			id: "4F1307BB5B01F90F"
+			min_width: 500
+			rewards: [
+				{
+					id: "53550E8D9FD4210A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A25AED898744199"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6F720E20466CB537"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["38E84EA139A2316C"]
+			id: "5404DE6F2FB85086"
+			rewards: [
+				{
+					id: "6FC60B8777D2D174"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "565630CD1A38B5A2"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2551977B6A7977CD"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 9.935714285714283d
+			y: -2.1107142857142858d
+		}
+		{
+			dependencies: ["5404DE6F2FB85086"]
+			id: "0B539729EFF5DE39"
+			rewards: [
+				{
+					id: "09C5FD615911C368"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E161A5D38CE1AD2"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "06AED08116880149"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 9.935714285714283d
+			y: -2.810714285714285d
+		}
+		{
+			dependencies: ["0B539729EFF5DE39"]
+			id: "168CADF254190311"
+			rewards: [
+				{
+					id: "73D87D7B6E041955"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AA9857FE6CF55E5"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6ACD8731ADD7EE79"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 9.935714285714283d
+			y: -3.5107142857142843d
+		}
+		{
+			dependencies: ["168CADF254190311"]
+			id: "5689851598C2E6A7"
+			rewards: [
+				{
+					id: "1A4B7F08CBCAA45E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C576448134C2F07"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4F265C60DAD35424"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 9.935714285714283d
+			y: -4.210714285714285d
+		}
+		{
+			dependencies: ["5689851598C2E6A7"]
+			id: "11D3686D9F3BCE6D"
+			rewards: [
+				{
+					id: "6F095EDB8819A507"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27CDA8F0B8B395AA"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "12E45B71EBC03388"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 9.935714285714283d
+			y: -4.910714285714285d
+		}
+		{
+			dependencies: ["1248C149346288D8"]
+			hide_until_deps_visible: true
+			id: "219351077BB1D674"
+			rewards: [
+				{
+					id: "06D9F441FFF777E5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "763777E158ED3C6A"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "1601C4B727799F40"
+				item: "ae2:tiny_tnt"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"5A5A30CD4D0C98CB"
+				"44437B82901F13AF"
+			]
+			id: "7A39B7C7B0EEBF4F"
+			rewards: [
+				{
+					id: "5C90D1A82E54228F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "74753C7B92C113A8"
+					item: "ae2:fluix_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F816A4D57D4CF54"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "46F878A942FE93F8"
+				item: "ae2:fluix_pearl"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3931273289B3A68C"
+				"4CE350628327599A"
+			]
+			description: [
+				"The &2Toggle Bus&r. "
+				""
+				"A bus which functions similarly to &9Fluix ME Glass Cable&r or other &eCables&r, but it &nallows&r its connection state to be toggled via &credstone&r."
+				""
+				"This allows you to &ncut off&r a section of a &dME Network&r."
+			]
+			id: "25C93EDEDDF8CBE4"
+			rewards: [
+				{
+					id: "483DFA6BFDC4EA42"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "615B519628A3BC67"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4312D11071E40ED5"
+				item: "ae2:toggle_bus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25C93EDEDDF8CBE4"]
+			description: [
+				"There is also an inverted version of the toggle bus that &ndisables&r the connection when a &credstone&r signal is supplied."
+				""
+				"When &credstone&r signal supplied the part &nenables&r the connection, &6ME Inverted Toggle Bus&r provides the &nreverse&r behavior by &ndisabling&r the connection instead."
+			]
+			hide_until_deps_visible: true
+			id: "4291A72FF87220D5"
+			rewards: [
+				{
+					id: "1A4C76075D05E1D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5137BBDDC5E023F4"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "125FF413B3BCF5E4"
+				item: "ae2:inverted_toggle_bus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3931273289B3A68C"]
+			description: [
+				"Pulls items from the inventory it is pointed at and places them into the &dME Network's&r Networked Storage."
+				""
+				"You can &nspecify&r which items it will pull out via the &bUI&r, else it tries to pull out any item in the adjacent inventory."
+				""
+				"The &aME Import Bus&r will attempt to import any possible options, even if &o1&r or more of the &nconfigured&r items cannot be stored."
+				""
+				"The &aME Import Bus&r requires a &eChannel&r to function."
+				""
+				"This is the functional opposite of the &6ME Export Bus&r."
+			]
+			id: "270E0BC2E8565FFE"
+			min_width: 300
+			rewards: [
+				{
+					id: "3FE7ABBAB6C7D523"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1882E37DFAFC9FBA"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "527C62FED3A54792"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3931273289B3A68C"]
+			description: [
+				"The &6ME Export Bus&r extracts items from the &dME Network's&r Networked Storage and places them into the inventory it faces."
+				""
+				"You must &nconfigure&r which items it will insert, leaving the configuration blank will result in nothing."
+				""
+				"The &6ME Export Bus&r will try to export any of the items on its list skipping over those it cannot fit into the destination."
+				""
+				"The &6ME Export Bus&r requires a &eChannel&r to function."
+				""
+				"This is the functional opposite of the &aME Import Bus&r."
+			]
+			id: "419BBE875D40B1D6"
+			min_width: 300
+			rewards: [
+				{
+					id: "36C7A54A33C6A278"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BBAF2A9B31CA52F"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "22A044CA905B0916"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3931273289B3A68C"]
+			description: [
+				"The &dME Storage Bus&r, when attached to another inventory block in the world lets you access that &ainventory&r via networked functions."
+				""
+				"This allows you to use &echests&r, &3barrels&r, or other types of item storage in your networks."
+				""
+				"The storage via the &dME Storage Bus&r is &nbi-directional&r, it can both &9insert&r, or &cextract&r items from the inventory block it is attached to as long as the &dME Storage Bus&r has its required &eChannel&r."
+				""
+				"The &bUI&r allows you to control which items are selected as storable items, this selection has no effect on what items can be &nextracted&r once they are in the storage."
+				""
+				"The &dStorage Bus&r will function with nearly any inventory block, including &9ME Interface&r."
+				""
+				"If you place a storage bus on an &9ME Interface&r the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items."
+			]
+			id: "192B7624EE117985"
+			min_width: 400
+			rewards: [
+				{
+					id: "482D2A0B98C0956C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E8CBB6DDAA13345"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5B917B375CC56CC1"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["178D450E0B755F3D"]
+			description: [
+				"Small &ndecorative&r &bcable-mounted spikes&r that you can use to create ladders with &aCables&r, or make the &aCable&r appear connected to the walls around it."
+				""
+				"Also used to craft &eCable Facade&r."
+				""
+				"&7Cable Anchors&r prevent connections from forming on the side they're mounted on."
+			]
+			hide_until_deps_visible: true
+			id: "64EE427C9850F707"
+			min_width: 300
+			rewards: [
+				{
+					id: "67D74EB25F6BB1EF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D56C09E3E87D065"
+					item: "ae2:cable_anchor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2630B5CF9914EE19"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "371F7EAAA4D6F409"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			title: "Cable Anchor"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["26A58E2711BC7B28"]
+			id: "3BEDB0BED61574D6"
+			rewards: [
+				{
+					id: "0944EFDF6866490C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "590EDC9CA537B67D"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0F81FD1457D4E5F4"
+				item: "ae2:spatial_cell_component_2"
+				type: "item"
+			}]
+			x: 6.65d
+			y: -2.45d
+		}
+		{
+			dependencies: ["3BEDB0BED61574D6"]
+			id: "03400C0EB0DC0A86"
+			rewards: [
+				{
+					id: "0CB3471D530D4655"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "027A17A170207A62"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "501C01FA91BCFB44"
+				item: "ae2:spatial_cell_component_16"
+				type: "item"
+			}]
+			x: 6.65d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["03400C0EB0DC0A86"]
+			id: "1A6305D35FC9A064"
+			rewards: [
+				{
+					id: "31D0EF43BBC9EDB3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4577D9FC098681CA"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "261494715CDE6F0D"
+				item: "ae2:spatial_cell_component_128"
+				type: "item"
+			}]
+			x: 6.65d
+			y: -3.8500000000000005d
+		}
+		{
+			dependencies: ["38E84EA139A2316C"]
+			description: [
+				"This block lets transfer items between your &dME Network&r and your &a1k ME Item Storage Cell&r or other storage cells, unlike other forms of automation the &6ME IO Port&r can send items without any configuration of which items to send."
+				""
+				"The top of the &bUI&r indicates which direction you wish to move the data, into the cell, or into the networks."
+				""
+				"The &6ME IO Port&r requires a &eChannel&r to function. When used with automation, the input is the &ntop&r or &nbottom&r, and the output is any of the sides."
+				""
+				"If you're storing data onto cells it's usually a good idea to pre-format them, that way you can get just the items you're interested in, and not get tons of extra items."
+			]
+			id: "49E36D3C3092346E"
+			min_width: 300
+			rewards: [
+				{
+					id: "6FBCC5AC5A6683D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BB5C71DAEEE47A2"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "446B5840FB12C88A"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"49E36D3C3092346E"
+				"6B5C3E68A6A3F3B5"
+			]
+			description: [
+				"&9Spatial IO Port&r are used to capture and deploy regions of space that are defiend by &1Spatial Pylon&r."
+				""
+				"To Capture/Deploy a region of space you must first construct a &dSpatial Containtment Structure&r, once constructed and ready your &9Spatial IO Port&r will show your required power, and current power, the next step would be to adjust your &bSCS&r design, or to build and power your required &eEnergy Cell&r or &2Dense Energy Cell&r to meet the demands of the &9Spatial IO Port&r."
+				""
+				"Once power is available and your &bSCS&r is valid, you need to insert a &o2³&r &cSpatial Storage Cell&r, &o16³&r &cSpatial Storage Cell&r, or &o128³&r &cSpatial Storage Cell&r depending on the required &nsize&r you may need a larger or small &eStorage Cell&r."
+				""
+				"When everything is ready, and the storage cell is placed inside the &9Spatial IO Port&r applying a redstone signal to the &9Spatial IO Port&r will trigger the capture/deployment of the cell into the &bSCS&r."
+				""
+				"Requires a &eChannel&r to function."
+			]
+			id: "26A58E2711BC7B28"
+			min_width: 300
+			rewards: [
+				{
+					id: "49D668F29605E7CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "384F0D2892C5CC55"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "73A4BD8CA564FC95"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BEDB0BED61574D6"]
+			description: ["Used with &6Spatial IO Port&r to store spatial regions."]
+			id: "5F0E877BE50D79D0"
+			rewards: [
+				{
+					id: "78D99AE74A59DB5F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25DE1D9247D76791"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "66C3B6C1216DBDFF"
+				item: "ae2:spatial_storage_cell_2"
+				type: "item"
+			}]
+			x: 5.95d
+			y: -2.45d
+		}
+		{
+			dependencies: ["03400C0EB0DC0A86"]
+			description: ["Used with &6Spatial IO Port&r to store spatial regions."]
+			id: "46EBE6B0E06D750D"
+			rewards: [
+				{
+					id: "269C2F72AA65B87B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "494F7E1F1EC8BCB5"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4659659B330C15A4"
+				item: "ae2:spatial_storage_cell_16"
+				type: "item"
+			}]
+			x: 5.95d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["1A6305D35FC9A064"]
+			description: ["Used with &6Spatial IO Port&r to store spatial regions."]
+			id: "00C88180C14B1A91"
+			rewards: [
+				{
+					id: "7615790017225FDD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "512A63762B08D8CE"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "02D43F5202E6A82B"
+				item: "ae2:spatial_storage_cell_128"
+				type: "item"
+			}]
+			x: 5.95d
+			y: -3.8500000000000005d
+		}
+		{
+			dependencies: ["2D31D68D1056108C"]
+			description: [
+				"The &3Spatial Anchor&f is a companion device from the &dSpatial IO&r lineage that simply functions as a &nchunk loader&r."
+				""
+				"When connected to an &5ME network&r, the &3Anchor&r will &nforce-load&r all the chunks occupied by the &5ME network&r across all cables and devices, excluding subnetworks, as long as the network remains powered."
+			]
+			hide_until_deps_visible: true
+			id: "4DAC24440803FE58"
+			rewards: [
+				{
+					id: "5BABDB88CF0FD4D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BE4A0461377ED1A"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "48A7E1EFFF99F0A5"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E580153F1936699"]
+			id: "3D52B8DD0A939D15"
+			rewards: [
+				{
+					id: "0E1DD64C06765D1E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "720F9FF95EA9E194"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2879D15A39427988"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44437B82901F13AF"]
+			id: "0E580153F1936699"
+			rewards: [
+				{
+					id: "1CEC54638475A325"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "151CF83ED829E295"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "270350870F5689D7"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D31D68D1056108C"]
+			description: [
+				"&1Spatial Pylon&r is the main block used to construct a &6Spatial Containment Structure&r, they must be built in straight lines, with a minium length of &o2&r."
+				""
+				"When powered and on a network they will either glow a &dlight purple&r, or a &clight red&r, if the color is &clight red&r, that indicates design has an &nissue&r and needs to be &nadjusted&r. They emitt a small amount of light when powered."
+				""
+				"Only useful when used in conjunction with a &6Spatial IO Port&r."
+				""
+				"All &1Spatial Pylon&r in an &5ME Network&r are part of the same &bSCS&r."
+				""
+				"Each &1Spatial Pylon Multiblock&r requires a &eChannel&r (&o1&r per &nstrand of blocks&r, not &o1&r per &1Spatial Pylon&r) to function."
+			]
+			id: "6B5C3E68A6A3F3B5"
+			min_width: 300
+			rewards: [
+				{
+					id: "73C02CEDCF000E58"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12CABD19C5FA18B3"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1FEDE2A20931AA85"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["556D9C78EFAB5091"]
+			description: ["A item which contains a configuration similar to a &aStorage Cell&r, that allows you to &ncustomize&r the filtering of a particular &dME Terminal&r."]
+			id: "5D3EE44FB41D289F"
+			rewards: [
+				{
+					id: "36680524F957A836"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79DD8AC0FA8EE7D2"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4AE7887D9EC709CF"
+				item: "ae2:view_cell"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["713EA1BC9BAAA0AB"]
+			description: [
+				"&3Recipes &rneed to be encoded into &bpatterns&r to be usable by crafting &bCPUs&r."
+				""
+				"The encoded &bpatterns&r need to be put into &6Pattern Providers&r on the same network as the &dCrafting CPU&r itself."
+				""
+				"When the &dCrafting CPU&r then needs to craft the primary result of that pattern, it'll delegate this to the pattern provider."
+				""
+				"Normally, the &dPattern Provider&r will then push out the ingredients to an adjacent block (a &aMolecular Assembler&r for crafting recipes, for example), and crafting continues once the result enters the network again."
+				""
+				"This can be achieved by pushing the crafting result back into the pattern provider, an &9ME Interface&r or any other means that would import the crafting result into the network."
+				""
+				"&aMolecular Assemblers&r are smart enough to automatically return the crafting result to the same pattern provider that provided the ingredients."
+			]
+			id: "7EE37ABD9F8B873D"
+			min_width: 400
+			rewards: [
+				{
+					id: "400A6E6FFD69E311"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "325013FAFC18D3DC"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "267DD381AC1BBE28"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:pattern_provider"
+							}
+							{
+								Count: 1b
+								id: "ae2:cable_pattern_provider"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "ME Pattern Provider"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0AEDFC064B84C877"]
+			description: ["&aCrafting Storage&r provides &o1k&r - &o265M&r of storage for crafting."]
+			id: "1FB657F4DEC4885C"
+			rewards: [
+				{
+					id: "5F83C8EC555D7C15"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "327A0BA67CB69023"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B77E1B7D104D502"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:1k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:4k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:16k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:64k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:256k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2additions:1024k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2additions:4096k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2additions:16384k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2additions:65536k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:1m_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:4m_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:16m_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:64m_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:256m_crafting_storage"
+							}
+						]
+					}
+				}
+				title: "Crafting Storage"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AEDFC064B84C877"]
+			description: ["&bDisplays&r the top level job and its &ncurrent&r progress so you can see what a particular &eCrafting CPU&r is currently working on."]
+			id: "1CB243F7E197B883"
+			rewards: [
+				{
+					id: "6FF4E4D858E50AE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FE93B3F7B98AE27"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "03A64F653E5637CD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:crafting_monitor"
+							}
+							{
+								Count: 1b
+								id: "megacells:mega_crafting_monitor"
+							}
+						]
+					}
+				}
+				title: "Crafting Monitor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3734081CB77CDBB5"]
+			description: [
+				"The &2Matter Cannon&r is a portable railgun, which can shoot small projectiles."
+				""
+				"It causes damage is based on its &nammo&r. Since it is an powered weapon, it requires charging in the &6Charger&r."
+				""
+				"Ammunition can be refilled in a &dME Chest&r, or &5ME IO Port&r as it functions as a single item &aStorage Cell&r, similar to &e1k ME Item Storage Cell&r"
+				""
+				"Its battery can hold up to &b200k&r ae and consumes &o1600&r &bAE&r per item fired. (&o+1&r item fired per &bAcceleration Card&r)"
+				""
+				"A a general rule heavier metals inflict more damage, and lighter non metal iems are less damaging."
+			]
+			id: "5B2D12C588BA3C05"
+			min_width: 300
+			rewards: [
+				{
+					id: "07A4B047C7F3A719"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B9D0658CD68A57D"
+					item: "ae2:engineering_processor"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AFE23D271D22F56"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5013A36B1DF94988"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0E580153F1936699"]
+			description: [
+				"&3Matter Balls&r in a &aMatter Cannon&r can be substituted with &bPaint Balls&f, which will apply a paint splatter effect on the face of whatever block being fired at."
+				""
+				"&bLumen Paint Balls&f are a variant of paint balls exclusively used by the Matter Cannon, whose paint splatters also give off some light once present in the world."
+			]
+			id: "3734081CB77CDBB5"
+			min_width: 300
+			rewards: [
+				{
+					id: "0EB00CBF15A0F578"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F11B8359619C58A"
+					item: "ae2:matter_ball"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F62500A1CC4B5D3"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "612BC01DF7AB6B65"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+				{
+					id: "758FACAF38FB4744"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:paint_balls"
+						}
+					}
+					title: "Paint Balls"
+					type: "item"
+				}
+				{
+					id: "481A846149CADED9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:white_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:orange_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:magenta_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:light_blue_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:yellow_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:lime_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:pink_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:gray_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:light_gray_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:cyan_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:purple_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:blue_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:brown_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:green_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:red_lumen_paint_ball"
+								}
+								{
+									Count: 1b
+									id: "ae2:black_lumen_paint_ball"
+								}
+							]
+						}
+					}
+					title: "Lumen Paint Balls"
+					type: "item"
+				}
+			]
+			title: "Matter/Paint/Lumen Paint Balls"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7AB346FA0412469C"]
+			description: [
+				"The &eME Level Emitter&r can indicate either the level of a specified item or the &dME Network&r energy level."
+				""
+				"You can set the threshold and if the&e ME Level Emitter&r will emit a redstone signal or turn it off."
+				""
+				"Does not require a &eChannel&r to function, if its power is lost the emitter will switch to an off state."
+				""
+				"These can tap into the &bcrafting system&r when a crafting card is installed, allowing you to output redstone while an item is being crafted, or even configure the system to output redstone to preform a crafting task, its important to note that you cannot mix level emitter craft via &credstone&r with &binterface patterns&r."
+			]
+			id: "4CE350628327599A"
+			min_width: 300
+			rewards: [
+				{
+					id: "4119E379275A1B6A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FFE200C29120AE5"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3D3C0B1B469332A1"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["44437B82901F13AF"]
+			description: [
+				"A &2Spatial Containment Structure&r or &bSCS&r, is a &bMultiblock&r networked structure that dictates a region of space as the target of the &dSpatial IO Port&r."
+				""
+				"The structure must be an &dME Network&r with a number of &1Spatial Pylon&r which define the target region."
+				""
+				"The rules for a valid &bSCS&r are:"
+				""
+				"1) A minium size of &n3x3x3&r (&othis will capture a single block&r.)"
+				"2) All &1Spatial Pylon&r must be in the &noutside&r bounding box."
+				"3) All &1Spatial Pylon&r must be either connected with cable or via a &bQNB&r, and on &nthe same network&r."
+				""
+				"This also means you can only create &o1&r &bSCS&r per &5Controller&r."
+				""
+				"The &aFormed Status&r of the &bSCS&r is displayed as the color of the &1Spatial Pylon&r if it is a &4red&r color, that means the configuration is invalid, if its a &dlight purple&r color, it indicates it is valid."
+				""
+				"The status is only available if the pylons are powered, and connected."
+				""
+				"Most &bSCS&r will require &eEnergy Cell&r to power the &dSpatial IO Port&r, however, these blocks are not considered part of the &bSCS&r."
+				""
+				"Be aware, that you travel to a &ndimension&r without a direct way to get back. Setup your &dSpatial IO&r in a way, that &nyou can get back&r."
+				""
+				""
+				"{image:kubejs:textures/item/scs.png width:150 height:150 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/spatial_pylon.png"
+				}
+			}
+			id: "2D31D68D1056108C"
+			min_width: 500
+			rewards: [
+				{
+					id: "3D5CE33BBDA3D395"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09F22B8456D70585"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "403E3A484AE814A6"
+				type: "checkmark"
+			}]
+			title: "Spatial Containment Structure"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B2D12C588BA3C05"]
+			description: [
+				"A Powered &bMulti-purpose&r tool which can alter the quantity of &cEnergy&r in the block you target, you can decrease the &cEnergy&r of the block by &nholding&r &bshift&r (cool/aging), or increase the &cEnergy&r in the block (heating it) by using it normally, if adding heat doesn't do anything it generally will &nstart a fire&r on the block instead."
+				""
+				"You can also hit mobs or players with it to set them on &nfire&r."
+				""
+				"Its battery can store &o200k&r &bAE&r and consumes &o1600&r &bAE&r per usage, it can be to be recharged in a &6Charger&r."
+			]
+			id: "08CEA640627435D4"
+			min_width: 300
+			rewards: [
+				{
+					id: "06238FA5D04D10AE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E9168EB4A6D3DCB"
+					item: "ae2:calculation_processor"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34AA7B4C5B9B078F"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "001235611000677E"
+				item: "ae2:entropy_manipulator"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1A7D9B32BD59417B"]
+			description: [
+				"The &dME Storage Monitor&r is a simple way to see the current level of a specified item."
+				""
+				"There are several interactions to modify it:"
+				""
+				"&bRight-click&r with &aItem&r will &ndisplay&r the current stored amount of that item if not locked"
+				""
+				"&bRight-click&r with &7Empty Hand&r will reset the display if &nnot&r locked"
+				""
+				"&bShift+Right-click&r with &7Empty Hand&r will toggle the &nlock&r"
+				""
+				"&bRight-click&r with &eWrench&r will &nrotate&r the monitor if it is locked and on the ground or ceiling."
+			]
+			id: "7E38ACDAC8ACD079"
+			min_width: 300
+			rewards: [
+				{
+					id: "0CEC07E52A553C49"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E1D3B402DC1AE39"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4C470FDB0A1C7AAF"
+				item: "ae2:storage_monitor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CE350628327599A"]
+			description: [
+				"Mostly &bdecorative&r powered &elight&r source that can be attached to &9Fluix ME Glass Cable&r or other non dense cables."
+				""
+				"Also used as crafting &ningredient&r."
+				""
+			]
+			id: "1A7D9B32BD59417B"
+			min_width: 300
+			rewards: [
+				{
+					id: "340D9D549D8B4DFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36ECEFD11B3C8500"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08896ED51A576369"
+				item: "ae2:semi_dark_monitor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E38ACDAC8ACD079"]
+			description: [
+				"The &eME Conversion Monitor&r is the upgraded version of the &2ME Storage Monitor&r."
+				""
+				"It adds the ability to &ndirectly&r withdraw from or store &aItems&r into the &dME Network&r."
+				""
+				"In addition to the &2Storage Monitor's&r interactions, conversion monitors support the following actions:"
+				""
+				"&bLeft-click&r &nExtracts&r a stack of the shown item into &nyour inventory&r"
+				""
+				"&bRight-click&r with &eItem&r &nInserts&r the held item into &nthe network&r"
+				""
+				"&bRight-click&r with &7Empty Hand&r will &ninsert&r all of the shown item from &nyour inventory&r into &nthe network&r."
+			]
+			id: "1EBA6436DEBB02CC"
+			min_width: 300
+			rewards: [
+				{
+					id: "657E6847236FB8EB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "029835CD83C9A2EC"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "343B693157F541A1"
+				item: "ae2:conversion_monitor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B8E544E188FBA4D"]
+			description: [
+				"&6Quantum Network Bridges&r can connect &ntwo&r networks over infinite distances and even between &ndimensions&r."
+				""
+				"They can carry &o32&r &eChannels&r in total (regardless of how cables are connected to each face)."
+				""
+				"Eight of &9Quantum Ring&r blocks placed around a &dME Quantum Link Chamber&r will create a &6Quantum Network Bridge&r."
+				""
+				"Only the &o4&r &9ME Quantum Ring&r blocks adjacent to the &dME Quantum Link Chamber&r will accept network connections, the &o4&r &ncorner&r blocks cannot connect to cables."
+				""
+				"&dQuantum Link Chamber&r surrounded by a &9ME Quantum Ring&r will create a &6Quantum Network Bridge&r. This block &ndoesn't&r connect to any cables and only registers as part of the network with the full bridge is made."
+				""
+				"This blocks inventory can only hold a single &1Quantum Entangled Singularity&r and is automation accessible."
+				"{image:kubejs:textures/item/qnb.png width:150 height:150 align:1}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3B3C89649DF57161"
+			min_width: 500
+			rewards: [
+				{
+					id: "348CF08375E05921"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "384EAC4A0BFCEA22"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "753E7378EDC67994"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3F5FCC8C3623B54C"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "&6The Quantum Bridge"
+			x: -2.4928571428571473d
+			y: -3.8321428571428555d
+		}
+		{
+			dependencies: ["3D52B8DD0A939D15"]
+			description: [
+				"Required to create a connection between to &6Quantum Network Bridges&r, they are always produced in matching pairs, to create a connection place &o1&r of the pair of &1Quantum Entangled Singularity&r into the &dME Quantum Link Chamber&r of the bridge on each side."
+				""
+				"They are crafted by causing a reaction between &0Ender Pearl&r or &8Ender Dust&r"
+				"and a &9Singularity&r. Any explosive force should be enough to trigger the reaction."
+				""
+				"Nearly any explosion - &neven creepers&r - will work."
+				""
+				"Always produced in pairs, but only require a single &9Singularity&r."
+				""
+				"It might be a good idea to label these with names when you create them using the vanilla &0Anvil&r."
+				""
+				"&nNote for Anti Griefing Servers&r"
+				""
+				"&bAE&r also includes a block called &4Tiny TNT&r, this is a small craftable &cTNT&r which can have its block damage disabled, but can still hurt a little, and can be used as an alternative to vanilla &nTNT&r/other &nexplosions&r even when block damage is &ndisabled&r."
+			]
+			id: "07EF8ABA0027BB91"
+			min_width: 500
+			rewards: [
+				{
+					id: "16CDFFCF64F9A0B2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "556355C3B7BEB638"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1084C3DCF6ED1278"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64EE427C9850F707"]
+			description: [
+				"&bCable Facade&r are crafted with &nany&r facadeable block in the middle of the crafting table, and &o4&r &bCable Anchor&r around it."
+				""
+				"They can be mounted on any variant of &aCables&r, and around buses."
+				""
+				"They can be used to create a solid surface for things like &nlevers&r or &nbuttons&r, but are purely decorative in nature."
+				""
+				""
+			]
+			icon: {
+				Count: 1
+				id: "ae2:facade"
+				tag: {
+					item: "minecraft:stone"
+				}
+			}
+			id: "38FE18A5F60543BD"
+			min_width: 400
+			rewards: [
+				{
+					id: "2E21E18741BFB5BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C36BBA13AFF1DD0"
+					item: "ae2:cable_anchor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43B1FFC433CBE293"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "498E9DC8AB1F0CAC"
+				type: "checkmark"
+			}]
+			title: "Cable Facade"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["60EC70ED9DC908A0"]
+			description: [
+				"A &eWrench&r made of &bCertus Quartz Crystal&r or &7Nether Quartz&r."
+				""
+				"Useful for &nrotating&r blocks, and &nremoving&r individual parts from &aCables&r."
+			]
+			id: "0E9258C07CDD7385"
+			rewards: [
+				{
+					id: "66473DA79B32DD18"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "728424DEA3738A29"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16AD605C06CC7BDE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:quartz_wrench"
+					}
+				}
+				title: "Wrench"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55749230931993F2"]
+			description: ["&eVibrant Quartz Glass&r is a variant of &bQuartz Glass&r that &nglows&r like glowstone."]
+			id: "599C3643D86A6EC4"
+			rewards: [
+				{
+					id: "1341776B8A2B661D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "58FE3E6CB980F916"
+					item: "ae2:quartz_vibrant_glass"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C9296AB7C6F1B28"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "454C66B087C47DB2"
+				item: "ae2:quartz_vibrant_glass"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["27DE68F1E3BF30A1"]
+			description: [
+				"Just like a &bDaylight Sensor&r uses nether quartz to detect daylight, this nether &dQuartz Fixture&r outputs &credstone&r level on any nearby light sources."
+				""
+				"Outputs starting at &elight&r level &o6&r at &credstone&r level &o1&r and goes up to &elight&r level &o15&r &credstone&r level &o9&r."
+			]
+			id: "3A7BC60F5DB126CC"
+			rewards: [
+				{
+					id: "1CF67E56C65F62BF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6589DDA28E3158E1"
+					item: "ae2:light_detector"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AFE1A1535E94AF5"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "20B8A8AF705FA5E4"
+				item: "ae2:light_detector"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["470B1F84D01E4F7A"]
+			description: [
+				"Decorative &elight source&r that can be mounted on any solid surface. Even the ceiling."
+				""
+				"Unlike &6Torches&r, this block is not affected by &9Water&r."
+			]
+			id: "27DE68F1E3BF30A1"
+			rewards: [
+				{
+					id: "531F6902B5C9F762"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20B57E7F477BA606"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "54B0030E4B4FBC18"
+				item: "ae2:quartz_fixture"
+				title: "Charged Quartz Fixture"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["38E84EA139A2316C"]
+			description: [
+				"The &dCell Workbench&r allows for cells to be \"partitioned\" to hold specific items, i.e. given a &nwhitelist filter&r."
+				""
+				"It also allows the &ecell&r to be upgraded with certain upgrade cards such as the &eInverter Card&r, which sets the aforementioned &bwhitelist&r to be a &0blacklist&r instead."
+				""
+				"Cells can also be given a higher or lower &npriority&r via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."
+			]
+			id: "2F556E7919582D2D"
+			rewards: [
+				{
+					id: "4956E92D2FDA5190"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "658BE5D4D2BE0833"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "19F84B1451F7D602"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D3E94EB0E3F1D7E"]
+			description: [
+				"The &bEqual Distribution Card&f is an upgrade for &6storage cells&r that pre-allocates a certain amount of items that can be taken up by any individual type."
+				""
+				"This behaviour is comparable to something like a &aFunctional Storage Drawer&r, wherein each compartment holds a set number of stacks as opposed to allowing items from one compartment to leak into the others and crowd other kinds of items out."
+			]
+			id: "23A1A27B9E623E76"
+			rewards: [
+				{
+					id: "68570ABC51F4D873"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "202204EB225E4758"
+					item: "ae2:printed_silicon"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A942829839ABA1C"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "524548CCC56D2097"
+				item: "ae2:equal_distribution_card"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -9.1d
+		}
+		{
+			dependencies: ["44469860120E156D"]
+			description: ["The &aOverflow Destruction Card&f is a &bCell Upgrade&r that allows storage cells to &ndelete&r (void) any items of a type already contained within them, when try to move into the cell and the cell is already full."]
+			id: "58CE1ABDA24AE51D"
+			rewards: [
+				{
+					id: "6E9C11365C023B7C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "2A7FC574756F8615"
+					item: "ae2:silicon"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "223DBC96FE5F47E0"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "204B6CD3CC1B31E9"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: 4.9d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D3E94EB0E3F1D7E"]
+			description: ["The &cEnergy Card&f can be applied to most chargeable devices like &dPortable Cells&r and &9Wireless Terminals&r to also increase &otheir&r energy buffer."]
+			id: "047771C05CD3DF1B"
+			rewards: [
+				{
+					id: "5AEED3C6E433ED0E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A5F690E690BC425"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "667B7470A097F670"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "0C7233F703D7156F"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -7.699999999999999d
+		}
+		{
+			dependencies: [
+				"3931273289B3A68C"
+				"4F89670D49DD2DE1"
+				"621F052BCE747E68"
+			]
+			description: [
+				"The &2Color Applicator&f is a chargeable tool that allows for in-world &ndyeing&r of &eCables&r. It functions more or less as a specialised &eStorage Cell&f to be loaded up with either vanilla dyes or &epaint balls&f for specific colours, along with &esnowballs&f to wash colours off and turn cables back to their &9Fluix&r variant."
+				""
+				"Applying colour to a cable uses &o100&r &bAE&r of energy from its internal battery, for a total of &o3400&r &eCable&r segments in a &nsingle charge&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "03E6FA4DCB71162E"
+			rewards: [
+				{
+					id: "2AD4CA497DAF5DDE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13F9F7AA16102CB0"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "6691176371563341"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Color Applicator"
+			x: 1.0071428571428598d
+			y: -7.796428571428571d
+		}
+		{
+			dependencies: ["5B2D12C588BA3C05"]
+			description: [
+				"The &bCharged Staff&f is just a simple powered staff which deals &o3&r &cHearts&r of damage and consumes &o300&r &bAE&r per hit."
+				""
+				"It also uses &npre-1.9 combat mechanics&r, meaning that you can &bspam-click&r with this like in the good old days."
+			]
+			id: "361067FCD10AA975"
+			rewards: [
+				{
+					id: "4594978712B3006E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A08A5196FBDB210"
+					item: "ae2:printed_silicon"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BDD67723A266BD6"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7B0D984866111966"
+				item: "ae2:charged_staff"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44F858FA4E965814"]
+			description: [
+				"&bPortable Cells&f function identically to regular cells in that they can they be inserted into a chest or drive and filled accordingly."
+				""
+				"However, unlike regular cells, their contents can also be accessed standalone via the cell item itself, a bit like a digital ME-flavoured backpack."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "77C9EE701F72586D"
+			optional: true
+			rewards: [
+				{
+					id: "3280EFC4446DD684"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EFE94934E9A236D"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "65C439FD14C5EEB9"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: ":portable_(.*)_cell_"
+					}
+				}
+				title: "ME Portable Cell"
+				type: "item"
+			}]
+			x: 6.25714285714286d
+			y: -5.439285714285717d
+		}
+		{
+			dependencies: ["270E0BC2E8565FFE"]
+			description: [
+				"The &2ME Annihilation Plane&f can be used to automatically break &nany&r blocks in front of it and return anything dropped by the block directly to the &5ME Network&r."
+				""
+				"As an added bonus, the &2Annihilation Plane&r can be &nenchanted&r in the same way as a regular digging tool, affecting block drops in the same way as that enchanted tool would. This makes it ideal for processing ore blocks when enchanted with &bFortune&r, for example."
+				""
+				"Any added &denchantments&r significantly increase the amount of &cenergy&r used by the plane every time a block is broken. Enchanting the plane with &eEfficiency&f will decrease the overall &cenergy&r use incurred by all other &denchantments&r, while the &eUnbreaking&f enchantment gives the plane the chance to only use any energy sometimes, similarly to &eUnbreaking&r on regular tools."
+			]
+			hide_until_deps_visible: true
+			id: "140DE53DC0FCD9F4"
+			min_width: 300
+			rewards: [
+				{
+					id: "5E0DFB8813B07CE5"
+					type: "xp"
+					xp: 70
+				}
+				{
+					count: 2
+					id: "2B257377D084BF3F"
+					item: "ae2:fluix_crystal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BCA891F6582DEB1"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F715007AD9C0D58"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["419BBE875D40B1D6"]
+			description: [
+				"The &9ME Formation Plane&f acts similarly to the &6Storage Bus&r, but treats the world itself as its storage medium. In other words, it will place down any block in its filter directly in front of itself."
+				""
+				"This can be useful for situations where a block can be processed simply by placing it and breaking it with a certain tool."
+			]
+			hide_until_deps_visible: true
+			id: "525F25F4ADE45B50"
+			rewards: [
+				{
+					id: "0D0F17FE85D50FF9"
+					type: "xp"
+					xp: 70
+				}
+				{
+					count: 2
+					id: "55FC65299680ADC2"
+					item: "ae2:fluix_crystal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F7CB54BA4340C90"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0BEBC087F970093E"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38E84EA139A2316C"]
+			hide_until_deps_visible: true
+			id: "2625CA9F45159E82"
+			rewards: [
+				{
+					id: "59D88450E992E643"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7968EAD9CD2199C4"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "25F9AFD8F18CD154"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EE37ABD9F8B873D"]
+			hide_until_deps_visible: true
+			id: "1CE237DD3D25B801"
+			rewards: [
+				{
+					id: "2A84AABC3DBE9AF2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BD5B1CB4ECAAED9"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F0140F45C410A97"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_provider"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_provider_part"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "ME Extended Pattern Provider"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7700E08416618198"]
+			hide_until_deps_visible: true
+			id: "30C462A74EAF4E7A"
+			rewards: [
+				{
+					id: "602C4A17EA16F70E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3215E029AA959E49"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "04AB44C1294E93BA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:ex_interface"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_interface_part"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "ME Extended Interface"
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+	title: "&3&oApplied Energistics"
+}

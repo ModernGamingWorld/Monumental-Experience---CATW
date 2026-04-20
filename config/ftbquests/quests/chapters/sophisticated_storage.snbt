@@ -1,0 +1,363 @@
+{
+	autofocus_id: "000E000000000002"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "7E54189F6BA49858"
+	icon: "sophisticatedstorage:iron_chest"
+	id: "000E000000000001"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Sophisticated Storage adds tiered chests, barrels, and shulker boxes"
+				"that use the exact same upgrade system as Sophisticated Backpacks."
+				""
+				"If you've already learned backpack upgrades, you already know how"
+				"storage upgrades work — they're identical. The difference is that"
+				"these are stationary storage blocks for your base."
+				""
+				"The mod offers three storage types:"
+				"• §eChests§r — standard chest layout, can form double chests"
+				"• §eBarrels§r — similar to chests, cannot form double "
+				"• &eLimited Barrels&r — single-item storage, great for bulk materials"
+				"• §eShulker Boxes§r — portable containers that keep items when broken"
+				""
+				"All three come in §e6 tiers§r (Wood, Copper, Iron, Gold, Diamond, Netherite)"
+				"with increasing slot counts and upgrade slots at each tier."
+				""
+				"§eTips:§r"
+				"• Right-click a vanilla chest or barrel with a Tier Upgrade item to upgrade it "
+				"  in-place."
+				"• Use §ePacking Tape§r to pick up a storage block with its contents intact."
+				"• Storage blocks connect to pipes, hoppers, and storage networks just like "
+				"  vanilla chests."
+			]
+			icon: "minecraft:chest"
+			id: "000E000000000002"
+			min_width: 400
+			rewards: [{
+				id: "570C1207A1DD6646"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "000E000000000003"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:chests/wooden)"
+					}
+				}
+				title: "Craft a Wooden Chest"
+				type: "item"
+			}]
+			title: "What is Sophisticated Storage?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000E000000000002"]
+			description: [
+				"Like backpacks, storage containers come in 6 tiers — each with more"
+				"inventory slots and more upgrade slots."
+				""
+				"Chest tier overview:"
+				"• §fWood§r — 27 slots, 1 upgrade slot"
+				"• §7Copper§r — 36 slots, 1 upgrade slot"
+				"• §7Iron§r — 54 slots, 2 upgrade slots"
+				"• §6Gold§r — 72 slots, 3 upgrade slots"
+				"• §bDiamond§r — 108 slots, 5 upgrade slots"
+				"• §5Netherite§r — 162 slots, 7 upgrade slots"
+				""
+				"To upgrade a chest in the world: craft the next tier's §eTier Upgrade§r item"
+				"and right-click your existing chest with it. Your items stay inside!"
+				""
+				"§eTips:§r"
+				"• Limited barrels hold fewer item types but are great for bulk"
+				"  single-item storage."
+				"• A Diamond Double Chest (two side-by-side) gives you 216 slots."
+				"• You can colour chests with dye for easy visual organisation."
+				"• Netherite tier requires a Smithing Table upgrade, just like Netherite "
+				"  tools."
+			]
+			icon: "sophisticatedstorage:iron_chest"
+			id: "000E000000000004"
+			min_width: 375
+			rewards: [{
+				id: "2857C120A262D849"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "000E000000000005"
+				item: "sophisticatedstorage:iron_chest"
+				title: "Upgrade to an Iron Chest"
+				type: "item"
+			}]
+			title: "Upgrading Your Storage"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000E000000000002"]
+			description: [
+				"Sophisticated Storage barrels are designed for §ebulk single-item "
+				"&estorage&r. Unlike chests, barrels are similar to chests, "
+				"however lack the functionality to become double."
+				""
+				"The §eLimited Barrel§r variant lets you store 1-4 types of item with greater"
+				"quantity — when paired with a &estack downgrades&r, great for "
+				"auto-crafting systems where you don't want to overfill a buffer."
+				"They support the same upgrade system as chests, and combined with"
+				"&eStack Upgrades&r, a single Netherite barrel can hold an astronomical"
+				"number of one item type."
+				""
+				"§eTips:§r"
+				"• Limited barrels show their item count and type on the front face — easy to "
+				"  read at a glance."
+				"• Use a Void Overflow upgrade to prevent barrels from ever creating "
+				"  a backup."
+				"• Right-click a vanilla barrel with Tier Upgrade item to instantly upgrade "
+				"  it."
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:barrel"
+				tag: {
+					woodType: "acacia"
+				}
+			}
+			id: "000E000000000006"
+			min_width: 375
+			rewards: [{
+				id: "14B752FFD0EC7746"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "000E000000000007"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:barrels/wooden)"
+					}
+				}
+				title: "Craft a Wooden Barrel"
+				type: "item"
+			}]
+			title: "Barrels: Bulk Storage Done Right"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000E000000000004"]
+			description: [
+				"The §eStorage Controller§r is Sophisticated Storage's answer to automation. "
+				"Place it adjacent to (or linked via Connectors to) your chests and "
+				"barrels, and you can deposit items already present in your storage, or"
+				"access it with external item transportation"
+				""
+				"From the Controller you can:"
+				"• Right click to deposit the stack in your hand, right-click twice with an"
+				"  empty hand to deposit your everything in your inventory that is "
+				"  already in the system"
+				""
+				"Connections can extend further using §eController Slave§r blocks"
+				"placed between storage and the main controller."
+				""
+				"§eTips:§r"
+				"• The Controller doesn't need to be directly adjacent — use Slaves to "
+				"  extend range."
+				"• This is an excellent stepping stone before setting up full AE2 or "
+				"  Refined Storage."
+				"• Upgrades in connected chests still function even when accessed via "
+				"  the Controller."
+			]
+			icon: "sophisticatedstorage:controller"
+			id: "000E000000000008"
+			min_width: 375
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B9EA00F14CB60DD"
+				table_id: 5236874501558129216L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "000E000000000009"
+					item: "sophisticatedstorage:controller"
+					title: "Craft a Storage Controller"
+					type: "item"
+				}
+				{
+					id: "000E00000000000A"
+					title: "Connect at least 3 storage blocks to the Controller"
+					type: "checkmark"
+				}
+			]
+			title: "The Storage Controller"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"000E000000000004"
+				"000E000000000006"
+			]
+			description: [
+				"§ePacking Tape§r is one of the most useful items in Sophisticated Storage."
+				"Right-click any Sophisticated Storage chest or barrel with Packing Tape "
+				"to seal it up — then break it and it drops as an item §ewith all its contents "
+				"&estill insider&r."
+				""
+				"This lets you:"
+				"• Move storage blocks without emptying them first"
+				"• Reorganise your base easily"
+				"• Send fully stocked storage to other players"
+				"• Take your storage on the road"
+				""
+				"§eTips:§r"
+				"• Packed storage shows a tape visual on the block face so you know it's "
+				"  sealed."
+				"• You can't access a packed storage block — you must break it first to "
+				"  use it."
+				"• Packing Tape is consumed on use — keep a few in your inventory."
+				"• A §eNetherite Chest§r full of items is much easier to move with tape than "
+				"  emptying it manually."
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:packing_tape"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "000E00000000000B"
+			min_width: 375
+			rewards: [{
+				id: "12A6D9FB871472E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "000E00000000000C"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Craft Packing Tape"
+				type: "item"
+			}]
+			title: "Packing Tape"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000E000000000004"]
+			description: [
+				"Sophisticated Storage has several upgrades designed specifically"
+				"for automating and organising your storage network."
+				""
+				"Key automation upgrades:"
+				"• §eHopper Upgrade§r — pulls items from above and pushes them out below,"
+				"  turning any storage block into a smart hopper"
+				"• §ePickup Upgrade§r — automatically picks up nearby items"
+				"• §eFilter Upgrade§r — controls which items can enter or exit via automation"
+				""
+				"§eTips:§r"
+				"• The Hopper Upgrade is filter-aware — combine with a Filter Upgrade to"
+				"  only pull/push specific items."
+				"• Use Pickup Upgrades to collect items on the ground and directly put "
+				"  them into storage — works with a Filter Upgrade"
+				"• Multiple Hopper Upgrades can be installed to increase throughput rate."
+			]
+			id: "000E00000000000D"
+			min_width: 400
+			rewards: [{
+				id: "28F5D041517F94CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "000E00000000000F"
+					item: "sophisticatedstorage:hopper_upgrade"
+					title: "Craft a Hopper Upgrade"
+					type: "item"
+				}
+				{
+					id: "27CDACB6AF3AC4C3"
+					item: "sophisticatedstorage:pickup_upgrade"
+					type: "item"
+				}
+			]
+			title: "Sorting and Automation Upgrades"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"000E000000000008"
+				"000E00000000000B"
+				"000E00000000000D"
+			]
+			description: [
+				"You've mastered Sophisticated Storage. Time to build the warehouse."
+				""
+				"A well-organised Sophisticated Storage setup typically looks like:"
+				"• A §eStorage Controller§r as the central access point"
+				"• §eDiamond or Netherite Chests§r for mixed item categories"
+				"• §eIron or Gold Barrels§r for bulk materials (stone, wood, ores)"
+				"• §eHopper Upgrades§r to auto-intake from machines or farms"
+				"• §eFilter Upgrades§r to ensure items only go where they belong"
+				"• §eStack Upgrades§r on barrels to maximise bulk capacity"
+				""
+				"This system can serve you all the way until you're ready to set up"
+				"full AE2 or Refined Storage — and even then, Sophisticated Storage"
+				"works perfectly as external storage attached to those networks."
+				""
+				"§eTips:§r"
+				"• Colour-code your chests by category for instant visual "
+				"  identification."
+				"• Use Packing Tape any time you need to reorganise — don't empty "
+				"  chests manually."
+				"• Sophisticated Storage chests can be accessed directly by AE2"
+				"  Storage Buses and Refined Storage External Storage — great "
+				"  for bridging the two systems."
+			]
+			icon: "sophisticatedstorage:diamond_chest"
+			id: "000E000000000010"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CFB8FE1DCAD723A"
+				table_id: 5236874501558129216L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "000E000000000011"
+					item: "sophisticatedstorage:diamond_chest"
+					title: "Craft a Diamond Chest"
+					type: "item"
+				}
+				{
+					id: "000E000000000012"
+					title: "Build a storage room with a Controller and 5+ storage blocks"
+					type: "checkmark"
+				}
+			]
+			title: "The Warehouse"
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "&3&oSophisticated Storage"
+}

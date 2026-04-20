@@ -1,0 +1,19 @@
+{
+	icon: "minecraft:chest"
+	id: "6AFB9062C7B6058F"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 3, item: "minecraft:netherite_block" }
+		{ count: 48, item: "mekanism:ultimate_control_circuit" }
+		{ count: 15, item: "mekanism:ultimate_thermodynamic_conductor" }
+		{ count: 11, item: "extendedcrafting:enhanced_ender_component" }
+		{ count: 5, item: "mekanism:ultimate_tier_installer" }
+		{ count: 9, item: "minecraft:diamond_block" }
+		{ count: 25, item: "mekanism:ultimate_logistical_transporter" }
+		{ count: 15, item: "mythicbotany:alfsteel_ingot" }
+		{ count: 7, item: "draconicevolution:draconium_core" }
+		{ count: 24, item: "botania:elementium_ingot" }
+	]
+	title: "Harsh"
+}

@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "priority": 1,
+  "target": "net.minecraft.**",
+  "conditions": {
+    "max_parameters": 3,
+    "max_bytecode_size": 50,
+    "exclude_native": true
+  },
+  "action": {
+    "type": "method_inline",
+    "inline_small_methods": true,
+    "inline_constants": true,
+    "inline_getters": true
+  }
+}

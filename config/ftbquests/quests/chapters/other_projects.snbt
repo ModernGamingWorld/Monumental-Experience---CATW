@@ -1,0 +1,297 @@
+{
+	autofocus_id: "DD40EE50FF607711"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "other_projects"
+	group: "6CD934EDA78DBCD0"
+	icon: "minecraft:bookshelf"
+	id: "107D5E43CD065E59"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Enjoyed Monumental Experience? There's more where that came from."
+				""
+				"This chapter showcases other modpacks and projects created by &6ModernGamingWorld&r and &dDexxKnight1&r — each one offering a different way to play Minecraft."
+				""
+				"Every project listed here is available for free on CurseForge. Click the quest to read more about it, then head to CurseForge to download and play!"
+			]
+			icon: "minecraft:bookshelf"
+			id: "7DB63C71E9C95CBC"
+			min_width: 320
+			rewards: [{
+				id: "4F12371E32A33918"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0D714D598DE0D615"
+				title: "Browse our projects"
+				type: "checkmark"
+			}]
+			title: "&e&lOur Other Projects"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Monumental Experience&r — the pack you're playing right now!"
+				""
+				"A massive kitchen-sink modpack featuring hundreds of mods across magic, technology, exploration, farming, and more. Designed to give you a huge, polished, long-term experience with something for every type of player."
+				""
+				"If you're playing this on a server, share it with a friend!"
+				""
+				"&7curseforge.com/minecraft/modpacks/monumental-experience&r"
+			]
+			icon: "minecraft:nether_star"
+			id: "137471A7467A223E"
+			min_width: 340
+			rewards: [{
+				id: "21F9431DC36CCE3C"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oThe one you're playing right now"
+			tasks: [{
+				id: "307DCB64F9F01AF4"
+				title: "You're already here!"
+				type: "checkmark"
+			}]
+			title: "&6Monumental Experience"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&bMonumental Experience: In the Sky&r brings the Monumental Experience formula to a skyblock setting."
+				""
+				"Start on a tiny floating island and work your way up through hundreds of quests, automating resource generation, unlocking dimensions, and building something spectacular — all without ever touching the ground."
+				""
+				"A completely different way to experience the same mods you know and love."
+				""
+				"&7curseforge.com/minecraft/modpacks/monumental-experience-in-the-sky&r"
+			]
+			icon: "minecraft:white_concrete"
+			id: "725690A4C3279949"
+			min_width: 340
+			rewards: [{
+				id: "1FFA6A29A4F540AB"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oThe Monumental skyblock experience"
+			tasks: [{
+				id: "1CD735C052DE8482"
+				title: "Check it out on CurseForge"
+				type: "checkmark"
+			}]
+			title: "&bMonumental Experience: In the Sky"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&5Monumental Experience: In Space&r takes the pack to the stars."
+				""
+				"Built around Ad Astra and space exploration, this pack challenges you to master rocketry, colonise multiple planets, and build the infrastructure to survive beyond Earth. A tech-focused experience with a strong progression arc."
+				""
+				"If you've ever wanted to build a factory on the Moon, this is your pack."
+				""
+				"&7curseforge.com/minecraft/modpacks/monumental-experience-in-space&r"
+			]
+			icon: "ad_astra:rocket_nose_cone"
+			id: "33661C8B5CA1F595"
+			min_width: 340
+			rewards: [{
+				id: "56526D791E634204"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oTo infinity and beyond"
+			tasks: [{
+				id: "18D03A2143F833A0"
+				title: "Check it out on CurseForge"
+				type: "checkmark"
+			}]
+			title: "&5Monumental Experience: In Space"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&2Monumental Experience: Creatures Across the World&r is a creature and exploration-focused spin-off."
+				""
+				"Featuring an expanded roster of mobs, biomes, and wildlife — including Alex's Mobs, Alex's Caves, Grimoire of Gaia, and more — this pack is for players who love discovering what's lurking in the wild."
+				""
+				"Every biome hides something new. Some of it is cute. Some of it will try to eat you."
+				""
+				"&7curseforge.com/minecraft/modpacks/monumental-experience-creatures-across-the-world&r"
+			]
+			icon: "cobblemon_armor_sets:peanut_butter_bidoof"
+			id: "0A06F70FFAA7B923"
+			min_width: 360
+			rewards: [{
+				id: "1D4510A322CFEEAC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oExplore a living, breathing world"
+			tasks: [{
+				id: "19BD8C70B331B5EF"
+				title: "Check it out on CurseForge"
+				type: "checkmark"
+			}]
+			title: "&2ME: Creatures Across the World"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&aFarming Overloaded&r is a dedicated farming and cooking modpack — a love letter to everyone who just wants to grow things and feed people."
+				""
+				"Featuring Farmer's Delight, Cooking for Blockheads, and many more, this pack is built around building the ultimate farm and kitchen."
+				""
+				"Relax, plant some seeds, and cook something delicious. No dragons required."
+				""
+				"&7curseforge.com/minecraft/modpacks/farming-overloaded&r"
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5EE91DFDAB40256D"
+			min_width: 340
+			rewards: [{
+				id: "15DFC6308ABD58F1"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oFor the farmers at heart"
+			tasks: [{
+				id: "15991681C309F18A"
+				title: "Check it out on CurseForge"
+				type: "checkmark"
+			}]
+			title: "&aFarming Overloaded"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&cModernGamingWorld's Nether Portal Restrictor&r is a lightweight utility mod that gives server owners and modpack creators full control over Nether portal creation."
+				""
+				"Configure which players, dimensions, or locations can create Nether portals — perfect for servers that want to restrict early-game dimension hopping or create custom progression rules."
+				""
+				"Available on CurseForge for Forge and NeoForge."
+				""
+				"&7curseforge.com/minecraft/mc-mods/moderngamingworlds-nether-portal-restrictor&r"
+			]
+			icon: "minecraft:obsidian"
+			id: "6106662A7AA58D8F"
+			min_width: 360
+			rewards: [{
+				id: "62CEA57622705585"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oA utility mod for pack creators"
+			tasks: [{
+				id: "55ED98B1E27A848C"
+				title: "Check it out on CurseForge"
+				type: "checkmark"
+			}]
+			title: "&cNether Portal Restrictor"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&dAge of Fate&r by &dDexxKnight1&r is a story-driven RPG modpack set in a rich lore-filled world."
+				""
+				"Unlike a traditional kitchen-sink pack, Age of Fate has a hand-crafted narrative running through its quest lines — choices matter, factions exist, and the world reacts to what you do."
+				""
+				"If you want a modpack that feels like an adventure rather than a checklist, this is it."
+				""
+				"&7curseforge.com/minecraft/modpacks/age-of-fate&r"
+			]
+			icon: "minecraft:enchanted_book"
+			id: "1572589D9438D008"
+			min_width: 340
+			rewards: [{
+				id: "1594F092E7D3B9E0"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oA story-driven RPG modpack by DexxKnight1"
+			tasks: [{
+				id: "00B6A6A2EC355BD7"
+				title: "Check it out on CurseForge"
+				type: "checkmark"
+			}]
+			title: "&dAge of Fate"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&9Tech Revolution&r by &dDexxKnight1&r is a technology-focused modpack built around automation, engineering, and industrial progression."
+				""
+				"Starting from nothing, you'll work your way through tiers of technology — from basic machinery all the way to complex automated factories and energy networks."
+				""
+				"A great choice if you love the tech side of modded Minecraft and want a structured, satisfying progression."
+				""
+				"&7curseforge.com/minecraft/modpacks/techrevolution&r"
+			]
+			icon: "minecraft:piston"
+			id: "2558DA49B4B4797B"
+			min_width: 340
+			rewards: [{
+				id: "13F6BC42D95681FA"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oTech progression by DexxKnight1"
+			tasks: [{
+				id: "39C9CD571E7FC4B6"
+				title: "Check it out on CurseForge"
+				type: "checkmark"
+			}]
+			title: "&9Tech Revolution"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&2Jurassic World Reborn 2&r by &dDexxKnight1&r brings the Jurassic Park fantasy to life in Minecraft."
+				""
+				"Clone and breed dinosaurs, build enclosures, manage your park, and try very hard not to get eaten. The pack features prehistoric creatures, custom genetics systems, and a progression arc built around becoming a dinosaur park operator."
+				""
+				"Life finds a way — whether you're ready for it or not."
+				""
+				"&7curseforge.com/minecraft/modpacks/jurassic-world-reborn-2&r"
+			]
+			icon: "minecraft:dragon_egg"
+			id: "1DD3B4CE60FA1D83"
+			min_width: 360
+			rewards: [{
+				id: "2B2D406A9E6AF343"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oLife finds a way — by DexxKnight1"
+			tasks: [{
+				id: "7695C67D29AF0582"
+				title: "Check it out on CurseForge"
+				type: "checkmark"
+			}]
+			title: "&2Jurassic World Reborn 2"
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+	title: "&e&lOther Projects"
+}

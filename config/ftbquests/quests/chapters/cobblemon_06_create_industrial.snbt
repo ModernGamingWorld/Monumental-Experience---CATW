@@ -1,0 +1,224 @@
+{
+	autofocus_id: "100000000000008E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_06_create_industrial"
+	group: "75575A3E2EC59FEB"
+	icon: "create:andesite_alloy"
+	id: "10000000000000F4"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Cobblemon needs resources — Apricorns, berries, evolution stones, and crafting materials. Create turns that resource gathering into a system."
+				""
+				"Your first contraption doesn't need to be complex. A Mechanical Press automating Apricorn crushing is a perfect starting point — it processes Apricorns into Poke Ball parts without you having to manually craft each one."
+				""
+				"Connect it to a power source, feed in Apricorns, and watch it run."
+				""
+				"&7Tip: A Mechanical Press automating Apricorn processing is an ideal first contraption.&r"
+			]
+			icon: "create:andesite_alloy"
+			id: "100000000000008E"
+			min_width: 330
+			rewards: [{
+				count: 16
+				id: "100000000000008D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Gears and Poké Balls"
+			tasks: [{
+				id: "100000000000008C"
+				title: "Build a Create contraption for a Cobblemon crafting step"
+				type: "checkmark"
+			}]
+			title: "&bFirst Contraption"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100000000000008E"]
+			description: [
+				"Apricorns are the base material for every Poké Ball. Manually harvesting them from trees is slow — a Create conveyor belt system makes it automatic."
+				""
+				"Attach a Mechanical Harvester to a contraption arm and position it over your Apricorn trees. As the arm rotates, it collects Apricorns automatically and deposits them onto a belt for processing."
+				""
+				"This is the first step toward a fully automated Poké Ball factory."
+				""
+				"&7Tip: Use a Mechanical Harvester on a Create arm over your Apricorn trees for hands-free collection.&r"
+			]
+			id: "1000000000000092"
+			min_width: 340
+			rewards: [
+				{
+					count: 4
+					id: "1000000000000090"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1000000000000091"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Automation Begins"
+			tasks: [{
+				id: "100000000000008F"
+				title: "Automate Apricorn collection with a Create conveyor belt"
+				type: "checkmark"
+			}]
+			title: "&bApricorn Conveyor"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000092"]
+			description: [
+				"Ten Poké Balls produced automatically. That's the production line running."
+				""
+				"The Mechanical Mixer and Basin combo can process Apricorn cores into Poké Ball parts — mix them with the right materials and output finished balls automatically into a chest."
+				""
+				"Ten balls is proof of concept. The next quest will ask for fifty."
+				""
+				"&7Tip: The Mechanical Mixer and Basin can process Apricorn cores into finished Poké Ball parts.&r"
+			]
+			id: "1000000000000096"
+			min_width: 330
+			rewards: [
+				{
+					count: 10
+					id: "1000000000000094"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000095"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Production Line"
+			tasks: [{
+				id: "1000000000000093"
+				title: "Produce 10 Poké Balls using automated Create machinery"
+				type: "checkmark"
+			}]
+			title: "&bAutomated Ball Crafter"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000092"]
+			description: [
+				"Berries can be processed through Create machinery into enhanced Cobblemon items — juiced, concentrated, or mixed with other materials to produce higher-tier held items and consumables."
+				""
+				"The Basin and Mixer are your primary tools here. Experiment with berry combinations to discover what outputs are available."
+				""
+				"Automating berry processing means your farm feeds directly into your item production line — no manual crafting required."
+				""
+				"&7Tip: Berries can be processed through the basin and mixer for enhanced held item outputs.&r"
+			]
+			id: "100000000000009A"
+			min_width: 340
+			rewards: [
+				{
+					id: "1000000000000098"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1000000000000099"
+					item: "cobblemon:exp_candy_m"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Liquid Power"
+			tasks: [{
+				id: "1000000000000097"
+				title: "Process berries with Create machinery into Cobblemon items"
+				type: "checkmark"
+			}]
+			title: "&bBerry Juicer"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000096"]
+			description: [
+				"Fifty Poké Balls. Your factory is producing."
+				""
+				"To hit this number, you'll need a properly scaled operation — multiple Mechanical Arms, increased RPM from your power source, and a clean material flow from Apricorn farm to finished ball output."
+				""
+				"Scale thoughtfully. A well-optimised factory with 3-4 machines beats a sprawling mess of 10."
+				""
+				"&7Tip: Add more mechanical arms and increase RPM to scale production efficiently without sprawl.&r"
+			]
+			id: "100000000000009D"
+			min_width: 330
+			rewards: [{
+				count: 10
+				id: "100000000000009C"
+				item: "cobblemon:ultra_ball"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Scaling Up"
+			tasks: [{
+				id: "100000000000009B"
+				title: "Produce 50 total Poké Balls with automated Create machinery"
+				type: "checkmark"
+			}]
+			title: "&bPoké Ball Factory"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100000000000009A"]
+			description: [
+				"As your Cobblemon item production grows, sorting becomes essential. Brass Funnels with item filters can distinguish between Poké Balls, berries, stones, and held items — directing each type to its own storage."
+				""
+				"A sorted system means you can find what you need instantly instead of digging through mixed chests. It also prevents your production lines from getting clogged with the wrong inputs."
+				""
+				"Build the sorting system now, before your storage situation gets out of hand."
+				""
+				"&7Tip: Brass Funnels with filters can sort different Cobblemon item types with precision.&r"
+			]
+			id: "10000000000000A0"
+			min_width: 340
+			rewards: [{
+				count: 8
+				id: "100000000000009F"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Sorted and Stocked"
+			tasks: [{
+				id: "100000000000009E"
+				title: "Sort Cobblemon held items with a Create automation system"
+				type: "checkmark"
+			}]
+			title: "&bIndustrial Trainer"
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+	title: "&bChapter 6 — Create: Industrialized"
+}

@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "priority": 3,
+  "target": "net.minecraft.**",
+  "conditions": {
+    "min_method_size": 20,
+    "exclude_native": true
+  },
+  "action": {
+    "type": "dead_code_elimination",
+    "remove_unused_locals": true,
+    "remove_unused_parameters": true,
+    "remove_dead_loops": true
+  }
+}

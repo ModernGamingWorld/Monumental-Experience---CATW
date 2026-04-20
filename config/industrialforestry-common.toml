@@ -1,0 +1,84 @@
+#Multiplier of the ticks needed to process an item in the Industrial Centrifuge.
+#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+tickMultiplier = -0.2
+#Multiplier of the power needed to process an item in the Industrial Centrifuge.
+#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+powerMultiplier = 0.5
+#The maximum energy the Industrial Centrifuge can hold.
+#Range: > 1
+industrialCentrifugeMaxEnergy = 1000000
+#How much energy the machine can transfer per tick
+#Range: > 1
+industrialCentrifugeMaxTransfer = 100000
+
+["Scoop settings"]
+	#Multiplier of the speed at which the Industrial Scoop collects items.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	scoopSpeedMultiplier = 4.0
+	#The maximum energy the Industrial Scoop can hold.
+	#Range: > 1
+	scoopMaxEnergy = 10000
+	#The amount of energy used per tick by the Industrial Scoop.
+	#Range: > 1
+	scoopEnergyUse = 10
+
+["Speed Upgrade"]
+	#Multiplier of the ticks needed to process an item using a single Speed Upgrade tier 1.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	speed_upgrade_tier1_tick_multiplier = -0.2
+	#Multiplier of the power needed to process an item using a single Speed Upgrade tier 1.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	speed_upgrade_tier1_power_multiplier = 0.2
+	#Multiplier of the ticks needed to process an item using a single Speed Upgrade tier 2.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	speed_upgrade_tier2_tick_multiplier = -0.4
+	#Multiplier of the power needed to process an item using a single Speed Upgrade tier 2.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	speed_upgrade_tier2_power_multiplier = 0.4
+	#Multiplier of the ticks needed to process an item using a single Speed Upgrade tier 3.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	speed_upgrade_tier3_tick_multiplier = -0.6
+	#Multiplier of the power needed to process an item using a single Speed Upgrade tier 3.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	speed_upgrade_tier3_power_multiplier = 0.6
+
+["Efficiency Upgrade"]
+	#The rate at which the power needed per tick is reduced using a single Efficiency Upgrade tier 1.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	efficiency_upgrade_tier1_power_multiplier = -0.2
+	#The rate at which the power needed per tick is reduced using a single Efficiency Upgrade tier 2.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	efficiency_upgrade_tier2_power_multiplier = -0.4
+	#The rate at which the power needed per tick is reduced using a single Efficiency Upgrade tier 3.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	efficiency_upgrade_tier3_power_multiplier = -0.6
+
+["Chance Upgrade"]
+	#The additional success chance added by a single Chance Upgrade tier 1.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier1_chance_increment = 0.2
+	#Multiplier of the power needed to process an item using a single Chance Upgrade tier 1.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier1_power_multiplier = 0.2
+	#Multiplier of the ticks needed to process an item using a single Chance Upgrade tier 1.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier1_tick_multiplier = 0.0
+	#The additional success chance added by a single Chance Upgrade tier 2.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier2_chance_increment = 0.4
+	#Multiplier of the power needed to process an item using a single Chance Upgrade tier 2.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier2_power_multiplier = 0.4
+	#Multiplier of the ticks needed to process an item using a single Chance Upgrade tier 2.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier2_tick_multiplier = 0.0
+	#The additional success chance added by a single Chance Upgrade tier 3.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier3_chance_increment = 0.6
+	#Multiplier of the power needed to process an item using a single Chance Upgrade tier 3.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier3_power_multiplier = 0.6
+	#Multiplier of the ticks needed to process an item using a single Chance Upgrade tier 3.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	chance_upgrade_tier3_tick_multiplier = 0.0
+

@@ -1,0 +1,370 @@
+{
+	autofocus_id: "1000000000000023"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_02_battle_basics"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:rare_candy"
+	id: "10000000000000F0"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Level 10 is your first real milestone. At this point your Cobblemon has learned several moves, gained meaningful stats, and you've started to understand how it fights."
+				""
+				"The fastest way to level up is consistent battling — wild Cobblemon give experience, and so do trainer battles if this pack enables them."
+				""
+				"&eTip: Rotate your party in and out of fights to share experience across your whole team.&r"
+				""
+				"Don't grind with just one — a deep, levelled bench is what carries you through harder chapters."
+			]
+			icon: "cobblemon:rare_candy"
+			id: "1000000000000023"
+			min_width: 320
+			rewards: [
+				{
+					count: 3
+					id: "1000000000000021"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1000000000000022"
+					item: "cobblemon:super_potion"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Growing Stronger"
+			tasks: [{
+				action: "level_up_to"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "728E2FC09E7D180D"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "&bTen Levels Up"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000023"]
+			description: [
+				"The &eCobblemon Capture XP&r mod rewards you with experience just for making catches — not just for battling."
+				""
+				"Higher-level Cobblemon award more capture XP, so it pays to push into tougher territory even when you're not grinding battles. Every successful catch is building your trainer level."
+				""
+				"500 capture XP is a solid early milestone — it means you've been actively expanding your collection rather than just battling the same species over and over."
+				""
+				"&7Tip: Higher-level Cobblemon give more capture XP — push into tougher areas.&r"
+			]
+			id: "1000000000000027"
+			min_width: 330
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000025"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000026"
+					item: "cobblemon:exp_candy_s"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Bonus for the Bold"
+			tasks: [
+				{
+					id: "1000000000000024"
+					title: "Earn 500 total capture XP (Cobblemon Capture XP mod)"
+					type: "checkmark"
+				}
+				{
+					id: "368F173520C3449E"
+					points: false
+					type: "xp"
+					value: 10L
+				}
+			]
+			title: "&bCapture XP"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000023"]
+			description: [
+				"The &eCobblemon Counter&r mod tracks how many wild Cobblemon you've defeated. 25 defeats is a solid early target — it means you've been fighting consistently."
+				""
+				"Open the Cobblemon Counter with its keybind at any time to check your current stats. It tracks defeats, catches, and more depending on your pack's config."
+				""
+				"Getting into the habit of fighting (not just catching) will keep your team levelled and ready for the harder content ahead."
+				""
+				"&7Tip: Open the Cobblemon Counter with its keybind to track your battle stats.&r"
+			]
+			id: "100000000000002B"
+			min_width: 330
+			rewards: [
+				{
+					count: 2
+					id: "1000000000000029"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					id: "100000000000002A"
+					item: "cobblemon:exp_candy_m"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Racking Up Victories"
+			tasks: [{
+				id: "1000000000000028"
+				title: "Defeat 25 wild Cobblemon (check Cobblemon Counter)"
+				type: "checkmark"
+			}]
+			title: "&bCounter Collector"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000027"]
+			description: [
+				"Evolution transforms your Cobblemon into something stronger. Most Cobblemon evolve by reaching a certain level, but others require specific items, high friendship, or particular conditions."
+				""
+				"Check the &eCobblepedia&r entry for your Cobblemon to see exactly what it needs. Don't be surprised if your first evolution is straightforward — the more unusual requirements come later."
+				""
+				"Evolved Cobblemon gain better stats, learn new moves, and open up new strategies. Your team gets dramatically stronger once your first-stage catches start evolving."
+				""
+				"&7Tip: Check the Cobblepedia entry for the specific evolution requirement before grinding.&r"
+			]
+			id: "100000000000002F"
+			min_width: 330
+			rewards: [
+				{
+					count: 3
+					id: "100000000000002D"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+				{
+					id: "100000000000002E"
+					item: "cobblemon:protein"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Next Stage"
+			tasks: [{
+				id: "100000000000002C"
+				title: "Evolve any Cobblemon for the first time"
+				type: "checkmark"
+			}]
+			title: "&bEvolution!"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100000000000002F"]
+			description: [
+				"A fully evolved Cobblemon is as strong as that species gets. Final-stage Cobblemon have higher base stats, a full move pool, and are ready for serious fights."
+				""
+				"You can reach a fully evolved Cobblemon two ways: evolve one yourself through the full line, or find one already at its final stage in the wild. Both count."
+				""
+				"Some final-stage Cobblemon only appear in specific biomes or at higher levels in the wild — if you're finding evolution too slow, go exploring."
+				""
+				"&7Tip: Final-stage Cobblemon can be found in the wild — no need to always evolve from scratch.&r"
+			]
+			id: "1000000000000033"
+			min_width: 320
+			rewards: [
+				{
+					id: "1000000000000031"
+					item: "cobblemon:pp_up"
+					type: "item"
+				}
+				{
+					id: "1000000000000032"
+					item: "cobblemon:max_revive"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Final Form"
+			tasks: [{
+				id: "1000000000000030"
+				title: "Obtain a fully evolved Cobblemon"
+				type: "checkmark"
+			}]
+			title: "&bFirst Fully Evolved"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&eCobblemon Mike Skills&r adds a trainer progression system on top of standard Cobblemon gameplay. As you battle and catch, your trainer gains experience and earns Skill Points to invest."
+				""
+				"Skill Points let you specialise your playstyle:"
+				"• Catch-rate branches improve your odds when throwing balls"
+				"• Battle reward branches boost XP and item drops from wild fights"
+				"• Exploration branches help with finding rare or specific Cobblemon"
+				""
+				"This is a separate progression track from your Cobblemon's levels — it's about you becoming a better trainer."
+				""
+				"&7Tip: Skill points are earned through battling and catching — just play normally.&r"
+			]
+			id: "1000000000000036"
+			min_width: 340
+			rewards: [{
+				id: "1000000000000035"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Mike Skills Unlocked"
+			tasks: [{
+				id: "1000000000000034"
+				title: "Earn 1 Trainer Skill Point (Mike Skills mod)"
+				type: "checkmark"
+			}]
+			title: "&bSkill Point Earned"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1000000000000036"]
+			description: [
+				"Invest 3 points into the catch-rate branch of the Mike Skills tree. This directly improves your odds every time you throw a ball."
+				""
+				"Early in the game, failed catches are frustrating and expensive. A few points here pay for themselves quickly — especially when you're hunting rarer species that need multiple attempts."
+				""
+				"Combined with weakening Cobblemon before throwing, a levelled catch-rate skill makes a huge difference to how many balls you burn per session."
+				""
+				"&7Tip: Catch-rate skills can dramatically reduce wasted balls on rare spawns.&r"
+			]
+			id: "100000000000003A"
+			min_width: 330
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000038"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1000000000000039"
+					item: "cobblemon:quick_ball"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Better Odds"
+			tasks: [{
+				id: "1000000000000037"
+				title: "Invest 3 skill points in catch-rate skills (Mike Skills)"
+				type: "checkmark"
+			}]
+			title: "&bCatch Master"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["100000000000003A"]
+			description: [
+				"Now invest 3 points into the battle reward branch. Battle reward skills increase what you gain from wild fights — more XP for your team, better item drops, and potentially bonus resources."
+				""
+				"As your team grows stronger, you'll be fighting more and harder Cobblemon. Making each fight more rewarding keeps pace with the increasing difficulty."
+				""
+				"This is the skill branch for trainers who want to grind efficiently rather than just explore."
+				""
+				"&7Tip: Battle reward skills may increase item drops and XP from wild battles.&r"
+			]
+			id: "100000000000003E"
+			min_width: 330
+			rewards: [
+				{
+					count: 2
+					id: "100000000000003C"
+					item: "cobblemon:exp_candy_l"
+					type: "item"
+				}
+				{
+					id: "100000000000003D"
+					item: "cobblemon:max_potion"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Reap What You Sow"
+			tasks: [{
+				id: "100000000000003B"
+				title: "Invest 3 skill points in battle reward skills (Mike Skills)"
+				type: "checkmark"
+			}]
+			title: "&bBattle Hardened"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1000000000000036"]
+			description: [
+				"Spread at least 1 point into 3 different skill branches. Before you specialise, it's worth experimenting — each branch reveals different bonuses and passive effects."
+				""
+				"You don't have to commit fully to one path early. A point in each of three branches costs only 3 skill points and gives you a sense of how each one plays before you double down."
+				""
+				"Some branches synergise well with others. The best trainers don't just focus — they adapt."
+				""
+				"&7Tip: Spread your points early to discover which playstyle fits you best.&r"
+			]
+			id: "1000000000000042"
+			min_width: 330
+			rewards: [
+				{
+					count: 3
+					id: "1000000000000040"
+					item: "cobblemon:pp_up"
+					type: "item"
+				}
+				{
+					id: "1000000000000041"
+					item: "cobblemon:full_restore"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Diversify Your Skills"
+			tasks: [{
+				id: "100000000000003F"
+				title: "Invest at least 1 point in 3 different Mike Skills branches"
+				type: "checkmark"
+			}]
+			title: "&bJack of All Trades"
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	title: "&bChapter 2 — Battle Basics"
+}

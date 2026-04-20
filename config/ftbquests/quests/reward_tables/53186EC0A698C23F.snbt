@@ -1,0 +1,1006 @@
+{
+	icon: "minecraft:cake"
+	id: "53186EC0A698C23F"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "gobberdelight:ender_gooey_pie_slice" }
+		{ item: "gobberdelight:nether_gooey_pie_slice" }
+		{ item: "gobberdelight:gooey_pie_slice" }
+		{ item: "forestry:honeyed_slice" }
+		{ item: "forcecraft:cooked_bacon" }
+		{ item: "undergardendelight:gronglet_roll" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 57
+						"forge:effect_id": "tombstone:true_sight"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 17
+						"forge:effect_id": "minecraft:hunger"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 360
+						EffectId: 21
+						"forge:effect_id": "minecraft:health_boost"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 10
+						"forge:effect_id": "minecraft:regeneration"
+					}]
+				}
+			}
+		}
+		{ item: "mynethersdelight:deviled_egg" }
+		{ item: "refurbished_furniture:meatlovers_pizza_slice" }
+		{ item: "refurbished_furniture:vegetable_pizza_slice" }
+		{ item: "mynethersdelight:dried_ghast_with_milk" }
+		{ item: "projectvibrantjourneys:nettle_soup" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 10
+						"forge:effect_id": "minecraft:regeneration"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 26
+						"forge:effect_id": "minecraft:luck"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 28
+						"forge:effect_id": "minecraft:slow_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 29
+						"forge:effect_id": "minecraft:conduit_power"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 16
+						"forge:effect_id": "minecraft:night_vision"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 14
+						"forge:effect_id": "minecraft:invisibility"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 12
+						"forge:effect_id": "minecraft:fire_resistance"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 31
+						"forge:effect_id": "minecraft:bad_omen"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 4
+						"forge:effect_id": "minecraft:mining_fatigue"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 27
+						"forge:effect_id": "minecraft:unluck"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 5
+						"forge:effect_id": "minecraft:strength"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 11
+						"forge:effect_id": "minecraft:resistance"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 21
+						"forge:effect_id": "minecraft:health_boost"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 160
+						EffectId: 13
+						"forge:effect_id": "minecraft:water_breathing"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 180
+						EffectId: 13
+						"forge:effect_id": "minecraft:water_breathing"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 28
+						"forge:effect_id": "minecraft:slow_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 240
+						EffectId: 27
+						"forge:effect_id": "minecraft:unluck"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 100
+						EffectId: 28
+						"forge:effect_id": "minecraft:slow_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 100
+						EffectId: 10
+						"forge:effect_id": "minecraft:regeneration"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 100
+						EffectId: 1
+						"forge:effect_id": "minecraft:speed"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 200
+						EffectId: 19
+						"forge:effect_id": "minecraft:poison"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 240
+						EffectId: 349
+						"forge:effect_id": "buzzier_bees:sunny"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 24
+						"forge:effect_id": "minecraft:glowing"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 100
+						EffectId: 16
+						"forge:effect_id": "minecraft:night_vision"
+					}]
+				}
+			}
+		}
+		{ item: "farmersrespite:green_tea_cookie" }
+		{ item: "farmersrespite:nether_wart_sourdough" }
+		{ item: "fishofthieves:half_pineapple" }
+		{ item: "fishofthieves:earthworms" }
+		{ item: "fishofthieves:grubs" }
+		{ item: "fishofthieves:leeches" }
+		{ item: "forbidden_arcanus:cooked_tentacle" }
+		{ item: "forcecraft:fortune_cookie" }
+		{ item: "forcecraft:soul_wafer" }
+		{ item: "mcwholidays:candy_cane" }
+		{ item: "hexerei:packing_peanut" }
+		{ item: "hexerei:tallow_bottle" }
+		{
+			item: {
+				Count: 1
+				id: "hexerei:lava_bottle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 15
+						"forge:effect_id": "minecraft:blindness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 11
+						"forge:effect_id": "minecraft:resistance"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 18
+						"forge:effect_id": "minecraft:weakness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 1
+						"forge:effect_id": "minecraft:speed"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 160
+						EffectId: 20
+						"forge:effect_id": "minecraft:wither"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 240
+						EffectId: 19
+						"forge:effect_id": "minecraft:poison"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 8
+						"forge:effect_id": "minecraft:jump_boost"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 160
+						EffectId: 10
+						"forge:effect_id": "minecraft:regeneration"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 180
+						EffectId: 18
+						"forge:effect_id": "minecraft:weakness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 20
+						"forge:effect_id": "minecraft:wither"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 5
+						"forge:effect_id": "minecraft:strength"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 22
+						"forge:effect_id": "minecraft:absorption"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 19
+						"forge:effect_id": "minecraft:poison"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 17
+						"forge:effect_id": "minecraft:hunger"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 200
+						EffectId: 24
+						"forge:effect_id": "minecraft:glowing"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 200
+						EffectId: 27
+						"forge:effect_id": "minecraft:unluck"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 400
+						EffectId: 19
+						"forge:effect_id": "minecraft:poison"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 300
+						EffectId: 15
+						"forge:effect_id": "minecraft:blindness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 80
+						EffectId: 12
+						"forge:effect_id": "minecraft:fire_resistance"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 160
+						EffectId: 15
+						"forge:effect_id": "minecraft:blindness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 600
+						EffectId: 18
+						"forge:effect_id": "minecraft:weakness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 25
+						"forge:effect_id": "minecraft:levitation"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 600
+						EffectId: 1
+						"forge:effect_id": "minecraft:speed"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 200
+						EffectId: 3
+						"forge:effect_id": "minecraft:haste"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 200
+						EffectId: 15
+						"forge:effect_id": "minecraft:blindness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 200
+						EffectId: 20
+						"forge:effect_id": "minecraft:wither"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 200
+						EffectId: 2
+						"forge:effect_id": "minecraft:slowness"
+					}]
+				}
+			}
+		}
+		{ item: "oceansdelight:baked_tentacle_on_a_stick" }
+		{ item: "oceansdelight:cooked_guardian_tail" }
+		{ item: "thermal:pbj_sandwich" }
+		{ item: "undergarden:slop_bowl" }
+		{ item: "twilightdelight:chocolate_wafer" }
+		{ item: "oceansdelight:seagrass_salad" }
+		{ item: "the_bumblezone:sugar_water_bottle" }
+		{ item: "oceansdelight:honey_fried_kelp" }
+		{ item: "oceansdelight:cooked_stuffed_cod" }
+		{ item: "oceansdelight:fugu_roll" }
+		{ item: "oceansdelight:elder_guardian_roll" }
+		{ item: "thermal:sushi_maki" }
+		{ item: "thermal:spring_salad" }
+		{ item: "thermal:syrup_bottle" }
+		{ item: "tconstruct:bacon" }
+		{ item: "twilightdelight:cooked_meef_slice" }
+		{ item: "twilightdelight:cooked_insect" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 160
+						EffectId: 9
+						"forge:effect_id": "minecraft:nausea"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 18
+						"forge:effect_id": "minecraft:weakness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 450
+						EffectId: 24
+						"forge:effect_id": "minecraft:glowing"
+					}]
+				}
+			}
+		}
+		{ item: "create_central_kitchen:mulberry_pie_slice" }
+		{ item: "farmersrespite:coffee_cake_slice" }
+		{ item: "farmersrespite:coffee_berries" }
+		{ item: "undergardendelight:cooked_dweller_meat_slice" }
+		{ item: "undergardendelight:cooked_gloomper_cuts" }
+		{ item: "refurbished_furniture:sweet_berry_jam_toast" }
+		{ item: "refurbished_furniture:glow_berry_jam_toast" }
+		{ item: "refurbished_furniture:cheese_toastie" }
+		{ item: "endersdelight:steak_fries" }
+		{ item: "endersdelight:twisted_cereal" }
+		{ item: "endersdelight:crispy_skewer" }
+		{ item: "endersdelight:crawling_sandwich" }
+		{ item: "endersdelight:chorus_pie_slice" }
+		{ item: "doggytalents:edamame_unpodded" }
+		{ item: "caupona:plump_snail" }
+		{ item: "caupona:snail" }
+		{ item: "caupona:wolfberries" }
+		{ item: "caupona:fig" }
+		{ item: "buzzier_bees:honey_apple" }
+		{ item: "buzzier_bees:honey_bread" }
+		{ item: "culturaldelights:cut_pickle" }
+		{ item: "culturaldelights:smoked_tomato" }
+		{ item: "culturaldelights:smoked_cut_eggplant" }
+		{ item: "culturaldelights:popcorn" }
+		{ item: "culturaldelights:tortilla_chips" }
+		{ item: "culturaldelights:elote" }
+		{ item: "culturaldelights:empanada" }
+		{ item: "delightful:glow_jam_cookie" }
+		{ item: "delightful:mulberry_pie_slice" }
+		{ item: "delightful:gloomgourd_pie_slice" }
+		{ item: "delightful:salmonberry_pie_slice" }
+		{ item: "culturaldelights:calamari_roll" }
+		{ item: "culturaldelights:rice_ball" }
+		{ item: "culturaldelights:egg_roll" }
+		{ item: "culturaldelights:midori_roll_slice" }
+		{ item: "culturaldelights:avocado_toast" }
+		{ item: "delightful:ender_nectar" }
+		{ item: "delightful:rock_candy" }
+		{ item: "delightful:cooked_goat" }
+		{ item: "delightful:cantaloupe_bread" }
+		{ item: "undergardendelight:scintling_stew" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 1
+						"forge:effect_id": "minecraft:speed"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 120
+						EffectId: 2
+						"forge:effect_id": "minecraft:slowness"
+					}]
+				}
+			}
+		}
+		{ item: "farmersdelight:cabbage_rolls" }
+		{ item: "aquaculturedelight:catfish_barbecue" }
+		{ item: "create:sweet_roll" }
+		{ item: "create:builders_tea" }
+		{ item: "croptopia:baked_beans" }
+		{ item: "croptopia:baked_sweet_potato" }
+		{ item: "croptopia:baked_yam" }
+		{ item: "croptopia:popcorn" }
+		{ item: "croptopia_additions:frosted_churro" }
+		{ item: "croptopia:crema" }
+		{ item: "croptopia:tea" }
+		{ item: "croptopia:roasted_sunflower_seeds" }
+		{ item: "croptopia:roasted_pumpkin_seeds" }
+		{ item: "croptopia:corn_bread" }
+		{ item: "croptopia:frog_legs" }
+		{ item: "croptopia_additions:chicken_curry" }
+		{ item: "croptopia_additions:cotton_candy" }
+		{ item: "croptopia_additions:cupcake" }
+		{ item: "croptopia_additions:sugar_cookie" }
+		{ item: "croptopia_additions:churro" }
+		{ item: "farmersdelight:cake_slice" }
+		{ item: "farmersdelight:apple_pie_slice" }
+		{ item: "farmersdelight:sweet_berry_cheesecake_slice" }
+		{ item: "aquaculture:sushi" }
+		{ item: "aquaculture:algae" }
+		{ item: "farmersdelight:dog_food" }
+		{ item: "farmersdelight:bone_broth" }
+		{ item: "farmersdelight:nether_salad" }
+		{ item: "farmersdelight:melon_popsicle" }
+		{ item: "farmersdelight:honey_cookie" }
+		{ item: "farmersdelight:sweet_berry_cookie" }
+		{ item: "farmersdelight:chocolate_pie_slice" }
+		{ item: "aquaculture:fish_fillet_raw" }
+		{ item: "aquaculturedelight:raw_fish_fillet_roll" }
+		{ item: "aquaculturedelight:crispy_nori_kelp" }
+		{ item: "aquaculturedelight:poor_fisher_chowder" }
+		{ item: "aquaculturedelight:jellyfish_jelly" }
+		{ item: "aquaculturedelight:crispy_fried_perch" }
+		{ item: "aquaculturedelight:fried_perch_roll" }
+		{ item: "aquaculturedelight:cooked_small_turtle_meat" }
+		{ item: "blue_skies:brewberry" }
+		{ item: "blue_skies:comet_berries" }
+		{ item: "blue_skies:crescent_fruit" }
+		{ item: "blue_skies:black_brewberry" }
+		{ item: "create_central_kitchen:chocolate_cake_slice" }
+		{ item: "create_central_kitchen:honey_cake_slice" }
+		{ item: "upgrade_aquatic:boiled_pickerelweed" }
+		{ item: "farmersrespite:rose_hip_pie_slice" }
+		{ item: "blue_skies:pink_brewberry" }
+		{ item: "delightful:cantaloupe_popsicle" }
+		{ item: "mynethersdelight:roast_ear" }
+		{ item: "mynethersdelight:magma_cake_slice" }
+		{ item: "delightful:salmonberry_gummy" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						module_host: {
+							modules: [ ]
+							properties: { }
+							provider_id: [I;
+								1795960779
+								464865888
+								-1233042765
+								-1129280946
+							]
+						}
+					}
+				}
+				id: "draconicadditions:hermal"
+			}
+			weight: 0.01f
+		}
+		{ item: "endersdelight:strange_eclair" }
+		{ item: "endersdelight:uncanny_cookies" }
+		{ item: "tmted:bottle_of_wodka" }
+		{ item: "undergardendelight:shimmerpearl" }
+		{ item: "create_central_kitchen:pumpkin_pie_slice" }
+		{ item: "mynethersdelight:tear_popsicle" }
+		{ item: "undergardendelight:roasted_underbean_on_a_stick" }
+		{
+			item: {
+				Count: 1
+				id: "candlelight:tomato_soup"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{ item: "bakery:bread_with_jam" }
+		{ item: "cornexpansion:corn_syrup_cookie" }
+		{ item: "cornexpansion:grilled_corn" }
+		{ item: "quarkdelight:crab_bars" }
+		{ item: "naturalist:cooked_lizard_tail" }
+		{ item: "twilightdelight:cooked_venison_rib" }
+		{ item: "naturalist:cooked_duck" }
+		{ item: "naturalist:cooked_bushmeat" }
+		{
+			item: {
+				Count: 1
+				id: "candlelight:mushroom_soup"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "candlelight:salmon_on_white_wine"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{ item: "farm_and_charm:onion_soup" }
+		{ item: "farm_and_charm:potato_soup" }
+		{ item: "farm_and_charm:strawberry_tea" }
+		{ item: "farm_and_charm:nettle_tea" }
+		{ item: "farm_and_charm:ribwort_tea" }
+		{ item: "vinery:rotten_cherry" }
+		{ item: "botania:mana_bottle" }
+		{ item: "supplementaries:candy" }
+		{ item: "doggytalents:easter_egg_candy" }
+		{ item: "doggytalents:egg_sandwich" }
+		{ item: "doggytalents:soy_milk" }
+	]
+	title: "Food Rewards"
+}

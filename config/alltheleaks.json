@@ -1,0 +1,11 @@
+{
+  "preventSearchIgnoredItems": false,
+  "ingredientDedupe": false,
+  "resourceLocationDedupe": false,
+  "debugItemStackModifications": false,
+  "logIntervalInMinutes": 10,
+  "showSummaryOnDebugScreen": true,
+  "memoryUsageWarningPercentage": 90,
+  "debugThreadsStuck": false,
+  "enableLeakTracking": true
+}

@@ -1,0 +1,43 @@
+{
+	icon: "minecraft:chest"
+	id: "1125664D1F9EC2E7"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 4000
+						}
+					}
+				}
+				id: "cyclic:battery_clay"
+				tag: {
+					energytt: 4000
+					energyttmax: 16000
+				}
+			}
+		}
+		{ count: 7, item: "fluxnetworks:flux_core", weight: 1.25f }
+		{ item: "pneumaticcraft:transistor", weight: 1.5f }
+		{ count: 19, item: "fluxnetworks:flux_dust" }
+		{ item: "draconicevolution:draconium_ingot", weight: 0.5f }
+		{ count: 3, item: "bigreactors:graphite_ingot", weight: 2.0f }
+		{ item: "alltheores:steel_ingot" }
+		{ count: 4, item: "pneumaticcraft:ingot_iron_compressed" }
+		{ count: 9, item: "alltheores:uranium_ingot" }
+		{ count: 14, item: "minecraft:redstone", weight: 3.0f }
+		{ count: 32, item: "minecraft:obsidian", weight: 2.5f }
+		{ item: "alltheores:lead_ingot" }
+		{ count: 32, item: "minecraft:oak_log" }
+		{ count: 16, item: "mysticalagriculture:prosperity_shard" }
+		{ count: 8, item: "mysticalagriculture:prosperity_shard" }
+		{ item: "minecraft:quartz" }
+		{ count: 10, item: "ae2:certus_quartz_crystal" }
+		{ item: "mobees:yellorium_bit" }
+	]
+	title: "Power"
+}

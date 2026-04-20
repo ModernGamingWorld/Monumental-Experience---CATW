@@ -1,0 +1,353 @@
+{
+	autofocus_id: "1000000000000005"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_01_first_steps"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:poke_ball"
+	id: "10000000000000EF"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &bCobblemon&r — Pokémon as Minecraft was always meant to experience them."
+				""
+				"Unlike traditional Pokémon games, Cobblemon creatures live in the open world alongside everything else. They spawn in biomes that suit them, react to the environment, and exist whether you engage them or not."
+				""
+				"Start simple: find a wild Cobblemon and get close. You don't need to battle it. Just observe."
+				""
+				"&7Tip: Cobblemon are more active at dusk — try exploring near dusk for Normal-types.&r"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "1000000000000005"
+			min_width: 320
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000003"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000004"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			subtitle: "Your Journey Begins"
+			tasks: [{
+				advancement: "cobblemon:root"
+				criterion: ""
+				id: "2EE95AED66FD8414"
+				type: "advancement"
+			}]
+			title: "&bHello, World!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000005"]
+			description: [
+				"Time to make your first catch."
+				""
+				"Throw a Poké Ball at a wild Cobblemon to start the catch attempt. The lower their HP, the better your odds — weaken them in battle first, then throw."
+				""
+				"A few things to know:"
+				"• &ePoké Balls&r are your basic catch tool — craft them from Apricorns"
+				"• Different balls have different catch rates and specialties"
+				"• The first Cobblemon you catch becomes your starter — choose wisely"
+				""
+				"&7Tip: Lower HP dramatically increases catch rate. Weaken before throwing.&r"
+			]
+			id: "1000000000000009"
+			min_width: 330
+			rewards: [
+				{
+					count: 10
+					id: "1000000000000007"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000008"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Gotta Catch 'Em All"
+			tasks: [{
+				advancement: "cobblemon:first_catch"
+				criterion: ""
+				id: "68A62C301647CB3D"
+				type: "advancement"
+			}]
+			title: "&bFirst Catch"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000009"]
+			description: [
+				"Give your Cobblemon a name. It's a small thing, but it matters."
+				""
+				"After catching, a naming screen will appear. You can name it anything you like, or leave it with its species name. A named Cobblemon feels different — it's yours."
+				""
+				"You can rename any Cobblemon later by interacting with it and opening its summary screen."
+				""
+				"&7Tip: Nicknames don't affect stats, but they do make your bond feel real.&r"
+			]
+			id: "100000000000000C"
+			min_width: 300
+			rewards: [{
+				id: "100000000000000B"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "This is a trust quest. Name a Cobblemon before claiming it"
+			tasks: [{
+				id: "100000000000000A"
+				title: "Nickname your Cobblemon via the naming screen"
+				type: "checkmark"
+			}]
+			title: "&bName Your Partner"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000009"]
+			description: [
+				"Your first real battle. Send your Cobblemon out and fight."
+				""
+				"Type matchups matter from the start — a Water-type move against a Fire-type deals extra damage, and vice versa. Pay attention to the type icons before selecting your move."
+				""
+				"Winning wild battles earns your Cobblemon experience points and helps them level up. Build good habits early — rotate your party and keep your team healthy."
+				""
+				"&7Tip: Check the Cobblepedia for type weaknesses before engaging a new species.&r"
+			]
+			id: "1000000000000010"
+			min_width: 320
+			rewards: [
+				{
+					count: 3
+					id: "100000000000000E"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					id: "100000000000000F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2FF6012BFB2D10C0"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "&bFirst Battle"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000010"]
+			description: [
+				"The &ePokédex&r is your field guide to every Cobblemon species. Open it from your inventory and look up any species you've encountered — it logs entry data automatically when you see or catch a Cobblemon."
+				""
+				"Each entry shows:"
+				"• Type and weaknesses"
+				"• Spawn biomes and conditions"
+				"• Evolution methods and requirements"
+				"• Base stats and move pool"
+				""
+				"Look up 5 entries to get familiar with how it works. You'll be using it constantly."
+				""
+				"&7Tip: You don't need to catch them — simply encountering a Cobblemon logs an entry.&r"
+			]
+			id: "1000000000000014"
+			min_width: 340
+			rewards: [
+				{
+					id: "1000000000000012"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1000000000000013"
+					item: "cobblemon:oran_berry"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Study Time"
+			tasks: [{
+				id: "2D7E698B31BD295A"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cobblepedia:cobblepedia"
+					}
+				}
+				type: "item"
+			}]
+			title: "&bKnow Your Types"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000014"]
+			description: [
+				"Ten entries in the Pokédex means ten different species encountered. That's a real start — but the world holds hundreds more."
+				""
+				"Every biome has its own Cobblemon population. Forests, oceans, mountains, caves, and even modded dimensions all have unique spawns you won't find anywhere else."
+				""
+				"Exploration is the engine of progress in Cobblemon. The more ground you cover, the more species you'll find."
+				""
+				"&7Tip: Explore multiple biomes — each has entirely unique Cobblemon populations.&r"
+			]
+			id: "1000000000000018"
+			min_width: 320
+			rewards: [
+				{
+					count: 5
+					id: "1000000000000016"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					id: "1000000000000017"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "square"
+			subtitle: "This is a trust quest. Have ten entries in your dex before claiming"
+			tasks: [{
+				id: "1EC7024B45B0AEB9"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cobblepedia:cobblepedia"
+					}
+				}
+				type: "item"
+			}]
+			title: "&bBudding Scholar"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000018"]
+			description: [
+				"Five different species. That means five different biomes visited, five different Cobblemon engaged, and the beginning of a real collection."
+				""
+				"Each species you catch gives you a different set of options — different moves, different typing, different strengths. Building a varied party now will serve you well in every chapter ahead."
+				""
+				"Grasslands, forests, beaches, caves — each has something worth catching."
+				""
+				"&7Tip: Different biomes have entirely different Cobblemon populations — variety rewards exploration.&r"
+			]
+			id: "100000000000001C"
+			min_width: 320
+			rewards: [
+				{
+					count: 3
+					id: "100000000000001A"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					id: "100000000000001B"
+					item: "cobblemon:revive"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Variety is the Spice"
+			tasks: [{
+				action: "catch"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "12103C6539E2202A"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "&bCatching Streak"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["100000000000001C"]
+			description: [
+				"The &eCobblemon Spawn Notification&r mod alerts you when a rare Cobblemon appears nearby. Keep an eye on your screen — these windows don't stay open long."
+				""
+				"Rare Cobblemon are significantly harder to find than common species. They may spawn only under specific conditions — time of day, weather, biome, or pure chance."
+				""
+				"When the notification fires, drop what you're doing and go. Rare spawns don't wait."
+				""
+				"&7Tip: Stay alert even when you're doing other things — rare notifications can appear at any time.&r"
+			]
+			id: "100000000000001F"
+			min_width: 330
+			rewards: [{
+				count: 3
+				id: "100000000000001E"
+				item: "cobblemon:lure_ball"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Something Rare Approaches!"
+			tasks: [{
+				id: "100000000000001D"
+				title: "Receive a Cobblemon Spawn Notification for a rare Cobblemon"
+				type: "checkmark"
+			}]
+			title: "&bSpawn Watcher"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "&bChapter 1 — First Steps"
+}

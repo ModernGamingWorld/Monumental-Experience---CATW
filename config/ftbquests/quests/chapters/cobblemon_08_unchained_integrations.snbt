@@ -1,0 +1,204 @@
+{
+	autofocus_id: "10000000000000B5"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_08_unchained_integrations"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:link_cable"
+	id: "10000000000000F6"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eCobblemon Unchained&r removes the restrictions that make certain Cobblemon mechanics impossible to access in single-player — primarily trade evolutions and other multiplayer-dependent features."
+				""
+				"In standard Cobblemon, Cobblemon like Machamp, Alakazam, and Gengar require trading to evolve. On a solo server or small group, that can lock entire evolution lines permanently."
+				""
+				"Unchained fixes that. Check its config to see which restrictions have been lifted in this pack."
+				""
+				"&7Tip: Unchained may remove trade-evolution restrictions — check its config for enabled features.&r"
+			]
+			icon: "cobblemon:link_cable"
+			id: "10000000000000B5"
+			min_width: 340
+			rewards: [{
+				count: 2
+				id: "10000000000000B4"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Cobblemon Unchained"
+			tasks: [{
+				id: "10000000000000B3"
+				title: "Use a Cobblemon Unchained feature"
+				type: "checkmark"
+			}]
+			title: "&bFreed from the Box"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000B5"]
+			description: [
+				"The &eLink Cable&r replaces the trade mechanic for solo play. Craft one and use it on a Cobblemon that normally requires trading to evolve — it triggers the evolution immediately."
+				""
+				"This unlocks some of the strongest fully-evolved Cobblemon in the game. Machamp, Alakazam, Gengar, Golem, Slowbro via King's Rock — all now accessible without a second player."
+				""
+				"Craft your first Link Cable and have it ready. You probably already have a Cobblemon waiting for it."
+				""
+				"&7Tip: Trade evolution lines like Machamp and Alakazam are now fully accessible solo.&r"
+			]
+			id: "10000000000000B8"
+			min_width: 340
+			rewards: [{
+				id: "10000000000000B7"
+				item: "cobblemon:link_cable"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "No Trader Needed"
+			tasks: [{
+				consume_items: false
+				id: "10000000000000B6"
+				item: "cobblemon:link_cable"
+				type: "item"
+			}]
+			title: "&bLink Cable Crafter"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000B8"]
+			description: [
+				"Three different trade-evolution Cobblemon evolved using Unchained mechanics. This means three Link Cable uses, three evolution lines completed, and three Cobblemon that were previously inaccessible now on your team."
+				""
+				"Plan your team around these unlocked lines. Some of them are among the best Cobblemon available, and they were just locked away until now."
+				""
+				"Unchained turns solo play into full play. Use everything it gives you."
+				""
+				"&7Tip: Plan your team around full evolution lines — they're now all available to you.&r"
+			]
+			id: "10000000000000BB"
+			min_width: 330
+			rewards: [{
+				count: 3
+				id: "10000000000000BA"
+				item: "cobblemon:pp_max"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Self-Sufficient Trainer"
+			tasks: [{
+				id: "10000000000000B9"
+				title: "Evolve 3 trade-evolution Cobblemon using Unchained"
+				type: "checkmark"
+			}]
+			title: "&bSolo Champion"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&eCobblemon Integrations&r creates bridges between Cobblemon and other mods in the pack. Where normally these systems would operate in parallel, Integrations makes them interact."
+				""
+				"Depending on what's configured in this pack, you might find:"
+				"• Cobblemon participating in Apotheosis encounters"
+				"• Type affinities affecting drop tables from other mods"
+				"• Cobblemon items functioning as ingredients in cross-mod recipes"
+				""
+				"Explore and experiment. The integration features are discovered by playing, not by reading."
+				""
+				"&7Tip: Cobblemon Integrations may bridge with Apotheosis, Gateways, and other pack mods.&r"
+			]
+			id: "10000000000000BE"
+			min_width: 360
+			rewards: [{
+				count: 2
+				id: "10000000000000BD"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Cobblemon Integrations"
+			tasks: [{
+				id: "10000000000000BC"
+				title: "Use a Cobblemon Integrations cross-mod feature"
+				type: "checkmark"
+			}]
+			title: "&bCross-Mod Trainer"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10000000000000BE"]
+			description: [
+				"Cobblemon spawn tables have been extended to include biomes added by mods in this pack. Terralith, Blue Skies, The Aether, and other dimension mods all contribute new habitats with unique Cobblemon populations."
+				""
+				"Species you can't find in vanilla biomes may appear exclusively in modded ones. If you've been ignoring the modded dimensions — &eThe Aether&r in particular — now is the time to explore them."
+				""
+				"The Aether's floating islands are home to Cobblemon you simply won't encounter anywhere else. Go there."
+				""
+				"&7Tip: Many Cobblemon have modded biome spawn entries — explore new dimensions for unique species.&r"
+			]
+			id: "10000000000000C1"
+			min_width: 350
+			rewards: [{
+				count: 5
+				id: "10000000000000C0"
+				item: "cobblemon:ultra_ball"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Beyond Vanilla Biomes"
+			tasks: [{
+				id: "10000000000000BF"
+				title: "Catch a Cobblemon in a modded biome (Terralith, Blue Skies, The Aether, etc.)"
+				type: "checkmark"
+			}]
+			title: "&bModded Type Collector"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10000000000000C1"]
+			description: [
+				"Cobblemon Integrations enables your team to participate in combat scenarios from other mods — Gateways to Eternity waves, Twilight Forest boss encounters, and similar high-stakes events."
+				""
+				"These fights are harder than standard wild battles. They're designed for geared Minecraft players, and your Cobblemon team has to keep up."
+				""
+				"Put your strongest, most levelled Cobblemon at the front and trust your training. This is what all those battles were building toward."
+				""
+				"&7Tip: Some integrations allow Cobblemon to assist in gateway and dungeon encounters.&r"
+			]
+			id: "10000000000000C4"
+			min_width: 340
+			rewards: [{
+				count: 3
+				id: "10000000000000C3"
+				item: "cobblemon:max_revive"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Cobblemon Meets Adventure"
+			tasks: [{
+				id: "10000000000000C2"
+				title: "Use Cobblemon in an integration-enabled combat scenario"
+				type: "checkmark"
+			}]
+			title: "&bIntegrated Warrior"
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	title: "&bChapter 8 — Unchained and Integrations"
+}

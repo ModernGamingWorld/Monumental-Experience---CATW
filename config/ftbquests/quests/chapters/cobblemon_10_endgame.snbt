@@ -1,0 +1,242 @@
+{
+	autofocus_id: "10000000000000DB"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_10_endgame"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:master_ball"
+	id: "10000000000000F8"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Fifty percent. Half the Cobblepedia filled. Every species in there represents a biome visited, a species tracked down, a battle fought or a ball thrown."
+				""
+				"This is the midpoint of the collection goal, and it's where the easy ones run out. The remaining half will require deliberate effort — exploring modded dimensions, hunting rare spawn conditions, and tracking down species that don't appear anywhere obvious."
+				""
+				"Don't forget that Cobblemon in &eThe Aether&r and other modded dimensions count — if you haven't been there yet, it's time."
+				""
+				"&7Tip: Don't forget Cobblemon that only appear in modded biomes or specific dimensions.&r"
+			]
+			icon: "cobblemon:ultra_ball"
+			id: "10000000000000DB"
+			min_width: 330
+			rewards: [{
+				count: 5
+				id: "10000000000000DA"
+				item: "cobblemon:ultra_ball"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "50% Complete"
+			tasks: [{
+				id: "10000000000000D9"
+				title: "Reach 50% Cobblepedia completion"
+				type: "checkmark"
+			}]
+			title: "&bHalfway There"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000DB"]
+			description: [
+				"Ninety percent. At this point you've seen nearly everything this world has to offer."
+				""
+				"The remaining ten percent will be the hardest — legendary Cobblemon, Megamon species, and anything that spawns under unusual conditions you haven't yet triggered."
+				""
+				"Thanks to Unchained, trade-evolution Cobblemon are no longer a blocker. Every species is theoretically obtainable — it's just a matter of finding them."
+				""
+				"&7Tip: All trade evolution Cobblemon are accessible via Unchained — no excuses left.&r"
+			]
+			id: "10000000000000DE"
+			min_width: 330
+			rewards: [{
+				count: 3
+				id: "10000000000000DD"
+				item: "cobblemon:master_ball"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "90% Complete"
+			tasks: [{
+				id: "10000000000000DC"
+				title: "Reach 90% Cobblepedia completion"
+				type: "checkmark"
+			}]
+			title: "&bAlmost a Legend"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000DE"]
+			description: [
+				"One hundred percent. Every species seen or caught. Every legendary. Every Megamon. Every modded dimension visited, every rare condition triggered."
+				""
+				"This is total completion of the Cobblepedia — the hardest thing in this chapter, and one of the hardest goals in the entire pack."
+				""
+				"Legendary and Megamon species count toward this total. If you've been putting them off, now is the time."
+				""
+				"&7Tip: Legendary and Megamon species count — include them in your final push to 100%.&r"
+			]
+			id: "10000000000000E1"
+			min_width: 330
+			rewards: [{
+				count: 5
+				id: "10000000000000E0"
+				item: "cobblemon:master_ball"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "100% — True Completion"
+			tasks: [{
+				id: "10000000000000DF"
+				title: "Complete 100% of the Cobblepedia"
+				type: "checkmark"
+			}]
+			title: "&bCobblemon Master"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&eCobble Armor Plus&r adds craftable Cobblemon-themed armor sets. Each piece provides trainer-styled protection, and wearing a full set unlocks set bonuses."
+				""
+				"Different armor variants may correspond to different types or species — check the mod for what's available and what materials each set requires."
+				""
+				"This is your endgame gear. A full set means you're as prepared as you can be for whatever the pack throws at you next."
+				""
+				"&7Tip: Each armor piece provides trainer-themed protection — check Cobble Armor Plus for set bonuses.&r"
+			]
+			icon: "cobblemon:rare_candy"
+			id: "10000000000000E4"
+			min_width: 340
+			rewards: [{
+				count: 10
+				id: "10000000000000E3"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Geared for Battle"
+			tasks: [{
+				id: "10000000000000E2"
+				title: "Craft a full Cobblemon Armor set (Cobble Armor Plus)"
+				type: "checkmark"
+			}]
+			title: "&bArmor of Champions"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10000000000000E4"]
+			description: [
+				"Via Cobblemon Integrations, your team can participate in &eGateways to Eternity&r wave events — high-difficulty combat encounters with escalating enemies and valuable loot."
+				""
+				"Complete a full wave with a party of 6 Cobblemon. They'll be fighting alongside or in place of your Minecraft gear, so make sure your team is levelled, healed, and strategically assembled."
+				""
+				"Gateway events are some of the best loot in the pack. Your Cobblemon team just became a farming tool."
+				""
+				"&7Tip: Via Cobblemon Integrations, your Cobblemon can participate directly in gateway events.&r"
+			]
+			id: "10000000000000E7"
+			min_width: 350
+			rewards: [{
+				count: 3
+				id: "10000000000000E6"
+				item: "cobblemon:master_ball"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Wave after Wave"
+			tasks: [{
+				id: "10000000000000E5"
+				title: "Complete a Gateways to Eternity wave with 6 Cobblemon"
+				type: "checkmark"
+			}]
+			title: "&bGateways Champion"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10000000000000E7"]
+			description: [
+				"Every Cobblemon on your team bred from scratch. Your nature, your IVs, your egg moves, your training."
+				""
+				"Take that team — six Cobblemon you raised from eggs — and defeat a Megamon with them. No wild-caught fillers, no lucky finds. Just the team you built."
+				""
+				"This is the proof of everything Chapter 9 taught you. Breeding produces Cobblemon that are genuinely stronger than anything you'd find in the wild. Now use them."
+				""
+				"&7Tip: Bred Cobblemon with optimal IVs and egg moves are significantly stronger than wild-caught ones.&r"
+			]
+			id: "10000000000000EA"
+			min_width: 350
+			rewards: [{
+				count: 5
+				id: "10000000000000E9"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Bred to Win"
+			tasks: [{
+				id: "10000000000000E8"
+				title: "Defeat a Megamon using a fully self-bred team of 6 Cobblemon"
+				type: "checkmark"
+			}]
+			title: "&bLegend in the Making"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"10000000000000E1"
+				"10000000000000EA"
+			]
+			description: [
+				"You've done it."
+				""
+				"Every chapter completed. The Cobblepedia finished. A perfect team bred and battle-tested. Megamons caught. Integrations explored. The Aether visited. The factory built. The berry farm harvested."
+				""
+				"This is what it looks like to finish Cobblemon in Monumental Experience: Creatures Across the World."
+				""
+				"The world is yours, Trainer. Now go catch them all — again, because you enjoyed it."
+			]
+			icon: "cobblemon:master_ball"
+			id: "10000000000000EE"
+			min_width: 360
+			rewards: [
+				{
+					id: "10000000000000EC"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+				{
+					id: "10000000000000ED"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			subtitle: "Every Chapter. Every Quest. Every Cobblemon."
+			tasks: [{
+				id: "10000000000000EB"
+				title: "Complete all Cobblemon Quest chapters"
+				type: "checkmark"
+			}]
+			title: "&bThe True Champion"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&bChapter 10 — Endgame"
+}

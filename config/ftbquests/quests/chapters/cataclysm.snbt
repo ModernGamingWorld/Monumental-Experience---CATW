@@ -1,0 +1,2355 @@
+{
+	autofocus_id: "6BBF35D29E70FDD4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "6F0E78F18F0B5785"
+	icon: "cataclysm:altar_of_fire"
+	id: "59395B6806F2A98A"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:item/quest"
+			rotation: 0.0d
+			width: 0.3d
+			x: 2.208973374295951d
+			y: -2.5d
+		}
+		{
+			height: 3.5d
+			image: "kubejs:item/the_netherite_monstrosity"
+			rotation: 0.0d
+			width: 3.5d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:item/the_ender_guardian"
+			rotation: 0.0d
+			width: 5.0d
+			x: 8.0d
+			y: 2.2857142857142776d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			height: 1.5d
+			image: "kubejs:item/cataclysm_logo"
+			order: 2
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/fire_1"
+			order: 1
+			rotation: 0.0d
+			width: 0.7d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.5d
+			y: -1.4642857142857082d
+		}
+		{
+			height: 1.0d
+			image: "enderio:block/fluid_cloud_seed_concentrated_still"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/portal_barrier"
+			rotation: 0.0d
+			width: 9.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/apothecary_mountain_side"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -0.9642857142857082d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/apothecary_mossy_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.9642857142857082d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.5d
+			y: -1.4642857142857082d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/particle/tremorzilla_tectonic_lightning_5.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.4642857142857082d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/particle/tremorzilla_retro_lightning_5.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.917946748591902d
+			y: -0.3392857142857082d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/the_ignis"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.7963389656938133d
+			y: -3.4464285714285765d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/the_harbinger"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.413370455709178d
+			y: 3.419642857142861d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/the_leviathan"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.525089605734756d
+			y: -2.1964285714285765d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -2.0d
+			y: 0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: [
+				"&9Cataclysm Dungeons&r are not that easy to find, so a &aSpecial Eye&r might help you find them."
+				""
+				"Each of the different &aEyes&r will &o&blead you&r to its set structure, and don't worry them &o&bbreaking is very rare&r."
+			]
+			id: "18EB86F91CBBCCC6"
+			min_width: 250
+			rewards: [
+				{
+					id: "56EF6BB8D6C04B9B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "46F7870C6154ED61"
+					item: "minecraft:ender_eye"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "648E89CEF275D455"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "I will find you!"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["The &cEye of Mech&r will take you to the &2Ancient Factory&r to fight &4The Harbinger&r."]
+			id: "775AB10F8196F27B"
+			min_width: 260
+			rewards: [
+				{
+					id: "74950014681BFE4E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "662ECCA96EC08D8D"
+					item: {
+						Count: 1
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23B2C8BA85A59929"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "&2Eye of Mech"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["The &eEye of Flame&r will take you to the &6Burning Arena&r to fight the &4Ignis&r."]
+			id: "43A5B83862D9E94C"
+			min_width: 250
+			rewards: [
+				{
+					id: "02BDCB8617BBEF65"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2CF2BBFDD24C4534"
+					item: {
+						Count: 1
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A18B988A59BE186"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			title: "&4Eye of Flame"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["The &dEye of Void&r will take you to the &aRuined Citadel&r to fight the &5Ender Guardian&r."]
+			id: "62C32905C33E2D88"
+			min_width: 250
+			rewards: [
+				{
+					id: "1271C9F1714D948F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "20CAB401093A9C7C"
+					item: {
+						Count: 1
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41D397FD467CCBD1"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			title: "&5Eye of Void"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["The &6Eye of Monstrous&r will take you to the &cForge of Souls&r to fight the &4Netherite Monstrousity&r."]
+			id: "7C848C7011726470"
+			min_width: 270
+			rewards: [
+				{
+					id: "668FDAADDA431DB5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B15956689B4EB7D"
+					item: {
+						Count: 1
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40208E5FC2BBFAEA"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "&4Eye of Monstrous"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["The &9Eye of Abyss&r will take you to the &dSunken City&r to fight the &1Leviathan&r."]
+			id: "3E8C7D92F99496BE"
+			min_width: 250
+			rewards: [
+				{
+					id: "6AE6700A024E8767"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "46DDEB3DFFEA576F"
+					item: {
+						Count: 1
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E1B52E024B7A6F8"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			title: "&2Eye of Abyss"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["The &6Eye of Desert&r will take you to the &cCursed Pyramid&r to fight the &eAncient Riemnant&r."]
+			id: "2542D8A6894816C6"
+			min_width: 260
+			rewards: [
+				{
+					id: "76D98498E06700B4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4722FC191D5534FC"
+					item: {
+						Count: 1
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C31D3E8DF8C47C5"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			title: "&2Eye of Desert"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			icon: "minecraft:netherrack"
+			id: "565376084F05ED6E"
+			rewards: [{
+				id: "3A69256DA7F4B3D8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&3&o2 Bosses to fight"
+			tasks: [{
+				id: "37716E88BEA5337E"
+				type: "checkmark"
+			}]
+			title: "&4The Nether"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			icon: "minecraft:grass_block"
+			id: "0496E8E786262464"
+			rewards: [{
+				id: "4906AE0DC2D9A5FC"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "&3&o3 Bosses to fight"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0F998B5ABA5A3DE8"
+				title: "Visit Dimension: &2Overworld"
+				type: "dimension"
+			}]
+			title: "&2Overworld"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			icon: "minecraft:end_stone"
+			id: "392EAE8BE71510C1"
+			rewards: [{
+				id: "1B086CB583DD67B8"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "&3&o1 Boss to fight"
+			tasks: [{
+				id: "4B4C73C6525B9FEE"
+				type: "checkmark"
+			}]
+			title: "&5The End"
+			x: 9.898169482846917d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C5EA7D62BAF2108"]
+			description: [
+				"The &5Leviathan&r has &o&b2,000&r hearts, sharp teeth, and strong tentacles."
+				""
+				"It can &o&bchomp&r on you, &o&bsmack&r you with its tentacles, or can hold you still and fire &o&ba beam&r at you. When brought &o&bbelow half health&r its beams become &o&bmuch more used and much more dangerous&r. It will fire beams all around it and will randomly fire them from its outh at you."
+				""
+				"If you some how kill it you'll be granted a &9Tidal Claw&r, an &dAbyssal Egg&r, and could be a musio disc: &6Predator of The Abyss&r."
+			]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:the_leviathan"
+				}
+			}
+			id: "746DE905D45A396C"
+			min_width: 310
+			rewards: [
+				{
+					id: "4A8367A3CD1FCD75"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "7467CDD59ABB8EC6"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CD670EE89C89AFE"
+					table_id: 7708913941106525583L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "043F030DD013235B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5The Leviathan"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AED8FD7FB023AD8"]
+			description: [
+				"The &4Harbinger&r takes a lot of inspiration from what powers him, the &dNether Star&r."
+				""
+				"He will &o&bfly around&r and shoot &0Wither Missiles&r at you which can give you &o&dwither effect&r. He also has &o&elasers&r he can shoot you with, laser gatlings and a &o&bbig mouth beam&r. He has &o&b1,365&r hearts and &o&ba big weakness&r, the &6EMPs&r. When powered with &cRedstone&r they'll damage &nall the machines nearby&r."
+				""
+				"Once defeated he'll drop a block of &3Witherite&r and perhaps a music disc: &5Doom of the Forsaken&r."
+			]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:the_harbinger"
+				}
+			}
+			icon_scale: 1.5d
+			id: "17CA9D80D8EC3EF7"
+			min_width: 300
+			rewards: [
+				{
+					id: "731E446F7A234DC4"
+					type: "xp"
+					xp: 1300
+				}
+				{
+					id: "295889AD38B69219"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04F5772920441CFA"
+					table_id: 7708913941106525583L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "212643C57CFE4F25"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4The Harbinger"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B7F2B63D867D221"]
+			description: [
+				"The &2Ancient Remnant&r is master of his domain, sand."
+				""
+				"He has &o&b1,200&r hearts and multiple attacks like &o&bsmacking&r you with his claws, &o&bslamming&r the ground, and making &o&bsandstorms&r which will lift you high in the air. It will also &o&bdash&r at you and suing its full body weight at you. Its attacks remain the same through the whole fight and careful of the &aKoboletons&r they got sticky hands."
+				""
+				"Once defeated will drop its &3Skull&r, &eSandstorm in a bottle&r, and at a &o&bchance&r its music disc: &6The Dryest Beast&r."
+			]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:ancient_remnant"
+				}
+			}
+			icon_scale: 1.5d
+			id: "33B1D3FD4C0B5514"
+			min_width: 300
+			rewards: [
+				{
+					id: "3682CF0D602E7B5E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6D940C5594DBCBEF"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53C2932E1F663CBB"
+					table_id: 7708913941106525583L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "331CDAB944917322"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eAncient Remnant"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F8F0F7880235BA2"]
+			description: [
+				"The &cNetherite Monstrosity&r lives up to his name, he's a beast of &3Netherite&r and &6Lava&r and has &o&b1,000&r hearts."
+				""
+				"It has &o&bvery basic attacks&r, if you get close he'll ground slam you, if you're farther he'll shoot lava at you which creates lava &nsource blocks&r."
+				""
+				"When killed he'll drop the &4Infernal Forge&r, &6Monstrous Horn&r, and maybe a music disc: &eSoul Bound Inferno&r."
+			]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:netherite_monstrosity"
+				}
+			}
+			icon_scale: 1.5d
+			id: "53154550397E9704"
+			min_width: 300
+			rewards: [
+				{
+					id: "3BF3C60EB215B0A5"
+					type: "xp"
+					xp: 1700
+				}
+				{
+					id: "6F067DAC77BA39D3"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CDE42DB6489D730"
+					table_id: 7708913941106525583L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "1FFD677F6F52F10B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cNetherite Monstrosity"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F4963FCAE5337EC"]
+			description: [
+				"Once you use the &7Burning Ashes&r on the &eAlter of Flame&r you'll get the &6Ignis&r."
+				""
+				"He has &o&b2,250&r hearts and has a massive &o&bsword&r and &o&bshield&r. The shield &o&bwill block damage&r you give and the sword can be used &o&bto stab you&r. Once stabbed, you &o&bcan't move&r you can &o&bonly attack&r. He can also pounce on you and throw &o&efireballs&r at you. Once you beat his health halfway he will start stage &o&b2&r. At stage 2 he will change colors to a &o&blight blue&r and will get &nmany more attacks&r with his sword and shield. Also throughout the fight &nall damage&r he gives to you, &nheals him&r."
+				""
+				"Once defeated he'll drop &o&b1&r &cIgnitium&r which you can use to craft your own versions of his weapons. He also might drop his music disc: &6Burning Retribution&r."
+			]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:ignis"
+				}
+			}
+			icon_scale: 1.5d
+			id: "7D57A14810BC0CBE"
+			min_width: 300
+			rewards: [
+				{
+					id: "5297F3B72454B5DC"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "799848AAE4E50355"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CE2A888D5B41096"
+					table_id: 7708913941106525583L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "5A6C5151B3A21A3E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Ignis"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21A0FD474FBB49F7"]
+			description: [
+				"The &dEnder Guardian&r is a hulking beast of endstone purpur, and obsidian."
+				""
+				"It has &o&b999&r hearts and &o&b2&r stages. In first stage it will have very basic attacks of &o&bpunching&r you, &o&bdashing&r, using &o&9shulker orbs&r, hitting you with &5Void Runes&r, and can &nstunlock&r you. Once you beat it down half way it's helmet will break exposing it's real head and starting the &o&b2nd&r stage."
+				""
+				"To start he will break the floor of the arena exposing the floor below, then he will use the same moves while pulling you closer. Also he is &o&bimmune to arrows&r so plese use a good &6Sword&r!"
+				""
+				"Once killed it will drop a &2Gauntlet of Guard&r and has a chance of dropping its music disc: &dGuardian of the Abyss&r."
+			]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:ender_guardian"
+				}
+			}
+			icon_scale: 1.5d
+			id: "2B115519A21F9CB7"
+			min_width: 300
+			rewards: [
+				{
+					id: "3C7D70C72D14A9B7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "129E21690A7D61BC"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1517C93BBC5FFCCD"
+					table_id: 7708913941106525583L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "56CD54E84D962527"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dEnder Guardian"
+			x: 9.898169482846917d
+			y: 4.0d
+		}
+		{
+			dependencies: ["565376084F05ED6E"]
+			description: [
+				"The &4Soul Black Smith&r resides in the &cNether&r."
+				""
+				"Don't overlook it thinking it is a &3Bastion&r, it's much worse. You can find &2Netherite&r and the &6Netherite Monstrosity&r. You won't need anything to activate him, just your presence."
+			]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "0F8F0F7880235BA2"
+			min_width: 300
+			rewards: [
+				{
+					id: "0D4094A99D3713BE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "282347A225A1811E"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "&6&oHome of the Netherite Monstrosity"
+			tasks: [{
+				id: "7EDD3301703FD7E5"
+				structure: "cataclysm:soul_black_smith"
+				title: "Find Structure: &2Soul Black Smith"
+				type: "structure"
+			}]
+			title: "&3The Soul Black Smith"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["565376084F05ED6E"]
+			description: [
+				"Don't worry you won't mistake this one for a &3Bastion&r."
+				""
+				"The &cBurning Arena&r is quite empty besides the &eIgnited Revenants&r and the &6Altar of Flame&r."
+			]
+			icon: "minecraft:nether_bricks"
+			id: "50C9CB8FB16E453D"
+			min_width: 300
+			rewards: [
+				{
+					id: "237D6D8BE6928A53"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "716ED212777D40F4"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "&6&oHome of the Ignis"
+			tasks: [{
+				id: "28EA523F9834EB02"
+				structure: "cataclysm:burning_arena"
+				title: "Find Structure: &2Burning Arena"
+				type: "structure"
+			}]
+			title: "&cThe Burning Arena"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["392EAE8BE71510C1"]
+			description: [
+				"Another structure to cover the barren &5End&r, the &dRuined Citadel&r."
+				""
+				"In it you'll find &9Endmaptera&r, &1Ender Golem&r, and the &5Altar of Void&r. Thankfully you don't need to sacrifice anything to summon the &6Ender Guardian&r, just get to the &5Altar of Void&r."
+			]
+			icon: "minecraft:purpur_block"
+			id: "21A0FD474FBB49F7"
+			min_width: 300
+			rewards: [
+				{
+					id: "0E4F5BE4311AFD17"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "383C9F5683B48CC8"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "&6&oHome of the Ender Guardian"
+			tasks: [{
+				id: "20930238A87763FA"
+				structure: "cataclysm:ruined_citadel"
+				title: "Find Structure: &2Ruined Citadel"
+				type: "structure"
+			}]
+			title: "&dThe Ruined Citadel"
+			x: 9.898169482846917d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: [
+				"&eThe Cursed Pyramid&r spawns in deserts and it's very hard to miss."
+				""
+				"A massive pyramid with huge pillars by the entrance. In it you'll find a lot of &o&btraps&r, &o&bhusks&r, and &o&bloot&r! Once you get to the bottom you'll find many &2Koboletons&r and a &6Sleeping Giant&r."
+			]
+			icon: "minecraft:sandstone"
+			id: "70CDA5F1593DB4B2"
+			min_width: 300
+			rewards: [
+				{
+					id: "3B1AB9D9D7693D0A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "24A125C6D729EF81"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "&6&oHome of Ancient Remnant"
+			tasks: [{
+				id: "397BEEBF069AE7BF"
+				structure: "cataclysm:cursed_pyramid"
+				title: "Find Structure: &2Cursed Pyramid"
+				type: "structure"
+			}]
+			title: "&aThe Cursed Pyramid"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: [
+				"The &9Sunken City&r is the &7Dungeon&r that houses the &dDeeplings&r, &eCoralssus&r, and The &5Leviathan&r, and it spawns in &bOceans&r."
+				""
+				"Once you get through it's defenses you'll find the &6Altar of Abyss&r which brings us to &o&bthe next quest&r!"
+			]
+			icon: "minecraft:stone_bricks"
+			id: "45FBEABEBA7CC09E"
+			min_width: 300
+			rewards: [
+				{
+					id: "451FA6DFCC677723"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "395CB0D4A06BF037"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "&6&oHome of The Leviathan"
+			tasks: [{
+				id: "78AFAE165BEF2155"
+				structure: "cataclysm:sunken_city"
+				title: "Find Structure: &2Sunken City"
+				type: "structure"
+			}]
+			title: "&9The Sunken City"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			description: [
+				"&4The Ancient Factory&r lies deep underground in the &2Overworld&r."
+				""
+				"With many redstone machines including &eThe Watchers&r, &9The Frowler&r, and &6The Harbinger&r."
+			]
+			icon: "minecraft:redstone_block"
+			id: "747B62A955D0C629"
+			min_width: 300
+			rewards: [
+				{
+					id: "0FB62F7623EE1566"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "7C97A5635DB8A7B1"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "&6&oHome of The Harbinger"
+			tasks: [{
+				id: "1D372E69BEEA8873"
+				structure: "cataclysm:ancient_factory"
+				title: "Find Structure: &2Ancient Factory"
+				type: "structure"
+			}]
+			title: "&4The Ancient Factory"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70CDA5F1593DB4B2"]
+			description: [
+				"Once you get to the bottom of the &eCursed Pyramid&r you'll find find the &6Ancient Remnant&r. "
+				""
+				"Use the &2Necklace of Desert&r to &o&bressurect the beast&r. To find it you'll need &o&bto brush the sus sand&r in the &eCursed Pyramid&r."
+			]
+			id: "0B7F2B63D867D221"
+			min_width: 300
+			rewards: [{
+				id: "4F0CB668086E8409"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4A5A607229B4F242"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50C9CB8FB16E453D"]
+			description: [
+				"You'll have to fight the &2Ignited Revenant&r first to get &7Burning Ashes&r."
+				""
+				"Once you have them use them on the &eAltar of Fire&r to summon the &6Ignis&r."
+			]
+			id: "7F4963FCAE5337EC"
+			min_width: 310
+			rewards: [
+				{
+					id: "00E951C28246D673"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45142C9343664EA6"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "57450A930AC4C581"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45FBEABEBA7CC09E"]
+			description: [
+				"In order to fight &5The Leviathan&r you'll need a sacrifice, yeah the &6Abyssal Sacrifice&r."
+				""
+				"You'll need a &7Nautil Shell&r, &dHeart of the Sea&r, &aAthame&r, and &cCrystalized Coral&r. All of those can be gotten from the &9Sunken City&r. The other blocks probably not."
+				""
+				"Just take your sacrifice and place it in the &6Altar of Abyss&r and &5Leviathan&r will awaken!"
+			]
+			id: "1C5EA7D62BAF2108"
+			min_width: 300
+			rewards: [
+				{
+					id: "7E2DC21F026C3502"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FDB50F64835B8F9"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			subtitle: "Waking up The Leviathan"
+			tasks: [{
+				id: "7E6867522EE80BE7"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["747B62A955D0C629"]
+			description: ["To power up &6The Harbinger&r you'll need a &dNether Star&r, which you get from killing the &0Wither&r."]
+			id: "7AED8FD7FB023AD8"
+			min_width: 300
+			rewards: [
+				{
+					id: "1CAE20319F62FDF9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FEED2514190D91D"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "44C13A2789671FD7"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53154550397E9704"]
+			description: [
+				"The &4Infernal Forge&r is a drop from the &cNetherite Monstrosity&r and is technically &o&bnot a weapon&r, it's a &npickaxe&r!"
+				""
+				"It can mine up to &o&bnetherite tier&r, so it can mine &6Allthemodium&r ore. When &eRight-clicked&r it will attack in an &o&bAOE&r mode. Pounding the ground hitting &neverything&r close by. "
+			]
+			hide_dependent_lines: true
+			id: "2A196974431FCC42"
+			min_width: 300
+			rewards: [
+				{
+					id: "5C7099165A4BBB68"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "01118387F1B2781B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FA495218EEB8C0B"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["746DE905D45A396C"]
+			description: [
+				"&9Tidal Claws&r are a confirmed drop from &5The Leviathan&r."
+				""
+				"It has &o&btwo&r modes, &o&battack&r and &o&bgrapple&r. Attack is with &eLeft-click&r, grapple is with &eRight-click&r."
+				""
+				"When you use its &2Attack&r it will launch the claw and go through max of &o&b5&r mobs. Dealing damage and giving &4Abyssal Curse&r which will continue to damage them."
+				""
+				"The &aGrapple&r does similar but will latch on to whatever is in range and pull you toward it."
+				""
+				"There's &nno durability&r."
+			]
+			id: "46CC8E7ED59F51D2"
+			min_width: 300
+			rewards: [{
+				id: "0F474F6CB37307EC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6EEB24B8CF4BC0BC"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17CA9D80D8EC3EF7"]
+			description: [
+				"&6Witherite&r is a drop from &4The Harbinger&r it will always drop &o&b1&r block which can be made into &o&b9&r ingots."
+				""
+				"&6Witherite&r is used to craft &o&b3&r weapons and the &3Mechanical Fusion Anvil&r."
+			]
+			id: "6ED61438A8A1EAA4"
+			rewards: [
+				{
+					id: "08B12B4EFB41FB54"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5EB6F3A2E8C332F3"
+					item: "minecraft:redstone_block"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "30D591AD26B6E40E"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "Witherite Ingots"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53154550397E9704"]
+			description: [
+				"By combining a &3Netherite Upgrade Template&r, a &0Netherite Helmet&r, and a &cMonstrous Horn&r to make the &4Monstrous Helm&r."
+				""
+				"It has better stats and when you're at half health it'll do &o&bknockback everything close&r to you and &nincrease&r defense stats."
+			]
+			id: "6FC4146E534C51DA"
+			min_width: 300
+			rewards: [
+				{
+					id: "2E1F58FA11EB8458"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "14496A68BE48A10C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "441555E3052F2EAF"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["746DE905D45A396C"]
+			description: [
+				"The &dAbyssal Egg&r is also a drop from &5The Leviathan&r."
+				""
+				"Place down the &o&bEgg&r and wait awhile and you'll have your own &6Baby Leviathan&r. Like its"
+				"mother it'll attack other sea creatures, but &o&bwon't attack you first&r."
+			]
+			id: "7CBEBBCB9D95D11A"
+			min_width: 300
+			rewards: [{
+				id: "771E135DA78BC194"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2AFECDD5BEFC5ADC"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: [
+				"The &4Gatling Laser&r is a weapon you can make from &6Witherite&r."
+				""
+				"By using &cRedstone&r in your inventory you can shoot &eLasers&r which start fires and do damage. It shoots &o&b50&r lasers per &o&b1&r redstone."
+			]
+			id: "5EDB5A2D744CE415"
+			min_width: 300
+			rewards: [
+				{
+					id: "64601C87E7DDB64D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 7
+					id: "4F966066BC2F5262"
+					item: "minecraft:redstone"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52F710E925BA3EDC"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65B3C002F6542BDD"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6CECFDF3DCC27679"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: [
+				"The &4Meat Shredder&r is a melee weapon you can make from &6Witherite&r."
+				""
+				"It has two attacks, tapping &eLeft-click&r and &3holding&r it. When you tap &eLeft-click&r it'll use the &4Meat Shredder&r like an &2Axe&r, hitting them once from a decent range. When you &3hold&r it though it will &o&brepeatedly shred&r them with it's &9Saw&r doing &o&bmuch quicker&r damage from closer."
+			]
+			id: "04B40BB107F14330"
+			min_width: 300
+			rewards: [
+				{
+					id: "38032EB559953799"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5EA33DF497D2DDC7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36E62A68551973A2"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5909857CF94BAAFF"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "73D8510344655F06"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: [
+				"The &5Wither Assault Shoulder Weapon&r (&o&bW.A.S.W&r) is the last weapon you can make from &6Witherite&r."
+				""
+				"It has &o&b2&r different projectiles it can shoot: &3Wither Missiles&r and &7Wither Howitzers&r. The &3Wither Missiles&r shoot from just holding &eRight-click&r, and will damage whatever hit them with &nlow&r cooldown."
+				""
+				"The &7Wither Howitzers&r are fired when you &eShift+Right-click&r, they damage a bigger area and leave an area of &dwither effect&r that damages whatever walks in it. They have &nmuch longer&r cooldown"
+				"though."
+			]
+			hide_dependent_lines: true
+			id: "445C9117198936B6"
+			min_width: 300
+			rewards: [
+				{
+					id: "6924670AFE72174B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1812D43EB383CAB4"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12B8AE82426BB29E"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "662CEDBED12CC0B1"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6A510114AEC33021"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "W.A.S.W."
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6ED61438A8A1EAA4"]
+			description: [
+				"The &dMechanical Fusion Anvil&r will be needed to make the &o&bvoid&r and &o&bfused&r weapons."
+				""
+				"It places like a normal &3Anvil&r but does not have &ndurability&r."
+			]
+			id: "683C260C854C5AA3"
+			rewards: [
+				{
+					id: "4469946C8CF65D59"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6E39B5718DEA46B4"
+					item: "cataclysm:witherite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D7CD131FE31CBC1"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79EF0B8ED1EAABC0"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "100B82B7AB9DADCD"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"2A196974431FCC42"
+			]
+			description: [
+				"The &5Void Forge&r is not much different from the &4Infernal Forge&r."
+				""
+				"Same attack damage and speed, same pickaxe tier. Just summons &dVoid Runes&r when attacking."
+				""
+				"Can be crafted by combining an &4Infernal Forge&r and a &9Void Core&r in a &eMechanical Fusion Anvil&r."
+			]
+			id: "6BC3CF8937DEDE89"
+			min_width: 300
+			rewards: [
+				{
+					id: "795BCC4329CB247B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "34CD7C5CA6AA0E6D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "apotheosis:miners_fervor"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29537CE0D9AC9F93"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"445C9117198936B6"
+			]
+			description: [
+				"The &5Void Assault Shoulder Weapon&r (&o&bV.A.S.W&r) is just like the &dWither&r version but better."
+				""
+				"Now it only shoots &6Void Howitzers&r which will do &o&bmore damage&r and cause void runes to come out of the ground in the area the &3Howitzer&r hit. Just at the cost of the &nlong&r cooldown."
+				""
+				"It can be crafted by combining the &6W.A.S.W.&r and a &9Void Core&r in the &aMechanical Infusion Anvil&r."
+			]
+			id: "74ACCEB6DC9EF6F7"
+			min_width: 300
+			rewards: [
+				{
+					id: "44E1BD43B6BFAAC1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "561F9782B95D426D"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0297FDAF038E1ACB"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "V.A.S.W."
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"683C260C854C5AA3"
+				"4D644A9829C240CB"
+				"2CD58FC229BC0C28"
+			]
+			description: [
+				"The &5Gauntlet of Bulwark&r acts not as you'd assume. Instead of &o&bbringing&r mobs closer it &o&bpushes&r them away, when holding &eRight-click&r, and gives them &6Blazing Brand&r. Then when you release &eRight-click&r you'll do the normal charge."
+				""
+				"It's made by fusing the &dGauntlet of Guard&r with a &cBulwark of Flame&r in the &aMechanical Fusion Anvil&r."
+			]
+			id: "1D56D3B444A4B2D4"
+			min_width: 300
+			rewards: [
+				{
+					id: "13571F7B5EE6A68A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1700CA845EDB64F8"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "apotheosis:scavenger"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40327827EAA920D4"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D57A14810BC0CBE"]
+			description: [
+				"&6Ignitium&r is like &0Netherite&r but takes actual skill to get it."
+				""
+				"The &6Ignis&r will only drop &o&b1&r so get good use of it. You can use it to upgrade your netherite armor or use it to make &o&b2&r weapons."
+			]
+			id: "291C76140DE97E3C"
+			min_width: 300
+			rewards: [
+				{
+					id: "13FF107EA73DE33A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "09506B5A22FD32BC"
+					item: "cataclysm:ignitium_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "71E5AA7065D681E9"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "Ignitium"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["291C76140DE97E3C"]
+			description: [
+				"If you like the &2Ignis' Shield&r you can make one of your own with &6Ignitium&r."
+				""
+				"The &4Bulwark of the Flame&r can be used like a normal shield but also has a &o&dspecial effect&r. When holding &eShift+Right-click&r, letting go will let you charge at whatever is &o&binfront of you&r, like how goats do. Whatever gets hit will take damage and if &o&bpinched against a wall&r will also &nget stunned&r."
+			]
+			hide_dependent_lines: true
+			id: "4D644A9829C240CB"
+			min_width: 300
+			rewards: [
+				{
+					id: "527C3B72B42FB471"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "1EDF85EF356BA684"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "apotheosis:shield_bash"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3521C86AC06247C4"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["291C76140DE97E3C"]
+			description: [
+				"The Incinerator can be used just like a normal sword and enchanted like one."
+				""
+				"But when holding &eRight-click&r it does something no normal sword does. When you hold and let go of &eRight+click&r for a &o&bfew seconds&r, massive &o&eflames&r will strike out of the ground in the direction you are looking at then &nwill explode&r."
+			]
+			id: "2BCB788924BBD849"
+			min_width: 300
+			rewards: [
+				{
+					id: "1F71512FF71A514C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "44D31D2F652D5C04"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 7s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C259A714CBA3AC6"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "350E253627C272D3"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4F4D4F196ED24844"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B115519A21F9CB7"]
+			description: [
+				"The &dGauntlet of Guard&r is more of a tool than a weapon, it brings in mobs closer when you hold &eRight-click&r with it."
+				""
+				"Then you can &o&bsmack the enemies&r with it to do a bit of damage."
+			]
+			hide_dependent_lines: true
+			id: "2CD58FC229BC0C28"
+			min_width: 300
+			rewards: [
+				{
+					id: "2C5D932EB748D597"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1EEEA8D09BD258CF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "tombstone:soulbound"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25FAA04164EF0360"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 9.898169482846917d
+			y: 5.0d
+		}
+		{
+			dependencies: ["689F32883C4E9502"]
+			description: ["&2Cataclysm&r offers plenty of &dMinibosses&r and mobs that help the &6Bosses&r as well!"]
+			icon: {
+				Count: 1
+				id: "cataclysm:bone_reptile_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BBF35D29E70FDD4"
+			rewards: [{
+				id: "0767C3DBA5C55589"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "05E1FB6DF026AD11"
+				title: "Minibosses and Enemies"
+				type: "checkmark"
+			}]
+			title: "&dCataclysm Minibosses"
+			x: 1.5d
+			y: 0.5357142857142918d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"The &eProwler&r is a miniboss guarding the &6Ancient Factory&r."
+				""
+				"He may look &o&bpowered down&r but once you get too close you'll note &o&bthat's very wrong&r. He has &o&b1,500&r &o&chearts&r and has &o&b2&r &o&aattacks&r: &dShoulder Missiles&r similar to the &o&bWASW&r and a &9Saw&r he uses for upclose combat."
+				""
+				"On death he'll drop &cRedstone&r and &3Iron&r plus &eXP&r, and he's also weak to the &o&bEMF&r attacks."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/prowler"
+				}
+			}
+			icon_scale: 1.1d
+			id: "3459CAEB59CBD60E"
+			min_width: 300
+			rewards: [
+				{
+					id: "0BD3899DF73DA511"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "3584FC80EE3F517C"
+					item: "minecraft:iron_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32020599EF899006"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59A0FBF8465351F9"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: "cataclysm:the_prowler_spawn_egg"
+				id: "7DBF4C90566816D2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2The Prowler"
+			x: 1.5d
+			y: 2.035714285714292d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"The &2Coralssus&r works as a guard and steed for the &dSunken City&r."
+				""
+				"They're used with the &1Deeplings&r but he's different! They have &o&b110&r &o&chearts&r and basic attacks but the &1Deeplings&r with them make it &o&bmuch more dangerous&r. Its attacks are just &o&bsmacking&r and &o&bthrowing&r you."
+				""
+				"When killed it'll drop &6Crystalized Coral&r which is needed to make the &5Abyssal Sacrifice&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/coralssus"
+				}
+			}
+			icon_scale: 1.2d
+			id: "1744E700CF742CE2"
+			min_width: 300
+			rewards: [
+				{
+					id: "4EEFDF477BFC84BC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2622838220FFF260"
+					item: "cataclysm:crystallized_coral_fragments"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A8A85A6582A8A93"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:coralssus_spawn_egg"
+				id: "2BF15BDF1224FB2E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Coralssus"
+			x: 3.0d
+			y: 0.5357142857142918d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"The &dAmethyst Crab&r lives in the &aLush Caves&r with the &7Axolotls&r."
+				""
+				"It has &o&b2,000&r &o&chearts&r and is initially &o&bneutral&r. That means it won't attack first but it will hit you back. It has a few attacks one being just smacking you with its claws. It can also throw &dAmethysts&r at you and burrow under the ground."
+				""
+				"On death it'll drop its meat and shells. Its meat can be blessed in an &5Altar of Amethyst&r to be better. The &9Shells&r can be crafted together to make &eBloom Stone Pauldrons&r which have similar stats to &0Netherite Armor&r but can do similar abilities as the &dCrab&r itself."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/amethyst_crab"
+				}
+			}
+			icon_scale: 1.2d
+			id: "631796E7615C04FA"
+			min_width: 300
+			rewards: [
+				{
+					id: "1E62949DDFB9AC4C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "60059E1A55CFFC7F"
+					item: "cataclysm:blessed_amethyst_crab_meat"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C583D1AC9A8FFAA"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3780294C9D629EBB"
+					table_id: 5236874501558129216L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: "cataclysm:amethyst_crab_spawn_egg"
+				id: "1FC04EDCAF7CBD0D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Amethyst Crab"
+			x: 2.5d
+			y: 0.035714285714291805d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"In order to fight the &6Ignis&r you'll need to make your way through the &2Ignited Revenant&r for it's &eBurning Ashes&r."
+				""
+				"This won't be &o&beasy fight&r, he has &o&b800&r &o&chearts&r, it's &o&ashields&r will stop you from attacking it so &o&bavoid&r those."
+				""
+				"Once you kill it you can get to the &6Ignis&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/ignited_revenant"
+				}
+			}
+			icon_scale: 1.3d
+			id: "1B4ED65C614B102F"
+			min_width: 300
+			rewards: [
+				{
+					id: "7A6E685EC8423671"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "188D723BB7299D81"
+					item: "cataclysm:dying_ember"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CCBA867E5633C3E"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "082B31E01297850B"
+					table_id: 6305167096659659419L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:ignited_revenant_spawn_egg"
+				id: "6186918546506DB1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4Ignited Revenant"
+			x: 0.5d
+			y: 1.0357142857142918d
+		}
+		{
+			dependencies: ["33B1D3FD4C0B5514"]
+			description: [
+				"&6Sandstorm in a Bottle&r is an item you wear for a &o&bspecial effect&r."
+				""
+				"It goes in the &7Belt&r slot and when you press default &o&bX&r you will turn into a &eSandstorm&r."
+				""
+				"It is solely for &o&bmovement&r, as you can fly for a little bit, it doesn't deal damage or reflect it, just movement. It &ndoesn't negate fall damage&r though so careful when you get out of it."
+			]
+			id: "1178E4123E8818E2"
+			min_width: 300
+			rewards: [{
+				id: "28AB21CA01AC78C3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E84C6ED13C503B6"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"The &9Ender Golem&r keeps guard of the &5Ruined Citadel&r, well multiple of them do. Technically you &o&bdon't need&r to fight them to fight the &dEnder Guardian&r but you definitely should."
+				""
+				"The &9Ender Golem&r has &o&b450&r &o&chearts&r and a few &o&eattacks&r. It attacks like a normal &3Iron Golem&r but also has &6Void Core&r attacks. The &6Void Core&r works like the &3Evoker Jaws&r with things coming out of the ground to &o&bdeal damage&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/ender_golem"
+				}
+			}
+			icon_scale: 1.3d
+			id: "6B5BC33667C782EC"
+			min_width: 300
+			rewards: [
+				{
+					id: "32E563BA90197B82"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "3D4DC3517D635680"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CC77CAA8F02FB30"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3635E5D70A9F5856"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:ender_golem_spawn_egg"
+				id: "37AF6786E3E6BE61"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Ender Golem"
+			x: 0.5d
+			y: 0.035714285714291805d
+		}
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: [
+				"&6Cataclysm&r is a mod that adds &o&bdifficult&r dungeons, &o&bchallenging&r boss-fights and &o&bpowerful&r items."
+				""
+				"This mod's bosses are inspired by &dMinecraft Dungeons&r, being much more &o&aunique&r, &o&9complex&r and &o&cpowerful&r compared to &eVanilla's&r."
+				""
+				"Defeat them in battle to prove yourself and earn &o&bpowerful gear&r!"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:textures/mob_effect/blazing_brand.png"
+				}
+			}
+			id: "689F32883C4E9502"
+			min_width: 300
+			rewards: [{
+				id: "7ED9DC0B961F5633"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "gear"
+			size: 1.7d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "5603E578E9EFC748"
+				title: "{atm9.quest.cataclysm.cataclysm}"
+				type: "checkmark"
+			}]
+			title: "Welcome to &4Cataclysm"
+			x: 1.5d
+			y: -1.874999999999993d
+		}
+		{
+			dependencies: ["33B1D3FD4C0B5514"]
+			description: [
+				"Then the &6Remnant Skull&r it's a confirmed drop from the &2Ancient Remnant&r and when used will spawn a &eModern Revenant&r, but much smaller and nicer than the &eAncient&r one though."
+				""
+				"You can tame it by feeding it a &3Sniffer Egg&r then it will act like a dog. Attacking what attacks you or what you attack. It also has 3 modes: &o&bfollow&r, &o&bwander&r, and &o&bstay&r. Follow it will &o&bfollow you&r. Wander will have it &o&bwalking around&r a certain area. And stay will have it &o&blay down&r in one spot."
+			]
+			id: "4FA7774D89171BB3"
+			min_width: 300
+			rewards: [{
+				id: "0FD86A8921860891"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "59F963AD4A674C28"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"&2Endermaptera&r are the cockroaches of the &dEnd&r. They live in and around the &5Ruined Citadel&r."
+				""
+				"They have the &o&bleast health&r of any &4Cataclysm&r mobs at &o&b8&r &o&chearts&r and only &o&b1&r &o&eattack&r."
+				""
+				"They will drop &9Void Jaws&r which can be used to craft &6Void Scatter Arrows&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/endermaptera"
+				}
+			}
+			icon_scale: 1.3d
+			id: "465B08461B460DAC"
+			min_width: 300
+			rewards: [
+				{
+					id: "5879D64684D8F6AF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "07E9F13AAF0CAEA5"
+					item: "cataclysm:void_jaw"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E7375CF22B9EB83"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:endermaptera"
+				icon: "cataclysm:endermaptera_spawn_egg"
+				id: "5A4F3C501FCA8D4A"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Endermaptera"
+			x: 0.0d
+			y: 0.5357142857142918d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"&2Koboletons&r are mini &eDino Skeletons&r who serve the &6Ancient Remnant&r."
+				""
+				"They only have &o&b12&r and a half &o&chearts&r and &o&b1&r &o&eattack&r."
+				""
+				"They also drop their &o&bbones&r but they only make bonemeal."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/koboleton"
+				}
+			}
+			icon_scale: 1.3d
+			id: "4FA156C383C9C438"
+			min_width: 300
+			rewards: [
+				{
+					id: "7DAC7FB8F3EE678C"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "44411D6790059642"
+					item: {
+						Count: 1
+						id: "cataclysm:khopesh"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1356764348B06B06"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				id: "3ED2F1DCEF876342"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Koboleton"
+			x: 1.0d
+			y: 1.5357142857142918d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"The &4Watchers&r... well they watch the &6Ancient Factory&r."
+				""
+				"They'll attack anything they see with their laser beams! They have &o&b12&r and a half &o&chearts&r, can &o&9fly&r, and are &o&3weak&r to &o&bEMF&r attacks as well."
+				""
+				"Like the &eProwler&r they drop &cRedstone&r and &3Iron&r on death."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/watcher"
+				}
+			}
+			icon_scale: 1.3d
+			id: "4BF5EB050EC14C80"
+			min_width: 300
+			rewards: [
+				{
+					id: "0AAE099AFE44D7A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "1079980073F18F42"
+					item: "minecraft:redstone_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10926BE40424FEDA"
+					table_id: 5236874501558129216L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				icon: "cataclysm:the_watcher_spawn_egg"
+				id: "115CC8CB465CC75B"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&2The Watcher"
+			x: 2.0d
+			y: 1.5357142857142918d
+		}
+		{
+			dependencies: ["6BBF35D29E70FDD4"]
+			description: [
+				"The &1Deeplings&r are an ancient race of &o&bsea monsters&r who live and guard the &dSunken City&r."
+				""
+				"They have their own rankings: &6Anglers&r, &9Brutes&r, &ePriests&r, and &3Warlocks&r. Each carrying &o&bdifferent weapons&r which they can drop."
+				""
+				"The &eDeepling Priest&r drops the &7Athame&r which we need for the &5Abyssal Sacrifice&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/deepling_brute"
+				}
+			}
+			icon_scale: 1.2d
+			id: "6E08D4E6BC3FB99F"
+			min_width: 300
+			rewards: [
+				{
+					id: "2E1B5B46DFCE1EC8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3E3C2F7F57ED89C6"
+					item: {
+						Count: 1
+						id: "cataclysm:coral_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ACE139EDA50A9C3"
+					item: {
+						Count: 1
+						id: "cataclysm:coral_bardiche"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BA206CB57C22AF2"
+					table_id: 1235506154212082407L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:deepling"
+					icon: "cataclysm:deepling_spawn_egg"
+					id: "32F07A1E7D1DB677"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_angler"
+					icon: "cataclysm:deepling_angler_spawn_egg"
+					id: "1292EDE5AE9A6208"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_brute"
+					icon: "cataclysm:deepling_brute_spawn_egg"
+					id: "0F979803BAD37C6D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					icon: "cataclysm:deepling_priest_spawn_egg"
+					id: "1FD4301EF1879E2F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_warlock"
+					icon: "cataclysm:deepling_warlock_spawn_egg"
+					id: "77D7886DB72A9515"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&2Deeplings"
+			x: 2.5d
+			y: 1.0357142857142918d
+		}
+	]
+	title: "Cataclysm"
+}

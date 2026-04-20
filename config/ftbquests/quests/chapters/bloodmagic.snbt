@@ -1,0 +1,2250 @@
+{
+	autofocus_id: "375FF0D8ACD2E17F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bloodmagic"
+	group: "4814F40AB34427B6"
+	icon: "bloodmagic:altar"
+	id: "004F28C5C85F467B"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -29.285714285714285d
+			y: -3.5821428571428626d
+		}
+		{
+			height: 1.4d
+			image: "kubejs:item/blood_magic_logo"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: -24.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "vampirism:block/impure_blood_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -20.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "evilcraft:block/blood_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -18.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/bloodpar"
+			rotation: 0.0d
+			width: 1.0d
+			x: -20.60714285714286d
+			y: -4.43928571428572d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:item/intermediatecuttingfluid"
+			rotation: 0.0d
+			width: 1.0d
+			x: -27.607142857142854d
+			y: -4.939285714285717d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:textures/entities/bloodelytra.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -25.839285714285715d
+			y: -4.225000000000001d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:block/strong_tau_8"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:textures/entities/fireprojectile.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:item/mailorder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -27.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -18.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -27.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/spark"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -30.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "botania:item/corporea_spark_master"
+			rotation: 0.0d
+			width: 1.0d
+			x: -25.214285714285715d
+			y: -4.903571428571432d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/lifestealer_skull_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -5.0d
+		}
+	]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0FFFAB42C8994C3B"]
+			description: [
+				"Welcome to &4Blood Magic&r!"
+				""
+				"It adds an expansive life-based magic system which spans rituals, sacrifices, summoning, alchemy and spell creation. In &4Blood Magic&r, the player collects &2Life Essence&r by sacrificing their &o&bown health&r or the &o&bhealth of mobs&r to power their &4Blood Magic&r creations on their quest to become an &dArchmage&r."
+				""
+				"&o&bWhat do I need to get started&r?"
+				"Well, you can really get your first start as soon as you have some &cRedstone&r, &3Iron&r, &6Gold&r, &9Lapis Lazuli&r, and a couple of &bDiamonds&r. But delving deeper into the mod can get quite... &nexpensive&r."
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			id: "3A9B90A453C933C4"
+			min_width: 300
+			rewards: [
+				{
+					id: "3D1B65B9B393B3F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "443F77C8DD77E4D7"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&oScribe's Table&r quest*"
+			tasks: [{
+				id: "27529E8EA019A89A"
+				type: "checkmark"
+			}]
+			title: "Welcome to &4Blood Magic"
+			x: -30.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A9B90A453C933C4"]
+			description: [
+				"To get started with &4Blood Magic&r, we'll need to collect some &cblood&r."
+				""
+				"To do this, we'll need to craft the &eSacrificial Knife&r and the &6Blood Altar&r."
+				""
+				"Go ahead and place the &6Altar&r somewhere with &o&bplenty of space&r around it. We might want to &o&bexpand&r on it more in the future."
+				""
+				"To acquire &cblood&r, stand by the &6Altar&r and use the &eKnife&r. You'll take a little damage, but it's for the cause."
+				""
+				"Each stab will generate around &o&b200&r &2LF&r."
+			]
+			icon: "bloodmagic:altar"
+			id: "3DA7D0BA045CE7AB"
+			min_width: 300
+			rewards: [
+				{
+					id: "2DE0010C8535C460"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C170B3E516DDEA5"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "&oCollecting &cBlood"
+			tasks: [
+				{
+					id: "49E5D4B7057851E7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "41D32B8152806B22"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+			]
+			title: "&fBlood Altar&r &b&oTier: I"
+			x: -30.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"&6Blank Slates&r are a crafting ingredient that are primarily used in &aRune&r and &9Sigil&r creation."
+				""
+				"Placing stone in the &cAltar&r with &o&b1,000&r &2LP&r inside will create &6Blank Slates&r. You'll need a lot of these."
+			]
+			id: "6AAB831CB3FB536A"
+			min_width: 250
+			rewards: [
+				{
+					id: "01162A1F9A3B0A4D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "310555F72629E982"
+					item: "bloodmagic:blankslate"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6646DF0AA943222E"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "7CBFE84B4FE3DC01"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			title: "Blank Slates"
+			x: -27.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			description: [
+				"To craft even more items using blood, we'll want to upgrade our &6Altar&r by surrounding it in &3Blank Runes&r."
+				""
+				"If you want, you can replace the &3Blank Runes&r in each of the cardinal directions to runes like the &aSpeed Rune&r. These runes can affect how the &6Altar&r functions."
+				""
+				"You can also visualize an example of how to build a &o&bTier: II Altar&r using the &9Guidebook&r."
+				""
+				"&aSpeed Runes&r are the only runes available, besides &3Blank Runes&r, until you make a &o&bTier: II Altar&r, but can be replaced later on."
+			]
+			icon: "bloodmagic:altar"
+			id: "4B51189C36B8D291"
+			min_width: 350
+			rewards: [
+				{
+					id: "4C507A1D9293C777"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CC3304883A3F66A"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				count: 8L
+				id: "4CDFCAAED8ABB615"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "&fBlood Altar&r &b&oTier: II"
+			x: -24.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"With our &6Blood Altar&r now at &o&bTier: II&r, we can make even better &3Runes&r."
+				""
+				"We'll need some &9Reinforced Slate&r to continue our journey in &4Blood Magic&r, including doing some &dRituals&r."
+			]
+			id: "2C3CA7B9D1A7DC47"
+			min_width: 250
+			rewards: [
+				{
+					id: "448B572D6386F058"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BDE4FC3AE37EEEA"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4CEA3279AF0BEE01"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"The &cWeak Blood Orb&r is used to store blood (&2LP&r). It can be used as a way to &o&btransport blood&r to and from &6Altars&r."
+				""
+				"To craft this, you'll need to place a diamond on top of the &6Blood Altar&r, then generate enough &2LP&r to craft it."
+				""
+				"To charge a &cBlood Orb&r, you can &eRight-click&r to &o&bsacrifice some of your health&r to the &cOrb&r. This also links your &dSoul&r to your &dSoul Network&r."
+				""
+				"You can also place the &cOrb&r in a &6Blood Altar&r that has some &2LP&r in it. It'll drain faster the more &aSpeed Runes&r it has."
+			]
+			id: "5BF29A151A04FEF0"
+			min_width: 300
+			rewards: [
+				{
+					id: "03FD3DE028A7D19E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CBDBA4EB3277717"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			subtitle: "&oHolds a max of &b5,000&r &2LP"
+			tasks: [{
+				id: "65E0BEE90716B68C"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: [
+				"With our &o&bTier: III&r &6Blood Altar&r, we can start performing &dRituals&r."
+				""
+				"Rituals require a &9Master Ritual Stone&r and enough regular &2Ritual Stones&r to create."
+				""
+				"Start by crafting a bunch of &2Ritual Stones&r as well as a &9Master Ritual Stone&r. These are the basic blocks we'll need to start doing rituals."
+			]
+			icon: "bloodmagic:masterritualstone"
+			id: "4578C0EE82F66BD9"
+			min_width: 300
+			rewards: [
+				{
+					id: "706F037413BB3D25"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "265985087AEB0837"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6995C629EAA148F5"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "32F2BC0D3AA69E25"
+					item: "bloodmagic:ritualstone"
+					type: "item"
+				}
+			]
+			title: "&b&oTier: I&r  &2Rituals"
+			x: -18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"This rune &o&bincreases&r the amount of &2LP&r gained from taking blood away from &o&bnon-player&r entities."
+				""
+				"Each one gives a bonus of &o&b10%&r additively per rune."
+			]
+			id: "08F28A9E4DEA7CD0"
+			min_width: 250
+			rewards: [
+				{
+					id: "23EBA079A86E799A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8F8381156A91F3"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6C6CDA42FB379A80"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"Now you can &o&bstab others&r to use their &cBlood&r instead!"
+				""
+				"Stabbing any mob within two blocks of your &6Altar&r with one of these will insta-kill them and drain their &2LP&r into your &6Altar&r!"
+				""
+				"If you have &dRunes of Sacrifice&r around your &6Altar&r, you'll get more per kill."
+			]
+			id: "5361F72BAB72D318"
+			min_width: 250
+			rewards: [
+				{
+					id: "050236926D942519"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D19A15C054E2344"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5D7178C2EF652773"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6AAB831CB3FB536A"
+				"506D48AD9FB2E89D"
+			]
+			description: [
+				"The &4Hellfire Forge&r is one of the main device needed for creating certain items in &cBlood Magic&r."
+				""
+				"It is powered by &7Demon Will&r, and can be used to create several items including the &dSentient Sword&r."
+			]
+			id: "7BA086472D87D705"
+			min_width: 300
+			rewards: [
+				{
+					id: "65BAEBCF71A95208"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "283C1A6729D9C09B"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "59D4952D3D164F6D"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11D37E7391B49A88"]
+			description: [
+				"The &dSentient Sword&r allows you to collect &3Demon Will&r a lot easier."
+				""
+				"Simply &o&bkill a hostile mob&r with the sword, and the mob will drop &3Demon Will&r."
+			]
+			hide_dependency_lines: true
+			id: "7C8D74692C963000"
+			rewards: [
+				{
+					id: "40D83B6E12A16952"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "425451EF156280B9"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "72A92CB3A5DA9044"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: [
+				"The &aPetty Tartaric Gem&r is a storage for &3Demonic Will&r. This will store up to a maximum of &o&b64&r &3Will&r."
+				""
+				"This &3Demonic Will&r can be gathered with the &bRudimentary Snare&r or &dSentient Sword&r and is &nautomatically&r stored into the gem, when the player picks up a &3Demonic Will&r. "
+				""
+				"If you drop any &3Demon Will&r you have in your inventory, the &6Gem&r will absorb it into its storage."
+				""
+				"The &aPetty Tartaric Gem&r is required for some recipes in the &4Hellfire Forge&r and can also be used as &nsource&r for &3Demonic Will&r for the &o&bspecial attack&r of the &dSentient Sword&r."
+			]
+			id: "11D37E7391B49A88"
+			min_width: 300
+			rewards: [
+				{
+					id: "3C98676E7D871A75"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DC698D3D4E07D1D"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&oHolds a max of &b64&r &3Will"
+			tasks: [{
+				id: "1E4979886B89B2AD"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -28.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11D37E7391B49A88"]
+			id: "487275B970530E3F"
+			rewards: [{
+				id: "6C398EB3B8CC167B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "&oHolds a max of &b256&r &3Will"
+			tasks: [{
+				id: "55AF014185F20835"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -28.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["487275B970530E3F"]
+			id: "626C07DB8B8C5A04"
+			rewards: [{
+				id: "0B2775EDC84F8DBC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&oHolds a max of &b1,024&r &3Will"
+			tasks: [{
+				id: "04BCD1D949FCB24D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -28.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["626C07DB8B8C5A04"]
+			id: "20458B8987CD6CB9"
+			rewards: [
+				{
+					id: "706507A5BDE8CAF5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2178E35E8A340BDB"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&oHolds a max of &b4,096&r &3Will"
+			tasks: [{
+				id: "25B30F1BCCEE920A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5886C648D14180E1"]
+			description: [
+				"Combing &3Reinforced Slate&r with some blood in our new &o&bTier: III&r &6Blood Altar&r will give us &9Imbued Slates&r."
+				""
+				"This is the next upgrade for our &4Blood Magic&r journey."
+			]
+			id: "375FF0D8ACD2E17F"
+			min_width: 250
+			rewards: [
+				{
+					id: "467291771E176EC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13BA22D02A7F803B"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2BEC3F34860494B0"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: ["This rune increases the total capacity of the &6Blood Altar&r by &o&b20%&r for each &cCapacity Rune&r."]
+			id: "0B2B8247DA280E90"
+			min_width: 250
+			rewards: [
+				{
+					id: "7CF045B2A95086EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "689B274606BAE53E"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "41758E5DA17E2FDF"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: ["Increases the flow rate of &2LP&r in and out of the &6Blood Altar&r when pumping to and from an external tank by &o&b20,000&r per rune."]
+			id: "47B985B56C582D6A"
+			min_width: 250
+			rewards: [
+				{
+					id: "31EA9D6A3290C38D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C1166162A896890"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "00D5D96DA535CFE7"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["431C44439CA54077"]
+			description: ["The last piece of &6Slate&r."]
+			id: "7CA3AE708F46CEBF"
+			rewards: [
+				{
+					id: "0FE381A79B163DDA"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61C56AD8DB07F85F"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "57F75D0B2554BA61"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"This rune &o&bincreases&r the capacity of the &6Altar&r by a multiplicative amount of &o&b7,5%&r per rune."
+				""
+				"These apply after regular &aCapacity Runes&r."
+			]
+			id: "6C0D4CBC089988ED"
+			min_width: 250
+			rewards: [
+				{
+					id: "2A8726C8BB765154"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080ACBADC5BA1356"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0B14A7CBC056CC9F"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"This rune creates a &o&b1,000&r &2LP&r internal buffer whenever the &6Altar&r is not being used for crafting or &o&bfilling blood orbs&r."
+				""
+				"Whenever an item is placed inside of the &6Altar&r, it will instantly consume the stored charge and apply it to the item."
+				""
+				"No more &o&bwaiting&r once placed!"
+			]
+			id: "6C57FF70679AF123"
+			min_width: 250
+			rewards: [
+				{
+					id: "5E890AEA3E9B9188"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48A2A926BC6A85FF"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73F90730D99D6384"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2214B7DCE4075A02"]
+			description: ["You are too &n&6POWERFUL&r ! ! !"]
+			id: "396AA75774059D0B"
+			rewards: [
+				{
+					id: "493159D4211DD8E5"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E57F2CBBAC382B3"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "600A5AEE6C546B4C"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"This rune &o&baccelerates&r the operations of other runes, like the &aCharging&r or &9Displacement Rune&r."
+				""
+				"It removes &o&b1&r tick of delay per rune, down to a minimum of &o&b1&r operation per tick."
+			]
+			id: "0EE2D22A577D10B0"
+			min_width: 250
+			rewards: [
+				{
+					id: "0FDD0D502E4E581C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35370D74B010E1AC"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7EB95246A2F0981D"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0E8418B42A744030"]
+			description: [
+				"&cTau Fruit&r can be obtained from &o&bloot chests&r within the &4Hidden Realm&r. You'll need this to upgrade your &6Blood Altar&r even further!"
+				""
+				"Once collected, the fruit &o&bcan be planted&r to farm it. However, it has &o&b2&r potential products instead of one."
+				""
+				"Growing the fruit naturally will result in more &cTau Fruit&r, which can be turned into &7Oil&r. But what if we give it some &cBlood&r?"
+			]
+			id: "50A28E1946047A6E"
+			min_width: 300
+			rewards: [
+				{
+					id: "4899CDA6BDDEB8C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3287D5C488380DB8"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D780C226FCF4A03"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50A28E1946047A6E"]
+			description: [
+				"Just like everything in this pack, the fruit thirsts for &cBlood&r. Plant the fruit and &o&bforce a mob&r on top of it."
+				""
+				"It will drain the &aLife Force&r of the mob to become &6Saturated Tau&r."
+			]
+			id: "5E2D15E4A410B5DA"
+			min_width: 300
+			rewards: [
+				{
+					id: "5511EA668DC7B429"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6843F20A9FDD52D1"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "102AEEB23B1AA7EF"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: [
+				"While not fully implemented yet, the &cAlchemical Reaction Chamber&r functions like a &7Furnace&r."
+				""
+				"This is currently the only way to obtain &aWeak Blood Shards&r, which we'll need to upgrade our &6Altar&r."
+			]
+			id: "308581359FEF32E9"
+			min_width: 250
+			rewards: [
+				{
+					id: "7798ABBC4BAB13CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "725D7F157EF03C56"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1589663D302CE21E"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0E51D6BB2BC756B6"
+			rewards: [
+				{
+					id: "7848C02921758A7E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DD178A1A3233204"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&oHolds a max of &b150,000&r &2LP"
+			tasks: [{
+				id: "7BB6F203FCA31A25"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "048BD38532A1DDCF"
+			rewards: [
+				{
+					id: "08B35AB2E64B3B71"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "111A91B224197E86"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			subtitle: "&oHolds a max of &b1,000,000&r &2LP"
+			tasks: [{
+				id: "2F13F6D6E170BBEC"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5E2D15E4A410B5DA"
+				"308581359FEF32E9"
+			]
+			description: [
+				"I hope by this point, you've been stocking up on some &3Demon Will&r with a &bSentient Sword&r. If not, make sure to go and grab some!"
+				""
+				"With our &eSaturated Tau&r and our &9Alchemical Reaction Chamber&r, we can make the required materials to upgrade our &6Altar&r and &4Blood Orb&r, the &cWeak Blood Shard&r."
+				""
+				"This does require the &aSanguine Rieverter&r, which takes a couple of upgrades to your &dTartaric Gem&r."
+			]
+			id: "25343A0C4C22AA60"
+			min_width: 250
+			rewards: [
+				{
+					id: "3A386B0E3C9940DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5623A02DEF1F4BF1"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3A104E7D6C6AA524"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+				{
+					id: "04EAE604D8B668B3"
+					item: "bloodmagic:largebloodstonebrick"
+					type: "item"
+				}
+				{
+					id: "6C20FD13B73935A7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sanguinereverter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"Now we'll need to make the &2Dusk&r version of the &9Ritual Diviner&r."
+				""
+				"This gives us access to even &o&bmore rituals&r, including the ritual that gets us to the &4Demon Realm&r."
+			]
+			id: "263925A79EBB270F"
+			min_width: 250
+			rewards: [
+				{
+					id: "6647598F7C4C2325"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33DC7B2E19B9AA39"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "46C11FFD8A06B63E"
+					item: {
+						Count: 1
+						id: "bloodmagic:duskscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "088CD8231DD1A37A"
+					item: "bloodmagic:ritualdivinerdusk"
+					type: "item"
+				}
+			]
+			title: "&b&oTier: II&r  &6Rituals"
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"Before we can craft the &4Hellfire Forge&r, we'll need a way to power it by acquiring &3Demon Will&r."
+				""
+				"To start collecting it, we'll need to create some &7Soul Snares&r that we can use on mobs."
+				""
+				"Once you use a few of these &o&bon a mob&r, white &o&bparticles&r will appear around them. Slay them, and you'll acquire &7Demonic Will&r."
+			]
+			id: "506D48AD9FB2E89D"
+			min_width: 300
+			rewards: [
+				{
+					id: "07EB91CE33392DD5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "598CB96CD0142818"
+					item: "bloodmagic:soulsnare"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C39B2EE4B370870"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3D1BAA6CA8B979A9"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+				{
+					id: "42D29681DC076E3C"
+					item: {
+						Count: 1
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 5.0d
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Collecting Demonic Will"
+			x: -30.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			description: [
+				"The &eAlchemy Table&r can craft various objects, catalysts, and more by using &2LP&r from a player's &dSoul Netuork&r."
+				""
+				"This table can also convert many things, like &cRotten Flesh&r to &aLeather&r, &eSand&r to &3Clay&r, &7Strings&r to &bCobweb&r etc. It's pretty useful!"
+			]
+			id: "7CC2D826CA6BBDDB"
+			min_width: 300
+			rewards: [
+				{
+					id: "080A6AA97A0A41E9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A352B8EB3B4EC03"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "33ECB0563BA9E2CB"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"There are several &3Rune&r types that can change how an &6Altar&r functions."
+				""
+				"For example, &aSpeed Runes&r increase the speed of all crafting operations within the &6Altar&r by &o&b20%&r per rune."
+				""
+				"This is the &o&bfirst rune&r you can use to upgrade your &6Blood Altar&r."
+			]
+			id: "49F57CE3B472FF6D"
+			min_width: 250
+			rewards: [
+				{
+					id: "422BF2738AC9D3D3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C4B81B6A845869"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3EF20FD3AC7ED48B"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"This rune &o&bincreases&r the amount of &2LP&r gained from getting blood from &o&bPlayers&r."
+				""
+				"Each rune gives a bonus of &o&b10%&r additively."
+			]
+			id: "6CE4ED7A2642674F"
+			min_width: 250
+			rewards: [
+				{
+					id: "5898710F2074585F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A59EEEE63129686"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6692D1D1E4E4F758"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"To upgrade our &6Blood Altar&r to &o&bTier: III&r, we need &o&b28&r more runes. "
+				""
+				"You need to place &o&b5&r &cBlood Runes&r (Blank or better) one block &o&bdown&r and two blocks &o&baway&r from the &o&bTier: II&r &6Altar&r runes, along each edge."
+				""
+				"You'll then want to create a pillar in each corner out of any block, with a pillar cap of &eGlowstone&r sitting one block higher than the &6Blood Altar&r itself. Any &nnon-air&r block can be used for the pillar, as long as the cap is &eGlowstone&r."
+				""
+				"If you want to check if the &6Blood Altar&r was built correctly, use a &dDivination Sigil&r to check the &o&bTier&r."
+			]
+			icon: "bloodmagic:altar"
+			id: "5886C648D14180E1"
+			min_width: 350
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "7698DE23F4AEC268"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B3D1B87C4DC60D0"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				count: 28L
+				id: "45FE50B70B45B915"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "&fBlood Altar&r &b&oTier: III"
+			x: -20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"375FF0D8ACD2E17F"
+				"25343A0C4C22AA60"
+			]
+			description: [
+				"To upgrade our &6Blood Altar&r, we'll need &o&b56&r total &cBlood Runes&r (Blank or better)."
+				""
+				"We'll do just like we did last time. Go one block &o&bdown&r and two blocks &o&bout&r, then place &o&b7&r &cBlood Runes&r along each edge. You're basically making a &7Pyramid&r at this point."
+				""
+				"We want to create &o&bpillars&r in each of the corners, starting &o&babove&r the new ring of runes. These pillars are &o&b5&r tall, with the pillar cap being made of &4Bloodstone Bricks&r or &4Large Bloodstone Bricks&r."
+				""
+				"Look in your &aSanguine Scientien&r and search for the &6Blood Altar&r &o&bTier: IV&r section. All of the information is there. You can even &eclick&r the eye to &o&bvisualize the structure&r."
+			]
+			icon: "bloodmagic:altar"
+			id: "431C44439CA54077"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "553B8263DE5508F5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD0C4D13917FCA0"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				count: 48L
+				id: "03DBCA5695879C49"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "&fBlood Altar&r &b&oTier: IV"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "08143AD0D63FFD1F"
+			rewards: [
+				{
+					id: "223ED7C4E7DAA411"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51599517C534BDEC"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&oHolds a max of &b25,000&r &2LP"
+			tasks: [{
+				id: "46DC0EE4792CCA0D"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CC2D826CA6BBDDB"]
+			description: [
+				"With our &9Alchemy Table&r and our &cOrb full of Blood&r, we want to make some &7Arcane Ashes&r."
+				""
+				"With the &7Arcane Ashes&r, we'll be able to &ndraw&r a circle on the ground, known as an &dAlchemy Array&r. You can insert &o&b2&r items in by &eRight-clicking&r, and will either craft a new item or perform an action, like turning &o&bday&r into &o&bnight&r!"
+			]
+			id: "1F3B9803AFAEED5F"
+			min_width: 300
+			rewards: [
+				{
+					id: "4BD9ABC2D427A1FB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "542E514886974254"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6168644A110A263A"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: [
+				"The &6Divination Sigil&r is probably the &o&b1st&r of many sigils that you would like to craft in &cBlood Magic&r. In order to craft the sigil, you need to create an &dAlchemy Array&r and use &4Redstone Dust&r and a &3Blank Slate&r as the base and catalyst items, respectively."
+				""
+				"This &6Sigil&r has two primary uses:"
+				""
+				"&o&b1&r) When you &eRight-click&r with the &6Sigil&r in your hand, it uill display the amount of &2LP&r you have in your &dSoul Network&r."
+				""
+				"&o&b2&r) If you &eRight-click&r a &cBlood Altar&r with it, you'll see hou much &2LP&r is stored, the max it can store, and what tier the altar is."
+			]
+			id: "281AAC27DEBEE84D"
+			min_width: 250
+			rewards: [
+				{
+					id: "7F59BF8F2886B028"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B1B11F0EB52690A"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "19EF9DDE6B18A8B5"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: [
+				"The &9Water Sigil&r is a rather simple sigil. When you &eRight-click&r while looking at a block, you can drain &o&b100&r &2LP&r from your &dSoul Network&r to place a &o&bsource block&r of water in the world."
+				""
+				"If there's not enough &2LP&r, it will instead drain the toll from your health."
+				""
+				"The &9Water Sigil&r can be crafted using a &aWater Reagent&r and a &3Blank Slate&r."
+				""
+				"What's more, it can be used in the &dAlchemy Table&r to automate the production of &aWater Buckets&r. The &9Sigil&r is &o&bnot consumed&r in this recipe."
+			]
+			id: "7EED2502F1F38147"
+			min_width: 250
+			rewards: [
+				{
+					id: "1B7AF47021D62F36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32FC43CC4C42D079"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7825C546B68A7F85"
+				item: "bloodmagic:watersigil"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: [
+				"The sister sigil to the &9Water Sigil&r. Press &eRight-click&r when holding the &6Lava Sigil&r to create a source block of lava on the ground, for the cost of &o&b1,000&r &2LP&r."
+				""
+				"The &6Lava Sigil&r can be crafted in an &dAlchemy Array&r using a &aLava Reagent&r and a &3Blank Slate&r, it'll drain &b5&r hearts from you if you don't have enough &2LP&r in your &dSoul Network&r."
+				""
+				"What's more, it can be used in the &dAlchemy Table&r to automate the production of &aLava Buckets&r. The &6Sigil&r is &o&bnot consumed&r in this recipe."
+			]
+			id: "3AADA53EC01FB0ED"
+			min_width: 250
+			rewards: [
+				{
+					id: "438796468164D727"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71D1228ED927B875"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4EFA9FB003D8D147"
+				item: "bloodmagic:lavasigil"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4578C0EE82F66BD9"]
+			description: [
+				"While not required, the &9Ritual Diviner&r is great to have as it shows &o&bexactly&r how the &dRitual&r is built, and helps build it. Totally recommended to make one."
+				""
+				"To build a ritual, &eShift+Right-click&r with the &9Ritual Diviner&r in the air until you find the ritual you want to create. You can &eShift+Left-click&r to go back as well."
+				""
+				"Start by doing the &5Edge of the Hidden Realm&r ritual, as we'll need a few items from the dimension to get started."
+				""
+				"Once selected with the &9Ritual Diviner&r, &eRight-click&r on a &6Master Ritual Stone&r until the structure is complete. You will need a bunch of &3Ritual Stones&r to perform these rituals. Once the structure is fully built, you can &eRight-click&r the &6Master Ritual Stone&r with a &cWeak Activation Crystal&r to activate it."
+			]
+			id: "0E8418B42A744030"
+			min_width: 300
+			rewards: [
+				{
+					id: "76C8BCBEA45D07D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29FE302F824B28DC"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1FDBAA650C202A"
+					item: "bloodmagic:ritualdiviner"
+					type: "item"
+				}
+				{
+					id: "7D265539B810DCE3"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"431C44439CA54077"
+				"42CDD69527871332"
+			]
+			description: [
+				"To upgrade our &6Blood Altar&r to &o&bTier: V&r, we'll need a total of &o&b108&r &3Runes&r, as well as &o&b4&r &aDemonite Blocks&r."
+				""
+				"Follow the &eSanguine Scietiem&r for a detailed guide on &o&bhow to build&r the structure."
+				""
+				"You want to start by going one block &o&bdown&r and three blocks &o&bout&r from the previous set of runes of your &6Blood Altar&r &o&bTier: IV&r. You want to place &o&b15&r runes along each side."
+				""
+				"In the corners of the newly created ring, place a &aDemonite Block&r with one empty space on each side."
+			]
+			icon: "bloodmagic:altar"
+			id: "2214B7DCE4075A02"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "4CDB053241630DAD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39F61B14739DC0A9"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				count: 64L
+				id: "3830486EDCC81431"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "&fBlood Altar&r &b&oTier: V"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E8418B42A744030"]
+			description: [
+				"Once you make it to the &4Hidden Realm&r, you'll find a &eChest&r with some &o&bbasic loot&r in it."
+				""
+				"Keep an eye out for &3Iron Keys&r. These &nunlock&r the &o&bextra rooms&r within the &4Hidden Realm&r, giving access to even &o&bmore loot&r."
+			]
+			id: "6DD7D0A248FEAC00"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "78BC6412E5FF7EF2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3ABC3307A93EF27C"
+					item: "bloodmagic:simplekey"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57A5932ADCE50AD6"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "049052953E05D38F"
+				item: "bloodmagic:simplekey"
+				type: "item"
+			}]
+			title: "Dungeon Keys"
+			x: -20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42CDD69527871332"]
+			description: ["Using loot from the &4Demon Realm&r, you can upgrade each rune to &o&bdouble its effect&r."]
+			id: "2CA28551F2A5B761"
+			min_width: 250
+			rewards: [
+				{
+					id: "63047FEB0BE55B5A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11CC56A5336E257E"
+					table_id: 6305167096659659419L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4BD6380E3CB0AFA1"
+					item: "bloodmagic:sacrificerune2"
+					type: "item"
+				}
+				{
+					id: "4A26B1A6BDC9BEF2"
+					item: "bloodmagic:selfsacrificerune2"
+					type: "item"
+				}
+				{
+					id: "374B021596B02DB5"
+					item: "bloodmagic:altarcapacityrune2"
+					type: "item"
+				}
+				{
+					id: "642940CFA557BEF9"
+					item: "bloodmagic:bettercapacityrune2"
+					type: "item"
+				}
+				{
+					id: "5F5E0CDAB56FBAA8"
+					item: "bloodmagic:orbcapacityrune2"
+					type: "item"
+				}
+			]
+			title: "&dReinforced Runes"
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"&2Teleposition Sigil&r - Will teleport the user to a linked &3Teleposer&r at the cost of &o&b1,000&r &2LP&r. You can &eShift-click&r with the sigil on a &3Teleposer&r to set the location."
+				""
+				"&5Suppression Sigil&r - You can push liquids away from you in a &o&b6&r block radius."
+			]
+			id: "5E2CB036B00758AE"
+			min_width: 300
+			rewards: [
+				{
+					id: "12698FAA72C0BF02"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D4714DF70577806"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5A91384EF5463B4D"
+					item: "bloodmagic:telepositionsigil"
+					type: "item"
+				}
+				{
+					id: "097D8139589AF377"
+					item: {
+						Count: 1
+						id: "bloodmagic:sigilofsuppression"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&b&oTier: IV&r  &4Sigils"
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["263925A79EBB270F"]
+			description: [
+				"Performing the &5Pathway to the Endless Realm&r ritual will give you access to the proper &4Demon Realm&r."
+				""
+				"This is the only place where you can find &dDemonite Ore&r. This is used to create the &6Blood Altar&r &o&bTier: V&r."
+				""
+				"There is also a ton of &o&brare loot&r, so make sure to keep an eye out for &9Intricate Hellforged Parts&r."
+			]
+			id: "42CDD69527871332"
+			min_width: 250
+			rewards: [
+				{
+					id: "5A9B7EEF24D6703A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FBA062D35BD8866"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7877DD9632B05697"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			title: "&4The Demon Realm"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"&9Air Sigil&r - &aRight-click&r to throw you in a direction you are facing for &o&b50&r &2LP&r."
+				""
+				"&dVoid Sigil&r - &aRight-click&r on any liquid to void it, costing &o&b50&r &2LP&r."
+				""
+				"&cSeer's Sigil&r - A better version of the &3Divination Sigil&r. Gives more info when looking at &6Altars&r."
+				""
+				"&7Miner's Sigil&r - &eShift+Right-click&r to use &o&b100&r &o&2LP&r per &o&b5&r seconds to give yourself a &5Haste&r buff."
+				""
+				"&2Green Gove Sigil&r - &eRight-clicking&r a crop that is growable will give it a bonemeal effect for &o&b150&r &2LP&r. &eShift+Right-clicking&r will consume &o&b150&r &2LP&r per &o&b5&r seconds, increasing the growth rate of a &o&b7x7x5&r area."
+			]
+			id: "4C6B73322F56BE73"
+			min_width: 300
+			rewards: [
+				{
+					id: "3D60528942A0F56B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CC0DB46E656B443"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54A7E248C8A40239"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:growthsigil"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:miningsigil"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:seersigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:voidsigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:airsigil"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.bloodMagic.tier2Sigils}"
+				type: "item"
+			}]
+			title: "&b&oTier: II&r  &6Sigils"
+			x: -22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: [
+				"&cBlood Lamp&r - Launches a blood light when used. Costs &o&b10&r &2LP&r"
+				""
+				"&9Holding&r - Holds up to &o&b5&r other &3Sigils&r at a time, providing their &dPassive Effects&r and allowing you to activate them on a while. You can &o&bkeybind&r buttons to access the inventory and cycle through the &3Sigils&r."
+				""
+				"&6Magnetism&r - Aotivate for a magnet up to &o&b7&r blocks at the cost of &o&b50&r &2LP&r every &o&b5&r seconds."
+			]
+			id: "1780A9FDD6983435"
+			min_width: 300
+			rewards: [
+				{
+					id: "3CD9508C03CFE55C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "157B517A74228BAD"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36BBEFDBCCEC8DE0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:bloodlightsigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sigilofholding"
+								tag: {
+									currentSigil: 5
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sigilofmagnetism"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.bloodMagic.tier3Sigils}"
+				type: "item"
+			}]
+			title: "&b&oTier: III&r  &5Sigils"
+			x: -20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E51D6BB2BC756B6"]
+			description: [
+				"You can create &6Living Equipment&r by making some &eBinding Reagents&r in an &dAlchemy Table&r. You'll also need at least a &7Common Tartaric Gem&r in order to hold the &3Demon Will&r required."
+				""
+				"&6Living Equipment&r is the equivalent in durability of &bDiamond Armor&r, and can be repaired in an &8Anvil&r using &eBinding Rieagents&r."
+				""
+				"It starts off as the equivalent of &7Iron&r, but has &9Upgrade Points&r that can be spent to train it in specific ways. It starts with &o&b100&r, but there are ways to &nincrease this limit&r."
+				""
+				"As you use it, it will \"&2learn&r\" from you. You can see what it has learned so far by &cholding left shift&r while looking at it."
+			]
+			id: "41030E1E341C3A4E"
+			min_width: 320
+			rewards: [
+				{
+					id: "6D8D96707F3F4A83"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51622DE8D3E8179F"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "26FD5D4411242B25"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37A82F03CFF9D25A"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671E6A4CA8F8F77B"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E9B38CD413946E0"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Living Armor Set"
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C8D74692C963000"]
+			hide_until_deps_complete: true
+			id: "02B4D230796B448B"
+			optional: true
+			rewards: [
+				{
+					id: "7F5A3379D599C947"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "599725AA50CF64F3"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "7FF62693868CE0A2"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulpickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DF43858A0971DE6"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3937DA34C5E49CCC"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulshovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A4E34A3A0DB867C"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulscythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sentient Tools"
+			x: -27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CC2D826CA6BBDDB"]
+			id: "6EE19E46103B3B89"
+			rewards: [
+				{
+					id: "4E508665AC8A5A69"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "24B9642EA7718101"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5490296EA48BD274"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0D6F587A30C3998D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:reagentwater"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentlava"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentvoid"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentgrowth"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentfastminer"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentmagnetism"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentair"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentbloodlight"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentsight"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentbinding"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentholding"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentsuppression"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:reagentteleposition"
+							}
+						]
+					}
+				}
+				title: "Reagents"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3DA7D0BA045CE7AB"
+				"3E671B3A7EAE23C1"
+			]
+			icon_scale: 2.0d
+			id: "651641905B3BCA50"
+			rewards: [
+				{
+					id: "56586A5D8856D8EC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "237B0F60D25A26E4"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "20BA45CCEC281527"
+				item: "tomeofblood:novice_tome_of_blood"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4B51189C36B8D291"
+				"2E6B809BDF02CE75"
+			]
+			icon_scale: 2.0d
+			id: "67BBDB9D401D1FF3"
+			rewards: [
+				{
+					id: "430F33738857948C"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CFE630E48475195"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "2BAC1708E518220E"
+				item: "tomeofblood:apprentice_tome_of_blood"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5886C648D14180E1"
+				"3DE2A8EB8E71BD98"
+			]
+			icon_scale: 2.0d
+			id: "5BD092819731FCE6"
+			rewards: [
+				{
+					id: "76C8CBF11585D3B7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35FE8CA92733D892"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "401D617B036DFFF2"
+				item: "tomeofblood:archmage_tome_of_blood"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -3.0d
+		}
+	]
+	title: "&3&oBlood Magic"
+}

@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "priority": 5,
+  "target": "net.minecraft.**",
+  "conditions": {
+    "has_field_access": true,
+    "exclude_native": true
+  },
+  "action": {
+    "type": "field_access",
+    "cache_field_values": true,
+    "hoist_field_loads": true,
+    "eliminate_redundant_loads": true
+  }
+}

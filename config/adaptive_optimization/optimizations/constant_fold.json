@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "priority": 2,
+  "target": "net.minecraft.**",
+  "conditions": {
+    "min_constant_count": 2,
+    "exclude_native": true
+  },
+  "action": {
+    "type": "constant_fold",
+    "fold_arithmetic": true,
+    "fold_conditions": true,
+    "fold_strings": true
+  }
+}

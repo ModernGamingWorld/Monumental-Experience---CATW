@@ -1,0 +1,137 @@
+{
+	autofocus_id: "EE50FF6077108820"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "credits"
+	group: "6CD934EDA78DBCD0"
+	icon: "minecraft:golden_apple"
+	id: "69B74EE6298524C7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Monumental Experience is the result of a lot of work from a lot of people — many of whom you'll never see in the mod list or patch notes."
+				""
+				"This chapter is dedicated to everyone who has put their time and effort into making this pack what it is."
+				""
+				"From bug reports to content, from emotional support to actual development — every single person listed here has made this pack better."
+				""
+				"&eThank you all.&r"
+			]
+			icon: "minecraft:golden_apple"
+			id: "5AA8B5BAD585D1F0"
+			min_width: 320
+			rewards: [{
+				id: "4B21199414B90001"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5B8093923DB328F3"
+				title: "Read the credits"
+				type: "checkmark"
+			}]
+			title: "&e&lCredits"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&dCyn-SolveroftheAbsoluteGremlins&r has been an invaluable part of the Monumental Experience team as a dedicated support staff member and bug fixer."
+				""
+				"Tracking down obscure crashes, hunting gremlins in the configs, and helping players work through issues — Cyn does the unglamorous work that keeps the pack running smoothly for everyone."
+				""
+				"If you've ever had a bug fixed or a question answered in the Discord, there's a good chance Cyn had a hand in it."
+				""
+				"&7Thank you for keeping the gremlins at bay.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "084C83828F393BA7"
+			min_width: 340
+			rewards: [{
+				id: "41D1CD9EFDFF4EFC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oSupport Staff and Bug Fixer"
+			tasks: [{
+				id: "1B2ECCEEE3465DA6"
+				title: "Appreciate Cyn's hard work"
+				type: "checkmark"
+			}]
+			title: "&dCyn-SolveroftheAbsoluteGremlins"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&9GeekTechMedia&r is a content creator and YouTuber who has covered Monumental Experience and helped bring the pack to a wider audience."
+				""
+				"Creating videos, guides, and let's plays takes real time and effort — and having someone passionate enough to make content about your modpack means the world to a developer."
+				""
+				"If you found this pack through a video, GeekTechMedia may well be the reason you're here right now."
+				""
+				"&7Go check out their channel and show some love.&r"
+			]
+			icon: "minecraft:spyglass"
+			id: "016FEEFEAC6E7DD1"
+			min_width: 340
+			rewards: [{
+				id: "25CC80BC1895C5A7"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oYouTuber and Content Creator"
+			tasks: [{
+				id: "2DCF388B8490E54D"
+				title: "Check out GeekTechMedia on YouTube"
+				type: "checkmark"
+			}]
+			title: "&9GeekTechMedia"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&dDexxKnight1&r is a fellow modpack developer and a key contributor to Monumental Experience — lending experience, feedback, and direct development work to help shape the pack into what it is today."
+				""
+				"Dexx is also the creator of &dAge of Fate&r, &9Tech Revolution&r, and &2Jurassic World Reborn 2&r — all fantastic packs in their own right."
+				""
+				"Having another experienced developer in your corner makes an enormous difference. Monumental Experience is better because of Dexx's involvement."
+				""
+				"&7Check out the Other Projects chapter to see what Dexx has been building.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C8A6EA539853EC9"
+			min_width: 360
+			rewards: [{
+				id: "6C339CDC65876878"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&oPack Developer and Contributor"
+			tasks: [{
+				id: "745C44EF814F332E"
+				title: "Check out Dexx's projects"
+				type: "checkmark"
+			}]
+			title: "&dDexxKnight1"
+			x: 3.0d
+			y: 2.0d
+		}
+	]
+	title: "&e&lCredits"
+}

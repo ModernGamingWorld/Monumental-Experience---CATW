@@ -1,0 +1,97 @@
+{
+	icon: "minecraft:chest"
+	id: "4F3C4E448E70422F"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "croptopia:banana" }
+		{ item: "croptopia:avocado" }
+		{ item: "croptopia:apricot" }
+		{ item: "croptopia:lime" }
+		{ item: "croptopia:lemon" }
+		{ item: "croptopia:pecan" }
+		{ item: "croptopia:persimmon" }
+		{ item: "croptopia:starfruit" }
+		{ item: "croptopia:nectarine" }
+		{ item: "croptopia:walnut" }
+		{ item: "croptopia:mango" }
+		{ item: "croptopia:pear" }
+		{ item: "croptopia:kumquat" }
+		{ item: "croptopia:plum" }
+		{ item: "croptopia:almond" }
+		{ item: "croptopia:peach" }
+		{ item: "croptopia:orange" }
+		{ item: "croptopia:nutmeg" }
+		{ item: "croptopia:soybean" }
+		{ item: "croptopia:date" }
+		{ item: "croptopia:yam" }
+		{ item: "croptopia:coconut" }
+		{ item: "croptopia:turnip" }
+		{ item: "croptopia:dragonfruit" }
+		{ item: "croptopia:cherry" }
+		{ item: "croptopia:fig" }
+		{ item: "croptopia:grapefruit" }
+		{ item: "croptopia:basil" }
+		{ item: "croptopia:asparagus" }
+		{ item: "croptopia:cranberry" }
+		{ item: "croptopia:coffee_beans" }
+		{ item: "croptopia:celery" }
+		{ item: "croptopia:greenbean" }
+		{ item: "croptopia:kale" }
+		{ item: "croptopia:kiwi" }
+		{ item: "croptopia:leek" }
+		{ item: "croptopia:lettuce" }
+		{ item: "croptopia:oat" }
+		{ item: "croptopia:pineapple" }
+		{ item: "croptopia:radish" }
+		{ item: "croptopia:raspberry" }
+		{ item: "croptopia:rhubarb" }
+		{ item: "croptopia:rutabaga" }
+		{ item: "croptopia:rice" }
+		{ item: "croptopia:olive" }
+		{ item: "croptopia:onion" }
+		{ item: "croptopia:peanut" }
+		{ item: "croptopia:saguaro" }
+		{ item: "croptopia:squash" }
+		{ item: "croptopia:spinach" }
+		{ item: "croptopia:strawberry" }
+		{ item: "croptopia:tomatillo" }
+		{ item: "croptopia:sweetpotato" }
+		{ item: "croptopia:tomato" }
+		{ item: "croptopia:honeydew" }
+		{ item: "croptopia:cashew" }
+		{ item: "croptopia:cauliflower" }
+		{ item: "croptopia:cantaloupe" }
+		{ item: "croptopia:grape" }
+		{ item: "croptopia:greenonion" }
+		{ item: "croptopia:zucchini" }
+		{ item: "minecraft:sweet_berries" }
+		{ item: "minecraft:glow_berries" }
+		{ item: "minecraft:beetroot" }
+		{ item: "minecraft:apple" }
+		{ item: "minecraft:melon_slice" }
+		{ item: "minecraft:carrot" }
+		{ item: "minecraft:potato" }
+		{ item: "croptopia:barley" }
+		{ item: "croptopia:artichoke" }
+		{ item: "create:bar_of_chocolate" }
+		{ item: "ars_nouveau:sourceberry_bush" }
+		{ item: "ars_elemental:flashpine_pod" }
+		{ item: "minecraft:cookie" }
+		{ item: "minecraft:bread" }
+		{ item: "croptopia:bellpepper" }
+		{ item: "croptopia:blackbean" }
+		{ item: "croptopia:blackberry" }
+		{ item: "croptopia:cucumber" }
+		{ item: "croptopia:corn" }
+		{ item: "croptopia:chile_pepper" }
+		{ item: "croptopia:garlic" }
+		{ item: "croptopia:elderberry" }
+		{ item: "croptopia:eggplant" }
+		{ item: "croptopia:currant" }
+		{ item: "croptopia:blueberry" }
+		{ item: "croptopia:broccoli" }
+		{ item: "croptopia:cabbage" }
+	]
+	title: "Crop Rewards"
+}

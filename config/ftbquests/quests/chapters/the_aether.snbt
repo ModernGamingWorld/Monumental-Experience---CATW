@@ -1,0 +1,3822 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "09A82B0D5D5E7906"
+	icon: "aether:aether_portal_frame"
+	id: "566DC2763E60ED8A"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 1.107142857142854d
+			y: -3.946428571428573d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=piJ3Fm_xiNA"
+			height: 1.0d
+			hover: ["You&cTube&r Full Showcase"]
+			image: "deep_aether:item/aerglow_blossom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			image: "kubejs:textures/item/aether.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.0d
+			y: -4.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &bAether&r is a hostile, paradise-like dimension of &o&bfloating islands&r high in the sky, where you can begin a &o&bnew survival adventure&r packed with &o&bnew ores&r, &o&bmythical creatures&r and perilous &6Dungeons&r."
+				""
+				"To access the &bAether&r, you must construct an &o&bAether Portal&r in the &aOverworld&r. To create the portal, first build a rectangular &eGlowstone&r frame, ranging in size from a minimum of &o&b4x5&r blocks to a maximum of &o&b23x23&r blocks. Once the frame is built, it can be &o&bactivated&r by placing &9Water&r within the frame using a &9Water Bucket&r, melting a block of &bIce&r inside the frame, or using &3Dispensers&r."
+				""
+				"{image:kubejs:textures/item/aether_portal.png width:180 height:100 align:1}"
+			]
+			icon: "aether:aether_portal_frame"
+			id: "32226ED25E813908"
+			min_width: 300
+			rewards: [
+				{
+					id: "1D908D34F0CA91DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BB2C8EAA9C7D363"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 10L
+					id: "367CCDAA934F94B7"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:glowstone)"
+						}
+					}
+					title: "Any #chipped:glowstone"
+					type: "item"
+				}
+				{
+					id: "6EF749FAD22102D0"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Visit the &9Aether"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			description: [
+				"The &6Bronze Dungeon&r is a large, labyrinth-like structure composed of carved stone and sentry stone."
+				""
+				"This structure is often found inside of large islands with only the entrance being exposed to the air."
+				""
+				"It is inhabited by &o&bsentries&r, &o&bmimics&r, and the &6Bronze Dungeon&r &nboss&r, the &dSlider&r."
+				""
+				"Non-boss rooms contain &o&bSentries&r which attack the player. Sometimes have chests on &o&b4x4&r tables, but be careful, some of these chests are &o&bMimics&r."
+				""
+				"The &9Boss Room's&r walls are only minable once the &nboss&r is defeated."
+			]
+			hide_dependency_lines: true
+			id: "0A99C7852725BFC2"
+			min_width: 350
+			rewards: [
+				{
+					id: "37AD34A39C09C9C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69B3BA02ABA8C9EB"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: "aether:locked_carved_stone"
+				id: "3865A3E4D4A9A5F3"
+				structure: "aether:bronze_dungeon"
+				title: "Find and enter the Bronze Dungeon"
+				type: "structure"
+			}]
+			title: "&6The Bronze Dungeon"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&dSliders&r is a boss found in the &6Bronze Dungeons&r. "
+				""
+				"The &dSliders&r can't be attacked with a &nsword&r. He can, however, take damage from any other Aether tools, such as  &o&bpickaxe&r, &o&bshovel&r, etc."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "deep_aether:item/slider_eye"
+				}
+			}
+			id: "0E349CAEF1D249B6"
+			min_width: 300
+			rewards: [
+				{
+					id: "5EC2ACE9C8E89AEB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08DA94CD83C20582"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "aether:slider"
+				icon: "aether:slider_spawn_egg"
+				id: "69F7F61602435663"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&9Valkyrie Lances&r have extended melee range by &o&b10&r blocks, making it technically a ranged weapon."
+				""
+				"This long-range weapon is very good for defeating &eZephyrs&r and &6Valkyrie Queens&r."
+			]
+			hide_dependency_lines: true
+			id: "5E896C43C43C9328"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "27B06AF837C9C0AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31966379AC1FDE9E"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "65DEC98F6FA0065F"
+				item: {
+					Count: 1
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&9Lightning Knife&r are small knives that, when thrown by &eRight-clicking&r, summon lightning bolts where they land, and will be consumed."
+				""
+				"&eLeft-clicking&r makes the &o&bknife&r function like a melee weapon."
+			]
+			hide_dependency_lines: true
+			id: "19416F0101F2923C"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "42D1900BF518AE63"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AC9202A4D4AEEA9"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "471D1D1C90105EAE"
+				item: "aether:lightning_knife"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&4Flaming Sword&r is an &o&bancient Sword&r which flames its foes to a burning crisp. It almost hurts to touch!"
+				""
+				"Using this on animals can make them drop &o&bcooked meat&r!"
+			]
+			hide_dependency_lines: true
+			id: "55CBF82AD5A2E5B3"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "1AB974F3B54BCFBB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39ECB8381775ABA9"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D333CE1137B7225"
+				item: {
+					Count: 1
+					id: "aether:flaming_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"The &cPhoenix Bow&r can be found in &6Bronze Dungeon&r chests."
+				""
+				"It shoots &o&bflaming arrows&r  and unlike the &o&bVanilla Minecraft's bow&r, this one is not craftable."
+				""
+				"Shooting arrows will not damage the bow. If the arrow hits the ground, it will be set on &o&bfire&r."
+			]
+			hide_dependency_lines: true
+			id: "527C0205FD390DB0"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "14A54CAEC4AFA55F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40EBCF7B186F9651"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "426EF160CB56B56A"
+				item: {
+					Count: 1
+					id: "aether:phoenix_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&dHammer of Kingbdogz&r is a &o&bmighty Hammer&r that shoots heavy projectiles at mobs."
+				""
+				"It's said that &dKingbdogz&r actually held &nthis&r hammer."
+			]
+			hide_dependency_lines: true
+			id: "7DEF62FF09935736"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "59272DD3CD2ADA38"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "508236F77EAD22D5"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "108CB5F2B60F4FA2"
+				item: {
+					Count: 1
+					id: "aether:hammer_of_kingbdogz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hammer of Kingbdogz"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"When &eRight-clicked&r, it summons two &o&bCloud Minions&r to giht next to your for a short period of time byshooting large &o&bCloud Crystals&r."
+				""
+				"Every time by &eRight-clicking&r, each of the &o&bMinions&r will fire an &o&bCloud Crystals&r at your target, doing &o&b2,5&r &chearts&r of &ndamage&r per &o&bCloud Crystal&r."
+				""
+				"The &2Cloud Staff&r has &b60&r of durability."
+			]
+			hide_dependency_lines: true
+			id: "5807DD7C787E6B2C"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "12E27B9CAFE89D3C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18970B975F69F7F9"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "24FD0480EA75CDFC"
+				item: {
+					Count: 1
+					id: "aether:cloud_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: ["&dSentry Boots&r grant complete &o&bfall-damage&r resistance."]
+			id: "343EA74DC05C15EE"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "215975FE5FD0A095"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C41D8E195BA2B15"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AD1C22DD1E0B1FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": { }
+					}
+					id: "aether:sentry_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sentry Boots"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			description: [
+				"The &3Silver Dungeon&r generates as a very large structure similar to a &o&bclassical Greek Temple&r seated on a mass of holystone, mossy holystone, and cold aerclouds. These have multiple floors, typically three, each with multiple rooms."
+				""
+				"It is composed of angelic stone, light angelic stone, pillars, and pillar tops and can usually be found suspended high up in the air."
+				""
+				"&eValkyries&r, &cMimics&r, and the dungeon boss the &6Valkyrie Queen&r inhabit the &3Silver Dungeon&r."
+				""
+				"&eValkyries&r, will only attack when you attacks them. Killing a &eValkyrie&r yields a single &aVictory Medal&r. The boss of this dungeon can only be attacked by presenting it with &a10 Victory Medals&r, which can be done by &eRight-clicking&r on it with the &aVictory Medals&r in hand."
+			]
+			hide_dependency_lines: true
+			id: "79A852D2B339DF57"
+			min_width: 350
+			rewards: [
+				{
+					id: "5B8B5CFB972162C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ED748ED587DA51B"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: "aether:locked_angelic_stone"
+				id: "760227D918F26D13"
+				structure: "aether:silver_dungeon"
+				title: "Find and enter the Silver Dungeon"
+				type: "structure"
+			}]
+			title: "&3The Silver Dungeon"
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			description: [
+				"The &eGold Dungeon&r consists of a large, spherical floating island with many &bGolden Oak&r trees growing on it and a single entrance leading directly to the boss room inside."
+				""
+				"In addition to the blocks it shares with other island generation, it is composed of hellfire stone, light hellfire stone, and Netherrack. The &dSun Spirit&r is the sole inhabitant of the dungeon."
+				""
+				"This dungeon normally will only have the &o&bBoss Room&r in it, with no &b&otreasure/mob&r rooms beforehand."
+			]
+			hide_dependency_lines: true
+			id: "7149B8FB49671630"
+			min_width: 350
+			rewards: [
+				{
+					id: "06914C73A28B2876"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F6AD8A934212775"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: "aether:locked_hellfire_stone"
+				id: "1D066EC48DFC09CD"
+				structure: "aether:gold_dungeon"
+				title: "Find and enter the Gold Dungeon"
+				type: "structure"
+			}]
+			title: "&eThe Gold Dungeon"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&9Swet Cape&r is a &o&bcommon Cape&r that is found in &6Bronze Dungeons&r."
+				""
+				"It allows for the wearer to &nride&r &bSwets&r, as they become friendly when they see someone &o&bwearing it&r."
+			]
+			hide_dependency_lines: true
+			id: "7E87D79F02B29026"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "40AB7A6F3B00238F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "693E547D5D2F88AB"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tame &bSwets"
+			tasks: [{
+				id: "59FD9911AE652BED"
+				item: "aether:swet_cape"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&2Agility Cape&r is a slightly &o&brare Cape&r found in &6Bronze&r and &3Silver&r Dungeons."
+				""
+				"It makes the wearer's legs stronger, therefore they can walk up blocks instantly."
+			]
+			hide_dependency_lines: true
+			id: "4376A8C300C65D62"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "7378220DA93924EC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "646925CCA2077E15"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A0DEAF60A9612F2"
+				item: "aether:agility_cape"
+				type: "item"
+			}]
+			title: "Agility Cape"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79A852D2B339DF57"]
+			description: [
+				"&eValkyries&r are &o&bneutral mobs&r who prove themselves through a battle."
+				""
+				"They will &nnot&r attack unless &nprovoked&r, and are found only in &3Silver Dungeons&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/valkyrie.png"
+				}
+			}
+			id: "038B71E71E3C8213"
+			min_width: 250
+			rewards: [
+				{
+					id: "21E63092D260A4AD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C2FCE8A4759356"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:valkyrie"
+				icon: "aether:valkyrie_spawn_egg"
+				id: "121640BF259D479C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79A852D2B339DF57"]
+			description: ["The &6Valkyrie Queen&r is a boss found in the &3Silver Dungeon&r. "]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/valkyrie_queen.png"
+				}
+			}
+			id: "68BF5A98532CD5C3"
+			min_width: 300
+			rewards: [
+				{
+					id: "00A917D8BE497918"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EA4E2B88C4ED413"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "aether:valkyrie_queen_spawn_egg"
+				id: "0E561AF5890B4422"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79A852D2B339DF57"]
+			description: [
+				"The &eValkyrie Pickaxe&r is a &o&btool unique&r to the &3Silver Dungeon&r."
+				"This &o&bPickaxe&r is very useful when it comes to mining blocks from &o&bunder islands&r, as it has a &o&bvery far reach&r, almost &edouble&r the normal reach! It is also quite useful for fighting the &dSlider&r."
+				""
+				"The &eValkyrie Axe&r is a &o&btool unique&r to the &3Silver Dungeon&r."
+				"This &o&bAxe&r has a &o&bvery far reach&r and &o&bvery high attack&r power. You can use this to your advantage, but be &cwarned&r, the &o&battack cooldown&r is very high."
+				""
+				"The &eValkyrie Shovel&r is a &o&btool unique&r to the &3Silver Dungeon&r."
+				"This &o&bShovel&r can help you reach &2Quicksoil&r from a &o&bsafer distance&r."
+				""
+				"The &eValkyrie Hoe&r is a &o&btool unique&r to the &3Silver Dungeon&r."
+				"This &o&bHoe&r has an &o&bincredibly far reach&r, allowing you to &npointlessly&r till dirt from a &o&bsafer distance&r."
+			]
+			hide_dependency_lines: true
+			id: "565D6552E2594F24"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "5D7D5F5E697DC1EB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "195D7AA08B9E5D35"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "67803889FD49853B"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24E04F398343FBE7"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29800BEBCD5447CB"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BBBD4DF95A1D43A"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Valkyrie Tools"
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79A852D2B339DF57"]
+			description: [
+				"The &eHoly Sword&r is an &o&bancient Sword&r which does &nheavy&r amounts of damage to &nundead&r foes."
+				""
+				"A perfect weapon for traversing the &2Overworld&r."
+			]
+			id: "1C8057427F197B6B"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "643A857D37F83256"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "541284A850F94915"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "05CA847EADE85CFD"
+				item: {
+					Count: 1
+					id: "aether:holy_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79A852D2B339DF57"]
+			description: ["The &dLightning Sword&r is an &o&bancient Sword&r which summons &elightning&r to &nits foes&r."]
+			hide_dependency_lines: true
+			id: "094059D7B8F9480F"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "2A3413ECF061FE77"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "073C51916D44A24B"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DE9920033F137C3"
+				item: {
+					Count: 1
+					id: "aether:lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68BF5A98532CD5C3"]
+			description: [
+				"The &eValkyrie Armor&r is an armor unique to the &3Silver Dungeon&r."
+				""
+				"When &o&bfully worn&r, you are granted &o&btemporary flight&r. Quite useful for getting to &o&bhigh places&r."
+			]
+			hide_dependency_lines: true
+			id: "130ACFA7954377AD"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "672B265EE3C6AF62"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65D3DC748D311B2C"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "11EDEA49F20B95FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41C6FE643A063094"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:valkyrie_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16CAE665B27B95D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:valkyrie_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60E72D28245DC0BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:valkyrie_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "245107079248A611"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Valkyrie Armor Set"
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68BF5A98532CD5C3"]
+			description: [
+				"&9Neptune Chestplate&r can be found in &3Silver Dungeons&r, this armor allows for &o&bfaster swimming&r in water."
+				""
+				"Combined with an &2Iron Bubble&r, this armor set is &o&bsuper useful&r for defeating &nunderwater temples&r."
+			]
+			hide_dependency_lines: true
+			id: "0F51365D30023066"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "4AA0B501589FCD73"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15E860B08BAB94DE"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "37D22A01F1C3A391"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:neptune_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C96EF689F9E2AF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:neptune_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B2A3EE0487C0A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:neptune_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40858CCDB4A80012"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:neptune_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C53102E8F5130EC"
+					item: {
+						Count: 1
+						id: "aether:neptune_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptune Armor Set"
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68BF5A98532CD5C3"]
+			description: [
+				"The &4Regeneration Stone&r is a treasure found in &3Silver Dungeons&r."
+				""
+				"This stone makes the wearer &o&bfeel healthy&r and heals their wounds. The effects &o&bcan stack&r with other &o&bRegeneration Stones&r."
+			]
+			hide_dependency_lines: true
+			id: "194D1CE9DDEFB4D6"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "2F70EF2C920A4E82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DAFCAF114B6D1AF"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "74715FD38EC9332F"
+				item: "aether:regeneration_stone"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68BF5A98532CD5C3"]
+			description: [
+				"&dInvisibility Cloak&r is a cloak that makes the wearer &ncompletely invisible&r!"
+				""
+				"Since mobs &o&bcannot see you&r, they &o&bcannot attack you&r. Sneak up on your enemies with it!"
+			]
+			hide_dependency_lines: true
+			id: "046644A5434F75C6"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "772282B4EB8CA066"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AFFD180AA28CF70"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "10657E6DB91359AC"
+				item: "aether:invisibility_cloak"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68BF5A98532CD5C3"]
+			description: [
+				"&eValkyrie Cape&r is a &o&brare Cape&r that is found in &3Silver Dungeons&r."
+				""
+				"When worn, the wearer becomes &o&blighter&r than air and can &ndescend slowly&r."
+			]
+			hide_dependency_lines: true
+			id: "7F34165C88365C2D"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "3409F5135E3B1C89"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2145B9E7BC090985"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "55D1B9EA897A7878"
+				item: "aether:valkyrie_cape"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68BF5A98532CD5C3"]
+			description: [
+				"The &6Golden Feather&r is a &o&bfluffy feather&r found in &3Silver Dungeons&r."
+				""
+				"When worn, the wearer &o&bbecomes lighter&r than air and can &ndescend slowly&r."
+			]
+			hide_dependency_lines: true
+			id: "30EC6CB93A81EA78"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "4C789E204EA52B3D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25F7CBF5CF7AD33C"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "541282438529FB42"
+				item: "aether:golden_feather"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: ["&bSentry&r are hostile mobs in &6Bronze Dungeons&r."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "aether:block/dungeon/sentry_stone"
+				}
+			}
+			id: "100082345FA03A9B"
+			min_width: 250
+			rewards: [
+				{
+					id: "022630624BDC8968"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75A5183B77BCB952"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:sentry"
+				icon: "aether:sentry_spawn_egg"
+				id: "4937B6F09587F4C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&aChest Mimic&r may look like a &o&bnormal chest&r, but it really isn't."
+				""
+				"As soon as you &eRight-click&r on it, a &aChest Mimic&r will pop out and attacks you!"
+				""
+				"These appear in &6Bronze&r and &3Silver&r dungeons."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/mimic.png"
+				}
+			}
+			id: "3BE6E50AA8E0170D"
+			min_width: 250
+			rewards: [
+				{
+					id: "66A73D976A257874"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DE06860C3C78E1D"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:mimic"
+				icon: "aether:mimic_spawn_egg"
+				id: "71C06FD3B2B127B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			description: [
+				"The &6Sun Spirit&r is a boss found in the &eGold Dungeons&r. "
+				""
+				"The &6Sun Spirit&r can't be killed by attacking it directly. The way to defeat him is by hitting back the &o&bice crystals&r, he throws on you, at it &nmultiple times&r."
+				""
+				"Every time it is hit with the ice crystal, it sends out a smaller version of itself to attack you."
+				""
+				"Once you defeat the &6Sun Spirit&r, the sun will finally set down in the &bAether&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/sun_spirit.png"
+				}
+			}
+			id: "221923EEDAEE1BEE"
+			min_width: 300
+			rewards: [
+				{
+					id: "2D0516035F9E1DE2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DB410E67F7A06BB"
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "aether:sun_spirit_spawn_egg"
+				id: "49A00D8BAA0923BD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			description: [
+				"The &eSun Altar&r is a powerful block received after defeating the &6Sun Spirit&r."
+				""
+				"The &o&bSun Altar&r allows the player to &o&bcontrol the time&r in the &o&bAether&r dimension, by simply &eRight-clicking&r the &o&bAltar&r and the &nsetting the time&r."
+			]
+			hide_dependency_lines: true
+			id: "23BC560BA95B3961"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "2198C540716CAED3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D788C8105A6CF8"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BD5B2169B0B071D"
+				item: "aether:sun_altar"
+				type: "item"
+			}]
+			title: "Sun Altar"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			description: [
+				"&4Vampire Blade&r is a &o&bmysterious&r Sword that has &dlife-stealing abilities&r."
+				""
+				"Holding it just makes you feel creepily empty..."
+			]
+			hide_dependency_lines: true
+			id: "230DE6EBD5A1AF65"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "0EFE1D3D19C7A836"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57754B87D5AEB197"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C37453062C86753"
+				item: {
+					Count: 1
+					id: "aether:vampire_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Vampire Blade"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			description: [
+				"&dPig Slayer&r kills any &o&bPig-type mob&r with nothing with a &o&bsingle blow&r, or stronger ones with a &o&bcouple blows&r."
+				""
+				"But why would you want to do that? Great for traversing the &cNether&r."
+			]
+			id: "2263D60876888BCF"
+			min_width: 270
+			optional: true
+			rewards: [
+				{
+					id: "19FED5C0445DF218"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B7CB1B13B8F0D78"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "04A330348E2C00F0"
+				item: {
+					Count: 1
+					id: "aether:pig_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			description: [
+				"&6Phoenix Armor&r can be found in &eGold Dungeons&r, when fully worn, this armor set allows for &dFire Resistance&r; you can &o&bswim in lava&r as well."
+				""
+				"Be &o&bcareful&r when standing in &9water&r, as it will turn into &0Obsidian Armor&r."
+			]
+			hide_dependency_lines: true
+			id: "5A6F1FC24EEEBF1B"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "07528ABA4CBE4219"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6899C19F30208367"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "021B881503622A82"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "370D5268205959B2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BE9DC99AAC3CD18"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:phoenix_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65B585EA6C3CBC11"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:phoenix_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D62CFE9AE72DF03"
+					item: {
+						Count: 1
+						id: "aether:phoenix_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Phoenix Armor Set"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			description: [
+				"&0Obsidian Armor&r set is a &o&bsuper powerful&r armor, more powerful than &o&bdiamond&r."
+				""
+				"This armor is &o&bonly obtainable&r by standing in &9water&r while wearing &6Phoenix Armor&r, &o&bconverting&r it to obsidian."
+			]
+			hide_dependency_lines: true
+			id: "5A429A325A091857"
+			min_width: 260
+			optional: true
+			rewards: [
+				{
+					id: "0978081E0149A24B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0421B7D9660CD60C"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "649714421522D085"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "225AD395773370B2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "685C8CD681B9CC38"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6501E9E1E66E13CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57995CFE28172712"
+					item: {
+						Count: 1
+						id: "aether:obsidian_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obsidian Armor Set"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			description: ["When equipped, the &3Iron Buble&r will allow &npermanent&r &o&bbreathing underwater&r."]
+			hide_dependency_lines: true
+			id: "4D258CCAC852F5DC"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "2533C22118384474"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67E5CA798CD59296"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "098719DE4CC1E12D"
+				item: "aether:iron_bubble"
+				type: "item"
+			}]
+			title: "Iron Bubble"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			description: [
+				"&4Life Shard&r is a &o&bvery rare item&r found in &eGold Dungeons&r."
+				""
+				"Using this will give you an extra &npermanent&r &o&bheart&r! The feeling of using it is &o&bvery strange&r and &o&bhard to describe&r."
+			]
+			hide_dependency_lines: true
+			id: "4945781EFC485651"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "130C541A0A4A008F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39A4E30793BAFEE1"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "05210CE6EB3E4396"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			title: "Life Shard"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			description: [
+				"A &7Book of Lore&r could be read by &eRight-clicking&r."
+				""
+				"Placing any item native into the &o&bslot&r, the book  displays &o&binformation&r about the item."
+			]
+			id: "702202BCA0E47E11"
+			min_width: 250
+			rewards: [
+				{
+					id: "01A558A410A6396D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "669345C0A0328F19"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			subtitle: "Read a Book of Lore"
+			tasks: [{
+				advancement: "aether:read_lore"
+				criterion: ""
+				id: "07D42C1E3ACD2765"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EC6DA9B9528362C"]
+			description: [
+				"The &9Freezer&r allowed you to &o&bfreeze&r certain items such as &o&brings&r or &o&bpendants&r and turn them into &o&bice versions&r."
+				""
+				"Its source of power is &bIcestone&r."
+			]
+			id: "6EBB0DBB354AFBB1"
+			rewards: [
+				{
+					id: "67586ED7B01EA98F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38B29D2CCFD83E09"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5450434D6AA9DFDA"
+				item: "aether:freezer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1EC6DA9B9528362C"]
+			description: [
+				"The &6Altar&r can be used to &denchant&r items and repair &o&btools&r \\& &b&oarmor&r."
+				""
+				"They are powered by &eAmbrosium Shards&r."
+			]
+			id: "1327179C602289EE"
+			min_width: 300
+			rewards: [
+				{
+					id: "63225BBB59329694"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D75D0E250E6D38C"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08B313891F37EDE2"
+				item: "aether:altar"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			description: ["When eaten, the &6Healing Stone&r gives you &dRegeneration&r for &o&b30&r seconds."]
+			id: "1EF645986DEE1704"
+			rewards: [
+				{
+					id: "6170523E3CCA7E75"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F892586BD4C4A57"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5621C36A944EC4B2"
+				item: "aether:healing_stone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			id: "7708A18574BE8749"
+			rewards: [
+				{
+					id: "25F1073BE032765B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52C6AC30066415E0"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "31E134D56A6C500A"
+				item: "aether:quicksoil_glass"
+				type: "item"
+			}]
+			title: "Quicksoil Glass"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			id: "5EED0418B36B0542"
+			rewards: [
+				{
+					id: "30932D2413C98F8F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E80B0A931F40A5D"
+					item: "aether:gravitite_ore"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77E41680C8DF7CAE"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7AD245C57372A1A9"
+				item: "aether:enchanted_gravitite"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5EED0418B36B0542"]
+			id: "5DAAA9A6884C1BD1"
+			rewards: [
+				{
+					id: "341C873A360EDC99"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C49356DBEFAC1DC"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1F1F36DEE6E312E6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:gravitite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:gravitite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:gravitite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:gravitite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:gravitite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Gravitite Tools \\& Weapons"
+				type: "item"
+			}]
+			title: "&5Gravitite Tools \\& Weapons"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5EED0418B36B0542"]
+			id: "5B98BE53368EEFB5"
+			rewards: [
+				{
+					id: "7D07A802D2B0A936"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "659D0BB9C22CF82F"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "37E43F07B17396CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:gravitite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5063031C6AF75A25"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:gravitite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "183F75DDC5700CF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:gravitite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7856558982324158"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57AD5F32A3BC3AFC"
+					item: {
+						Count: 1
+						id: "aether:gravitite_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5Gravitite Armor Set"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1EC6DA9B9528362C"]
+			id: "263169C3904AC61D"
+			rewards: [
+				{
+					id: "797AAC7C324595F4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42E9512C41BE9AA1"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "569EF02C7D36C9AB"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["263169C3904AC61D"]
+			id: "75CE07C113E20D96"
+			rewards: [
+				{
+					id: "01DC23E74542C976"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79F5DE721E9BBF59"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "59BC23B57722B7E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "aether:zanite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "265E8307ACF9BEC3"
+					item: {
+						Count: 1
+						id: "aether:zanite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2518EBC3FBE45E17"
+					item: {
+						Count: 1
+						id: "aether:zanite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AA9BC7445017A7E"
+					item: {
+						Count: 1
+						id: "aether:zanite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4882C31EBED3D0B6"
+					item: {
+						Count: 1
+						id: "aether:zanite_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9Zanite Armor Set"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["263169C3904AC61D"]
+			id: "69849D6D7925AC16"
+			rewards: [
+				{
+					id: "1E0EDC23A586FE61"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E89F211EBCEE479"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "56AB6F726CCEF5A6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:zanite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:zanite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:zanite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:zanite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:zanite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Zanite Tools \\&Weapons"
+				type: "item"
+			}]
+			title: "&9Zanite Tools \\&Weapons"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D018E1E57E29CEF"]
+			id: "0FC223139839BF65"
+			rewards: [
+				{
+					id: "07721A895C11F006"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04786B7DD41E348B"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0E471F22B7289056"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "aether:golden_dart_shooter"
+								}
+								{
+									Count: 1b
+									id: "aether:poison_dart_shooter"
+								}
+								{
+									Count: 1b
+									id: "aether:enchanted_dart_shooter"
+								}
+								{
+									Count: 1b
+									id: "aether_redux:spectral_dart_shooter"
+								}
+							]
+						}
+					}
+					title: "Dart Shooters"
+					type: "item"
+				}
+				{
+					id: "03788FC518652A0A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "aether:golden_dart"
+								}
+								{
+									Count: 1b
+									id: "aether:poison_dart"
+								}
+								{
+									Count: 1b
+									id: "aether:enchanted_dart"
+								}
+								{
+									Count: 1b
+									id: "aether_redux:spectral_dart"
+								}
+							]
+						}
+					}
+					title: "Darts"
+					type: "item"
+				}
+			]
+			title: "Dart Shooters"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F53B6B89F526F05"]
+			id: "618F4E26380A9C83"
+			rewards: [
+				{
+					id: "4ABEFDB982F4AA10"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F7C952BC0249905"
+					item: "aether:ambrosium_ore"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65E066F035A06A00"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "499BE7D3CA3FE4D4"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			title: "Ambrosium Shard"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["618F4E26380A9C83"]
+			description: ["Used as fuel into &2Incubator&r."]
+			id: "4B25306C3907D32E"
+			rewards: [
+				{
+					id: "1EA88A8C8F0730F2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "234335C4B8747324"
+					item: "aether:gingerbread_man"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "744CA8E7267ED69C"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54801192E5C41191"
+				item: "aether:ambrosium_torch"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "1EC6DA9B9528362C"
+			rewards: [
+				{
+					id: "42A635372B4DCC8C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2E19038777141BA4"
+					item: "aether:holystone_bricks"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4140BFA7FB2DAFFF"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "37996F335A04B453"
+				item: "aether:holystone"
+				type: "item"
+			}]
+			title: "Holystone"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "2D018E1E57E29CEF"
+			rewards: [
+				{
+					id: "39E09FFD88519B17"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "115C8466EB045B6A"
+					item: "aether:skyroot_planks"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6150AAF668D223D4"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0BB6116E98302F1E"
+				item: "aether:skyroot_planks"
+				type: "item"
+			}]
+			title: "Skyroot Wood"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2D018E1E57E29CEF"]
+			id: "51DB045B0AB93A9D"
+			rewards: [
+				{
+					id: "438D4ED3E182C91C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52659D822C6FAB87"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1CF08AEAB9768A74"
+				item: "aether:skyroot_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D018E1E57E29CEF"]
+			id: "4F34BE240040044A"
+			rewards: [
+				{
+					id: "3E2061B697AD1126"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "478C4F1BB9BABB6B"
+					item: "aether:skyroot_fence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15F32369EB53625A"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "790AC4E83D29D084"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:skyroot_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:skyroot_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:skyroot_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:skyroot_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:skyroot_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Skyroot Tools \\& Weapons"
+				type: "item"
+			}]
+			title: "&aSkyroot Tools \\& Weapons"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["263169C3904AC61D"]
+			id: "3F37B07B528DC03F"
+			rewards: [
+				{
+					id: "5AB4F12C206EE566"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A5867656DAB0A11"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3539EBFEC24EE2A9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:zanite_ring"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:zanite_pendant"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether_redux:bittersweet_charm"
+							}
+						]
+					}
+				}
+				title: "Zanite Artifacts"
+				type: "item"
+			}]
+			title: "&9Zanite Artifacts"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EBB0DBB354AFBB1"]
+			id: "1CBF9C43F160A824"
+			rewards: [
+				{
+					id: "08F606C4D2CEDB33"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "1857F3651FC4146B"
+					item: "aether:icestone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A610D90FE912E5A"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "37F68FCDE2D1C69E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:ice_ring"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:ice_pendant"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Ice Artifacts"
+				type: "item"
+			}]
+			title: "&bIce Artifacts"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EED0418B36B0542"]
+			id: "26AC31871DF8CA1E"
+			rewards: [
+				{
+					id: "648D6244E266FB5A"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67A91D72D18EC602"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "089BD0DDFA37C65B"
+				item: {
+					Count: 1
+					id: "deep_aether:gravitite_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Gravitite Artifacts"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4B25306C3907D32E"
+				"1EC6DA9B9528362C"
+			]
+			description: [
+				"The &2Incubator&r can be used to incubate &9Moas&r."
+				""
+				"You use &eAmbrosium Torches&r for the fuel. The process can take &o&bquite some time&r, but it is worth the wait once your &9Moa&r of &o&bchoice hatches&r!"
+			]
+			id: "47F7DA74FF2E2977"
+			min_width: 300
+			rewards: [
+				{
+					id: "1A11F115CB6E3204"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DDC851C2C88AE9C"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2784BC49503EA295"
+				item: "aether:incubator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47F7DA74FF2E2977"]
+			id: "57D74AFFCED6667D"
+			rewards: [
+				{
+					id: "63BE8A5E6B1133DA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A733AFACD450758"
+					item: "aether:quicksoil_glass_pane"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6610A1A4D06087"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Obtain a Moa Egg"
+			tasks: [{
+				advancement: "aether:obtain_egg"
+				criterion: ""
+				id: "7174FE2FE1FD98D4"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47F7DA74FF2E2977"]
+			id: "7EC1483326C6F7F1"
+			rewards: [
+				{
+					id: "154D737B5F7D391C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7CB5A99F38A6B283"
+					item: "aether:black_moa_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B8F39067FFF9FCC"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Incubate a Moa"
+			tasks: [{
+				advancement: "aether:incubate_moa"
+				criterion: ""
+				id: "6BC6D6CDEE425A74"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47F7DA74FF2E2977"]
+			id: "479A2AF5A31A1912"
+			rewards: [
+				{
+					id: "12757BC45190591C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "68965173C54BF5D1"
+					item: "aether:candy_cane"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CD20D92C07A6763"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Ride a Black Moa"
+			tasks: [{
+				advancement: "aether:black_moa"
+				criterion: ""
+				id: "043EB961AFF21585"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EC6DA9B9528362C"]
+			id: "5C2F78DAA010DD19"
+			rewards: [
+				{
+					id: "2B01A681D98C5E5F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79B9B3227D140871"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "742495EDB4D08B17"
+				item: "deep_aether:skyjade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C2F78DAA010DD19"]
+			id: "3ED624405F2E0388"
+			rewards: [
+				{
+					id: "71F8DACCC57C82A0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FB39F391151E8B6"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "77831D85A890B690"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "deep_aether:skyjade_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:skyjade_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:skyjade_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:skyjade_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Skyjade Tools"
+				type: "item"
+			}]
+			title: "&aSkyjade Tools"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C2F78DAA010DD19"]
+			id: "2CC959EBF9F72F11"
+			rewards: [
+				{
+					id: "48191E5504EB32AD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "637DE501356C1582"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "304C1620B109F507"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52748004DDE163B3"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2232A1906851DF8E"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26213C2BFB99E730"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "386348445B8A810B"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aSkyjade Armor Set"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C2F78DAA010DD19"]
+			id: "65FC73C7ED23334E"
+			rewards: [
+				{
+					id: "4483F2D16BDF9DF7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0776ECC6E233B340"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "64A2B78E05E84406"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "deep_aether:skyjade_ring"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:skyjade_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Skyjade Artifacts"
+				type: "item"
+			}]
+			title: "&aSkyjade Artifacts"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47F7DA74FF2E2977"]
+			id: "5C5AD0A7359C87F0"
+			rewards: [
+				{
+					id: "4E4018AB3DF15B77"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "06044DAB08C9E704"
+					item: "aether:aechor_petal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "170EC388425E7E65"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Harvest an Aechor Petal from an Aechor Plant"
+			tasks: [{
+				advancement: "aether:obtain_petal"
+				criterion: ""
+				id: "23D832ADF87AA76C"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["702202BCA0E47E11"]
+			id: "3F53B6B89F526F05"
+			rewards: [
+				{
+					id: "59839E9957B8CC2B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29C0EEF9592F7464"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			subtitle: "Place a Book of Lore inside a Book of Lore"
+			tasks: [{
+				advancement: "aether:loreception"
+				criterion: ""
+				id: "3F57CFD6DAC7A267"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4290304A02A96266"
+				"0290C06FA555CD18"
+				"5E11D0EEF288CDEF"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eBlue Gummy Swet&r is a &o&bsour-tasting&r gummy, it can be found in &o&brandom chests&r in &6Bronze&r and &3Silver&r dungeons."
+				""
+				"It &o&bfully restores&r the player's hunger when eaten. Very useful for &nboss fights&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6307BE5AA538474A"
+			min_width: 260
+			rewards: [
+				{
+					id: "0963B866BA602464"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "418F4D9426746039"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "502C7749328333D5"
+				item: "aether:golden_gummy_swet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4290304A02A96266"
+				"0290C06FA555CD18"
+				"5E11D0EEF288CDEF"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&9Blue Gummy Swet&r is a &o&bsweet-smelling&r gummy, it can be found in &o&brandom chests&r in &6Bronze&r and &3Silver&r dungeons."
+				""
+				"It &o&bfully restores&r the player's hunger when eaten. Very useful for &nboss fights&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "38F5C5F1364D48D0"
+			min_width: 260
+			rewards: [
+				{
+					id: "44B758512D0A0AC9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "250B0201CFE27CE5"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "539AAE9FBA5692C5"
+				item: "aether:blue_gummy_swet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1480ACF137CB3D2A"]
+			id: "02E569F3B27E1803"
+			rewards: [
+				{
+					id: "1791EFFD881ED76C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "4B3F2ED4934F0A73"
+					item: "deep_aether:sterling_aercloud"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AD1A3C69D2BB470"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "28842358365EEF71"
+				item: "deep_aether:stratus_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["02E569F3B27E1803"]
+			id: "4EE33D2FBD737AAF"
+			rewards: [
+				{
+					id: "6468B138AD524D8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70188EAB349D586A"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "69B3FC505CDFBC53"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "deep_aether:stratus_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:stratus_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:stratus_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:stratus_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:stratus_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Stratus Tools \\& Weapons"
+				type: "item"
+			}]
+			title: "&bStratus Tools \\& Weapons"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02E569F3B27E1803"]
+			id: "145B40229B629208"
+			rewards: [
+				{
+					id: "21E997897B317A13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B2793E88B25F7C2"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6A5F4137B4520D6E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "deep_aether:stratus_ring"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deep_aether:stratus_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Stratus Artifacts"
+				type: "item"
+			}]
+			title: "&bStratus Artifacts"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["02E569F3B27E1803"]
+			id: "509958D13B02892E"
+			rewards: [
+				{
+					id: "76A4A4441BD629AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07636E9CA84F6E80"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4972359C2155C7D4"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A15BB00A4D704E6"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18C6523368035D1D"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "193B3E372C854345"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55165049DE948AEA"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bStratus Armor Set"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			id: "1480ACF137CB3D2A"
+			rewards: [
+				{
+					id: "5AE01E66B847A55A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4DED15A03F318FA1"
+					item: "deep_aether:sterling_aercloud"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F17D2FB0C80AA91"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "45FF71EBCA6C390C"
+				item: "deep_aether:chromatic_aercloud"
+				type: "item"
+			}]
+			title: "Chromatic Aercloud"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0E349CAEF1D249B6"]
+			description: [
+				"&6Bronze Key&r is a &o&bdull key&r that is dropped from the &dSlider&r after being defeated."
+				""
+				"You can use it to &o&bclaim&r the &o&btreasure&r you earned!"
+			]
+			hide_dependency_lines: true
+			id: "4290304A02A96266"
+			min_width: 250
+			rewards: [
+				{
+					id: "050A25995E687F39"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42BE376737A2ECC7"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "64F4B56F2AC65A76"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["68BF5A98532CD5C3"]
+			description: [
+				"&3Silver Key&r is a &o&breflective key&r that is given to you by the &6Valkyrie Queen&r after defeating her."
+				""
+				"Use it to &o&bclaim&r the &o&btreasure&r she left behind!"
+			]
+			hide_dependency_lines: true
+			id: "5E11D0EEF288CDEF"
+			min_width: 250
+			rewards: [
+				{
+					id: "61C2AC7DA095352C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72065B599B7CCEDE"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "1A37439D1A88AB27"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["221923EEDAEE1BEE"]
+			description: [
+				"&eGold Key&r is a key that has a &o&bshiny finish&r. It is dropped by the &6Sun Spirit&r after you defeat him."
+				""
+				"You can use it to &o&bclaim&r the &o&blegendary treasure&r in the back room!"
+			]
+			hide_dependency_lines: true
+			id: "0290C06FA555CD18"
+			min_width: 250
+			rewards: [
+				{
+					id: "71D7180906C94FCA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "197C338990AE67EF"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0B575CBEF0D0E7D2"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			description: [
+				"&dShield of Repulsion&r protects the user from &o&bmost projectiles&r."
+				""
+				"It will reflect the projectile back at the thrower and cause &cdamage&r to them. Each time a projectile is &o&breflected&r, the shield will be&c damaged&r."
+			]
+			hide_dependency_lines: true
+			id: "73E14C7E4E0B3A38"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "18E35B587A418FF3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7403A7ACC2664091"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FECF1E950293DAB"
+				item: {
+					Count: 1
+					id: "aether:shield_of_repulsion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			hide_dependency_lines: true
+			id: "3AD7C04858FA34D1"
+			optional: true
+			rewards: [
+				{
+					id: "77527AA4CA93ED5D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72E0B78248330644"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "231C12F9129F7327"
+				item: "aether:music_disc_aether_tune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79A852D2B339DF57"]
+			hide_dependency_lines: true
+			id: "0813009F822D4EA5"
+			optional: true
+			rewards: [
+				{
+					id: "5AE9805473AC775A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32C9658E3EFB2DC8"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "043E00205B7915FB"
+				item: "aether:music_disc_ascending_dawn"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["038B71E71E3C8213"]
+			description: [
+				"&eVictory Medal&r is a &o&bproof of defeating&r a lesser &aValkyrie&r."
+				""
+				"Use these to &o&bprove&r to the &6Valkyrie Queen&r you are &o&bworthy&r enough to &nfight her&r!"
+			]
+			hide_until_deps_complete: true
+			id: "47ECD39A457A60AE"
+			min_width: 250
+			rewards: [
+				{
+					id: "7D38AA67D3E79CE0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E3D1EEDAD51138A"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "660E29636C6722DF"
+				item: "aether:victory_medal"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			description: [
+				"The &aLeather Gloves&r are &o&bdyeable Gloves&r to match your &aLeather Tunic&r!"
+				""
+				"This is needed to &ncomplete&r the &aLeather Armor Set&r."
+			]
+			hide_dependency_lines: true
+			id: "795D19E1AA159EFB"
+			min_width: 250
+			rewards: [
+				{
+					id: "03FAAB0B5B726A1B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12AA64F0F5BF17F3"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "23E9D4DFA985D567"
+				item: {
+					Count: 1
+					id: "aether:leather_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			description: ["The &3Chainmail Gloves&r are a &o&bvery rare&r pair of Gloves, needed to &ncomplete&r the &3Chain Armor Set&r."]
+			hide_dependency_lines: true
+			id: "17965C3C31B9F8F8"
+			min_width: 250
+			rewards: [
+				{
+					id: "1F21FADD0AFD600A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07DC8D475A411F02"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "11EFB2AFC91E44BF"
+				item: {
+					Count: 1
+					id: "aether:chainmail_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			description: ["The &7Iron Gloves&r are a pair of Gloves, needed to &ncomplete&r the &7Iron Armor Set&r."]
+			hide_dependency_lines: true
+			id: "3D7C28922EE165EA"
+			min_width: 250
+			rewards: [
+				{
+					id: "4159E2865000FAA8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F087B15BE676C32"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "05D61C30D067F0D5"
+				item: {
+					Count: 1
+					id: "aether:iron_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			description: ["The &eGolden Gloves&r are a pair of Gloves, needed to &ncomplete&r the &eGolden Armor Set&r."]
+			hide_dependency_lines: true
+			id: "424B663A03E7802B"
+			min_width: 250
+			rewards: [
+				{
+					id: "624153590FAA520B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07FA70533B842D3E"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "75D4E49EBF59C4A8"
+				item: {
+					Count: 1
+					id: "aether:golden_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			description: ["The &bDiamond Gloves&r are a pair of Gloves, needed to &ncomplete&r the &bDiamond Armor Set&r."]
+			hide_dependency_lines: true
+			id: "23476C28C1A5CA67"
+			min_width: 250
+			rewards: [
+				{
+					id: "01AC23F366C80842"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07605C768BB7378D"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4F8B6F0F01280498"
+				item: {
+					Count: 1
+					id: "aether:diamond_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1327179C602289EE"]
+			description: ["The &0Netherite Gloves&r are a pair of Gloves, needed to &ncomplete&r the &0Netherite Armor Set&r."]
+			hide_dependency_lines: true
+			id: "7973C24702C472AD"
+			min_width: 250
+			rewards: [
+				{
+					id: "00528EC30897CB78"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DF9DE0ED5484A73"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "66A5DDBF6BCE3CE4"
+				item: {
+					Count: 1
+					id: "aether:netherite_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EC6DA9B9528362C"]
+			id: "0F36D9C01E0FEACB"
+			rewards: [
+				{
+					id: "1F05D6C05AA1B276"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A646B6F36E0A45D"
+					item: "aether:skyroot_bed"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C028DC9B94548C9"
+					table_id: 1235506154212082407L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B757429B153259D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:holystone_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:holystone_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:holystone_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:holystone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:holystone_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Holystone Tools \\& Weapons"
+				type: "item"
+			}]
+			title: "&3Holystone Tools \\& Weapons"
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "&3&oThe Aether"
+}

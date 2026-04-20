@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:chest"
+	id: "48AD1D9CEEAC5240"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "minecraft:iron_block" }
+		{ count: 3, item: "thermal:coal_coke" }
+		{ item: "kubejs:compressed_iron_plate" }
+		{ item: "pneumaticcraft:compressed_iron_block" }
+		{ item: "alltheores:steel_block" }
+		{ count: 5, item: "alltheores:steel_ingot" }
+		{ count: 2, item: "pneumaticcraft:ingot_iron_compressed" }
+		{ item: "alltheores:iron_plate" }
+		{ count: 20, item: "minecraft:iron_ingot" }
+		{ item: "minecraft:diamond_block" }
+		{ count: 4, item: "minecraft:diamond" }
+		{ item: "immersiveengineering:treated_wood_horizontal" }
+		{ count: 12, item: "minecraft:gold_ingot" }
+		{ count: 16, item: "minecraft:dried_kelp" }
+		{ count: 7, item: "create:andesite_alloy" }
+		{ count: 32, item: "minecraft:oak_log" }
+		{ count: 4, item: "mysticalagriculture:prosperity_shard" }
+		{ item: "mobees:cobalt_bit" }
+		{ item: "extendedcrafting:black_iron_slate" }
+	]
+	title: "Tech"
+}

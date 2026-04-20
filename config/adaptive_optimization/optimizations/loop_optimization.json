@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "priority": 4,
+  "target": "net.minecraft.**",
+  "conditions": {
+    "has_loops": true,
+    "exclude_native": true
+  },
+  "action": {
+    "type": "loop_optimization",
+    "unroll_small_loops": true,
+    "hoist_invariants": true,
+    "strength_reduction": true
+  }
+}

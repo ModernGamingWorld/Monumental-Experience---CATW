@@ -1,0 +1,201 @@
+{
+	autofocus_id: "10000000000000A3"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_07_megamons"
+	group: "75575A3E2EC59FEB"
+	icon: "cobblemon:ultra_ball"
+	id: "10000000000000F5"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eAscension Megamons&r are powerful, oversized Cobblemon that roam specific biomes and dimensions. They're visually distinct — larger models, visible auras, unmistakable presence."
+				""
+				"Your first task is just to find one and observe it safely. Don't engage. Study it from a distance."
+				""
+				"Note its type, the biome it's in, and how it moves. Every piece of information helps. You'll be fighting it soon enough."
+				""
+				"&7Tip: Megamons have larger models and a visible aura — study them carefully before rushing in.&r"
+			]
+			icon: "cobblemon:ultra_ball"
+			id: "10000000000000A3"
+			min_width: 330
+			rewards: [{
+				count: 3
+				id: "10000000000000A2"
+				item: "cobblemon:max_potion"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Something Big This Way Comes"
+			tasks: [{
+				id: "10000000000000A1"
+				title: "Spot a Megamon in the wild without engaging"
+				type: "checkmark"
+			}]
+			title: "&bFirst Sighting"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000A3"]
+			description: [
+				"Before you fight, know what you're dealing with. Identify the Megamon's type and approximate level from a safe distance."
+				""
+				"Type determines which of your Cobblemon have the advantage. Level tells you whether your current team is ready or whether you need to grind more before engaging."
+				""
+				"Use the Cobblepedia to look up the species once you've identified it. Read the entry. Plan your counter team. Preparation is the difference between a clean win and a wipe."
+				""
+				"&7Tip: Use Cobblepedia to look up the species and plan your counter team in advance.&r"
+			]
+			id: "10000000000000A6"
+			min_width: 330
+			rewards: [{
+				count: 2
+				id: "10000000000000A5"
+				item: "cobblemon:full_restore"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Know Before You Go"
+			tasks: [{
+				id: "10000000000000A4"
+				title: "Identify a Megamon's type and level without battling it"
+				type: "checkmark"
+			}]
+			title: "&bScout Report"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000A6"]
+			description: [
+				"You don't need to win. You just need to survive five turns."
+				""
+				"Megamons hit significantly harder than regular wild Cobblemon. Their moves are stronger, their stats are higher, and they won't hold back. Bring a full team, full healing items, and accept that you might lose members."
+				""
+				"Five turns is enough to understand what you're dealing with. Take notes. Come back stronger."
+				""
+				"&7Tip: Megamons hit much harder than wild Cobblemon — bring full healing and a well-levelled team.&r"
+			]
+			id: "10000000000000A9"
+			min_width: 330
+			rewards: [{
+				count: 3
+				id: "10000000000000A8"
+				item: "cobblemon:max_revive"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Bravery or Recklessness?"
+			tasks: [{
+				id: "10000000000000A7"
+				title: "Survive 5 turns against a Megamon"
+				type: "checkmark"
+			}]
+			title: "&bMega Challenger"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000A9"]
+			description: [
+				"Now win."
+				""
+				"Megamons are designed to be difficult. High HP, strong moves, and the ability to outlast a poorly prepared team. Status conditions are your best tool — paralysis slows them down, sleep buys you turns, poison chips away at their health."
+				""
+				"Apply a status early when their HP is still high, then grind them down. Don't try to brute force it unless your team is significantly overlevelled."
+				""
+				"&7Tip: Status conditions are critical against high-HP Megamons — apply them as early as possible.&r"
+			]
+			id: "10000000000000AC"
+			min_width: 320
+			rewards: [{
+				count: 5
+				id: "10000000000000AB"
+				item: "cobblemon:ultra_ball"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Against All Odds"
+			tasks: [{
+				id: "10000000000000AA"
+				title: "Defeat a Megamon in battle"
+				type: "checkmark"
+			}]
+			title: "&bFirst Mega Victory"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000AC"]
+			description: [
+				"Defeating a Megamon is impressive. Catching one is a different challenge entirely."
+				""
+				"Ultra Balls at low HP give the best odds, but if the fight is going long, switch to a &eTimer Ball&r — its catch rate improves the longer the battle drags on. Stalling is a legitimate strategy here."
+				""
+				"Reducing a Megamon to low HP without knocking it out requires precision. Bring moves that do fixed damage or have multiple weak hits rather than single powerful strikes."
+				""
+				"&7Tip: Timer Balls improve with every turn the battle continues — stall to maximise your odds.&r"
+			]
+			id: "10000000000000AF"
+			min_width: 340
+			rewards: [{
+				id: "10000000000000AE"
+				item: "cobblemon:master_ball"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The Impossible Catch"
+			tasks: [{
+				id: "10000000000000AD"
+				title: "Catch a Megamon (Ascension Megamons)"
+				type: "checkmark"
+			}]
+			title: "&bMega Capturer"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10000000000000AF"]
+			description: [
+				"Three different Megamon species. Each one a different fight, a different biome, a different challenge."
+				""
+				"Megamons don't all share territory. Some appear in specific overworld biomes, others in modded dimensions — the Aether, the Nether, or elsewhere. Your exploration skills from Chapter 3 come back into play here."
+				""
+				"Build your collection. A Megamon that's caught and levelled becomes one of the strongest tools in your late-game team."
+				""
+				"&7Tip: Explore all biomes and dimensions — Megamons don't share territory.&r"
+			]
+			id: "10000000000000B2"
+			min_width: 330
+			rewards: [{
+				count: 3
+				id: "10000000000000B1"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Bigger. Badder. Better."
+			tasks: [{
+				id: "10000000000000B0"
+				title: "Catch 3 different Megamon species"
+				type: "checkmark"
+			}]
+			title: "&bMega Collection"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "&bChapter 7 — Ascension Megamons"
+}

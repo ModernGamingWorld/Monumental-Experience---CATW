@@ -1,0 +1,1411 @@
+{
+	autofocus_id: "0000000000000000"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "09A82B0D5D5E7906"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "7AA3A9CA5508C2BC"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -4.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &8Deep Dark&r keeps its secrets. Between the echoing wails, the warden's heartbeat, and the black silence of the Ancient Cities, something else waits."
+				""
+				"Beyond the &0Reinforced Deepslate&r archway at the city's heart lies &5The Otherside&r: a dimension of Sculk-choked valleys, bioluminescent forests, shattered giants, and the tools to tame them all."
+				""
+				"This chapter will take you from your first cautious Deep Dark descent, through the &cWarden&r, and into the depths of the Otherside itself."
+			]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "3F329A20A14EFDF6"
+			min_width: 300
+			rewards: [
+				{
+					id: "7786B1B7E511A7D7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "51E99647AA0BEB4B"
+					item: {
+						Count: 1
+						id: "minecraft:echo_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "125205B60DBAF829"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7DC7267F7644DCFE"
+				type: "checkmark"
+			}]
+			title: "Welcome to &8&lDeeper &0&land &8&lDarker"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: [
+				"&3Resonarium&r is an ore exclusive to the Otherside dimension. Its ingot resonates faintly with the sculk signal, sustaining a new tier of gear that sits between Diamond and Netherite."
+				""
+				"To obtain Resonarium in quantity you must first enter the Otherside — but a small starter pile is often hidden in Ancient City chests to tempt the curious."
+			]
+			icon: "deeperdarker:resonarium"
+			id: "33DD7122C25426EF"
+			rewards: [
+				{
+					id: "427236FED470E3D6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "2D1AFDCC2C834910"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EF33931DB27F7E2"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "25CC93E527A75A5F"
+				item: {
+					Count: 1
+					id: "deeperdarker:resonarium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&3Resonarium"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33DD7122C25426EF"]
+			description: ["The first step into the mod's weapon tier. The &3Resonarium Sword&r deals more damage than Diamond and holds a keener edge against sculk-aligned mobs."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:resonarium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A5D3B25D6076C13"
+			rewards: [
+				{
+					id: "1A6B948D5A2FF4D9"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A39D03D3CC2CFA8"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "74AAA67028076672"
+				item: {
+					Count: 1
+					id: "deeperdarker:resonarium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Resonarium Sword"
+			x: 3.9285714285714235d
+			y: 2.6880952380952365d
+		}
+		{
+			dependencies: ["33DD7122C25426EF"]
+			description: ["A &3Resonarium Pickaxe&r matches Netherite for harvest level and outlasts a Diamond tool. Essential for breaking deeper Otherside stones efficiently."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:resonarium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C158916F4302A70"
+			rewards: [
+				{
+					id: "1D12A70D07CF1CE5"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4036CF47524A75DB"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7FEDA9C52B55395A"
+				item: {
+					Count: 1
+					id: "deeperdarker:resonarium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Resonarium Pickaxe"
+			x: 4.738095238095234d
+			y: 2.069047619047616d
+		}
+		{
+			dependencies: ["33DD7122C25426EF"]
+			description: ["Complete the full Resonarium toolkit: &3axe&r, &3shovel&r, and &3hoe&r. Balanced for the player who wants better than Diamond without committing to Netherite's expense."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:resonarium_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0319637DCA54DB92"
+			rewards: [
+				{
+					id: "1F352625A7C27BEF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11824BA947AC2208"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.1d
+			tasks: [
+				{
+					id: "2D113FD469B96C85"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46A3B74DF4DEBCE6"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F459855F0CF97C3"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&3Resonarium Toolkit"
+			x: 4.595238095238102d
+			y: 0.8309523809523753d
+		}
+		{
+			dependencies: ["33DD7122C25426EF"]
+			description: [
+				"Craft the complete &3Resonarium&r armor set. Protection falls between Diamond and Netherite, and the set has enchantability to spare."
+				""
+				"A sensible choice for your first descent into the Otherside, before you can face the &cWarden&r for something finer."
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:resonarium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "222DB047EF8D0F73"
+			rewards: [
+				{
+					id: "49CB8E2981181787"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 4
+					id: "2067C68281B96D90"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10F007BB686A086A"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "554D59FB3334E610"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "164CFAE5C35C096F"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C6F7C9B6ACF99EB"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06298F20A7C4095A"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&3Resonarium Armor Set"
+			x: 3.8809523809523796d
+			y: 0.02142857142857224d
+		}
+		{
+			dependencies: ["3F329A20A14EFDF6"]
+			description: [
+				"Before the Otherside, the Deep Dark. Find a naturally-generated &0Sculk biome&r — usually at Y ≤ -52 — and begin exploring its &8Ancient Cities&r."
+				""
+				"Move slowly. A Sculk Shrieker that detects you twice will summon the &cWarden&r, and you are nowhere near ready for that."
+			]
+			icon: "minecraft:sculk"
+			id: "2E10290CF313E5A7"
+			rewards: [
+				{
+					id: "4BD5CF5E8A2B31E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "18221B41FDBC0084"
+					item: {
+						Count: 1
+						id: "minecraft:sculk"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "401C5BB742D08A5E"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				advancement: "deeperdarker:main/root"
+				criterion: ""
+				id: "559725A07D533342"
+				type: "advancement"
+			}]
+			title: "&8Descent into the &0Deep Dark"
+			x: -2.6d
+			y: -0.65d
+		}
+		{
+			dependencies: ["2E10290CF313E5A7"]
+			description: ["&bEcho Shards&r are scattered among Ancient City loot chests. They are the base for Recovery Compasses — and, more importantly, the core ingredient of &bReinforced Echo Shards&r, which gate the Warden-tier smithing recipes."]
+			icon: "minecraft:echo_shard"
+			id: "2AED06D16AF6E132"
+			rewards: [
+				{
+					id: "4CA3975F153102B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "19C24DAF962D5BE6"
+					item: {
+						Count: 1
+						id: "minecraft:echo_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D25E6277F23B688"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0AA4367845A3FCDD"
+				item: {
+					Count: 1
+					id: "minecraft:echo_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&bEcho Shard"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F329A20A14EFDF6"]
+			description: [
+				"The &8Warden Upgrade Smithing Template&r is found in Ancient City chests. It is used at a Smithing Table to upgrade Netherite gear to &cWarden&r tier, alongside Reinforced Echo Shards."
+				""
+				"Duplicating it uses Netherrack and Diamonds, just like vanilla templates."
+			]
+			icon: "deeperdarker:warden_upgrade_smithing_template"
+			id: "3F4918D8A0F35B47"
+			rewards: [
+				{
+					id: "6D8245838ECB228B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "519284F799DDC857"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "46CB1EE85587C4BF"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_upgrade_smithing_template"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&8Warden Smithing Template"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: [
+				"The &0Sculk Snapper&r is the Otherside's version of the zombie: numerous, relentless, and liable to appear from any patch of Sculk underfoot."
+				""
+				"Defeat one and collect a few drops of &7Soul Dust&r — a key ingredient of the Soul Elytra."
+			]
+			icon: "minecraft:sculk"
+			id: "464A410464846CFB"
+			rewards: [
+				{
+					id: "784E5BB0448E5B08"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "5962AA56FBEBE776"
+					item: {
+						Count: 1
+						id: "deeperdarker:soul_dust"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F7B4CDB226B0A76"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "5F20BCD6443AE783"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&0Sculk Snapper"
+			x: -5.785714285714292d
+			y: 0.8785714285714263d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: ["A multi-segmented Sculk horror that skitters along ceilings and walls. &5Sculk Centipedes&r have surprising reach — keep your head on a swivel."]
+			icon: "minecraft:sculk_vein"
+			id: "43829F48A42ECD6E"
+			rewards: [
+				{
+					id: "488A749ECEB4882E"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "743A4283F655CB3C"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B90CE628F968A47"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			subtitle: "Defeat a Sculk Centipede"
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "2E1AF396933B7CE1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Sculk Centipede"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: [
+				"The &fShattered&r are the remnants of humans who lingered in the Otherside too long. Defeat them to collect &8Sculk Bones&r, the structural component of the Soul Elytra."
+				""
+				"You'll need at least four for a single Soul Elytra."
+			]
+			icon: "deeperdarker:sculk_bone"
+			id: "29057353BD800BF7"
+			rewards: [
+				{
+					id: "7C52D45B2C7A2108"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "1240FD072107C136"
+					item: {
+						Count: 1
+						id: "deeperdarker:sculk_bone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E5C54211C0A166E"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "76002150E74FA98B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8Bones of the &fShattered"
+			x: -5.833333333333336d
+			y: 3.5452380952380977d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: ["&7Soul Dust&r is harvested from &0Sculk Snappers&r and the elusive &8Sculk Leech&r, or crushing other &7sculk items&r. Bank a larger supply before attempting the &1Soul Elytra&r recipe — they have a way of being consumed faster than expected."]
+			icon: "deeperdarker:soul_dust"
+			id: "34F881BF8617B8FA"
+			rewards: [
+				{
+					id: "320D27F1A7585306"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "572560B62D5D43DD"
+					item: {
+						Count: 1
+						id: "deeperdarker:soul_dust"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C48A4984334FF31"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "2F3B3D0FD53533BE"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&7Soul Dust Stockpile"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: [
+				"Deep within the Otherside's Ancient Temples — and occasionally spawned from broken Ancient Vases in the overworld Deep Dark — stalks the &5Stalker&r: a stealth boss with a four-and-some percent spawn rate and a foul temper."
+				""
+				"Defeat it. It drops the &dSoul Crystal&r, the last component of the Soul Elytra and its only repair material (short of Mending)."
+			]
+			icon: "deeperdarker:soul_crystal"
+			id: "4809E988A0B3D81B"
+			rewards: [
+				{
+					id: "2C2C2EA7EA1803CB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6BD0D97237E9BA26"
+					item: {
+						Count: 1
+						id: "deeperdarker:soul_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "653D8E333E6A8C44"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AC110AB08B2C209"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "7C2DF72DAFE8665C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5&lThe &8Stalker"
+			x: -5.833333333333336d
+			y: 2.307142857142857d
+		}
+		{
+			dependencies: ["3F329A20A14EFDF6"]
+			description: [
+				"The &cWarden&r is the deadliest creature in the Overworld. It cannot be stealthed around forever; sooner or later, you must fight it."
+				""
+				"Come prepared: full Resonarium or better, Protection IV where you can manage it, healing items, Ender Pearls, and blocks to wall yourself in. The Warden can two-shot unprepared players and will smell your heartbeat from across the city."
+				""
+				"Defeat it and collect its signature drop: the &8Warden Carapace&r."
+			]
+			icon: "deeperdarker:warden_carapace"
+			id: "49A1F863FD2D29A0"
+			rewards: [
+				{
+					id: "47A909F11443F454"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "49CE74FD61168A60"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_carapace"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62CE8055AB132CB9"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67E5D865D5E0DE42"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6243C5E63981A756"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_carapace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&c&lFace the &0Warden"
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49A1F863FD2D29A0"]
+			description: [
+				"Slaying the &cWarden&r always drops a single &dHeart of the Deep&r. This is the activation key for the Otherside Portal — and it is never consumed by activation, so you may keep it."
+				""
+				"The Heart also detects and displays the heartbeats of nearby hostile creatures when held. A useful scanning tool in unfamiliar dimensions."
+			]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "2F6DD4F915AA6702"
+			rewards: [
+				{
+					id: "61B37063E0BA658D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F3E8BB03E66E4C"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "0A4EC7048FEB8DAD"
+				item: {
+					Count: 1
+					id: "deeperdarker:heart_of_the_deep"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&d&lHeart of the &5Deep"
+			x: 1.2d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F6DD4F915AA6702"
+				"2AED06D16AF6E132"
+			]
+			description: [
+				"Combine 4 &8Warden Carapace&r, 4 &7Phantom Membrane&r, and 1 &bEcho Shard&r in a crafting table to produce a single &bReinforced Echo Shard&r."
+				""
+				"A full set of Warden gear requires &nnine&r of these. Plan accordingly — that is nine Warden carapaces in the best case, and more likely twenty or more."
+			]
+			icon: "deeperdarker:reinforced_echo_shard"
+			id: "74783B61756A89B8"
+			rewards: [
+				{
+					id: "206653CC9A87E701"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 4
+					id: "0F19AC8A3C076055"
+					item: {
+						Count: 1
+						id: "minecraft:phantom_membrane"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33F6FE10E7684D16"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "67D224C86E141F39"
+				item: {
+					Count: 1
+					id: "deeperdarker:reinforced_echo_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&bReinforced Echo Shard"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F6DD4F915AA6702"]
+			description: [
+				"The &3Otherside Portal&r is built from &3Reinforced Deepslate&r, the unbreakable block that forms the central archway of every Ancient City."
+				""
+				"Find the city's &3Reinforced Deepslate&r arch. Clear all sculk, sculk veins, and sculk catalysts from its surface — any sculk will block activation."
+				""
+				"Then right-click the frame with your &dHeart of the Deep&r. The portal ignites in swirling teal."
+			]
+			icon: "minecraft:reinforced_deepslate"
+			id: "4400A6603B118E7D"
+			rewards: [
+				{
+					id: "0D6A45A80A3C923B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F1E85B74AB7F357"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				id: "5C56D74D3EE44166"
+				item: {
+					Count: 1
+					id: "minecraft:reinforced_deepslate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&3&lThe &5Otherside Portal"
+			x: 1.3d
+			y: 1.3d
+		}
+		{
+			dependencies: ["4400A6603B118E7D"]
+			description: [
+				"Step through the activated portal. You arrive in &5The Otherside&r: a dimension with a 1:1 coordinate ratio to the Overworld, a ceiling at Y=128, and an ambient light level of just &00.05&r."
+				""
+				"&4&oWrite down your portal coordinates.&r The Otherside offers no map, no compass, and no mercy. If you lose the portal, death is your only way home."
+			]
+			id: "434C3C96AC2E0FAB"
+			rewards: [
+				{
+					id: "1CB767A3F11C96BA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 64
+					id: "360A5BC5A1A6BDFA"
+					item: {
+						Count: 1
+						id: "minecraft:torch"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "566B13D0AA0B303F"
+					item: {
+						Count: 1
+						id: "minecraft:ender_pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "509B6A98F6EB510C"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "3CB995CA20CA6517"
+				type: "dimension"
+			}]
+			title: "&5&lEnter The &8Otherside"
+			x: 0.0d
+			y: 2.6d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: ["You have set foot in every known biome of the Otherside. Few return to tell of more than one."]
+			id: "5FA6B7490228FB7F"
+			rewards: [
+				{
+					id: "09C38414606AF30E"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "4D733060A878A53C"
+					item: {
+						Count: 1
+						id: "minecraft:compass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74A868C44167C5CD"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				advancement: "deeperdarker:main/explore_otherside"
+				criterion: ""
+				id: "4DDDABA0CFA473D5"
+				type: "advancement"
+			}]
+			title: "&dCartographer of the &5Otherside"
+			x: 1.7999999999999998d
+			y: 4.8d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: [
+				"The &5Ancient Temple&r is the Otherside's signature structure: a layered ruin with an &aApex level&r above and a &cBasement level&r below. The basement chests hold the dimension's rarest rewards — but so do its traps and its guardians."
+				""
+				"Loot one completely."
+			]
+			id: "34937F432A4F97DD"
+			rewards: [
+				{
+					id: "005F1DB31172F6A2"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1EE7031937724BDC"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_carapace"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17393D6C049E7DCA"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F235CEDEF6417BC"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.2d
+			subtitle: "Loot an Ancient Temple in the Otherside"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				id: "4BA262DAB0F89EB0"
+				type: "advancement"
+			}]
+			title: "&5&lAncient &0Temple"
+			x: 2.4d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["34937F432A4F97DD"]
+			description: [
+				"The &3Sculk Transmitter&r is one of the rare tools of the Otherside — a wireless remote that can teleport the user to a linked location with a burst of sculk energy."
+				""
+				"Found in Ancient Temple Basement chests and rarely dropped by boss mobs."
+			]
+			icon: "deeperdarker:sculk_transmitter"
+			id: "4A69B702A5F0128E"
+			rewards: [
+				{
+					id: "0B81EFAE0C34B090"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63034D69DCF2DA4E"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64C24A22D111C5D2"
+				item: {
+					Count: 1
+					id: "deeperdarker:sculk_transmitter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&3Sculk Transmitter"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: [
+				"At a &dSmithing Table&r, combine a &fNetherite Sword&r, a &8Warden Upgrade Template&r, and a &bReinforced Echo Shard&r to forge the &c&lWarden Sword&r."
+				""
+				"It hits harder than Netherite and deals bonus damage to Sculk-aligned mobs."
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3BC0093F6940CEFA"
+			rewards: [
+				{
+					id: "3ECB29E56E70EA00"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47A56AF058CF400C"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.1d
+			tasks: [{
+				id: "79F4CC9053A930EA"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&c&lWarden Sword"
+			x: -3.8809523809523867d
+			y: 6.259523809523806d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: ["The &cWarden Pickaxe&r, upgraded from Netherite at the Smithing Table, mines faster and lasts longer than its predecessor. Its harvest level remains Netherite — the upgrade is in durability and speed."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3FBEEE46F290FA0F"
+			rewards: [
+				{
+					id: "1F02F61CD3108CB2"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49FF219D0709B5BB"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73C5CC8E945499BA"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&c&lWarden Pickaxe"
+			x: -2.357142857142861d
+			y: 5.92619047619047d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: ["Complete the Warden tool set: &caxe&r, &cshovel&r, and &choe&r. Each upgrades a Netherite counterpart for one &bReinforced Echo Shard&r at the Smithing Table."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "143E7211D172DF18"
+			rewards: [
+				{
+					id: "5455F4D69F083527"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06BF873B6599FD04"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.1d
+			tasks: [
+				{
+					id: "58F4385E4E03945E"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79911450A569806C"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AC5BE9769836AC0"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cWarden Tool Set"
+			x: -4.976190476190482d
+			y: 5.069047619047616d
+		}
+		{
+			dependencies: ["3F329A20A14EFDF6"]
+			description: [
+				"Upgrade all four Netherite armor pieces at the Smithing Table using &bReinforced Echo Shards&r and the &8Warden Template&r."
+				""
+				"The full set grants exceptional protection and — crucially — the Warden Helmet &nnegates the Darkness effect&r. Without it, extended stays in the Otherside are nearly impossible."
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B911ADB8B7D1592"
+			rewards: [
+				{
+					id: "2E1CB51F41FBE319"
+					type: "xp"
+					xp: 750
+				}
+				{
+					count: 2
+					id: "36A756B93DF474E9"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_carapace"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13A4C774F77518DF"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C6DB2A42BE55FDC"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				advancement: "deeperdarker:main/warden_armor"
+				criterion: ""
+				id: "5E22E684EBADF550"
+				type: "advancement"
+			}]
+			title: "&c&lWarden Armor Set"
+			x: -3.547619047619058d
+			y: 5.164285714285711d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: [
+				"Combine 4 &8Sculk Bones&r, 2 &7Soul Dust&r, 1 &dSoul Crystal&r, and 1 &fElytra&r at a crafting table to forge the &1Soul Elytra&r."
+				""
+				"956 durability. 3 armor points. A built-in boost (default: B) that launches you forward with soul fire, no rockets required."
+				""
+				"The most sought-after reward of the Deeper Dark."
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:soul_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78C0BA2D1E30665D"
+			rewards: [
+				{
+					id: "34C6507D243BE5DF"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7FCE9113D49C8D41"
+					item: {
+						Count: 1
+						id: "deeperdarker:soul_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41A98FBA4A7E6781"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6728FB80215D3325"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.4d
+			tasks: [{
+				id: "7A537B0719849DFF"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&1&lSoul &9Elytra"
+			x: -0.9285714285714306d
+			y: 3.7833333333333243d
+		}
+		{
+			dependencies: ["434C3C96AC2E0FAB"]
+			description: [
+				"The &3Sonorous Staff&r is the mod's signature magical weapon: a bass-deep ranged implement that fires echoing soul blasts."
+				""
+				"Crafted at a smithing table using Warden Carapaces and a Heart of the Deep."
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:sonorous_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23CF30EBE289E21E"
+			rewards: [
+				{
+					id: "3475481C713042B9"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BCBE40DF4708105"
+					table_id: 6305167096659659419L
+					type: "random"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "33BC3973E03433FB"
+				item: {
+					Count: 1
+					id: "deeperdarker:sonorous_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Sonorous &6Staff"
+			x: 0.1666666666666714d
+			y: 4.5928571428571345d
+		}
+		{
+			dependencies: [
+				"6B911ADB8B7D1592"
+				"143E7211D172DF18"
+				"23CF30EBE289E21E"
+				"4A69B702A5F0128E"
+				"5FA6B7490228FB7F"
+				"3BC0093F6940CEFA"
+				"78C0BA2D1E30665D"
+			]
+			description: [
+				"You have faced the Warden and lived. You have traced the Otherside's every biome. You wear the carapace of your enemy and glide on the wings of the Shattered."
+				""
+				"Few mortals descend this far. Fewer still return with the full tally you now carry."
+				""
+				"&8&oThe Deep remembers you, and that is not a comforting thought.&r"
+			]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "1B76F167653712DD"
+			rewards: [
+				{
+					id: "6405FDBDB6F8DD8D"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					count: 4
+					id: "0E9EEEF86CC3739F"
+					item: {
+						Count: 1
+						id: "deeperdarker:reinforced_echo_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0F0E775D5B14D589"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_carapace"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3E388EF148C20D67"
+					table_id: 7708913941106525583L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "deeperdarker:main/kill_all_sculk_mobs"
+				criterion: ""
+				id: "63FA80FD3F3007EA"
+				type: "advancement"
+			}]
+			title: "&5&lGrand Explorer of &0The Deep"
+			x: -1.0d
+			y: 7.0d
+		}
+	]
+	title: "&3&oDeeper and Darker"
+}

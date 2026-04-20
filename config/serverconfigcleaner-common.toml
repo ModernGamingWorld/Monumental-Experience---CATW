@@ -1,0 +1,12 @@
+#Patterns used to determine suspicious config keys. Capitalization is ignored.
+badConfigPatterns = ["host", "username", "password", "secret", "token", "apikey", "webhook", "jdbc", "sql", "redis", "mongodb", "database"]
+#Options to exclude from config syncing
+#Format: modid:category.configKey
+doNotSync = []
+#Options that are detected by the badConfigPatterns, but should still be synced
+#Format: modid:category.configKey; * allowed at the end of an entry
+falsePositives = ["rftoolsbuilder:scanner.locatorUsePerTickHostile", "tombstone:player_death.ghostly_shape_duration", "mahoutsukai:secret.*", "create:logistics.seatHostileMobs", "tombstone:general.ghostly_shape_duration", "skinnedlanterns:lanterns.ghost_soul_lantern", "skinnedlanterns:lanterns.ghost_lantern", "goblinsanddungeons:general.Super Secret Settings", "moblassos:hostile_damage_rate", "moblassos:hostile_mob_health", "moblassos:hostile_lasso_time", "notenoughwands:general.wandsettings.capturing_wand.allowHostile", "notenoughwands:general.wandsettings.freezing_wand.freezeAllowHostile", "notenoughwands:general.wandsettings.potion_wand.potionAllowHostile"]
+#A somewhat obfuscated list of known options containing secrets.
+#Ignore unless you know what you are doing.
+doNotSyncHashes = []
+

@@ -1,0 +1,104 @@
+[
+  {
+    "mod": "minecraft",
+    "hostile": true,
+    "maxcount": {
+      "amount": 6,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:rabbit",
+      "minecraft:chicken",
+      "minecraft:cow",
+      "minecraft:sheep",
+      "minecraft:pig",
+      "minecraft:llama",
+      "minecraft:axolotl",
+      "minecraft:bat",
+      "minecraft:bee",
+      "minecraft:frog",
+      "minecraft:squid",
+      "minecraft:glow_squid",
+      "minecraft:salmon",
+      "minecraft:cod",
+      "minecraft:pufferfish",
+      "minecraft:tropical_fish",
+      "minecraft:turtle",
+      "minecraft:wandering_trader"
+    ],
+    "maxcount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:drowned",
+      "cataclysm:amethyst_crab",
+      "cataclysm:deepling",
+      "cataclysm:deepling_angler",
+      "cataclysm:deepling_brute",
+      "cataclysm:deepling_priest",
+      "cataclysm:lionfish"
+    ],
+    "when": "onjoin",
+    "maxcount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:polar_bear",
+      "minecraft:bat",
+      "minecraft:fox",
+      "minecraft:ocelot"
+    ],
+    "when": "onjoin",
+    "maxcount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:dolphin",
+      "minecraft:squid",
+      "minecraft:polar_bear",
+      "minecraft:bat",
+      "minecraft:fox",
+      "minecraft:ocelot"
+    ],
+    "when": "onjoin",
+    "maxcount": {
+      "amount": 10
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "quark",
+    "when": "onjoin",
+    "maxcount": {
+      "amount": 4,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "quark",
+    "when": "onjoin",
+    "maxcount": {
+      "amount": 10
+    },
+    "result": "deny"
+  },
+  {
+    "result": "default"
+  }
+]
