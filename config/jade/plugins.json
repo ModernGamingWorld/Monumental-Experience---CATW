@@ -78,6 +78,9 @@
   "jadeaddons.mcjtylib": {
     "jadeaddons": true
   },
+  "infuserapothcompat": {
+    "infuser_stats": true
+  },
   "cobblemonintegrations": {
     "healer": true,
     "apricorn": true,
@@ -240,9 +243,6 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
-  },
-  "aether_redux": {
-    "logicator": true
   },
   "delightful": {
     "crop_progress": true,
